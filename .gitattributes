@@ -1,0 +1,5 @@
+Diabolus.kra filter=lfs diff=lfs merge=lfs -text
+plotter.kra filter=lfs diff=lfs merge=lfs -text
+prosecutor.kra filter=lfs diff=lfs merge=lfs -text
+Trump.kra filter=lfs diff=lfs merge=lfs -text
+BotC_Trust_Me_Bro.pdf filter=lfs diff=lfs merge=lfs -text
