@@ -31,7 +31,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - (Cult Leader)
   - (Steward)
   - Instigator
-  - Deluded* (interacts well with Anarchist and player state effects such as the Instigator)
+  - Sectarian* (interacts well with Anarchist and player state effects such as the Instigator)
   - (Alsaahir)*
   - (Artist)*
   - Babbler* (Gossip)
