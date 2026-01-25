@@ -12,10 +12,12 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - [Vagrant/(Farmer)]
   - [(Mayor)]
   - (Princess) (interesting with the Trump)
+  - [(King)] (replaced by Bodyguard)
+  - [(Choirboy)] (replaced by Bodyguard)
+  - [(Steward)] (replaced by Bodyguard)
   - Bodyguard
   - Pope
   - (Cult Leader)
-  - (Steward)
   - Instigator
   - Antifascist (useful against Trump and the Loan Shark)
   - Psychic (interacts with Dowser, King, Pope, Steward, Sectarian, Samurai, Faustian, Exorcist, Punk, drunk minions, demons, travellers)
@@ -64,6 +66,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Anarchist / Samurai: A Samurai player can only kill an Anarchist when the Samurai has another character that only counts as Outsider this game.
   - Putin / Anarchist: If Putin chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
   - Trump / Anarchist: The Anarchist *might* register as good to Trump.
+  - Trump / Travel Agent: Trump cannot be quit by other abilities.
   - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play
 
 - Fabled

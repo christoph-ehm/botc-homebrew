@@ -31,7 +31,6 @@
 			"antifascist_trustmebro",
 			"cultleader",
 			"dowser_homebrew",
-			"steward",
 			"tracker_trustmebro",
 			"psychic_trustmebro",
 			"sickener_trustmebro",
@@ -76,7 +75,6 @@
 			"shopkeeper_homebrew"
 		]
 	},
-	"steward",
 	{
 		"id": "antifascist_trustmebro",
 		"name": "Antifascist",
@@ -86,6 +84,19 @@
 		"firstNightReminder": "Show the character of 1 demon player to the Antifascist. Rest: See Other Night Reminder.",
 		"otherNightReminder": "Show the number of alive good and evil minions to the Antifascist (of course, including characters that register as being of minion type).",
 		"attribution": "image: https://www.pngegg.com/en/png-ptape"
+	},
+	{
+		"id": "bodyguard_trustmebro",
+		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/bodyguard_trustmebro.png",
+		"firstNightReminder": "Determine a valuable good Townsfolk (not the Bodyguard) or dangerous Outsider and add the \"VIP\" reminder to them. Wake up the Demon. Show them the Bodyguard chose them, point at the player with \"VIP\" reminder and show the VIP's character. At the end of the night, wake up the Bodyguard and point to the VIP player.",
+		"otherNightReminder": "If the player with VIP reminder was killed by the Demon, wake up the Bodyguard and point to the Demon player. After dawn, if the VIP died tonight, declare the character in addition to the VIP having died.",
+		"reminders": [
+			"VIP"
+		],
+		"name": "Bodyguard",
+		"team": "townsfolk",
+		"ability": "You start knowing the good VIP. The Demon knows the VIP. If the Demon kills them, you learn the Demon player. If the VIP dies, their character is declared even if you died.",
+		"attribution": "image: https:\/\/dygtyjqp7pi0m.cloudfront.net\/i\/70079\/55064358_1.jpg?v=8DD1B07870E70B0"
 	},
 	"cultleader",
 	{
@@ -148,19 +159,6 @@
 			"holy"
 		],
 		"attribution": "image: https://www.zdfheute.de/panorama/papst-leo-exorzisten-100.html"
-	},
-	{
-		"id": "bodyguard_trustmebro",
-		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/bodyguard_trustmebro.png",
-		"firstNightReminder": "Determine a valuable good Townsfolk (not the Bodyguard) or dangerous Outsider and add the \"VIP\" reminder to them. Wake up the Demon. Show them the Bodyguard chose them, point at the player with \"VIP\" reminder and show the VIP's character.",
-		"otherNightReminder": "If the player with VIP reminder was killed by the Demon, wake up the Bodyguard and point to the Demon player. After dawn, if the VIP died tonight, declare the character in addition to the VIP having died.",
-		"reminders": [
-			"VIP"
-		],
-		"name": "Bodyguard",
-		"team": "townsfolk",
-		"ability": "On your 1st night, the Demon learns 1 VIP (not you). If the Demon kills them, you learn the Demon player. If the VIP dies, their character is declared even if you died.",
-		"attribution": "image: https:\/\/dygtyjqp7pi0m.cloudfront.net\/i\/70079\/55064358_1.jpg?v=8DD1B07870E70B0"
 	},
 	"princess",
 	"juggler",
@@ -235,7 +233,7 @@
 		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/anarchist_trustmebro.png",
 		"team": "outsider",
 		"firstNightReminder": "Show 1 good bluff character to the Anarchist. It might coincide with the bluff of someone else.",
-		"ability": "You have any alignment & character type unless you die. You register like the interacting player. The demon & story teller choices don't kill you. You get 1 bluff.",
+		"ability": "You have every alignment & character type unless you die. You register like the interacting player. The demon & story teller choices don't kill you. You get 1 bluff.",
 		"attribution": "image: https://www.vecteezy.com/vector-art/47629480-punk-lifestyle-subculture-style-line-icon-illustration"
 	},
 	{

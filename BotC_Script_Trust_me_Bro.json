@@ -176,7 +176,7 @@
 		"firstNightReminder": "Show 1 good bluff character to the Anarchist. It might coincide with the bluff of someone else.",
 		"name": "Anarchist",
 		"team": "outsider",
-		"ability": "You have any alignment & character type unless you die. You register like the interacting player. The demon & story teller choices don't kill you. You get 1 bluff."
+		"ability": "You have every alignment & character type unless you die. You register like the interacting player. The demon & story teller choices don't kill you. You get 1 bluff."
 	},
 	{
 		"id": "prosecutor_trustmebro",
