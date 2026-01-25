@@ -18,7 +18,7 @@
 			"toymaker",
 			"minioninfo",
 			"demoninfo",
-			"king",
+			"bodyguard_trustmebro",
 			"anarchist_trustmebro",
 			"romantic_homebrew",
 			"traitor_homebrew",
@@ -63,10 +63,9 @@
 			"samurai_homebrew",
 			"blabber_trustmebro",
 			"punk_trustmebro",
-			"choirboy",
+			"bodyguard_trustmebro",
 			"romantic_homebrew",
 			"juggler",
-			"king",
 			"cultleader",
 			"dowser_homebrew",
 			"antifascist_trustmebro",
@@ -88,20 +87,19 @@
 		"otherNightReminder": "Show the number of alive good and evil minions to the Antifascist (of course, including characters that register as being of minion type).",
 		"attribution": "image: https://www.pngegg.com/en/png-ptape"
 	},
-	"king",
 	"cultleader",
 	{
 		"id": "dowser_homebrew",
 		"name": "Dowser",
 		"image": "https://www.bloodstar.xyz/p/Elmar/homebrew/dowser_homebrew.png",
-		"firstNight": "When starting the game, choose whether the alignment difference of the Dowser is computed clockwise (then add the \"CW\" reminder to the Dowser) or counterclockwise (then add the \"CCW\" reminder). This will not change over the game. Rest: See Other Night Reminder.",
+		"firstNightReminder": "When starting the game, choose whether the alignment difference of the Dowser is computed clockwise (then add the \"CW\" reminder to the Dowser) or counterclockwise (then add the \"CCW\" reminder). This will not change over the game. Rest: See Other Night Reminder.",
 		"otherNightReminder": "Let the Dowser point at 1 *alive* player (including themself). The Dowser's alignment is interpreted as 1, their opposite as 0. Compute 2 alignment differences of the chosen player with each alive neighbour. If the Dowser has the \"CW\" reminder, subtract into clockwise direction, else (if they have the \"CCW\" reminder), subtract into counterclockwise direction. Choose a difference which is ≥ 0 and show it to the Dowser.",
 		"reminders": [
 			"CW",
 			"CCW"
 		],
 		"team": "townsfolk",
-		"ability": "Each night, choose a player and learn whether evil has been closer clockwise or anti-clockwise at setup time, or any direction if equidistant.",
+		"ability": "Each night, choose 1 alive player: you (might) learn whether they have an alive neighbour of opposite alignment into dowsing direction.",
 		"attribution": "image: https://www.istockphoto.com/photos/dowsing-rod"
 	},
 	{
@@ -133,7 +131,7 @@
 		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/blabber_trustmebro.png",
 		"team": "townsfolk",
 		"ability": "Each day, you may make a public *game-related* statement. Tonight, if it was true *by registration*, a player dies.",
-		"otherNightReminder": "If the Blabber’s public statement was completely true about the game state: Choose a player not protected from dying tonight. That player dies.",
+		"otherNightReminder": "If the Blabber’s public statement was completely true about the game state with regards to the Blabber character: Choose a player not protected from dying tonight. That player dies.",
 		"reminders": [
 			"Dead"
 		]
@@ -145,11 +143,24 @@
 		"team": "townsfolk",
 		"ability": "Once per game at night, choose 1 player (incl. yourself) who learns this & cannot die before you. The demon *might* kill you even when protected. You are sober.",
 		"firstNightReminder": "See Other Night Reminder",
-		"otherNightReminder": "Whenever the Demon chose the Pope, decide whether the Pope dies, no matter their reminders or protection abilities (the probability of dying should be higher without protection). Let the Pope choose 1 player (themself included). If they chose one. Sleep. Mark the player with the \"holy\" reminder. Wake the chosen Player and show them, they were chosen by the Pope. Sleep. In the rest of the game: when the player with \"holy\" reminder would die, they do not (except when attacked by the Assassin). When the pope dies, remove the \"holy\" reminder.",
+		"otherNightReminder": "Whenever the Demon chose the Pope, decide whether the Pope dies, no matter their reminders or protection abilities (the probability of dying should be higher without protection). If no player has the \"holy\" reminder, allow the Pope to choose 1 player (themself included). If they chose one: Sleep. Mark the player with the chosen player with \"holy\" reminder. Wake the chosen Player and show them, they were chosen by the Pope. Sleep. In the rest of the game: when the player with \"holy\" reminder would die, they do not. When the pope dies, remove the \"holy\" reminder.",
 		"reminders": [
 			"holy"
 		],
 		"attribution": "image: https://www.zdfheute.de/panorama/papst-leo-exorzisten-100.html"
+	},
+	{
+		"id": "bodyguard_trustmebro",
+		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/bodyguard_trustmebro.png",
+		"firstNightReminder": "Determine a valuable good Townsfolk (not the Bodyguard) or dangerous Outsider and add the \"VIP\" reminder to them. Wake up the Demon. Show them the Bodyguard chose them, point at the player with \"VIP\" reminder and show the VIP's character.",
+		"otherNightReminder": "If the player with VIP reminder was killed by the Demon, wake up the Bodyguard and point to the Demon player. After dawn, if the VIP died tonight, declare the character in addition to the VIP having died.",
+		"reminders": [
+			"VIP"
+		],
+		"name": "Bodyguard",
+		"team": "townsfolk",
+		"ability": "On your 1st night, the Demon learns 1 VIP (not you). If the Demon kills them, you learn the Demon player. If the VIP dies, their character is declared even if you died.",
+		"attribution": "image: https:\/\/dygtyjqp7pi0m.cloudfront.net\/i\/70079\/55064358_1.jpg?v=8DD1B07870E70B0"
 	},
 	"princess",
 	"juggler",
@@ -174,11 +185,10 @@
 		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/sectarian_trustmebro.png",
 		"team": "townsfolk",
 		"ability": "You register as evil minion to yourself and evil players & as evil non-minion to other players. You are good & your minion is not your real ability.",
-		"firstNightReminder": "Invent or devise an ability or discernible modification for a minion character that you want to give to the Sectarian. Give correct minion info to the Sectarian and treat the Sectarian as minion for evil players. Treat the Sectarian as evil Townsfolk or Outsider for good players.",
+		"firstNightReminder": "Determine an ability or discernible modification for a minion character that you want to give to the Sectarian. (It must work differently from their character token.) Give correct minion info to the Sectarian and treat the Sectarian as minion for evil players. Treat the Sectarian as evil Townsfolk or Outsider for good players.",
 		"otherNightReminder": "Play the special ability of the Sectarian which is different from their seen minion character. The Sectarian registers as evil minion to evil players and as evil Townsfolk or Outsider to good players.",
 		"attribution": "image: https://www.dreamstime.com/impossible-geometric-shapes-unreal-line-figures-elements-visual-optical-illusion-symbols-abstract-delusion-forms-flat-vector-image259691613"
 	},
-	"choirboy",
 	{
 		"id": "psychic_trustmebro",
 		"name": "Psychic",
@@ -213,7 +223,7 @@
 		"team": "outsider",
 		"ability": "Once per game, guess 1 of 3 initally seen minion characters that is not in play. If you are right, you get evil + this minion, else you get good. You are an Ogre.",
 		"firstNightReminder": "Choose N ≤ 3 actually in-play minion characters and 3 - N minions which are not (and possibly a character that other players believe to be in play). Show these 3 to the Fan. Also: let them choose 1 player for their Ogre ability. They get the chosen player's alignment.",
-		"otherNightReminder": "At day, when the Fan visited you and made a minion guess: when it was right, they get to see the minion character + evil alignment tonight. Change their character to the minion. Otherwise they get to see a good alignment. Indicate the players good alignment in the Grimoire by unflipping the Fan token.",
+		"otherNightReminder": "At day, when the Fan visited you and made a minion guess: when it was right, they get to see the minion character + evil alignment tonight. Change their character to the minion. Otherwise they get to see a good alignment. Indicate the player's good alignment in the Grimoire by unflipping the Fan token. If they got a new alignment, remove the \"Fan Friend\" reminder (the Ogre ability is lost).",
 		"reminders": [
 			"Fan Friend"
 		],
@@ -232,7 +242,7 @@
 		"id": "punk_trustmebro",
 		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/punk_trustmebro.png",
 		"firstNightReminder": "See Other Night Reminder.",
-		"otherNightReminder": "Play the Punk's drunk ability. At day or night, if a good ability guesses the Punk with an interaction that has a free choice and has only a conditional effect w.r.t. character (type), alignment or player state, add the \"Punk guess\" reminder to them. If someone has the \"Punk guess\" reminder, choose a player to die possibly in a way that allows for false conclusions regarding a guessing player's ability.",
+		"otherNightReminder": "Play the Punk's drunk ability. At day or night, if a good ability guesses the Punk with an interaction that has a free choice and has only a conditional effect w.r.t. character (type), alignment or player state, add the \"Punk guess\" reminder to them. If someone has the \"Punk guess\" reminder, choose a player to die preferably in a way that allows for false conclusions regarding a guessing player's ability.",
 		"reminders": [
 			"Minion",
 			"Punk Guess"
@@ -256,8 +266,8 @@
 	{
 		"id": "sickener_trustmebro",
 		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/sickener_trustmebro.png",
-		"firstNightReminder": "Prepare the setup by replacing any character (and their alignment), not the Demon, with any other character and any alignment. At dawn 1 (after the first night), add the \"sickened\" reminder to the affected player.",
-		"otherNightReminder": "If the Sickener has their ability, don't wake up the player with \"sickened\" reminder, treat their day actions like a bluff and let their nominations fail covertly or overtly after the voting with no reason. When they die, wake up the Sickener at night. (You may show a death signal.)",
+		"firstNightReminder": "Prepare the setup by replacing any 1 other character (and their alignment), not the Demon, with any character and any alignment. At dawn 1 (after the first night), add the \"sickened\" reminder to the affected player and show the sick character to the Sickener. Wake up the Sickener and show them the sickened player's character.",
+		"otherNightReminder": "If the Sickener has their ability, don't wake up the player with \"sickened\" reminder, treat their day actions like a bluff and let their nominations fail covertly or overtly after the voting with no reason. When the sickened player dies, wake up the Sickener at night. (You may show a death signal.)",
 		"reminders": [
 			"sickened"
 		],
@@ -274,7 +284,7 @@
 		"team": "minion",
 		"ability": "Each night, choose a player: they are dyseffective until dusk.",
 		"firstNightReminder": "See Other Night Reminder.",
-		"otherNightReminder": "Let them choose 1 player. Move the \"whispered\" reminder to that player. Players with \"whispered\" reminder have their final player state effects negated (such that they differ from the unnegated state) but neither the info they get nor any details or ability rules.",
+		"otherNightReminder": "Let them choose 1 player. Move the \"whispered\" reminder to that player. Players with \"whispered\" reminder have their final player state effects negated until next dusk (such that they differ from the unnegated state). If they chose themself, their next chosen player will have no dyseffective state until next dusk. It neither changes info they get nor any details or ability rules.",
 		"reminders": [
 			"whispered"
 		],
@@ -300,7 +310,7 @@
 		"team": "minion",
 		"ability": "Each dawn, see all players (not yourself) whose abilities queried your registered or actual player state or properties correctly since last dawn.",
 		"firstNightReminder": "See Other Night Reminder",
-		"otherNightReminder": "Whenever the Tracker's registered or actual character, alignment or player state correctly affected a player's ability since last dawn, add 1 \"tracked\" reminder to that player (if there is not already 1). At dawn, show all the players with the \"tracked\" reminder to the Tracker. Remove the \"tracked\" reminders.",
+		"otherNightReminder": "Whenever the Tracker's registered or actual character, alignment or player state affected a player's ability since last dawn, add 1 \"tracked\" reminder to that player (if there is not already 1). At dawn, show all the players with the \"tracked\" reminder to the Tracker. Remove the \"tracked\" reminders.",
 		"reminders": [
 			"tracked"
 		],
@@ -313,7 +323,7 @@
 		"team": "minion",
 		"ability": "Public player-specific states & properties are hidden. Dead players may nominate. As many good as evil dead players may succed in voting. No Fabled changes.",
 		"firstNightReminder": "See Other Night Reminder.",
-		"otherNightReminder": "When the Sinister Fog is enabled, don't declare *crisp* state/character/alignment changes of *specific* persons (story teller included). Treat dead players like alive ones. Allow everyone to start a nomination. Don't disclose the actual vote count. You must treat votes of good deads as drugged when they exceed the number of evil deads. When the Sinister Fog dies, declare all publicly known state (also misregistered one when required by an ability), including specific player's public conditions/impairments and update the Townsquare."
+		"otherNightReminder": "When the Sinister Fog is enabled, don't declare *crisp* state/character/alignment changes of *specific* persons (story teller included). Treat dead players like alive ones. Allow everyone to start a nomination. Don't disclose the actual vote count. You must treat votes of good deads as drugged when they exceed the number of evil deads. When the Sinister Fog dies, declare all publicly known state (also misregistered one when required by an ability), including specific players' public conditions/impairments and update the Townsquare."
 	},
 	{
 		"id": "putin_trustmebro",
@@ -327,16 +337,17 @@
 	},
 	{
 		"id": "trump_trustmebro",
-		"name": "Trump",
-		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/trump_trustmebro.png",
-		"team": "demon",
-		"ability": "Each night*, choose 1 player: if good they die+quit. Good players are exiled, not executed. Everyone knows you. If ≥ 2 evil players are alive, players die instead who attack Trump.",
-		"firstNightReminder": "When a good player is executed at day, declare an exile instead and treat it that way, just don't allow dead players to nominate non-travellers. When quitted players nominate, their nomination fails despite successful vote. If the Trump would die while 2 ≥ evil players are alive, the death affects the player instead who would be accountable for the death of the Trump.",
-		"otherNightReminder": "Let them choose 1 player. Add the \"quitted\" reminder to this player. Players with quitted reminder cannot do anything except communicating/walking and cannot be affected by any ability or rule. Only when the game ended, count them as players again with the state that they had when they were quitted. Rest: See First Night Reminder.",
+		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/trump_trustmebro.png",
+		"firstNightReminder": "Don't use the Trump if the setup does not start with 2 minions \u2013 any (mis)registered minions count. If a player is good, they cannot be nominated by deads (unless being a Traveller) but they are exiled when the ballot succeeds. Only evil players are executed, ending the nominations. Declare and point at the Trump player after Dawn.",
+		"otherNightReminder": "Let them choose 1 player. They die (if unprotected). Add the \"quit\" reminder to this player. Players with \"quit\" reminder cannot do anything except communicating\/walking and cannot be affected by any ability or rule. Only when the game ended, count them as players again with the state & properties that they had when they quit. When a good player is executed at day, declare an exile instead and treat it that way, just don't allow dead players to nominate non-travellers. When quit players nominate, their nomination fails despite successful vote. If the Trump would die while \u2265 1 minion is alive, the death affects the player instead who would be accountable for the death of the Trump.",
 		"reminders": [
-			"quitted"
+			"quit"
 		],
-		"attribution": "image: https://duckduckgo.com/?t=ffab&q=maga+cap+image&ia=images&iax=images&iai=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F19787e0c-21ae-4f49-b9d9-f34960068f2a_1.4f3e8e290ca8912870c13e0ab85c5289.jpeg"
+		"setup": true,
+		"name": "Trump",
+		"team": "demon",
+		"ability": "Each night*, choose 1 player: if good they die+quit. Good players are exiled, not executed. Everyone knows you. If minions are alive, players die instead who attack Trump. [\u22652 minions]",
+		"attribution": "image: https:\/\/duckduckgo.com\/?t=ffab&q=maga+cap+image&ia=images&iax=images&iai=https%3A%2F%2Fi5.walmartimages.com%2Fasr%2F19787e0c-21ae-4f49-b9d9-f34960068f2a_1.4f3e8e290ca8912870c13e0ab85c5289.jpeg"
 	},
 	{
 		"id": "loanshark_trustmebro",
@@ -352,9 +363,7 @@
 		"name": "Loan Shark",
 		"team": "demon",
 		"ability": "Each night*, choose 1 player: alives give you 1 coin, deads 1 Vote Token. Else: they die OR (if you are minion) owe it to you. The team with most coins wins.  [You *might* be of minion type, +Shopkeeper]",
-		"attribution": "image: https:\/\/www.etsy.com\/uk\/listing\/1065767447\/men-suit-luxury-pink-3-piece-formal",
-		"firstNight": 23,
-		"otherNight": 25
+		"attribution": "image: https:\/\/www.etsy.com\/uk\/listing\/1065767447\/men-suit-luxury-pink-3-piece-formal"
 	},
 	{
 		"id": "shredder_homebrew",
@@ -362,7 +371,7 @@
 		"image": "https://www.bloodstar.xyz/p/Elmar/homebrew/shredder_homebrew.png",
 		"team": "demon",
 		"ability": "Minions also are Samurai. Each night*, choose 1 player to kill with your Samurai. If your Samurai don't kill tonight, your chosen player is assassinated. [+1 Outsider]",
-		"firstNightReminder": "Add the \"Samurai\" reminder to each minion player. (Remove the reminder when they lose their minion ability, e.g. on death.) Exchange 1 Townsfolk with 1 Outsider in the setup.",
+		"firstNightReminder": "Add the \"Samurai\" reminder to each minion player. (Remove the reminder when they lose their minion ability, e.g. on death.) Replace 1 Townsfolk with 1 Outsider in the setup.",
 		"otherNightReminder": "Wake up the Shredder and let them choose 1 player who would be a valid choice for an Assassin player. Add the \"Shredder kill\" reminder to that player. After that, wake up all evil players with Samurai reminder. Let each choose 1 player. If the chosen player registers as Outsider to the choosing player, increase the chosen player's count (which is initialized to 0 each dusk). Finally, if there is exactly one player with highest count greater zero, this player dies (add a shroud, etc.). If no chosen player would die (either because no-one is attacked or the target is protected), the player with \"Shredder kill\" reminder dies as if an Assassin is used. After that, reset all the counts to zero and wake up all good Samurai and repeat the process for them.",
 		"reminders": [
 			"Samurai",
@@ -373,15 +382,15 @@
 	},
 	{
 		"id": "travelagent_trustmebro",
-		"name": "Travel Agent",
-		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/travelagent_trustmebro.png",
-		"team": "traveller",
-		"ability": "Each night*, choose 1 player (even Travellers): they (might) quit the game until next dusk where ≥ 4 other non-Travellers are alive. You can quit ≤ 1 person at the same time.",
-		"otherNightReminder": "If no person has the \"travel\" reminder, let them choose a player (even themself or Travellers). This person quits the game. If this would end the game, the player misregisters as quitted. Add the \"travel\" reminder to this person's token. You might declare the quitting at dawn. They don't count as player anymore. They rejoin at dusk if there are at least 4 other alive non-traveller players. Then remove the \"travel\" reminder.",
+		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/travelagent_trustmebro.png",
+		"otherNightReminder": "If no person has the \"travel\" reminder, let them choose a player (even themself or Travellers). This person quits the game. If this would end the game, the player misregisters as quit. Add the \"travel\" reminder to this person's token. You might declare the quitting at dawn. They don't count as player anymore. They rejoin at dusk if there are at least 4 other alive non-traveller players. Then remove the \"travel\" reminder.",
 		"reminders": [
 			"travel"
 		],
-		"attribution": "image: https://www.vectorstock.com/royalty-free-vector/door-icon-vector-13483248"
+		"name": "Travel Agent",
+		"team": "traveller",
+		"ability": "Each night*, choose 1 player (even Travellers): they (might) quit the game until next dusk where \u2265 4 other non-Travellers are alive. You can quit \u2264 1 person at the same time.",
+		"attribution": "image: https:\/\/www.vectorstock.com\/royalty-free-vector\/door-icon-vector-13483248"
 	},
 	{
 		"id": "sleepwalker_homebrew",
@@ -399,16 +408,16 @@
 	"bishop",
 	{
 		"id": "putschist_trustmebro",
-		"name": "Putschist",
-		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/putschist_trustmebro.png",
-		"team": "traveller",
-		"ability": "The Story Teller chooses 1 player. If they die, they quit from now on & displace the Story Teller who chooses again. New Story Tellers can be exiled. Then their team loses.",
+		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/putschist_trustmebro.png",
 		"firstNightReminder": "Choose 1 suitable player (no Traveller) whose alignment is difficult to confirm. Add the \"ruler\" reminder to the chosen player. Rest: See Other Night Reminder.",
 		"otherNightReminder": "When the player with \"ruler\" reminder dies, remove the \"ruler\" reminder and that player also quits the game (remove the token, they get no Vote Token) and becomes the new Story Teller. Displaced Story Tellers don't revert to players and may not disclose any game info until they are players again. The replacement happens at dawn. Before that, choose another player (like the first time). If the Putschist dies, the original and current Story Teller decide who continues or let the remaining players have a ballot for continuing with the original Story Teller (like an exile ballot). New Story Tellers can be nominated for exile (like a Traveller), but 1 member of each team must support it. If the Story Teller is exiled, the team of the exiled Story Teller loses. Replaced Story Tellers lose Alignment. If a ballot succeeds for a former Story Teller they may receive the penality as specified by the nominator and if exiled, they lose alone and the game continues.",
 		"reminders": [
 			"ruler"
 		],
-		"attribution": "image: https://c8.alamy.com/compde/c0jrtc/ein-foto-von-der-waage-der-gerechtigkeit-mit-einem-gleichgewicht-thema-overlay-c0jrtc.jpg"
+		"name": "Putschist",
+		"team": "traveller",
+		"ability": "The Story Teller chooses 1 player. If they die, they quit from now on & displace the Story Teller who chooses again. New Story Tellers can be exiled. Then their team loses.",
+		"attribution": "image: https:\/\/c8.alamy.com\/compde\/c0jrtc\/ein-foto-von-der-waage-der-gerechtigkeit-mit-einem-gleichgewicht-thema-overlay-c0jrtc.jpg"
 	},
 	{
 		"id": "vice_homebrew",
@@ -436,7 +445,7 @@
 	{
 		"id": "fantasist_homebrew",
 		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/homebrew\/fantasist_homebrew.png",
-		"firstNightReminder": "If you add non-script characters to the setup, let a player know this at night.",
+		"firstNightReminder": "You may only add non-script evil characters to the setup, if an ability learns this character at night.",
 		"name": "Fantasist",
 		"team": "fabled",
 		"ability": "≤ 3 non-script non-demon characters might turn up during the game.",
@@ -457,8 +466,8 @@
 		"image": "https://www.bloodstar.xyz/p/Elmar/homebrew/shopkeeper_homebrew.png",
 		"team": "loric",
 		"ability": "Players can earn coins for each game-related quest, achievement or minigame they win. They can spend coins for immediate item effects from you.",
-		"firstNightReminder": "Define the items that you want to offer during the game (up to 4 for each alignment is sufficient). Define achievements, quests and minigames such as with the Zenomancer and their reward in coins. Decide about item prices based on the player number of an alignment and the available rewards. Of course, you also may use physical coins.",
-		"otherNightReminder": "You may declare all shop offers (for good and evil) at the beginning or only when people ask you (only show them the offer for their character type!). People may obtain achievements at any day. When people purchase an item/upgrade from you, add its reminder to the player in the grimoire (and possibly the day number when they purchased it). The item/upgrade is affective from now on. If you figure out that someone illegitimately got the coins for the purchase, you remove their reminder again.",
+		"firstNightReminder": "Define the items that you want to offer during the game (up to 4 for each alignment is sufficient). Choose achievements, quests and minigames such as with the Zenomancer and their reward in coins. Decide about item prices based on the player number of an alignment and the available rewards. Of course, you also may use physical coins.",
+		"otherNightReminder": "You may declare all shop offers (for good and evil) at the beginning or only when people ask you (only show them the offer for their character type!). People may accomplish achievements at any day or night. When people purchase an item/upgrade from you, add its reminder to the player in the grimoire (and possibly the day number when they purchased it). The item/upgrade is effective from now on. If you figure out that someone illegitimately got the coins for the purchase, you remove their reminder again.",
 		"reminders": [
 			"‹item/upgrade name›"
 		]

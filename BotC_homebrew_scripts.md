@@ -3,17 +3,6 @@
   - [Fair Play]
   - Spoiler
 
-- which scripts?
-  - Illusionist
-  - Fantasist
-  - Roulette
-  - Zero to Hero
-  - Nightmare
-  - Demon Teacher
-
-- Townsfolk
-  - Poppy Snitch
-
 # Dear Dictator
 
 Focuses on guessing Alignment and character type. Theme is political power or tyranny. Outsiders can be good or evil.
@@ -23,13 +12,12 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - [Vagrant/(Farmer)]
   - [(Mayor)]
   - (Princess) (interesting with the Trump)
-  - (King)
-  - (Choirboy)
+  - Bodyguard
   - Pope
   - (Cult Leader)
   - (Steward)
   - Instigator
-  - Antifascist (useful against Trump and the Capitalist)
+  - Antifascist (useful against Trump and the Loan Shark)
   - Psychic (interacts with Dowser, King, Pope, Steward, Sectarian, Samurai, Faustian, Exorcist, Punk, drunk minions, demons, travellers)
   - Sectarian (interacts well with Anarchist and player state effects such as the Instigator)
   - Samurai*
@@ -61,7 +49,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Shredder
   - Putin
   - Trump
-  - Capitalist
+  - Loan Shark
 
 - Traveller
   - Wanderer
@@ -71,15 +59,19 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Putschist (impairs impartiality of the Story Teller)
 
 - Jinxes
-  - Pope: The Pope-protected player cannot be chosen for assassination (except if a Demon assassinates the self-protected Pope).
+  - Pope / Shredder: The Pope-protected player cannot be chosen for assassination (except if a Demon assassinates the self-protected Pope).
+  - Pope / Punk: The Punk cannot get the Pope token.
   - Anarchist / Samurai: A Samurai player can only kill an Anarchist when the Samurai has another character that only counts as Outsider this game.
   - Putin / Anarchist: If Putin chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
   - Trump / Anarchist: The Anarchist *might* register as good to Trump.
+  - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play
 
 - Fabled
-  - Apatheist
-  - Fantasist
+  - Ferryman
   - (Toy Maker)
+  - Apatheist
+  - Spoiler
+  - Fantasist
 
 - Loric
   - Shopkeeper
@@ -234,4 +226,4 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
   - Immortal (fits to unconscious state: Medusa and Inspector)
   - Inspector
   - Shopkeeper
-  - Roulette
+  - Croupier

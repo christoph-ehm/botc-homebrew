@@ -11,7 +11,7 @@ Inoffizielle Ideensammlung
 - ohnmächtig/bewusstlos \= wie krank nur ohne Abstimmungsmöglichkeit und ohne durch andere Fähigkeiten aufwachen zu können (außer, um wichtige eigene Eigenschaftsänderungen zu sehen, wozu auch der Good Twin zählt, du erfährst aber nicht, wer der böse Twin ist). Eine ohnmächtige Person erscheint als tot für alle Fähigkeiten (nicht aber für das Spielende). Diese Erscheinung ist aber heimlich, wird nicht automatisch öffentlich bekannt gegeben.  
 - captive/eingesperrt bzw. frozen/eingefroren bzw. abwesend/absent \= wie ohnmächtig (die Todeserscheinung zählt hier allerdings auch für das Spielende), zusätzlich kann aber ihr Spielerzustand sich nicht verändern, das heißt die Person kann auch nicht sterben und noch nicht mal entlassen werden, während sie eingesperrt ist. Sie kann überhaupt nicht aufwachen, es gibt keine Eigenschaftsänderungen. Abwesend trifft es zwar gut, könnte aber mit ohnmächtig verwechselt werden. Story Teller *könnte* Aktionen gegen eingesperrte Personen als nicht-passiert behandeln oder einfach die Auswahl der Person nicht zulassen. Aktionen, deren Ausführung eine Zustandsänderung erzwingen (z.B. der Assassin), dürfen eingesperrte Personen nicht auswählen.  
 - free/befreit bzw. unfrozen bzw. anwesend/present \= Gegenteil von captive/eingesperrt  
-- quit/entlassen → solange der Zustand anhält, zählt man nicht mehr als (Mit)Spieler (Erweiterung von eingesperrt+tot), außer am Ende des Spiels (wenn es endet). Anders als wenn eingesperrt & ohnmächtig zählt man, wenn entlassen, auch bei Travellerabstimmungen nicht mehr, die eigene Figur/Fähigkeit ist nicht mehr im Spiel, und man kann mit keiner Fähigkeit mehr interagieren, selbst wenn es den eigenen Zustand nicht beeinflussen würde. Sonderregel: wenn der Dämon entlassen wird, verliert diese/r ihre/seine Fähigkeit und das Spiel endet.  
+- quit/entlassen → solange der Zustand anhält, zählt man nicht mehr als (Mit)Spieler (Erweiterung von eingesperrt+tot), außer am Ende des Spiels (wenn es endet). Anders als wenn eingesperrt & ohnmächtig zählt man, wenn entlassen, auch bei Travellerabstimmungen nicht mehr, die eigene Figur/Fähigkeit ist nicht mehr im Spiel, und man kann mit keiner Fähigkeit mehr interagieren, selbst wenn es den eigenen Zustand nicht beeinflussen würde. Sonderregel: der Dämon kann nicht entlassen sein. Das Spiel würde enden sofort weitergehen.  
 - healthy → gesund  
 - drunk+poisoned → unter Einfluss, eingeflößt  
 - deranged/verwirrt \= negiert alle Informationen (sog. “infoverwirrt”, “dysinformed”) und negiert alle finalen Effekte/Ereignisse durch Fähigkeiten der verwirrten Person auf ausschließlich den Status/Zustand von anderen Personen oder von Story Teller (sog. “effektverwirrt”, “dyseffective”). Beispiel Innkeeper: aus “can’t \[will not\] die tonight” darf “can die tonight” oder “will die tonight” werden und aus “but 1 is drunk” darf “but not 1 is drunk” (beide oder keine davon sind betrunken)  oder “but 1 is not drunk” (nichts ändert sich) gemacht werden. Eine möglichst vom Normalfall abweichende Interpretation kann helfen, dass Personen die Verwirrung besser erkennen können und diese mehr Wirkung hat. Die Interpretation der Negation obliegt Story Teller. Tipp: wenn das eigene Verhalten keinen Sinn macht und nicht betrunken sein kann oder es eine Verwirrungsfähigkeit im Skript gibt, ist man wahrscheinlich verwirrt (sonst ist es ein Fehler des Story Tellings). Betrunkenheit/Vergiftung trumpft Verwirrung, sodass Verwirrung keinen Effekt hat, wenn man betrunken/vergiftet ist. Beachte, dass andere Signale, die von der Nutzung einer Fähigkeit ausgesendet werden, weiterhin ausgesendet werden, z.B. bei der Auswahl des Fearmongers. Das liegt daran, dass das Aussenden dieser Signale nicht den Zustand der Spielenden beeinflusst und keine selbst erhaltende Information darstellt, nur den mentalen Zustand der Spielenden in der echten Welt.  
@@ -266,7 +266,8 @@ Jede Nacht, wähle eine Person. Diese Person muss dir eine Münze/Vote Token geb
 
 * Alternativer Name: Capitalist (Kapitalist)  
 * Die erhaltenen Münzen kannst du natürlich beim Ladenbesitzer verwenden.  
-* alternative Idee: Story Teller ist bestechlich bzw. das Regelrecht wird an den meistbietenden verkauft. Damit wäre das Gewinnen des Spiels durch Geld nur ein Spezialfall der Möglichkeiten.
+* alternative Idee: Story Teller ist bestechlich bzw. das Regelrecht wird an den meistbietenden verkauft. Damit wäre das Gewinnen des Spiels durch Geld nur ein Spezialfall der Möglichkeiten.  
+* Wenn alle guten gestorben sind, hat das gute Team keine Münzen mehr (Münzen werden beim Tod an andere Personen vererbt) und wird aller Wahrscheinlichkeit nach verlieren.
 
 ## **Fan (Verehrer)/Outsider**
 
@@ -1098,6 +1099,10 @@ Du erfährst, welche Personen in der Nacht auf dich gezeigt haben, solange dein 
 
 Du erfährst in der ersten Nacht, welche Figur 1 Dämon hat. Jede Nacht erfährst du zudem, wie viele (gute oder böse) Minions noch leben.
 
+## **Bodyguard (Leibwächter)/Townsfolk**
+
+Erweiterung von Choirboy: Der Dämon kennt einen guten Spieler als “VIP”. Wenn die VIP stirbt, erfährst du, welche Person der Dämon ist.
+
 # Schutzrollen (reduziert/verhindert Effekte)
 
 ## **Physician (Ärztin)/Townsfolk** {#physician-(ärztin)/townsfolk}
@@ -1268,9 +1273,10 @@ Wählt jede Nacht (ab der 2.) eine Person aus. Angefangen mit dieser Person bis 
 
 ## **Trump/Demon**
 
-Alle guten Spieler/innen werden exiliert statt exekutiert. Alle wissen, dass du Trump bist. Solange ≥ 1 *andere* böse Person lebt, stirbt die Person, die Trump angreift statt Trump. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie und verlässt das Spiel.
+Alle guten Spieler/innen werden exiliert statt exekutiert. Alle wissen, dass du Trump bist. Solange ≥ 1 anderer *Minion* lebt, stirbt die Person, die Trump angreift statt Trump. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie und verlässt das Spiel.
 
 * Namensherkunft: dieser Dämon ist ein Narzist, sich selbst offenbart, der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten wird Trump gegen alles beschützt, sodass diese Figur nicht stirbt, außer wenn sein Gefolge tot ist.  
+* Trump kann nur im Spiel sein, wenn mindestens 2 Spielenden sich gegenüber Trump als Minion erscheinen.   
 * Spieler vom roten Team darf man auch Repulikaner nennen und Spieler vom blauen Team Demokraten.  
 * Bei einer Selbst-Exekution von Trump stirbt niemand und die Nominierungen sind vorbei.  
 * Die Person, die Trump exekutiert, stirbt stattdessen.  
@@ -1404,6 +1410,7 @@ Eine Alternative zum Monk: Wähle jede Nacht (ab der zweiten) zwei Personen hint
 
 Erweiterung von Ogre: Wechselt jede Nacht das Alignment, von gut zu böse und von böse zu gut. Einmal im Spiel, kannst du auf den Wechsel in der Nacht verzichten.
 
+* alternativer Name: Borderline  
 * Andere Ideen:  
   * Idee 1: Wähle zwei lebende Personen und diese tauschen ihr Alignment gegenseitig (und erfahren nur von ihrem neuen Alignment).  
   * Idee 2 (Ersatz zum Deserteur): einmal im Spiel, für einen Tag, kann das eigene Alignment gewechselt werden  
@@ -1518,7 +1525,8 @@ Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplet
 * Die Reiseberaterin darf sich selbst auswählen  
 * Story Teller darf ankündigen, wer das Spiel verlässt.  
 * Wenn deine zuletzt gewählte Person nicht mehr ins Spiel kommt, wählst du niemanden in der nacht aus.  
-* Aus technischen Gründen geht das Aussteigen wohl nicht nachts, weil die Person sonst zufälligerweise die Nacht stören könnte, wenn sie das Zimmer wieder betreten würde. Beim Ein- und Aussteigen muss die Nacht kurzzeitig unterbrochen werden.
+* Aus technischen Gründen geht das Aussteigen wohl nicht nachts, weil die Person sonst zufälligerweise die Nacht stören könnte, wenn sie das Zimmer wieder betreten würde. Beim Ein- und Aussteigen muss die Nacht kurzzeitig unterbrochen werden.  
+* Wenn allein das Aussteigen einer Person das Spiel beenden würde, werden alle Entlassen-Effekte aufgehoben und das Spiel geht weiter.
 
 ## **Mephisto/Minion**
 
