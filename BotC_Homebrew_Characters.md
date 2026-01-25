@@ -1101,7 +1101,7 @@ Du erfährst in der ersten Nacht, welche Figur 1 Dämon hat. Jede Nacht erfährs
 
 ## **Bodyguard (Leibwächter)/Townsfolk**
 
-Erweiterung von Choirboy: Der Dämon kennt einen guten Spieler als “VIP”. Wenn die VIP stirbt, erfährst du, welche Person der Dämon ist.
+Erweiterung von Choirboy und Steward: Du erfährst in der ersten Nacht, welche gute Person VIP ist. Der Dämon kennt diese “VIP” und die Figur, als die die VIP erscheint. Wenn der Dämon die VIP tötet, erfährst du, welche Person der Dämon ist. Wenn die VIP stirbt, erfahren alle davon, welche Figur diese Person tatsächlich hat.
 
 # Schutzrollen (reduziert/verhindert Effekte)
 
