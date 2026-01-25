@@ -18,6 +18,7 @@
 			"minioninfo",
 			"lunatic",
 			"pandemon_trustmebro",
+			"anarchist_trustmebro",
 			"soulmate_trustmebro",
 			"bully_trustmebro",
 			"eviltwin",
@@ -76,27 +77,12 @@
 			"Deranged (State): All terminal effects/events of your abilities on player states and all info is negated. The story teller interprets the negation such that it's detrimental or different from being prudent (normal).",
 			"Unconscious (State): You covertly register as dead. You cannot act at day or night. (No ability, no waking up, no nominating, no voting.)",
 			"Storm Caught: Recommended storm-caught characters: Soulmate, Polymath, Cult Leader, the only info character, a dangerous outsider (for the Vortox Knight info)",
-			"Homebrew: Faustian (Townsfolk), Adulterator (Townsfolk), Poppy Snitch (Townsfolk), Babbler (Townsfolk), Soulmate (Townsfolk), Wicked (Outsider), Puzzlemaster (Outsider), Maverick (Outsider), Prosecutor (Outsider), Scaremonger (Minion), Bully (Minion), Plotter (Minion), Pandemon (Demon), Trustmaker (Fabled), Spirit of Irony (Fabled), Polymath (Loric)"
+			"Homebrew: Faustian (Townsfolk), Adulterator (Townsfolk), Poppy Snitch (Townsfolk), Babbler (Townsfolk), Soulmate (Townsfolk), Wicked (Outsider), Puzzlemaster (Outsider), Maverick (Outsider), Prosecutor (Outsider), Anarchist (Outsider), Scaremonger (Minion), Bully (Minion), Plotter (Minion), Pandemon (Demon), Trustmaker (Fabled), Spirit of Irony (Fabled), Polymath (Loric)"
 		]
 	},
 	"chambermaid",
 	"dreamer",
 	"cultleader",
-	{
-		"id": "soulmate_trustmebro",
-		"name": "Soulmate",
-		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/soulmate_trustmebro.png",
-		"team": "townsfolk",
-		"ability": "Each night, choose ≤ 1 person to not trigger effects on death. When you chose, you die and lose *all* abilities! Fixed alignment!",
-		"firstNight": 20,
-		"otherNight": 7,
-		"firstNightReminder": "See Other Night Reminder.",
-		"otherNightReminder": "Let the soulmate choose a person after demon but before minions. When the soulmate chose, it is like the demon tried to kill them. Independent of the success of death, this soulmate loses *all* abilities. At the onset of the vessel effect – as soon as the vessel dies – tell them that the Soulmate chose them. (Do this even if they chose themself.)",
-		"reminders": [
-			"eternal"
-		],
-		"setup": true
-	},
 	{
 		"id": "faustian1_trustmebro",
 		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/faustian1_trustmebro.png",
@@ -122,6 +108,20 @@
 		"team": "townsfolk",
 		"ability": "Each night*, choose 2 players: they can't die tonight, 1 is drunk. *1 is deranged and can't die until dusk.*",
 		"otherNight": 8
+	},
+	{
+		"id": "soulmate_trustmebro",
+		"name": "Soulmate",
+		"image": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/soulmate_trustmebro.png",
+		"team": "townsfolk",
+		"ability": "Each night*, choose ≤ 1 person to not trigger effects on death. When you chose, you die and lose *all* abilities! Fixed alignment!",
+		"firstNight": 20,
+		"otherNight": 7,
+		"otherNightReminder": "Let the soulmate choose a person after demon but before minions. When the soulmate chose, it is like the demon tried to kill them. Independent of the success of death, this soulmate loses *all* abilities. At the onset of the vessel effect – as soon as the vessel dies – tell them that the Soulmate chose them. (Do this even if they chose themself.)",
+		"reminders": [
+			"eternal"
+		],
+		"setup": true
 	},
 	"bountyhunter",
 	"grandmother",
@@ -173,9 +173,10 @@
 	{
 		"id": "anarchist_trustmebro",
 		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/anarchist_trustmebro.png",
+		"firstNightReminder": "Show 1 good bluff character to the Anarchist. It might coincide with the bluff of someone else.",
 		"name": "Anarchist",
 		"team": "outsider",
-		"ability": "You have any alignment & character type unless you die. The demon & story teller choices don't kill you. You get 1 bluff."
+		"ability": "You have any alignment & character type unless you die. You register like the interacting player. The demon & story teller choices don't kill you. You get 1 bluff."
 	},
 	{
 		"id": "prosecutor_trustmebro",

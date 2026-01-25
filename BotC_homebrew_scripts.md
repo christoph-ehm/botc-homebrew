@@ -9,12 +9,10 @@
   - Roulette
   - Zero to Hero
   - Nightmare
-  - In Shambles
+  - Demon Teacher
 
 - Townsfolk
   - Poppy Snitch
-
-- Traveller
 
 # Dear Dictator
 
@@ -22,8 +20,8 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
 
 - Townsfolk
   - Dowser
-  - Samurai
   - [Vagrant/(Farmer)]
+  - [(Mayor)]
   - (Princess) (interesting with the Trump)
   - (King)
   - (Choirboy)
@@ -31,10 +29,13 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - (Cult Leader)
   - (Steward)
   - Instigator
-  - Sectarian* (interacts well with Anarchist and player state effects such as the Instigator)
-  - (Alsaahir)*
-  - (Artist)*
-  - Babbler* (Gossip)
+  - Antifascist (useful against Trump and the Capitalist)
+  - Psychic (interacts with Dowser, King, Pope, Steward, Sectarian, Samurai, Faustian, Exorcist, Punk, drunk minions, demons, travellers)
+  - Sectarian (interacts well with Anarchist and player state effects such as the Instigator)
+  - Samurai*
+  - [(Alsaahir)*]
+  - [(Artist)*]
+  - Blabber* (Gossip)
   - Faustian* (Gambler)
   - (Juggler)*
   - (Exorcist)*
@@ -50,11 +51,10 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Fan (interesting with Trump)
 
 - Minion
-  - [Devil's Advocate] (for the Prosecutor)
-  - Whisperer
-  - Jailer
-  - [Panicmonger]
-  - Sinister Fog (interaction with Trump, highly destructive with Putin)
+  - [Brute] (replaces the Devil's Advocate, for the Prosecutor)
+  - Whisperer [fits to Sickener, Punk]
+  - Jailer [fits to Trump]
+  - Sinister Fog (fits to Trump, highly destructive with Putin)
   - Tracker
 
 - Demon
@@ -65,15 +65,26 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
 
 - Traveller
   - Wanderer
+  - Sleepwalker (mainly useful with Samurai)
+  - (Bishop) (allows the team to nominate/execute players with gut feelings, even when the good team has lost useful abilities.)
+  - Vice  (interacts with Pope, Instigator, Samurai/Shredder, Sectarian or with potentially any optional rule or with anyone via the Apatheist)
+  - Putschist (impairs impartiality of the Story Teller)
+
+- Jinxes
+  - Pope: The Pope-protected player cannot be chosen for assassination (except if a Demon assassinates the self-protected Pope).
+  - Anarchist / Samurai: A Samurai player can only kill an Anarchist when the Samurai has another character that only counts as Outsider this game.
+  - Putin / Anarchist: If Putin chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
+  - Trump / Anarchist: The Anarchist *might* register as good to Trump.
 
 - Fabled
   - Apatheist
-  - Toy Maker
+  - Fantasist
+  - (Toy Maker)
 
 - Loric
   - Shopkeeper
   - (Hindu) (useful due to Trump, Putin, Shredder)
-  - (Gardener) (useful with Putin)
+  - (Gardener) (required for Putin)
 
 # Medieval Mischief
 

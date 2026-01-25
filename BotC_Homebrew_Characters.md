@@ -7,10 +7,11 @@ Inoffizielle Ideensammlung
 - sober → nüchtern  
 - poisoned → vergiftet  
 - krank \= temporäre Handlungsunfähigkeit, kann nachts nicht aufwachen, tags keine Aktionen der Fähigkeit nutzen und nicht nominieren. Lebende und tote Personen können krank sein. Nur das Abstimmen (Voting) funktioniert. Es wird ohne Vote Token abgestimmt. Das weiß die Person aber nicht. Handlungsunabhängige Effekte der eigenen Fähigkeit funktionieren allerdings weiter im Hintergrund. Die Fähigkeit der Figur wird beim Gesundwerden nicht aufgefrischt (anders als bei eine Wiederbelebung mit dem Shabaloth oder beim Al-Hadikhia).  
-- ohnmächtig/bewusstlos \= wie krank nur ohne Abstimmungsmöglichkeit und ohne durch andere Fähigkeiten aufwachen zu können (außer, um wichtige eigene Eigenschaftsänderungen zu sehen, wozu auch der Good Twin zählt, du erfährst aber nicht, wer der böse Twin ist). Eine ohnmächtige Person erscheint als tot für alle Fähigkeiten. Diese Erscheinung ist aber heimlich, wird nicht automatisch öffentlich bekannt gegeben.  
-- captive/eingesperrt bzw. frozen/eingefroren bzw. abwesend/absent \= wie ohnmächtig, zusätzlich kann aber ihr Spielerzustand sich nicht verändern, das heißt die Person kann auch nicht sterben, während sie eingesperrt ist. Sie kann überhaupt nicht aufwachen, es gibt keine Eigenschaftsänderungen. Abwesend trifft es zwar gut, könnte aber mit ohnmächtig verwechselt werden.  
+- fit \= nicht krank  
+- ohnmächtig/bewusstlos \= wie krank nur ohne Abstimmungsmöglichkeit und ohne durch andere Fähigkeiten aufwachen zu können (außer, um wichtige eigene Eigenschaftsänderungen zu sehen, wozu auch der Good Twin zählt, du erfährst aber nicht, wer der böse Twin ist). Eine ohnmächtige Person erscheint als tot für alle Fähigkeiten (nicht aber für das Spielende). Diese Erscheinung ist aber heimlich, wird nicht automatisch öffentlich bekannt gegeben.  
+- captive/eingesperrt bzw. frozen/eingefroren bzw. abwesend/absent \= wie ohnmächtig (die Todeserscheinung zählt hier allerdings auch für das Spielende), zusätzlich kann aber ihr Spielerzustand sich nicht verändern, das heißt die Person kann auch nicht sterben und noch nicht mal entlassen werden, während sie eingesperrt ist. Sie kann überhaupt nicht aufwachen, es gibt keine Eigenschaftsänderungen. Abwesend trifft es zwar gut, könnte aber mit ohnmächtig verwechselt werden. Story Teller *könnte* Aktionen gegen eingesperrte Personen als nicht-passiert behandeln oder einfach die Auswahl der Person nicht zulassen. Aktionen, deren Ausführung eine Zustandsänderung erzwingen (z.B. der Assassin), dürfen eingesperrte Personen nicht auswählen.  
 - free/befreit bzw. unfrozen bzw. anwesend/present \= Gegenteil von captive/eingesperrt  
-- quit/entlassen → solange der Zustand anhält, zählt man nicht mehr als (Mit)Spieler, außer am Ende des Spiels (wenn es endet). Anders als wenn eingesperrt & ohnmächtig zählt man, wenn entlassen, auch bei Travellerabstimmungen nicht mehr.  
+- quit/entlassen → solange der Zustand anhält, zählt man nicht mehr als (Mit)Spieler (Erweiterung von eingesperrt+tot), außer am Ende des Spiels (wenn es endet). Anders als wenn eingesperrt & ohnmächtig zählt man, wenn entlassen, auch bei Travellerabstimmungen nicht mehr, die eigene Figur/Fähigkeit ist nicht mehr im Spiel, und man kann mit keiner Fähigkeit mehr interagieren, selbst wenn es den eigenen Zustand nicht beeinflussen würde. Sonderregel: wenn der Dämon entlassen wird, verliert diese/r ihre/seine Fähigkeit und das Spiel endet.  
 - healthy → gesund  
 - drunk+poisoned → unter Einfluss, eingeflößt  
 - deranged/verwirrt \= negiert alle Informationen (sog. “infoverwirrt”, “dysinformed”) und negiert alle finalen Effekte/Ereignisse durch Fähigkeiten der verwirrten Person auf ausschließlich den Status/Zustand von anderen Personen oder von Story Teller (sog. “effektverwirrt”, “dyseffective”). Beispiel Innkeeper: aus “can’t \[will not\] die tonight” darf “can die tonight” oder “will die tonight” werden und aus “but 1 is drunk” darf “but not 1 is drunk” (beide oder keine davon sind betrunken)  oder “but 1 is not drunk” (nichts ändert sich) gemacht werden. Eine möglichst vom Normalfall abweichende Interpretation kann helfen, dass Personen die Verwirrung besser erkennen können und diese mehr Wirkung hat. Die Interpretation der Negation obliegt Story Teller. Tipp: wenn das eigene Verhalten keinen Sinn macht und nicht betrunken sein kann oder es eine Verwirrungsfähigkeit im Skript gibt, ist man wahrscheinlich verwirrt (sonst ist es ein Fehler des Story Tellings). Betrunkenheit/Vergiftung trumpft Verwirrung, sodass Verwirrung keinen Effekt hat, wenn man betrunken/vergiftet ist. Beachte, dass andere Signale, die von der Nutzung einer Fähigkeit ausgesendet werden, weiterhin ausgesendet werden, z.B. bei der Auswahl des Fearmongers. Das liegt daran, dass das Aussenden dieser Signale nicht den Zustand der Spielenden beeinflusst und keine selbst erhaltende Information darstellt, nur den mentalen Zustand der Spielenden in der echten Welt.  
@@ -259,12 +260,13 @@ Jede Nacht, wähle eine Person als Henker, danach eine gute nicht-Traveller Pers
 
 Jede Nacht, wähle eine Person. Die zuletzt gewählte stirbt am letzten Tag, selbst wenn Scaremonger tot ist.
 
-## **Capitalist (Kapitalist)/Demon|Minion**
+## **Loan Shark (Kredithai)/Demon|Minion**
 
-Jede Nacht, wähle eine Person. Diese Person muss dir eine Münze/Vote Token geben. Bist du ein Dämon, stirbt sie wenn sie es nicht kann. Bist du ein Minion, erhält die Person eine Schuld von einer Münze. Sobald sie eine Münze erhalten würde, bekommst du sie stattdessen, und die Schuld ist beglichen. \[Ladenbesitzer ist im Spiel\]
+Jede Nacht, wähle eine Person. Diese Person muss dir eine Münze/Vote Token geben. Bist du ein Dämon, stirbt sie wenn sie es nicht kann. Bist du ein Minion, erhält die Person eine Schuld von einer Münze. Sobald sie eine Münze erhalten würde, bekommst du sie stattdessen, und die Schuld ist beglichen. Das Team, dass bei Ende am meisten Münzen besitzt, gewinnt. \[Ladenbesitzer ist im Spiel\]
 
+* Alternativer Name: Capitalist (Kapitalist)  
 * Die erhaltenen Münzen kannst du natürlich beim Ladenbesitzer verwenden.  
-* alternative Idee: Story Teller ist bestechlich bzw. Regelbestimmung wird an den meistbietenden verkauft. Damit wäre das Gewinnen des Spiels nur ein Spezialfall.
+* alternative Idee: Story Teller ist bestechlich bzw. das Regelrecht wird an den meistbietenden verkauft. Damit wäre das Gewinnen des Spiels durch Geld nur ein Spezialfall der Möglichkeiten.
 
 ## **Fan (Verehrer)/Outsider**
 
@@ -360,10 +362,9 @@ Nachtaktionen müssen manuell durch melden von Spielenden ausgelöst werden. D.h
 
 ## **Sleepwalker (Schlafwandler)/Traveller**
 
-Einmal im Spiel während der ersten Nacht, erfahre, welche Personen in der Nacht aufwachen, um ihre Fähigkeit zu nutzen. (Dämonen- und Schergeninfo der ersten Nacht wird dabei ignoriert.)
+Einmal im Spiel in der Nacht (außer der ersten), erfahre, welche Personen in der Nacht aufwachen, um ihre Fähigkeit zu nutzen. Du erfährst, wenn dir ± 1 Personen angezeigt werden.
 
-* Mit Fabled Illusionist ist das sogar ganz einfach. Lass diese Person einfach sehen, wer sich meldet.  
-* Alternative: ± 1 Person wird gezeigt.
+* Mit Fabled Illusionist ist das sogar ganz einfach. Lass diese Person einfach sehen, wer sich meldet.
 
 ## **Censor (Zensor)/Traveller**
 
@@ -719,13 +720,14 @@ Wenn du am Tag den Verlust von Fähigkeiten verantwortest, erfährst du in der N
 * Idee 3: die Aspekte ersetzen oder addieren sich zu entsprechenden Aspekten der Zielperson  
 * Idee 4: Möglichkeit, die Wahl zu ändern
 
-## **Deluded (Verblendete)/Townsfolk**
+## **Sectarian (Sektenmitglied)/Townsfolk**
 
-Ähnlich wie Magician+Amnesiac+Evil-Damsel: Glaubt ein Minion zu sein und erscheint gegenüber Bösen als böser Minion und erscheint gegenüber Townsfolk als böse Verblendete. D.h. du erhältst korrekte Minion-Info, der Dämon und die Minions sehen dich auch, niemand aber weiß, dass du gut bist und deine geglaubte Minion-Fähigkeit nicht diese Minion-Fähigkeit ist.
+Ähnlich wie Magician+Amnesiac+Evil-Damsel: Glaubt ein Minion zu sein und erscheint gegenüber Bösen als böser Minion und erscheint gegenüber Townsfolk als böses Sektenmitglied. D.h. du erhältst korrekte Minion-Info, der Dämon und die Minions sehen dich auch, niemand aber weiß, dass du gut bist und deine geglaubte Minion-Fähigkeit nicht diese Minion-Fähigkeit ist. Während du lebst zählst du nur als gut.
 
-* Die Minion-Fähigkeit ist ähnlich zum Amnesiac, diese könnte betrunken sein, könnte eine andere (normalerweise gute) Fähigkeit sein oder was anderes machen, egal was, macht aber niemals das, was sie tatsächlich machen würde. Der Unterschied ist, dass niemand weiß, dass du die Verblendete bist.  
-* Die bösen können erkennen, dass es eine Verblendete geben muss, daran, dass es 1 Minion zu viel gibt.  
-* Wenn du herausfindest, dass du die Verblendete bist, kannst du das Spiel in Null-Komma-Nichts gewinnen.
+* Namenshintergrund: die Figur ist dem bösen Team verfangen. Nur durch eigene Erkenntnis und Hinterfragen kann die Person erkennen, dass ihre Mitgliedschaft falsch ist und entkommen.  
+* Die Minion-Fähigkeit ist ähnlich zum Amnesiac, diese könnte betrunken sein, könnte eine andere (normalerweise gute) Fähigkeit sein oder was anderes machen, egal was, macht aber niemals das, was sie tatsächlich machen würde. Der Unterschied ist, dass niemand weiß, dass du das Sektenmitglied bist.  
+* Die bösen können erkennen, dass es ein Sektenmitglied geben muss, daran, dass es 1 Minion zu viel gibt.  
+* Wenn du herausfindest, dass du das Sektenmitglied bist, kannst du das Spiel in Null-Komma-Nichts gewinnen.
 
 ## **Sickener (Krankmacher)/Outsider**
 
@@ -736,9 +738,10 @@ Deine Fähigkeit macht eine böse Person (immer dieselbe, die du nicht kennst) k
 
 ## **Instigator (Anstifter)/Townsfolk**
 
-An Tag/Nacht X ist ein X. Nachbar (entweder im oder gegen den Uhrzeigersinn) von dir verwirrt. (Die Links/Rechts-Richtung ändert sich nicht, ist aber unbekannt.)
+An Tag/Nacht X ist der X. Nachbar (sowohl im als auch gegen den Uhrzeigersinn) von dir verwirrt. (Die Links/Rechts-Richtung ändert sich nicht, ist aber unbekannt.)
 
-* Die Verwirrung startet in der ersten Nacht nicht vor der Nachtreihenfolge des Anstifters. D.h. Dämonen- und Minioninfo können nicht betroffen sein.
+* Die Verwirrung startet in der ersten Nacht nicht vor der Nachtreihenfolge des Anstifters. Der Anstifter startet in der Regel nach Minionfähigkeiten, die einen Spieler auswählen. D.h. Dämonen- und Minioninfo können nicht betroffen sein.  
+* Optional: es wird nur eine Person in einer Richtung verwirrt. Die Richtung ist aber unbekannt und Story Teller gibt auf Nachfrage zu, dass die Regel gilt.
 
 # Soziale Rollen (Sozialverhalten, Simulationen)
 
@@ -911,11 +914,25 @@ Erweiterung von Akrobat: man erfährt jede Nacht, ob es unter den Lebenden Perso
 
 ## **Dowser (Rutengänger)/Townsfolk**
 
-Erweiterung von Shugenja: Wähle jede Nacht eine Person und erfahre, ob ganz am Anfang des Spiels links oder rechts das Böse näher gewesen ist. (Wenn du eine böse Person wählst oder in beide Richtungen gleich wert entfernt waren, bist du bis zum nächsten Nachteinsatz betrunken und erhältst nun beliebige Info.)
+Erweiterung von Shugenja: Jede Nacht, erfahre die nicht-negative Alignment-Differenz im Uhrzeigersinn, wobei eine davon deine ausgewählte Person ist. (D.h. du könntest erfahren, ob eine benachbarte lebende Person eine festgelegte Rutenrichtung ein verschiedenes Alignment hat.)
 
-* Wenn man es vom Spielzustand abhängig macht, wird es sehr mächtig. Wenn man dann einschränkt: in der ersten Nacht wird ein Referenzpunkt gewählt, der ab nun immer gilt, dann hätte man effektiv wieder Shugenja und nichts Neues.  
-* innovativer: die Information wird abgeschwächt, indem alle Personen, einschließlich tote, mitgezählt werden (und Sitzplatzänderungen während dem Spiel ignoriert werden). Wenn man nun zweimal eine Person auswählt im Verlauf des Spiels, wird man immer die gleiche Antwort erhalten. (Die Antwort für jede Person wird quasi vom Setup-Zustand ausgewählt.)  
-* Wenn das Böse links und rechts gleichweit entfernt ist oder wenn man eine böse Person auswählt, dann kann die Antwort beliebig sein und kann sich danach richten, wie der Rutgengänger in Vergangenheit Personen ausgewählt hat.
+* Das Alignment des Rutengängers wird als 1 interpretiert, das gegnerische als 0\.  
+* Für die Differenzbildung wird das Alignment einer Person minus dem Alignment der nächsten lebenden Person in einer von Story Teller festgelegten und konstanten aber unbekannten Richtung berechnet (im oder gegen den Uhrzeigersinn). Es ist unbekannt, ob die ausgewählte Person Minuent oder Subtrahent ist. Von beiden möglichen Differenzen wird eine mit nicht-negativem Ergebnis bekannt gegeben.  
+* Optional: die Rutenrichtung könnte in jeder Nacht willkürlich sein. (Das muss Story Teller bekannt geben, wenn danach gefragt.)  
+* Tipp: versucht, möglichst benachbarte Personen als gut zu beweisen oder unbewiesene Personen dazwischen zu exekutieren. Dadurch kann der Rutengänger am besten arbeiten.
+
+weitere Ideen:
+
+1. Wähle jede Nacht eine Person und erfahre, ob links oder rechts eine lebende oder tote Spieler/in näher ist, die als böse gestartet hat. (Immer dieselbe Info für jede gewählte Person.) (Wenn du eine böse Person wählst oder in beide Richtungen gleich wert entfernt sind, bist du bis zur nächsten Nacht betrunken und erhältst nun beliebige Info bzw. die Info von der zuletzt gewählten Person.)  
+   * Problem: auch wenn nicht vom Spielzustand abhängig ist es (sehr) mächtig. Wenn man dann einschränkt: in der ersten Nacht wird ein Referenzpunkt gewählt, der ab nun immer gilt, dann hätte man effektiv wieder Shugenja und nichts Neues.  
+   * innovativer: die Information wird abgeschwächt, indem alle Personen, einschließlich tote, mitgezählt werden (und Sitzplatzänderungen während dem Spiel ignoriert werden). Wenn man nun zweimal eine Person auswählt im Verlauf des Spiels, wird man immer die gleiche Antwort erhalten. (Die Antwort für jede Person wird quasi vom Setup-Zustand ausgewählt.)  
+2. Du erfährst, welcher Nachbar böse ist. Wenn beide gleiches Alignment haben, ist die Antwort beliebig. (Alternativ: wenn eine böse Person ausgewählt wurde, kann die Antwort falsch sein.)  
+* Problem: auch sehr mächtig (und dabei nur teilweise so mächtig wie Idee 1). Damit erkennt man mit relativ hoher Sicherheit böse Spielende (weil in \< 50% der Fälle beide Spielenden gut sind) und mit fast absoluter Sicherheit Legion-Spieler/innen. Wenn p die Wahrscheinlichkeit für das böse Alignment ist, dann bekommt man 2·p·(p-1) \+ p² als Wahrscheinlichkeit eines richtigen Treffers, das heißt 1 \- (1-p)². Das ist im Worst-Case (p \= ¼) fast ½.  
+3. du erfährst, in welche Richtung die Distanz zu bösen am geringsten ist. Allerdings wird die Distanz zu toten bösen als Anzahl guter Spieler/innen dazwischen minus Abstand zu toten bösen berechnet. Dadurch zeigt die Richtung immer zum am weitesten entfernten toten Bösen, oder, wenn die beiden nähesten bösen lebend sind, dann zum nähesten lebenden Bösen. Das ist eine Abschwächung der Idee 1  
+4. wähle eine Person aus. Erfahre, wie viele Paare gleichweit entfernter lebender oder toter Spieler/innen zu dieser Person mindestens 1 böse Person enthalten. Die Person selbst zählt allerdings auch als 1 separates Paar.  
+5. erfahre, wie weit eine Mittelspieler/in zwischen zwei bösen Spieler/innen entfernt ist. (Das muss nicht die näheste sein.) Wenn es nur 2 Böse gibt, die in beide Richtungen eine gerade Anzahl an Spielenden dazwischen haben, sind die einzige Mitten die beiden Bösen Spielenden selbst. Schließt man diese aus, gibt es keine Mittespieler/innen und im anderen Fall wären dann die gezeigten Spieler/innen immer gut.  
+6. erfahre von einer gegebenen Person die zweitweit entfernteste (lebende oder tote) böse Person.  
+7. erfahre zu einer gewählten Person, wie viele lebende/tote Personen um sie herum existieren (die Anzahl guter Personen bis zu den jeweils nächsten bösen Nachbarn).
 
 ## **Faustian (Teufelskerl)/Townsfolk**
 
@@ -1077,6 +1094,10 @@ Du erfährst, welche Personen in der Nacht auf dich gezeigt haben, solange dein 
 
 * Wacht nicht auf, wenn es keine Person gibt.
 
+## **Antifascist (Antifaschist)/Townsfolk**
+
+Du erfährst in der ersten Nacht, welche Figur 1 Dämon hat. Jede Nacht erfährst du zudem, wie viele (gute oder böse) Minions noch leben.
+
 # Schutzrollen (reduziert/verhindert Effekte)
 
 ## **Physician (Ärztin)/Townsfolk** {#physician-(ärztin)/townsfolk}
@@ -1138,7 +1159,9 @@ Wähle einmal im Spiel eine Person, diese ist unsterblich, bis du vom Dämon get
 * Ein Angriff des Dämons könnte dich töten, selbst wenn du geschützt würdest, z.B. durch die Tea Lady oder durch einen Monk/Innkeeper.  
 * Wenn ein Innkeeper den Papst und eine andere Person wählt, ist die andere Person betrunken. Wenn beide nicht betrunken sein können (z.B. ein Bettler (Beggar)), dann muss der Innkeeper zwei andere Personen auswählen (denn laut Fähigkeit muss eine Person betrunken sein).  
 * Story Telling: die Wahrscheinlichkeit von einem Dämonangriff zu sterben sollte geringer sein, wenn du beschützt wirst als wenn nicht. Wenn du nicht beschützt wirst, sollte dieser normalerweise gelingen (außer in möglicherweise speziellen Ausnahmen, wenn es welche gäbe).  
-* Du darfst dich selbst auswählen, dann bist du vor Exekutionen geschützt, aber der Dämon könnte dich töten. (Behaupte einfach, du wärst Soldier)
+* Bei Effektverwirrung kann die beschützte Person entweder jeden Moment sterben (wie Tinker) oder die Person muss spätestens direkt vor dem Papst sterben (wenn dieser stirbt).  
+* Du darfst dich selbst auswählen, dann bist du vor Exekutionen geschützt, aber der Dämon könnte dich töten. (Behaupte einfach, du wärst Soldier)  
+* Jinx Assassin: der Assassin darf die vom Papst beschützte Person nicht wählen und wird aufgefordert, neu auszuwählen.
 
 ## **Adulterator (Panscher)/Townsfolk**
 
@@ -1185,12 +1208,15 @@ Alternative zum Clanchef (ähnlich Virgin \+ Goblin): nach dem Tod des Daimyou s
 
 ## **Shredder/Demon**
 
-Du und alle Minions sind Samurai. Aus allen von bösen und aus allen von guten Samurais in einer Nacht ausgewählten Outsidern/Samurai stirbt jeweils nur eine am häufigsten gewählte Person. \[+1 Outsider\]
+Alle Minions haben zusätzlich die Samurai-Fähigkeit. Aus allen von bösen Minions+Shredder und aus allen von guten Samurais in einer Nacht ausgewählten Outsidern/Samurai stirbt pro Alignment nur die am häufigsten gewählte Person. Wenn niemand durch böse Samurai stirbt, stirbt Shredders gewählte Person wie durch einen Assassin. \[+1 Outsider\]
 
 * Namenshintergrund: Teenage Mutant Ninja Turtles  
+* alternativer Name: Khan  
 * Minions können von der Samurai-Fähigkeit getötet werden, da sie als Samurai erscheinen.  
-* Shredder zählt als Townsfolk, Outsider & Dämon\!  
-* Jeder Minion zählt als Townsfolk, Outsider & Minion\! Deshalb kannst du theoretisch beliebig viele Samurai-Minion im Spiel haben. Outsiders im Setup können mit Samurai-Minions gefüllt sein.
+* Die Samurai eines Teams töten nur, wenn es genau 1 Person mit den meisten Stimmen gibt, die mehr als 0 sind. Ein Samurai erhöht die Stimme einer ausgewählten Person, wenn die ausgewählte Person gegenüber dem auswählenden Samurai als Outsider erscheint.  
+* Das böse Team wählt vor dem guten Team.  
+* Wenn eine Person durch böse oder gute Samurai stirbt, ist nur irgendeine beliebige Person von den Samurai-Spieler/innen (pro Team) verantwortlich für den Tod.  
+* Jeder Minion zählt als Townsfolk, Outsider & Minion, sind aber Minions im Setup\!
 
 ## **Arrester (Blitzableiter)/Townsfolk**
 
@@ -1204,11 +1230,13 @@ Ravannavar \[Re-wanne-warr\] entscheidet, ob eine vom Dämon zum Töten ausgewä
 * Alternativer Name: Ultran, Terrorist  
 * Ravannavar kann auch als Dämon verwendet werden. In diesem Fall wählt Story Teller 1 Person pro Nacht zum Töten aus, über welche Ravannavar die Entscheidung Leben oder Figur trifft.
 
-## **Punk/Outsider**
+## **Punk/Outsider|Minion**
 
-Erweiterung vom Drunk: Du hast eine betrunkene Fähigkeit (gut oder böse). Wenn jemand mit einer guten Fähigkeit versucht, deine Fähigkeit, Alignment oder Spielerzustand zu erraten, könnte eine weitere Person in der Nacht sterben. Du erhältst das Alignment der Person, die dich tötet.
+Erweiterung vom Drunk: Du hast eine betrunkene Fähigkeit (gut oder böse) und erscheinst gegensätzlich zu dieser. Es ist aber keine Outsider-Fähigkeit. Wenn jemand mit einer guten Fähigkeit versucht, deine Fähigkeit, Alignment oder Spielerzustand zu erraten, könnte eine weitere Person in der Nacht sterben. \[Du könntest auch ein böser Minion sein.\]
 
-* Alternativer Name: Existentialist (erlaubt keine allgemeingültige Aussagen über den Punk)  
+* Alternativer Name: Drunkard (Säufer), Existentialist (erlaubt keine allgemeingültige Aussagen über den Punk)  
+* Wenn der Punk eine Townsfolk-Fähigkeit sieht, erscheint er als böse. Wenn er eine Minion/Dämon-Fähigkeit sieht, erscheint er als gut. Der Punk erscheint aber als Punk-Figur, genauso wie der Drunk als Drunk-Figur erscheinen würde.  
+* Der Punk kann Leute töten, um nicht entdeckt zu werden.  
 * Der Gambler stirbt immer, egal welche Figur ihr für den Punk ratet (selbst den Punk selbst)  
 * Jede (Teil)Aussage, die ein Gossip über den Punk macht, gilt immer als richtig (selbst wenn falsch).  
 * Der Artist stirbt, wenn ihr eine Aussage über den Punk macht.  
@@ -1219,7 +1247,7 @@ Erweiterung vom Drunk: Du hast eine betrunkene Fähigkeit (gut oder böse). Wenn
   * Juggler (guessing the Punk)  
   * Snake Charmer (choosing the Punk)  
   * Amnesiac who got the Punk ability (guessing their own ability)  
-  * Exorcist (choosing the Punk)  
+  * Exorcist (choosing the Punk).  
   * Preacher (choosing the Punk)  
   * Acrobat (choosing the Punk)  
   * Moonchild (choosing the Punk)  
@@ -1240,7 +1268,7 @@ Wählt jede Nacht (ab der 2.) eine Person aus. Angefangen mit dieser Person bis 
 
 ## **Trump/Demon**
 
-Alle guten Spieler/innen werden exiliert statt exekutiert. Alle wissen, dass du Trump bist. Solange ≥ 1 *andere* böse Person lebt, stirbt die Person, die Trump angreift statt Trump. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie.
+Alle guten Spieler/innen werden exiliert statt exekutiert. Alle wissen, dass du Trump bist. Solange ≥ 1 *andere* böse Person lebt, stirbt die Person, die Trump angreift statt Trump. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie und verlässt das Spiel.
 
 * Namensherkunft: dieser Dämon ist ein Narzist, sich selbst offenbart, der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten wird Trump gegen alles beschützt, sodass diese Figur nicht stirbt, außer wenn sein Gefolge tot ist.  
 * Spieler vom roten Team darf man auch Repulikaner nennen und Spieler vom blauen Team Demokraten.  
@@ -1316,12 +1344,14 @@ Hat eine Spy-Fähigkeit. Minions erscheinen als gut. Einmal im Spiel, ab der 3\.
 * Nach Eröffnung des Armageddons wird es haarig für beide Seiten. Es geht um alles oder nichts. Wessen Team zuerst eine Person verliert, gerät in Unterzahl und könnte das Spiel verlieren. Achtung, Ghost Votes sind möglich, und hierbei handelt es sich um gute Spieler/innen. Einen Psychopathen zu nominieren könnte was bringen, aber Vorsicht vor einem Assassin.  
 * interessante Interaktion: das Fabled Voudon (nahezu alle toten Spieler/innen nach dem Armageddon werden gut sein)
 
-## **Vice (Vize)/Minion**
+## **Vice (Vize)/Traveller+(Townsfolk|Minion|Traveller)**
 
-Wenn der Story Teller in der Nacht selbst eine Person wählen soll, wirst du gefragt. Bei mindestens 1 Entscheidung pro Nacht wirst du nachts geweckt (wenn es eine gibt), du zeigst bei jedem Wecken auf eine Person (nicht, wofür oder warum\!). Wenn für eine Fähigkeit mehrere Personen ausgewählt werden sollen, kannst du mehrmals geweckt werden, auch für verschiedene Fähigkeiten in derselben Nacht. Der Preis dafür ist, dass du nicht als böse erscheinst (du erfährst nur den Dämon, die anderen Bösen sehen dich aber nicht, wenn sie sich kennenlernen). \[+1 Minion\]
+Wenn der Story Teller in der Nacht selbst eine Person wählen soll, wirst du gefragt (du weißt nicht, worum es geht). Bei mindestens 1 Entscheidung pro Nacht wirst du nachts geweckt (wenn es eine gibt), du zeigst bei jedem Wecken auf eine Person (Story Teller sagt nicht, wofür oder warum\!). Wenn für eine Fähigkeit mehrere Personen ausgewählt werden sollen, kannst du mehrmals geweckt werden, auch für verschiedene Fähigkeiten in derselben Nacht. Der Preis dafür ist, dass dein Figurtyp unbekannt ist.
 
 * Namensherkunft: Vice im Englischen ist doppeldeutig: einerseits Vize, andererseits "moralisches Laster", Mangel, Fehler  
 * Alternativer Name: Amoralist  
+* Optional: statt nur Spielerauswahlen könnte der Vice auch alle möglichen Story-Teller-Entscheidungen treffen, z.B. “ja”/”nein”, “gut”/”böse”, eine Zahl, eine Liste von Antwortoptionen, etc.  
+* Dieser Traveller könnte zusätzlich gegenüber Fähigkeiten als Townsfolk oder als Minion erscheinen.  
 * Dieser Minion bekommt einen Bluff, unabhängig vom Dämon.  
 * Beispiel: der Puzzlemaster ist im Spiel. Die Vize wählt aus, wer der Drunk sein soll, ohne zu wissen, dass sie/er den Drunk bestimmt.  
 * Wenn betrunken oder vergiftet, hat der Deputy keinen realen Einfluss.  
@@ -1382,7 +1412,7 @@ Erweiterung von Ogre: Wechselt jede Nacht das Alignment, von gut zu böse und vo
 
 ## **Soulmate (Seelenverwandte)/Townsfolk**
 
-Verwandt mit Vigormortis: Du darfst jede Nacht eine Person wählen, der du deine ewige Seele geben willst. Wenn du wählst, stirbst du und verlierst deine Fähigkeit. Der Tod der ausgewählten Person löst keine Effekte mehr aus, aber erfährt stattdessen, dass sie/er von der Seelenverwandte ausgewählt wurde. Dein Alignment ändert sich nie. \[0 or 1 Poppy Snitch\]
+Verwandt mit Vigormortis: Du darfst jede Nacht (nicht die erste) eine Person wählen, der du deine ewige Seele geben willst. Wenn du wählst, stirbst du und verlierst deine Fähigkeit. Der Tod der ausgewählten Person löst keine Effekte mehr aus, aber erfährt stattdessen, dass sie/er von der Seelenverwandte ausgewählt wurde. Dein Alignment ändert sich nie. \[0 or 1 Poppy Snitch\]
 
 * alternative Namen: Esoteriker/in  
 * Eine ausgewählte Person löst bei ihrem Tod keine direkten Effekte mehr aus (z.B. der Verlust der Fähigkeit und das Auslösen anderer Fähigkeiten/Figuren wie die Grandmother, Klutz oder Saint). Das betrifft explizit nicht die Regeln, die den Zustand des Todes einer Person betreffen (z.B. als tote Person nicht nominieren oder abstimmen zu können). Solche Todeseffekte werden durch die Information ersetzt, dass die Seelenverwandte die Person ausgewählt hatte. (Die Benachrichtigung passiert meist in der Nacht. Story Teller darf das allerdings auch öffentlich ankünndigen, zumindest wenn die ausgewählte Person am letzten Tag stirbt und das Spiel fortsetzt, sollte es angekündigt werden). Personen können nur bei ihrem Tod erfahren, dass sie von der Seelenverwandte ausgewählt wurden.  
@@ -1481,10 +1511,13 @@ Alternative zum Zenomancer: Spieler/innen können sich durch Aufgaben, Errungens
   * ability specific achievements…  
 * Minigames: 
 
-## **Wanderer/Traveller**
+## **Travel Agent (Reiseberater/in)/Traveller**
 
-Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplett aussetzt (wie durch Trump). ~~Du kannst jede Figur auf dem Skript bekommen (außer Dämon, regelunkonforme und schon vorhandene Figuren).~~ Die Person kann nicht mehr ins Spiel eintreten, wenn maximal noch 4 Personen leben.
+Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplett aussetzt (wie durch Trump). Die Person kann nicht mehr ins Spiel eintreten, wenn weniger als 4 andere Personen leben. Es kann nur maximal 1 Person gleichzeitig das Spiel durch dich verlassen.
 
+* Die Reiseberaterin darf sich selbst auswählen  
+* Story Teller darf ankündigen, wer das Spiel verlässt.  
+* Wenn deine zuletzt gewählte Person nicht mehr ins Spiel kommt, wählst du niemanden in der nacht aus.  
 * Aus technischen Gründen geht das Aussteigen wohl nicht nachts, weil die Person sonst zufälligerweise die Nacht stören könnte, wenn sie das Zimmer wieder betreten würde. Beim Ein- und Aussteigen muss die Nacht kurzzeitig unterbrochen werden.
 
 ## **Mephisto/Minion**
@@ -1509,6 +1542,18 @@ Löst einmal im Spiel Vergiftung, Madness oder Alignment des Story Tellers aus. 
 * Die Madness muss den Spielzustand betreffen. Alles andere ist ungültig. Es darf insbesondere nicht beleidigend oder aggressiv sein.  
 * Mephisto-Madness/Vergiftung ist ein nützlicher Bluff für den Story Teller, wenn ein realer Atheist im Spiel ist. Der Story Teller kündigt an, Mephisto hätte ihn getroffen, um es den Spielenden schwerer zu machen, wenn das Dorf möglicherweise demnächst dahinter käme.  
 * Jinx mit Theist: Wenn Story Teller gegen die Regeln von Mephisto verstößt, gewinnt Mephisto am Ende des Spiels, selbst wenn Mephisto verlieren würde.
+
+## **Putschist/Traveller**
+
+In Nacht 1 oder 2, wähle eine Person (kein Traveller). Wenn die von dir gewählte Person stirbt, ist diese bis zum Ende des Spiels entlassen und übernimmt ab dem Tod das Story Telling vom bisherigen Story Teller. Die Person hat ihr Alignment/ihre Figur weiterhin, wenn das Spiel endet. Neue Story Teller können wie Traveller nominiert und exiliert werden. Wenn das passiert, verliert das Team mit gleichem Alignment zu Story Teller. Du wählst wieder 1 Person, wenn Story Teller gewechselt hat.
+
+* Neue Story Teller dürfen nicht die Regeln verletzten, sie dürfen nur das sagen, was auch die vorherige Story Teller sagen durften. Sie dürfen bei Fragen zur Spielmechanik nicht lügen (wie immer). Sie dürfen ausschließlich in selbstbezogenen Aussagen lügen (ihr eigenes Alignment, ihre Figur, was sie als Spieler gesehen oder gehört haben, etc.). Sie dürfen ausschließlich bei Story-Teller-Entscheidungen parteiisch sein. Wenn Regeln verletzt wurden, ist Story Teller verpflichtet, eine Korrektur zu machen bzw. den Fehler unwirksam zu machen.  
+* Wenn du exiliert wirst, wird deine zuletzte gewählte Person beim Tod nicht mehr Story Teller. Und es kann erste und neue Story Teller entscheiden, ob erste Story Teller als Story Teller weitermachen will. Alternativ stimmen alle Spieler/innen darüber ab, ob ursprüngliche Story Teller wieder übernimmt (wobei die Hälfte zustimmen muss und diese Abstimmung nicht wie eine Nominierung sondern wie eine Abstimmung zu einem Exil zählt). Story Teller kann sich ohne Putschist aber nicht mehr ändern. Wenn neue Story Teller beibehalten wird, wird diese zu Spielende weiterhin ihr Alignment und ihre Figur wiederbekommen (und als Spieler/in zählen), kann aber weiterhin exiliiert werden, wobei die Gegenseite in diesem Fall gewinnt.  
+* Wenn unerfahrene oder neue Story Teller Hilfe brauchen, können diese sich an erste Story Teller wenden. Erste Story Teller begleiten aktuelle Story Teller und können auf Fehler hinweisen. Interpretationssachen/Entscheidungen unterliegen allerdings aktuellen Story Teller.  
+* Neue Story Teller gewinnen/verlieren mit ihrem Team.  
+* Neue Story Teller können Fabled/Lorics nicht ändern. Diese werden ausschließlich vom ursprünglichen Story Teller bestimmt.  
+* Neue Story Teller können exiliert werden (wie ein Traveller). Wenn sie exiliert werden, gewinnt das Team mit entgegengesetztem Alignment.  
+* Neue Story Teller sollten vorsichtig vorgehen. Wenn das gegnerische Team merkt, dass sie schlecht behandelt werden, könnten diese ein Exil versuchen. Dafür müssen nur die Hälfte alle Spielenden dafür stimmen.
 
 ## **Prophet/Townsfolk**
 
@@ -1563,7 +1608,7 @@ Alternative zum Summoner: Es gibt 1 oder 2 Gilorax-Spieler/innen. 1 davon muss e
 
 Keine der Bösen wissen anfangs, ob sie Dämon oder Minion sind. Eine böse Person ist ein Dämon \+ Drunk-Minion, alle anderen sind ein Drunk-Demon \+ Minion. \[Für jeden möglichen Minion im Spiel muss es einen weiteren Dämon im Skript geben, also mindestens 5 Dämonen im Skript\]
 
-* Namenshintergrund: eine Bezeichnung, die die anfängliche Gefechtlosigkeit aber gleichzeitig das Gemetzel im bösen Team untermalt  
+* Namenshintergrund: der Dämonenlehrer lehrt die bösen Spielenden die Funktionsweise des Dämons kennen und diese zu unterscheiden.  
 * die Drunk-Demons können unterschiedlich sein.  
 * d.h. alle falschen Dämonen bekommen potentiell falsche Bluffs  
 * alle Bösen lernen die anderen Bösen als ihre Minions kennen.
@@ -1627,10 +1672,11 @@ Erweiterung von Greedy Guts+Ouroboros und Clairvoyant: Du siehst, welche Fabled/
 
 * Wenn es keine guten Spieler/innen mehr einen Dämon als Figur haben sollten, wird das Spiel wie ein gewöhnliches Spiel entschieden. Spieler/innen können durch eine Entfernung oder Veränderung der Figur ihre Dämonenfigur verlieren, lebend als auch tot.
 
-## **Roulette/Loric**
+## **Croupier/Fabled**
 
 Wann immer Story Teller selbst entscheiden muss, entscheidet ein Würfel. Es können für jede Fähigkeit Wahrscheinlichkeiten im Form von Mindestwürfelzahl zur Aktivierung jeden unsicheren Effekts festgelegt werden.
 
+* Namenshintergrund: der Croupier (= ein Casinomitarbeiter) bedient das Roulette  
 * Das erlaubt schlauen Leuten, stochastische Logik zu verwenden
 
 ## **Puzzledrunk/Loric**
@@ -1653,11 +1699,12 @@ Spieler/inen, die mindestens zwei Personen oder Sachen wählen sollen, müssen n
 
 ## **Fantasist (Fantast)/Fabled**
 
-Analogon zu Spirit of Ivory: Bis zu 3 nicht-dämonische offizielle Figuren können im Spiel sein, die nicht auf dem Skript sind. Die Lorics sind in der Begrenzung inbegriffen. Beliebig viele Fabled und Travellers können aber hinzugefügt werden.
+Analogon zu Spirit of Ivory: Bis zu 3 nicht-dämonische Figuren können im Spiel auftauchen, die nicht auf dem Skript sind. Die Lorics sind in der Begrenzung inbegriffen. Wenn eine Nicht-Skript-Figur im Setup ist, muss mindestens eine fremde Spieler/in davon erfahren, dass diese im Spiel ist.
 
 * Erlaubt eine beschränkte Zahl an Nicht-Skript-Charakteren in dem Spiel zu existieren  
-* manche Fähigkeiten können Spieler in bestimmte Figuren verwandeln, z.B. die Ärztin kann Figuren in Vagebunde und Ouroboros kann Figuren in Farmer verwandeln. Manche Spieler können in einen Drunk verwandelt werden (z.B. mit Loric Puzzledrunk).  
-* Für die Bösen sind aus Story Teller-Perspektive manchmal sehr spezielle Charaktere nützlich, z.B. der Recluse für ein Shredder-Minion oder die Scarlet Woman, selbst wenn diese nicht auf dem Skript stehen.  
+* manche Fähigkeiten können Spieler in bestimmte Figuren verwandeln, z.B. die Ärztin kann Figuren in Vagebunde und Ouroboros kann Figuren in Farmer verwandeln. Der Querdenker oder Showmaster kann Spieler/innen in einen Heretic verwandeln.  
+* Figuren wie die Grandmother oder Sickener können Nicht-Skript-Figuren in der ersten Nacht sehen.  
+* Für die Bösen sind aus Story Teller-Perspektive manchmal sehr spezielle Charaktere nützlich, z.B. die Scarlet Woman, selbst wenn diese nicht auf dem Skript stehen.  
 * Ein Atheist, Heretic oder Poppy Grower könnte hinzugefügt werden.  
 * Pit-Hag wird hiermit eingeschränkt und bekommt gleichzeitig die Erlaubnis, nicht-Skript-Figuren auszuwählen.  
 * Figuren, die vom Fabled Spoiler ausgeschlossen wurden, können können und dürfen weiterhin nicht im Spiel auftauchen.
