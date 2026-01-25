@@ -92,7 +92,7 @@ Lorics:
 - homebrew jinxes
 
   ```
-  Legionatic / Anarchist: The Anarchist *might* register as evil to Legion (instead of must).
+  Legionatic / Anarchist: The Anarchist *might* register as good to Legion.
   Legionatic / Spy: If a Legionatic has a drunk spy ability, they see no Legionatic characters in the grimoire but the Legionatics' drunk abilities plus 1 demon.
   Spy / Poppy Snitch: If the Poppy Snitch has their ability, the Spy does not see the Grimoire.
   Spy / Wicked: Both cannot be in play together.
