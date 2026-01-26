@@ -381,13 +381,13 @@
 	{
 		"id": "travelagent_trustmebro",
 		"image": "https:\/\/www.bloodstar.xyz\/p\/Elmar\/trust-me-bro\/travelagent_trustmebro.png",
-		"otherNightReminder": "If no person has the \"travel\" reminder, let them choose a player (even themself or Travellers). This person quits the game. If this would end the game, the player misregisters as quit. Add the \"travel\" reminder to this person's token. You might declare the quitting at dawn. They don't count as player anymore. They rejoin at dusk if there are at least 4 other alive non-traveller players. Then remove the \"travel\" reminder.",
+		"otherNightReminder": "If no person has the \"travel\" reminder, let them choose a player (even themself or Travellers). This person quits the game. Add the \"travel\" reminder to the quit person's token. If quitting would end the game, the game continues and all quit persons rejoin. You might declare the quitting at dawn. They don't count as player anymore. They rejoin at dusk if there are at least 4 other alive non-traveller players. Then remove the \"travel\" reminder.",
 		"reminders": [
 			"travel"
 		],
 		"name": "Travel Agent",
 		"team": "traveller",
-		"ability": "Each night*, choose 1 player (even Travellers): they (might) quit the game until next dusk where \u2265 4 other non-Travellers are alive. You can quit \u2264 1 person at the same time.",
+		"ability": "Each night*, choose 1 player (even Travellers): they quit the game until next dusk where ≥ 4 other non-Travellers are alive. You can quit ≤ 1 person at the same time.",
 		"attribution": "image: https:\/\/www.vectorstock.com\/royalty-free-vector\/door-icon-vector-13483248"
 	},
 	{
