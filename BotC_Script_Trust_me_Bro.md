@@ -96,10 +96,10 @@ Lorics:
   Legionatic / Spy: If a Legionatic has a drunk spy ability, they see no Legionatic characters in the grimoire but the Legionatics' drunk abilities plus 1 demon.
   Spy / Poppy Snitch: If the Poppy Snitch has their ability, the Spy does not see the Grimoire.
   Spy / Wicked: Both cannot be in play together.
-  Soulmate: The Soulmate ability is drunk for players who learnt a current demon (e.g. via minion info).
+  Soulmate: The Soulmate ability is drunk for players who learnt the demon (e.g. via minion info).
   Atheist: In an atheist game, the story teller manipulates ≤ 1 person's abilities, misregisters ≤ X players as evil minions/demons, fakes minion signals & has 1 demon ability. [X = regular # of evil]
   Alsaahir: The Alsaahir's guess applies to the actual character type, else (if incorrect) to the misregistered one.
-  Alsaahir / Legionatic: Alsaahir may guess the Townsfolk & Outsider players instead.
+  Alsaahir / Legionatic: With Legionatic in play, the Alsaahir may guess the Townsfolk & Outsider players instead.
   Puzzlemaster / Legionatic: The Puzzledrunk is not a Legion(atic). When the sober+healthy puzzlemaster guesses right, they learn a 3rd non-Legion player.
   Puzzlemaster: The Puzzlemaster bypasses misregistration. If the Puzzlemaster guesses themself, they learn *another* non-demon player.
   Plotter: Outsiders/Minions who don't know their character type cannot be in play with the Plotter. [Lunatic, Puzzledrunk]
