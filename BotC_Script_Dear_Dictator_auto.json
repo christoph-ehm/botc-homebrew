@@ -8,6 +8,7 @@
 			"shopkeeper_homebrew",
 			"fantasist_homebrew",
 			"vice_homebrew",
+			"doubleagent_homebrew",
 			"dusk",
 			"putschist_trustmebro",
 			"putin_trustmebro",
@@ -16,6 +17,7 @@
 			"sectarian_trustmebro",
 			"samurai_homebrew",
 			"toymaker",
+			"magician",
 			"minioninfo",
 			"demoninfo",
 			"bodyguard_trustmebro",
@@ -29,19 +31,21 @@
 			"pope_homebrew",
 			"punk_trustmebro",
 			"antifascist_trustmebro",
-			"cultleader",
 			"dowser_homebrew",
 			"tracker_trustmebro",
 			"psychic_trustmebro",
 			"sickener_trustmebro",
 			"dawn",
-			"sinisterfog_homebrew"
+			"sinisterfog_homebrew",
+			"centralist_trustmebro",
+			"terminator_trustmebro"
 		],
 		"otherNight": [
 			"dusk",
 			"travelagent_trustmebro",
 			"sleepwalker_homebrew",
 			"vice_homebrew",
+			"doubleagent_homebrew",
 			"putschist_trustmebro",
 			"sickener_trustmebro",
 			"instigator_trustmebro",
@@ -65,14 +69,22 @@
 			"bodyguard_trustmebro",
 			"romantic_homebrew",
 			"juggler",
-			"cultleader",
 			"dowser_homebrew",
 			"antifascist_trustmebro",
 			"tracker_trustmebro",
 			"psychic_trustmebro",
 			"dawn",
 			"sinisterfog_homebrew",
+			"centralist_trustmebro",
+			"terminator_trustmebro",
 			"shopkeeper_homebrew"
+		],
+		"bootlegger": [
+			"Deranged (State): $derangedstate_trustmebro",
+			"Sick (State): $sickstate_trustmebro",
+			"Unconscious (State): $unconsciousstate_trustmebro",
+			"Captive (State): $captivestate_trustmebro",
+			"Quit (State): $quitstate_trustmebro"
 		]
 	},
 	{
@@ -91,17 +103,8 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"cultleader",
 	{
 		"id": "dowser_homebrew",
-		"name": "_",
-		"team": "townsfolk",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "faustian1_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -117,6 +120,14 @@
 		"otherNightReminder": "_"
 	},
 	"exorcist",
+	{
+		"id": "faustian1_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
 	{
 		"id": "blabber_trustmebro",
 		"name": "_",
@@ -159,6 +170,7 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	"magician",
 	{
 		"id": "traitor_homebrew",
 		"name": "_",
@@ -232,7 +244,23 @@
 		"otherNightReminder": "_"
 	},
 	{
+		"id": "centralist_trustmebro",
+		"name": "_",
+		"team": "minion",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
 		"id": "sinisterfog_homebrew",
+		"name": "_",
+		"team": "minion",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "terminator_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -297,7 +325,15 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "vice_homebrew",
+		"id": "vice_trustmebro",
+		"name": "_",
+		"team": "traveller",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "doubleagent_trustmebro",
 		"name": "_",
 		"team": "traveller",
 		"ability": "_",
