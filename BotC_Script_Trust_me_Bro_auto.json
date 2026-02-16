@@ -5,10 +5,13 @@
 		"name": "Trust Me Bro!",
 		"almanac": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/almanac.html",
 		"firstNight": [
-			"dusk",
+			"puzzledrunk_trustmebro",
+			"rationalist_trustmebro",
 			"stormcatcher",
-			"trustmaker_trustmebro",
-			"barista",
+			"dusk",
+			"timeeater_trustmebro",
+			"muezzin_trustmebro",
+			"masterhora_trustmebro",
 			"plotter_trustmebro",
 			"polymath_trustmebro",
 			"poppysnitch_trustmebro",
@@ -18,13 +21,11 @@
 			"minioninfo",
 			"lunatic",
 			"pandemon_trustmebro",
-			"anarchist_trustmebro",
 			"soulmate_trustmebro",
 			"bully_trustmebro",
 			"eviltwin",
 			"scaremonger1_trustmebro",
 			"damsel",
-			"grandmother",
 			"dreamer",
 			"knight",
 			"bountyhunter",
@@ -36,8 +37,11 @@
 		],
 		"otherNight": [
 			"dusk",
+			"timeeater_trustmebro",
+			"harlot",
+			"muezzin_trustmebro",
+			"masterhora_trustmebro",
 			"trustmaker_trustmebro",
-			"barista",
 			"plotter_trustmebro",
 			"polymath_trustmebro",
 			"prosecutor_trustmebro",
@@ -51,11 +55,10 @@
 			"vortox",
 			"soulmate_trustmebro",
 			"bully_trustmebro",
-			"harlot",
 			"blabber_trustmebro",
+			"puzzledrunk_trustmebro",
 			"poppysnitch_trustmebro",
 			"damsel",
-			"grandmother",
 			"dreamer",
 			"bountyhunter",
 			"cultleader",
@@ -63,28 +66,21 @@
 			"chambermaid",
 			"dawn",
 			"leviathan",
-			"diabolus_trustmebro"
+			"diabolus_trustmebro",
+			"rationalist_trustmebro"
 		],
 		"bootlegger": [
-			"Collaborator (Fabled): On wakeup, players with minion or demon abilities might get a hint on request (also if drunk) showing ≥ 1 balanced choice. Players still decide on their own.",
-			"Apatheist (Fabled): Players (not outsiders) can choose without constraint. The story teller does the rest to fit the selection to the game's requirements.",
-			"Spoiler (Fabled): The story teller may declare a restriction of or hints about enabled characters/abilities before the game session. No Story Teller nomination with excluded Atheist.",
-			"Showmaster (Fabled): Whenever an outsider effect mentions their team to lose/win, the effect *might* instead turn the outsider into a Heretic and at least the would-be winners learn this.",
-			"Probationer (Fabled): 1 evil townsfolk/outsider turns good when someone else turns evil. [Spirit of Ivory is in play]",
-			"Patron (Fabled): Any player who chooses ≥ 2 people or things doesn't need to only choose distinct people or things.",
-			"Alien (Fabled): The Story Teller might not declare the character of the Traveller.",
-			"Puzzledrunk (Character): The Puzzlemaster's drunk player has or gets this character without knowing it. [Puzzlemaster in play, Sentinel in play] (This allows up to one illegal combination of characters such as atheist+pandemon or wicked+spy to be handed to players.)",
-			"Deranged (State): All terminal effects/events of your abilities on player states and all info is negated. The story teller interprets the negation such that it's detrimental or different from being prudent (normal).",
-			"Unconscious (State): You covertly register as dead. You cannot act at day or night. (No ability, no waking up, no nominating, no voting.)",
-			"Storm Caught: Recommended storm-caught characters: Soulmate, Polymath, Cult Leader, the only info character, a dangerous outsider (for the Vortox Knight info)",
-			"Homebrew: Faustian (Townsfolk), Adulterator (Townsfolk), Poppy Snitch (Townsfolk), Babbler (Townsfolk), Soulmate (Townsfolk), Wicked (Outsider), Puzzlemaster (Outsider), Maverick (Outsider), Prosecutor (Outsider), Anarchist (Outsider), Scaremonger (Minion), Bully (Minion), Plotter (Minion), Pandemon (Demon), Trustmaker (Fabled), Spirit of Irony (Fabled), Polymath (Loric)"
+			"Deranged (State): $derangedstate_trustmebro",
+			"Unconscious (State): $unconsciousstate_trustmebro"
 		]
 	},
+	"knight",
+	"bountyhunter",
 	"chambermaid",
 	"dreamer",
 	"cultleader",
 	{
-		"id": "faustian1_trustmebro",
+		"id": "adulterator_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -92,7 +88,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "adulterator_trustmebro",
+		"id": "faustian1_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -107,9 +103,6 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"bountyhunter",
-	"grandmother",
-	"knight",
 	{
 		"id": "blabber_trustmebro",
 		"name": "_",
@@ -120,29 +113,35 @@
 	},
 	"savant",
 	"alsaahir",
-	"sage",
-	"atheist",
 	{
-		"id": "poppysnitch_trustmebro",
+		"id": "rationalist_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"lunatic",
 	{
-		"id": "puzzlemaster_trustmebro",
+		"id": "puzzledrunk_trustmebro",
 		"name": "_",
-		"team": "outsider",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	"sage",
+	{
+		"id": "muezzin_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "anarchist_trustmebro",
+		"id": "poppysnitch_trustmebro",
 		"name": "_",
-		"team": "outsider",
+		"team": "townsfolk",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
@@ -155,8 +154,10 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	"lunatic",
+	"politician",
 	{
-		"id": "wicked_trustmebro",
+		"id": "masterhora_trustmebro",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -164,9 +165,17 @@
 		"otherNightReminder": "_"
 	},
 	"saint",
-	"damsel",
 	{
 		"id": "maverick_trustmebro",
+		"name": "_",
+		"team": "outsider",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	"damsel",
+	{
+		"id": "wicked_trustmebro",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -228,12 +237,17 @@
 		"otherNightReminder": "_"
 	},
 	"harlot",
+	{
+		"id": "timeeater_trustmebro",
+		"name": "_",
+		"team": "traveller",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
 	"butcher",
 	"beggar",
 	"scapegoat",
-	"voudon",
-	"bootlegger",
-	"stormcatcher",
 	"ferryman",
 	"doomsayer",
 	{
@@ -246,9 +260,65 @@
 	},
 	"sentinel",
 	{
-		"id": "trustmaker_trustmebro",
+		"id": "collaborator_trustmebro",
 		"name": "_",
 		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "apatheist_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "spoiler_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "showmaster_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "probationer_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "patron_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "alien_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "trustmaker_trustmebro",
+		"name": "_",
+		"team": "loric",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
@@ -260,5 +330,8 @@
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
-	}
+	},
+	"stormcatcher",
+	"pope",
+	"bootlegger"
 ]

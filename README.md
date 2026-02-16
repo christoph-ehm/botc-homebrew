@@ -4,4 +4,4 @@ Defining a character as Loric requires changing `"team": "fabled"` into `"team":
 
 I made a Browser Userscript to add features to the official Script tool (homebrew Jinxes, editable player table, Bloodstar synchronization) and create nice PDF exports of Homebrew Scripts, even if they are too large:
 
-<https://greasyfork.org/de/scripts/563389-botc-homebrew-script-helper/code>
+<https://greasyfork.org/de/scripts/563389-botc-homebrew-and-large-script-renderer>
