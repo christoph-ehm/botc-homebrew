@@ -366,6 +366,14 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	{
+		"id": "repairman_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
 	"gardener",
 	"hindu",
 	{
