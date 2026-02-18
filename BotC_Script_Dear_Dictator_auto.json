@@ -15,7 +15,7 @@
 			"magician",
 			"minioninfo",
 			"demoninfo",
-			"putin_trustmebro",
+			"warmonger_trustmebro",
 			"shredder_homebrew",
 			"loanshark_trustmebro",
 			"sectarian_trustmebro",
@@ -58,8 +58,8 @@
 			"faustian1_trustmebro",
 			"exorcist",
 			"princess",
-			"putin_trustmebro",
-			"trump_trustmebro",
+			"warmonger_trustmebro",
+			"dictator_trustmebro",
 			"shredder_homebrew",
 			"loanshark_trustmebro",
 			"sectarian_trustmebro",
@@ -268,7 +268,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "putin_trustmebro",
+		"id": "warmonger_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
@@ -276,7 +276,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "trump_trustmebro",
+		"id": "dictator_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
