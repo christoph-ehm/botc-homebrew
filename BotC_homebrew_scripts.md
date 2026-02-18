@@ -38,16 +38,16 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
 - Townsfolk
   - Dowser
   - [(Mayor)]
-  - (Princess) (interesting with the Trump)
+  - (Princess) (interesting with the Dictator)
   - [(King)] (replaced by Bodyguard)
   - [(Choirboy)] (replaced by Bodyguard)
   - [(Steward)] (replaced by Bodyguard)
   - Bodyguard
   - Pope
-  - (Magician) (fits to the Punk, Sickener, Sectarian, Terminator, Trump; a lighter version of the Poppy Grower)
+  - (Magician) (fits to the Punk, Sickener, Sectarian, Terminator, Dictator; a lighter version of the Poppy Grower)
   - [(Cult Leader)]
   - Instigator
-  - Antifascist (useful against Trump and the Loan Shark)
+  - Antifascist (useful against the Dictator and the Loan Shark)
   - Psychic (interacts with Dowser, King, Pope, Steward, Sectarian, Samurai, Faustian, Exorcist, Punk, drunk minions, demons, travellers)
   - Sectarian (interacts well with Anarchist and player state effects such as the Instigator)
   - Samurai*
@@ -57,7 +57,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Faustian*
   - (Juggler)*
   - (Exorcist)*
-  - Balloonatic (interesting with the Putin and Sinister Fog)
+  - Balloonatic (interesting with the Warmonger and Sinister Fog)
 
 - Outsider
   - [Prosecutor]
@@ -66,22 +66,22 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Anarchist
   - Romantic
   - Punk (interacts with the *-Townsfolk)
-  - Traitor (interesting interaction with Putin/Trump)
-  - Fan (interesting with Trump)
+  - Traitor (interesting interaction with the Warmonger/Dictator)
+  - Fan (interesting with the Dictator)
 
 - Minion
   - [Brute] (replaces the Devil's Advocate, for the Prosecutor)
   - Whisperer [fits to Sickener, Punk]
-  - Jailer [fits to Trump]
-  - Sinister Fog (fits to Trump, highly destructive with Putin)
+  - Jailer [fits to Dictator]
+  - Sinister Fog (fits to Dictator, highly destructive with Warmonger)
   - Tracker
   - Centralist (everyone gets a quota of 1 nomination, allows dead players to nominate an evil Twin Demon even if dead)
-  - Terminator (fits to Centralist, Punk, Samurai (who can kill the Terminator), interesting with Trump)
+  - Terminator (fits to Centralist, Punk, Samurai (who can kill the Terminator), interesting with Dictator)
 
 - Demon
   - Shredder
-  - Putin
-  - Trump
+  - Warmonger
+  - Dictator
   - Loan Shark
 
 - Traveller
@@ -97,9 +97,9 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Pope / Shredder: The Pope-protected player cannot be chosen for assassination (except if a Demon assassinates the self-protected Pope).
   - Pope / Punk: The Punk cannot get the Pope token.
   - Anarchist / Samurai: A Samurai player can only kill an Anarchist when the Samurai has another character that only counts as Outsider this game.
-  - Putin / Anarchist: If Putin chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
-  - Trump / Anarchist: The Anarchist *might* register as good to Trump.
-  - Trump / Travel Agent: Trump cannot be quit by other abilities.
+  - Warmonger / Anarchist: If the Warmonger chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
+  - Dictator / Anarchist: The Anarchist *might* register as good to Dictator.
+  - Dictator / Travel Agent: The Dictator cannot be quit by other abilities.
   - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play
 
 - Fabled
@@ -112,8 +112,8 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
 
 - Loric
   - Shopkeeper
-  - (Hindu) (useful due to Trump, Putin, Shredder)
-  - (Gardener) (required for Putin)
+  - (Hindu) (useful due to Dictator, Warmonger, Shredder)
+  - (Gardener) (required for Warmonger)
 
 # Wicked Wizardry
 

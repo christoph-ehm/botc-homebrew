@@ -1570,31 +1570,31 @@ Erweiterung vom Drunk: Du hast eine betrunkene Fähigkeit (gut oder böse) und e
   * Golem (nominating the Punk)  
   * Virgin (nominated by the Punk)
 
-## **Putin/Demon**
+## **Warmonger (Kriegstreiber)/Demon**
 
-Wählt jede Nacht (ab der 2.) eine Person aus. Angefangen mit dieser Person bis einschließlich zur nächsten bösen Person sterben alle Spieler. Du kannst dich nicht selbst töten. \[+1 böse Spieler/in (kein Dämon)\]
+Wählt jede Nacht (ab der 2.) eine Person aus. Angefangen mit dieser Person bis einschließlich zur nächsten bösen Person sterben alle Spieler. Du kannst dich nicht selbst töten.
 
 * alternativer Name: Hegemoniac  
+* Beta-Name: “Putin”  
 * Namenshintergrund: Dieser Dämon will das Dorf mit Bombenangriffen auslöschen. (Bzw. mit Selbstmordanschlägen.)  
-* Alternativer Name: Mullah  
-* Wenn es zwei mögliche Böse gibt, die gleich nah sind, wird immer die böse Person ausgewählt, deren Konsequenz besser für das böse Team ist. Wenn z.B. ein Dämon und ein Minion die nächsten bösen Personen sind (gleich weit entfernt), dann wird der Minion ausgewählt.  
+* Wenn es zwei mögliche Böse gibt, die gleich nah sind, wird immer die böse Person ausgewählt, die das Spiel verlängert oder ausgeglichener für das Spiel ist. Wenn z.B. der Kriegstreiber und ein Minion die nächsten bösen Personen sind (gleich weit entfernt), dann wird der Minion ausgewählt.  
 * Nur wenn eine böse Person ausgewählt wurde, stirbt genau eine Person.  
 * Zu Beginn des Spiels gibt es eine zusätzliche böse Person, die einen beliebigen Figurtyp haben kann, bis auf Dämon. Es kann also \+1 Minion oder \+1 Outsider im Spiel sein
 
-## **Trump/Demon**
+## **Dictator (Diktator)/Demon**
 
-Alle guten Spieler/innen, deren Nominierungsabstimmung durchgeht, werden sofort exiliert statt später exekutiert. Alle wissen, dass du Trump bist. Solange ≥ 1 andere Spielperson mit *Minionfigur* lebt (Minionfähigkeit reicht nicht), stirbt die Person, die Trump angreift statt Trump. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie und verlässt das Spiel. (Es wird nur der Tod angekündigt aber nicht, dass jemand das Spiel verlässt.)
+Alle guten Spieler/innen, deren Nominierungsabstimmung durchgeht, werden sofort exiliert statt später exekutiert. Alle wissen, dass du der Diktator bist. Solange ≥ 1 andere Spielperson mit *Minionfigur* lebt (Minionfähigkeit reicht nicht), stirbt die Person, die den Diktatorn angreift statt der Diktator selbst. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie und verlässt das Spiel. (Es wird nur der Tod angekündigt aber nicht, dass jemand das Spiel verlässt.)
 
-* Namensherkunft: dieser Dämon will, dass alle von ihm wissen, der sehr deutlich offenbart, wer in seinem Team ist und wer nicht und der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten (Spielpersonen mit Minionfigur) wird Trump gegen alles beschützt, sodass diese Trump nicht sterben kann, außer wenn sein Gefolge tot ist.  
-* alternativer Name: Narcissist (Narzisst)  
-* Trump kann nur im Spiel sein, wenn mindestens 2 Spielenden gegenüber Trump erscheinen, eine Minionfigur zu haben. (Eine Minionfähigkeit – wie beim Alchemist oder beim Plague Doctor – reicht nicht.)  
+* Namensherkunft: dieser Dämon will, dass alle von ihm wissen, der sehr deutlich offenbart, wer in seinem Team ist und wer nicht und der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten (Spielpersonen mit Minionfigur) wird die Person gegen alles beschützt, sodass diese der Diktator nicht sterben kann, außer wenn sein Gefolge tot ist.  
+* Beta-Name: “Trump”  
+* Der Diktator kann nur im Spiel sein, wenn mindestens 2 Spielenden gegenüber dem Diktatorn erscheinen, eine Minionfigur zu haben. (Eine Minionfähigkeit – wie beim Alchemist oder beim Plague Doctor – reicht nicht.)  
 * Spieler vom roten Team darf man auch Repulikaner nennen und Spieler vom blauen Team Demokraten.  
-* Bei einer Selbst-Exekution von Trump stirbt niemand und die Nominierungen sind vorbei.  
-* Die Person, die Trump exekutiert, stirbt stattdessen.  
-* Personen werden sofort exiliert, wenn die Nominationsabstimmung Erfolg hatte. So können beliebig viele gute exiliert werden.  
+* Bei einer Selbst-Exekution vom Diktator stirbt niemand und die Nominierungen sind vorbei.  
+* Die Person, die den Diktator exekutiert, stirbt stattdessen.  
+* Personen werden sofort exiliert, wenn die Nominationsabstimmung Erfolg hatte. So können beliebig viele Gute exiliert werden.  
 * Die Abstimmung funktioniert bei guten und bösen Spielpersonen wie sonst auch, nur die Bedingung und der Effekt der erfolgreichen Abstimmung ist bei den guten Spielpersonen neu. Bei guten Spielpersonen geht die Nomination nur durch, wenn mindestens 1 gute lebende Person dafür stimmte. Die Abstimmung hat Erfolg, wenn mindestens die Dafürstimmen ≥ 50% der Anzahl der Lebenden ausmacht oder alle lebenden Guten abgestimmt haben. Folglich können auch Vote Tokens für Nominationen beider Spielpersonen eingesetzt werden.  
 * Die Nominierungen enden, wenn es eine Exekution gab. (Z.B. beim Virgin.)  
-* Um den Trump zu begegnen, muss das blaue Team geschlossen für einander eintreten und sich nicht gegenseitig rausstimmen, aber alle zusammen gegen Mitglieder des roten Teams stimmen.
+* Um dem Diktator zu begegnen, muss das blaue Team geschlossen für einander eintreten und sich nicht gegenseitig rausstimmen, aber alle zusammen gegen Mitglieder des roten Teams stimmen.
 
 ## **Arsonist (Brandstifter)/Minion (Idee von Alex, Anna)**
 
@@ -1977,7 +1977,7 @@ Alternative zum Zenomancer: Spieler/innen können sich durch Aufgaben, Errungens
 
 ## **Travel Agent (Reiseberater/in)/Traveller**
 
-Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplett aussetzt (wie durch Trump). Die Person kann nicht mehr ins Spiel eintreten, wenn weniger als 4 andere Personen leben. Es kann nur maximal 1 Person gleichzeitig das Spiel durch dich verlassen.
+Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplett aussetzt (wie durch den Diktator). Die Person kann nicht mehr ins Spiel eintreten, wenn weniger als 4 andere Personen leben. Es kann nur maximal 1 Person gleichzeitig das Spiel durch dich verlassen.
 
 * Die Reiseberaterin darf sich selbst auswählen  
 * Story Teller darf ankündigen, wer das Spiel verlässt.  
