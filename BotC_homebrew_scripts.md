@@ -108,6 +108,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Apatheist
   - Spoiler
   - Fantasist
+  - Repairman (because of the many outsiders that could become evil)
 
 - Loric
   - Shopkeeper
@@ -173,7 +174,7 @@ The wizard is actually the ultimate bluffing weapon. Any inconsistencies or insi
   - Superhero
   - Probationer (in order to restrict the Hydra, Twin Demon, Punk, Buddha)
   - Fantasist (in order to restrict the Wishes)
-  - Ferryman
+  - (Ferryman)
 
 - Loric
   - Stranger (allows for getting clean info when wishes break havoc)

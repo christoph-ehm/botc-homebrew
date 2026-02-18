@@ -27,7 +27,13 @@ Outsider:
 - [Anarchist]
 - (Politician) (fits to Heretic, Atheist and may (double) claim the Saint, the Good Twin, the Goblin or the Puzzledrunk)
 - Wicked (Heretic)
-- (Damsel)
+- ++(Damsel) → modification ideas:
+  * Minions don't know that a Damsel is in play. (Minions never get informed or they might be informed when it is wrong.)
+  * 1 or all Townsfolk also start knowing the Damsel to be in play.
+  * Only 1 minion is informed and may guess the Damsel only at night even if dead.
+  * The Damsel has an additional unique Townsfolk ability for hiding. (Works when the Sentinel is in play.)
+  * The penalty is reduced. 1) The Damsel turns into a Heretic instead of making the Team lose. (Fabled Showmaster) 2) The Damsel loses alone, or 3) cannot vote, cannot nominate & cannot die anymore without good players noticing it. (This is the Bipartisan.)
+  * The Damsel turns into a Loric and any good player can get the Damsel role (not character), another player might get the Huntsman role (not character). The Huntsman role could also be made part of the Damsel ability (without Loric)
 - Maverick (Klutz) (interesting with Legion)
 - Prosecutor
 - [(Saint)] (might seem redundant with a Good Twin or Goblin instead, but its interaction with a politician and evil people is very unique)
@@ -88,6 +94,7 @@ Lorics:
 - [Introvert] (the Story Teller turns into a player with a secret character that gives info to those players who guess the character privately, a bit much)
 
 - (Pope) (fits to the Polymath, Puzzledrunk, Legionatic)
+- ++(Gardener) (to avoid that some players get roles like the Damsel they don't like)
 - (Stormcatcher)
   - Soulmate
   - Cult Leader
