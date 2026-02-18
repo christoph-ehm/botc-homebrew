@@ -102,11 +102,10 @@ Verwandt mit dem Alsaahir: "Wenn noch ≥ 4 Personen leben: Errate, wer alles in
 
 ## **Buddha/Outsider**
 
-Verwandt mit Schwachkopf/Amnesiac: Du bekommst in der ersten Nacht eine Figur gezeigt. Finde heraus, ob du zum aktuellen Zeitpunkt die korrekt funktionierende Fähigkeit der dir in der ersten Nacht gezeigten Figur wirklich hast. (Es könnte ansonsten eine allgemein verschiedene Fähigkeit sein.) Du könntest als deine Buddha-Figur erscheinen oder als die Figur deiner Fähigkeit, die du wirklich hast. Du darfst einmal im Spiel raten (ja/nein). Wenn du richtig liegst, dann wirst du am Ende ein Gewinner sein und bleibst von nun an nüchtern (wirst nicht betrunken, aber womöglich vergiftet); wenn falsch, wirst du bis zum Ende des Spiels betrunken sein. Das gilt selbst, wenn Buddha tot ist. \[+ ≤1 Spieler/in mit beliebigem Figurtyp → das ist die Buddha-Spieler/in\]
+Verwandt mit Schwachkopf/Amnesiac: Du bekommst in der ersten Nacht eine Figur gezeigt. Finde heraus, ob du zum aktuellen Zeitpunkt die korrekt funktionierende Fähigkeit der dir in der ersten Nacht gezeigten Figur wirklich hast. (Es könnte ansonsten eine allgemein verschiedene Fähigkeit sein.) Du könntest als deine Buddha-Figur erscheinen oder als die Figur deiner Fähigkeit, die du wirklich hast. Du kannst eine Spielperson im Setup ersetzten, wenn du gleiches Alignment und Figur/Fähigkeit wie eine zu ersetzende Spielperson hast (sonst bist du Outsider). Du darfst einmal im Spiel raten (ja/nein), ob du die Fähigkeit der gezeigten Figur hast. Wenn du richtig liegst, dann wirst du am Ende ein Gewinner sein (das Spiel endet noch nicht) und bleibst von nun an nüchtern (wirst nicht betrunken, aber womöglich vergiftet); wenn falsch, wirst du bis zum Ende des Spiels betrunken sein. Das gilt selbst, wenn Buddha tot ist. \[+ ≤1 Spieler/in mit beliebigem Figurtyp → das ist die Buddha-Spieler/in\]
 
 * Namensherkunft: Buddha ist eine Person, die laut dem Buddhismus zur eigenen Erleuchtung fand  
 * Die Buddha-Figur ist ähnlich zu Schizo aber mit Belohnung. Der Buddha könnte eine echte Fähigkeit haben, die aber anders ist als die zu ratende.  
-* Wenn Buddha aufersteht, verschwindet die Betrunkenheit und in diesem Fall darf Buddha nochmal raten. (Das weiß Buddha natürlich nicht.)  
 * Andere gute oder böse Personen (wie Dämonen) können deine Figur auch haben, wenn du diese als Buddha angezeigt bekamst (unabhängig, ob du sie wirklich oder nicht hast). Mit dem richtigen Erraten zerstörst du den Bluff oder erhältst einen gültigen Double Claim.
 
 ## **Cyborg/Minion**
@@ -736,8 +735,8 @@ Du erfährst in der ersten Nacht, welche Anfangsinformationen im Spiel sind, nic
 
 Gibt Story Teller oder einer Spieler/in für eine Tag/Nacht-Runde im Spiel eine Travellerfigur (spätestens am letzten Tag). Das Alignment wird zum Zeitpunkt des Entstehens als das Team festgelegt, das weit hinten liegt.
 
-* Dead players may also get the ability  
-* The new Traveller ability is declared but you don’t need to declare who uses it.
+* Tote Spielpersonen können auch die Fähigkeit bekommen.  
+* Die neue Traveller-Fähigkeit wird angekündigt. Es muss nicht angekündigt werden, welche Person diese bekommt.
 
 ## **Pandemon (Pandämon)/Demon**
 
@@ -889,7 +888,7 @@ Durch zusätzliche Exekutionen können am Tag Nächte übersprungen werden. Alle
 Du invertierst eine Zustandsänderung global. Du erfährst welche. Wenn du stirbst, erfahren alle, welche Zustandsänderung du negiert hast. Du könntest ein Townsfolk oder Minion sein. Du wirst dennoch exiliert, wenn die meisten Lebenden dafür stimmen.
 
 * Wenn der Verdreher ein Townsfolk oder Minion ist, könnte dieser auch beliebig so behandelt werden, d.h. die Travellerfigur ist geheim (oder nicht), sie zählt ins Setup (oder nicht), hat eine Townsfolk/Minion-Fähigkeit (oder nicht), erfährt als Minion von anderen Minions (oder nicht), wird als Townsfolk- oder Minion-Typ oder Figur angezeigt (oder nicht). Verschiedene Aspekte können je nach Belieben von Story Teller wie Townsfolk/Minion behandelt werden, während andere Aspekte nicht erfüllt sind.  
-* Für Nominierungen/Anklagen wird der Traveller immer als Traveller behandelt.  
+* Die Nominierung/Exilierung funktioniert wie beim Vizen.  
 * Wenn gut, könnte der Verdreher nur 1 Townsfolk sein. Wenn böse, könnte der Verdreher nur 1 Minion sein.  
 * Wenn jemand sich wünscht, diesen Traveller zu sein, sollte diese Figur auch wie ein Traveller behandelt werden.  
 * Story Teller sucht sich aus, welche Zustandsänderung es ist.  
@@ -927,6 +926,7 @@ Spielpersonen stimmen während den Nominierungen darüber ab, dass eine Person i
 * Diese Rolle muss nicht als Traveller angekündigt werden und kann heimlich im Spiel sein und einen Townsfolk oder Minion ersetzten und als solcher erscheinen.  
 * Der Story Teller entscheidet die Zuweisung des Vorgesetzten (bitte nur Personen, die sich nicht zerfleischen oder sich missbräuchlich verhalten). Die Person, die diesen Traveller bekommt, muss einverstanden sein mit dieser Figur. Es ist eine Herausforderung.  
 * Damit es noch besser wirkt, sollten die anderen Leute nicht wissen, dass es einen Doppelagent gibt.  
+* Die Nominierung funktioniert wie beim Vizen.  
 * Während der ersten Nacht lernen Doppelagent und Vorgesetzte sich kennen.  
 * Der Doppelagent sollte sich anstrengen, der Vorgesetzten zu gefallen, weil dieser sonst aus Riskoabwägung oder Getäuschtheit den Doppelagent lieber direkt einsperren lässt. Dann kann man nicht mehr nominieren und nicht mehr abstimmen. Der Doppelagent versucht, dem eigenem Team Informationen zuzustecken oder den Vorgesetzten zu täuschen, ohne erwischt zu werden. Es passiert nichts, solange Story Teller und Vorgesetzte es nicht mitkriegen.  
 * Durch die eigenen Anstrengungen hat ein Doppelagent die Chance, sowohl für die Vorgesetzte als auch für das eigene Team vorteilhaft zu arbeiten. Je nachdem, welches Team gewinnt, sollte die Vorgesetzte sich verhalten, um das Alignment des Gewinnerteams zu haben.  
@@ -1072,9 +1072,11 @@ In der ersten Nacht siehst du 1 gute Person, die von Spieler/innen mit böser T�
 
 ## **Stranger (Fremde)/Loric**
 
-Jede Nacht sieht eine Spieler/in zwei andere Spieler/innen, deren erscheinendes Alignment entweder verschieden ist oder deren echte Figur sich in verschiedenen Abschnitten vom Skript befinden. \[Es gibt mindestens 1 böse Townsfolk oder Outsider.\]
+Jede Nacht sieht eine Spieler/in zwei andere Spieler/innen, deren erscheinendes Alignment entweder verschieden ist oder deren echte Figur sich in verschiedenen Abschnitten vom Skript befinden. \[Es gibt mindestens 1 Townsfolk oder Outsider, der böse erscheint.\]
 
-* Traveller können auch mit einer anderen Spieler/in angezeigt werden. In diesem Fall ist das Alignment unterschiedlich.
+* Traveller können auch mit einer anderen Spieler/in angezeigt werden. In diesem Fall ist das Alignment unterschiedlich.  
+* Wenn kein Townsfolk oder Outsider böse ist, muss ein Townsfolk oder Outsider falsch als böse gegenüber dieser Fähigkeit erscheinen. Die Spielpersonen wissen nicht, ob eine falsch erscheinende Person hinzugefügt wurde.  
+* Story Teller wählt aus, welche Personen gezeigt werden und welche Person das erfährt. Story Teller kann die Spielpersonen sich allerdings ander Entscheidung beteiligen.
 
 Idee 2: Inspiration von Kevin, beliebige Personen werden zur Seamstress (Näherin): "Jede Nacht erfährt eine beliebige Person, welche Person im un-/gleichen Team oder von ungleichem Figurtyp sind wie eine dritte Person. (*Es gibt insgesamt eine Person ~~zwei Personen~~ aus demselben Team, die mit falschem Alignment erscheinen.)*"
 
@@ -1278,7 +1280,7 @@ Du erfährst zu Beginn, welcher Dämon im Spiel ist. Wähle jede Nacht eine bis 
 
 ## **Forensic (Forensiker/in)/Townsfolk**
 
-Alternative zu Vampirjäger: Erfährt jede Nacht die Figur von Personen, die mit ihrer Nominierung für durchgeführte Exekutionen verantwortlich sind. Kann jede Nacht (ab der zweiten) zusätzliche eine Person auswählen und erfährt, welche Figur für ihren Tod verantwortlich ist, wenn diese in der gleichen Nacht stirbt. Von den Figurinfos, die du bekommst, ist nur der Figurtyp korrekt.
+Alternative zu Vampirjäger: Erfährt jede Nacht die Figur von Personen, die mit ihrer Nominierung für tödliche Exekutionen verantwortlich sind. Kann jede Nacht (ab der zweiten) zusätzliche eine Person auswählen und erfährt, welche Figur für ihren Tod verantwortlich ist, wenn diese in der gleichen Nacht stirbt. Von den Figurinfos, die du bekommst, ist nur der Figurtyp korrekt. Die gesehene Figur ist aber falsch.
 
 ## **Inspector (Kommissar/in)/Loric**
 
@@ -1377,7 +1379,7 @@ Erweiterung von Traveller Barista: kann pro Nacht (ab der zweiten) falsche Regis
 
 ## **Quine/Loric**
 
-Der Logician als Loric. Jede Nacht sieht eine Spieler/in 1 Spieler/in, eine andere als letzte Nacht. Jede Spieler/in kann nur einmal im Spiel etwas sehen. Die Personen einigen sich zuvor mit einer Abstimmung, wer die Person sehen soll. Diese hat zu diesem Zeitpunkt eine spielbezogene Gemeinsamkeit mit Personen, die in vorherigen Nächten zu ihrem Zeitpunkt angezeigt wurden.
+Der Logician als Loric. Jede Nacht sieht eine Spieler/in 1 Spieler/in, eine andere als letzte Nacht. Jede Spieler/in kann nur einmal im Spiel etwas sehen. Die Personen können sich auch zuvor mit einer Abstimmung einigen, wer die Person sehen soll. Diese hat zu diesem Zeitpunkt eine spielbezogene Gemeinsamkeit mit Personen, die in vorherigen Nächten zu ihrem Zeitpunkt angezeigt wurden.
 
 ## **Psychatrist (Psychater/in)/Townsfolk**
 
@@ -1414,7 +1416,7 @@ Bestimme jede Nacht bis zur nächsten Nacht eine lebende Person (die Voodoo-Pupp
 
 ## **Guardian (Beschützer)/Traveller**
 
-Wähle eine Person. Alle Zustandsänderungen und Effekte, die dieser Person passieren würden (Exil, Tod, Vergiftung etc.), passieren dir stattdessen, aber nicht der Person. Eine Exekution deines Schützlings führt stattdessen zu deinem Exil.
+Wähle einmal im Spiel eine Person. Alle Zustandsänderungen und Effekte, die dieser Person passieren würden (Exil, Tod, Vergiftung etc.), passieren dir stattdessen, aber nicht der Person. Eine Exekution deines Schützlings führt stattdessen zu deinem Exil.
 
 * Damit kann man z.B. eine Person vor Betrunkenheit im Falle einer Minstrel schützen.  
 * Dein Schutz gilt solange bis du betrunken/vergiftet wurdest. Das heißt, wenn du gleichzeitig mit der geschützten Person betrunken wirst, wird der Schützling nicht betrunken. Erst, wenn du schon betrunken bist, gilt der Schutz nicht mehr.  
@@ -1726,17 +1728,17 @@ Wenn der Story Teller in der Nacht selbst eine Person wählen soll, wirst du gef
 * Dieser Minion bekommt einen Bluff, unabhängig vom Dämon.  
 * Beispiel: der Puzzlemaster ist im Spiel. Die Vize wählt aus, wer der Drunk sein soll, ohne zu wissen, dass sie/er den Drunk bestimmt.  
 * Wenn betrunken oder vergiftet, hat der Deputy keinen realen Einfluss.  
-* Der Story Teller entscheidet wieder selbst, wenn diese Figur defekt wird oder nicht mehr lebt
+* Der Story Teller entscheidet wieder selbst, wenn diese Figur defekt wird oder nicht mehr lebt  
+* Bei Nominierungen/Anklagen wird dieser Traveller immer exiliert (selbst, wenn er/sie einen Minion oder Townsfolk ersetzt).  Wenn eine Person den Traveller nominiert (wie einen Nicht-Traveller), ist das Erfolgskriterium der Abstimmung gleich mit dem von einer Nicht-Traveller-Spielperson. Allerdings findet das Exil sofort statt, wenn der Traveller den “about-to-die”-Status erhalten würde. Wenn der Traveller von einer beliebigen Person (tot oder lebend) als Traveller vermutet wird und explizit zu einem Exil aufruft, hat die Abstimmung Erfolg wie bei gewöhnlichen Travellern. Wenn so ein Aufruf zum Exil für eine Nicht-Traveller-Spielperson passiert, wird die Abstimmung keinen Erfolg haben.
 
 ## **Executioner (Henker)/Minion|Demon**
 
-entscheidet einmal im Spiel, ob eine vom Dämon zum Töten ausgewählte Person gegen Herausgabe ihrer Figur an dich am Leben bleiben darf. Wenn niemand mehr Spielende exekutiert hast, als du, gewinnt dein Team (trotzdem). Du hast eine Info-Townsfolk-Fähigkeit und könntest als gute Townsfolk-Figur erscheinen.
+~~entscheidet einmal im Spiel, ob eine vom Dämon zum Töten ausgewählte Person gegen Herausgabe ihrer Figur an dich am Leben bleiben darf.~~ Wenn niemand mehr Spielende exekutiert hast, als du, gewinnt dein Team (trotzdem, selbst wenn das andere Team gewonnen hätte). Du hast eine Info-Townsfolk-Fähigkeit und könntest als gute Townsfolk-Figur erscheinen. Du könntest auch als Dämon verwendet werden. In diesem Fall wählt Story Teller 1 Person pro Nacht zum Töten aus.
 
 * alternativer Name: Ravannavar \[Re-wanne-warr\]: ist ein faschistischer *Tyran*, der das Dorf beseitigen will, um Herrscher eines Reichs aus “vollkommene Lebewesen” zu werden. Namensträger ist eine Figur aus dem Spiel Indivisible. Der Name ist ein Palindrom von Ravana, welches den Wunsch nach Umkehrung der Wirklichkeit symbolisiert.  
 * Alternativer Name: Ultran, Terrorist  
 * Der Henker könnte von Story Teller angesagt werden, im Spiel zu sein.  
-* Der Henker kann auch als Dämon verwendet werden. In diesem Fall wählt Story Teller 1 Person pro Nacht zum Töten aus, über welche der Henker die Entscheidung Leben oder Figur trifft.  
-* Der Henker sollte als Townsfolk oder gut erscheinen, wenn   
+* Der Henker sollte in speziellen Momenten als Townsfolk oder gut erscheinen, hauptsächlich, wenn Figuren **scharfe** Informationen über den Henker abfragen. Bei unscharfen Informationen kann man die Erscheinung häufiger korrekt lassen.  
 * Optional: die Henker-Gewinnregel gilt erst, wenn am Ende nur noch ≤ 3 Personen leben.  
 * Jinx Heretic/Wicked: Wenn der Henker mit dem Heretic/Frevler im Spiel ist, wird der Henker immer angesagt und fängt mit gutem Alignment an, ohne es zu wissen.  
 * Jinx Ghoul: Der Ghul sieht den Henker nicht in der Dämoneninfo. (Sonst könnte dieser zu einfach die Verantwortung (am Tag) für Exekutionen auf den Henker verschieben.)  
@@ -1865,14 +1867,14 @@ Wann immer ein Outsider-Effekt sagt, dass das Team des Outsiders verliert, *kön
 
 * die Anzahl der Heretics im Spiel sind allgemein nicht beschränkt. Es können beliebig viele sein.
 
-## **Ambivalent (Ambivalente)/Outsider**
+## **Ambivalent (Ambivalente)/Traveller**
 
 Du hast nachts eine andere Figur (und Fähigkeit) als tagsüber, weißt aber welche. Du hast das Alignment der Nachtfigur, erscheinst tagüber als das Alignment der Tagfigur.
 
-* The Ambivalent has 2 non-traveller characters.  
+* Die Ambivalente hat 2 Nicht-Traveller-Figuren.  
 * On the first night, the Ambivalent gets to know their day character, their night character and their alignment (which is chosen according to the night character). The Ambivalent may replace any type of character: Townsfolk, Outsider, Minion or even the Demon. They are treated exactly like a player of the character type that they replace.  
 * The Ambivalent \*might\* register as Traveller, i.e. they don't replace a player of non-Traveller type. Only in this case, the players know that the Ambivalent player has the Ambivalent character and is a Traveller.  
-* Nominations?  
+* Nominierungen funktionieren so wie beim Vizen.  
 * The Ambivalent character is like a "background character". The Ambivalent's 2 characters count as actual character during their respective day or night phase. The day alignment however might be misregistration. This means, these characters count towards all game rules, also the winning condition. If the Ambivalent Demon dies, the game would end, if no other Demon is in play.  
 * The queried character of the Ambivalent depends on the time of the character-querying trigger. The undertaker's query triggers at the execution (at day), while a Ravenskeeper's query triggers when being demon-killed (at night). If the query-trigger or query-condition happens at day, the day character is queried (even if the info is only obtained at night). If it happens at night, the night character is triggered (even if the info is only obtained at day).  
   * Without further clarification or if undefined, the trigger of querying happens when the ability is used. E.g. when the Artist just asks about the alignment of the Ambivalent player, it is automatically interpreted as the alignment at the moment.  
@@ -1958,7 +1960,7 @@ Alternative zum Zenomancer: Spieler/innen können sich durch Aufgaben, Errungens
     * Neuroboter (2 Münzen): verändere den Zustand einer Person für einen Tag und eine Nacht. Über diese Zeit kann sich ihr Zustand nicht ändern. Nach der Zeit wird der Zustand wieder wie davor.  
     * Zeitloch (3 Münzen): Wähle 1 Person. Deine und ihre Fähigkeiten funktionieren doppelt in dieser Nacht. (Ihr könntet 2-mal so häufig aufwachen wie sonst, die Effekte addieren sich.)  
 * Achievements:  
-  * Rate öffentlich, welcher Spieler die Figur X hat. (Möglicherweise Minion oder Outsider)  
+  * Rate öffentlich, welcher Spieler die Figur X hat. (Möglicherweise Minion oder Outsider). Bzw. errate einen Minion oder einen Outsider. Du kannst nur einmal raten.  
   * Überlebe 1 Double-Claim und mache einen zweiten.  
   * Cause a state change X for a player who Y\!  
   * Obtain info X from your ability\!  
@@ -2145,7 +2147,7 @@ Wann immer Story Teller selbst entscheiden muss, entscheidet ein Würfel. Es kö
 
 ## **Puzzledrunk/Townsfolk**
 
-Du erscheinst als eine andere Figur gegenüber allen Spielpersonen einschließlich dir selbst. Diese darf im Spiel sein, muss aber nicht. Das heißt, du glaubst, dass du diese Figur bist. Ihre Fähigkeit ist aber betrunken. Jede Spielperson kann einmal raten, selbst der Puzzledrunk zu sein. Wenn du öffentlich (während den Nominierungen) rätst erfährst du in der nächsten Nacht, wenn es richtig ist, wer der Dämon ist, sonst irgendeine beliebige Person (aber nicht die ratende Person selbst).
+Du hast eine andere betrunkene Figur, die sonst nicht im Spiel ist. Das heißt, du glaubst, dass du diese Figur bist. Ihre Fähigkeit ist aber betrunken. In Nacht 1 erfährt eine gute Person, dass die Puzzledrunk im Spiel ist. Diese Person darf einmal  im ganzen Spiel erraten, welche Person es ist (es könnte auch sie selbst sein). Wenn du öffentlich (während den Nominierungen) rätst erfährst du in der nächsten Nacht, wenn es richtig ist, wer der Dämon ist, sonst eine falsche Person (aber nicht die ratende Person selbst).
 
 * Der Puzzledrunk erscheint als die Figur, den Figurtyp und das Alignment der von ihr/ihm zu Beginn gesehenen Figur während dem Spiel (nicht aber für das Setup). Der Spielerzustand des Puzzledrunk und die Betrunkenheit der Fähigkeit sind unabhängig voneinander, also für gewöhnlich ist der Puzzledrunk nüchtern. Wenn der Puzzledrunk betrunken oder vergiftet ist und dann rät, ist ihre/seine Information betrunken und der einmalige Versuch wurde verbraucht.  
 * Die Information vom Raten kann entweder manuell bei privatem Raten abgefragt werden (vor den Nominationen) oder wird in der Nacht gezeigt, wenn öffentlich während den Nominationen geraten wurde. Diese Antwort kann aber nur gegeben werden, wenn man nicht bereits tot ist. Der Dämon kann theoretisch Spielpersonen töten, bevor sie nachts die Info bekommen.  

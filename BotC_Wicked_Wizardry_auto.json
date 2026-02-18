@@ -2,93 +2,100 @@
 	{
 		"id": "_meta",
 		"author": "Christoph",
-		"name": "Dear Dictator",
+		"name": "Wicked Wizardry",
 		"almanac": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/almanac.html",
 		"firstNight": [
-			"shopkeeper_homebrew",
-			"fantasist_homebrew",
-			"vice_homebrew",
-			"doubleagent_homebrew",
+			"dazzler_homebrew",
+			"doubleagent_trustmebro",
+			"ambivalent_trustmebro",
+			"prevaricator_trustmebro",
+			"bipartisan_trustmebro",
+			"executioner_homebrew",
 			"dusk",
-			"putschist_trustmebro",
-			"toymaker",
-			"magician",
+			"stranger_homebrew",
+			"quine_trustmebro",
+			"introvert_trustmebro",
+			"spellcaster_trustmebro",
+			"witcher_homebrew",
+			"tyrant_trustmebro",
+			"villagegargoyle_trustmebro",
+			"alchemist",
+			"buddha_homebrew",
+			"murderer_trustmebro",
+			"logician_trustmebro",
+			"conspirator_homebrew",
 			"minioninfo",
+			"twindemon_trustmebro",
+			"maniac_trustmebro",
 			"demoninfo",
-			"putin_trustmebro",
-			"shredder_homebrew",
-			"loanshark_trustmebro",
-			"sectarian_trustmebro",
-			"samurai_homebrew",
-			"bodyguard_trustmebro",
-			"anarchist_trustmebro",
-			"romantic_homebrew",
-			"traitor_homebrew",
-			"fan_trustmebro",
-			"jailer_trustmebro",
-			"whisperer_trustmebro",
-			"instigator_trustmebro",
-			"pope_homebrew",
+			"patroness_trustmebro",
+			"agitator_trustmebro",
+			"sorcerer_trustmebro",
+			"wizard",
 			"punk_trustmebro",
-			"antifascist_trustmebro",
-			"dowser_homebrew",
-			"tracker_trustmebro",
-			"psychic_trustmebro",
-			"sickener_trustmebro",
+			"smartypants_trustmebro",
+			"mentalist_homebrew",
+			"survivor_homebrew",
+			"kindergardener_trustmebro",
 			"dawn",
-			"sinisterfog_homebrew",
-			"centralist_trustmebro",
-			"terminator_trustmebro"
+			"steelfzkin_trustmebro",
+			"president_trustmebro",
+			"genie_homebrew"
 		],
 		"otherNight": [
-			"doubleagent_homebrew",
+			"witcher_homebrew",
+			"murderer_trustmebro",
+			"probationer_trustmebro",
+			"doubleagent_trustmebro",
+			"guardian_homebrew",
 			"dusk",
-			"travelagent_trustmebro",
-			"sleepwalker_homebrew",
-			"vice_homebrew",
-			"putschist_trustmebro",
-			"sickener_trustmebro",
-			"instigator_trustmebro",
-			"traitor_homebrew",
-			"fan_trustmebro",
-			"whisperer_trustmebro",
-			"jailer_trustmebro",
-			"pope_homebrew",
-			"toymaker",
+			"stranger_homebrew",
+			"quine_trustmebro",
+			"introvert_trustmebro",
+			"prevaricator_trustmebro",
+			"spellcaster_trustmebro",
+			"careworker_trustmebro",
+			"tyrant_trustmebro",
+			"ambivalent_trustmebro",
+			"villagegargoyle_trustmebro",
+			"logician_trustmebro",
+			"conspirator_homebrew",
+			"agitator_trustmebro",
+			"sorcerer_trustmebro",
+			"wizard",
 			"faustian1_trustmebro",
-			"exorcist",
-			"princess",
-			"putin_trustmebro",
-			"trump_trustmebro",
-			"shredder_homebrew",
-			"loanshark_trustmebro",
-			"sectarian_trustmebro",
-			"samurai_homebrew",
+			"patroness_trustmebro",
+			"maniac_trustmebro",
+			"balloonatic_trustmebro",
+			"ker_trustmebro",
+			"twindemon_trustmebro",
+			"hydra_trustmebro",
+			"steelfzkin_trustmebro",
+			"bipartisan_trustmebro",
 			"blabber_trustmebro",
 			"punk_trustmebro",
-			"bodyguard_trustmebro",
-			"romantic_homebrew",
-			"juggler",
-			"dowser_homebrew",
-			"antifascist_trustmebro",
-			"tracker_trustmebro",
-			"psychic_trustmebro",
+			"forensic_homebrew",
+			"mentalist_homebrew",
+			"survivor_homebrew",
+			"pastor_trustmebro",
+			"kindergardener_trustmebro",
 			"dawn",
-			"sinisterfog_homebrew",
-			"centralist_trustmebro",
-			"terminator_trustmebro",
-			"shopkeeper_homebrew"
+			"hindu",
+			"buddha_homebrew",
+			"genie_homebrew",
+			"president_trustmebro",
+			"executioner_homebrew"
 		],
 		"bootlegger": [
+			"Anti (State): $antistate_trustmebro",
 			"Deranged (State): $derangedstate_trustmebro",
 			"Sick (State): $sickstate_trustmebro",
-			"Unconscious (State): $unconsciousstate_trustmebro",
-			"Captive (State): $captivestate_trustmebro",
-			"Quit (State): $quitstate_trustmebro"
+			"Captive (State): $captivestate_trustmebro"
 		]
 	},
+	"alchemist",
 	{
-		"id": "antifascist_trustmebro",
+		"id": "genie_homebrew",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -96,7 +103,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "bodyguard_trustmebro",
+		"id": "murderer_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -104,24 +111,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "dowser_homebrew",
-		"name": "_",
-		"team": "townsfolk",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "samurai_homebrew",
-		"name": "_",
-		"team": "townsfolk",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	"exorcist",
-	{
-		"id": "faustian1_trustmebro",
+		"id": "pastor_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -137,17 +127,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "pope_homebrew",
-		"name": "_",
-		"team": "townsfolk",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	"princess",
-	"juggler",
-	{
-		"id": "instigator_trustmebro",
+		"id": "faustian1_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -155,7 +135,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "sectarian_trustmebro",
+		"id": "patroness_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -163,16 +143,79 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "psychic_trustmebro",
+		"id": "forensic_homebrew",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"magician",
 	{
-		"id": "traitor_homebrew",
+		"id": "smartypants_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "survivor_homebrew",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "logician_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "kindergardener_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "maniac_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "balloonatic_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "villagegargoyle_trustmebro",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "mentalist_homebrew",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "witcher_homebrew",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -180,7 +223,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "fan_trustmebro",
+		"id": "wicked_trustmebro",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -188,7 +231,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "anarchist_trustmebro",
+		"id": "bipartisan_trustmebro",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -204,7 +247,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "romantic_homebrew",
+		"id": "conspirator_homebrew",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -212,15 +255,16 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "sickener_trustmebro",
+		"id": "buddha_homebrew",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	"wizard",
 	{
-		"id": "whisperer_trustmebro",
+		"id": "executioner_homebrew",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -228,7 +272,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "jailer_trustmebro",
+		"id": "agitator_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -236,7 +280,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "tracker_trustmebro",
+		"id": "sorcerer_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -244,7 +288,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "centralist_trustmebro",
+		"id": "president_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -252,7 +296,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "sinisterfog_homebrew",
+		"id": "tyrant_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -260,15 +304,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "terminator_trustmebro",
-		"name": "_",
-		"team": "minion",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "putin_trustmebro",
+		"id": "hydra_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
@@ -276,7 +312,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "trump_trustmebro",
+		"id": "twindemon_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
@@ -284,7 +320,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "loanshark_trustmebro",
+		"id": "ker_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
@@ -292,7 +328,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "shredder_homebrew",
+		"id": "steelfzkin_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
@@ -300,7 +336,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "travelagent_trustmebro",
+		"id": "ambivalent_trustmebro",
 		"name": "_",
 		"team": "traveller",
 		"ability": "_",
@@ -308,24 +344,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "sleepwalker_homebrew",
-		"name": "_",
-		"team": "traveller",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	"bishop",
-	{
-		"id": "putschist_trustmebro",
-		"name": "_",
-		"team": "traveller",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "vice_trustmebro",
+		"id": "prevaricator_trustmebro",
 		"name": "_",
 		"team": "traveller",
 		"ability": "_",
@@ -340,10 +359,48 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"ferryman",
-	"toymaker",
+	{
+		"id": "careworker_trustmebro",
+		"name": "_",
+		"team": "traveller",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "guardian_homebrew",
+		"name": "_",
+		"team": "traveller",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "spellcaster_trustmebro",
+		"name": "_",
+		"team": "traveller",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
 	{
 		"id": "spoiler_trustmebro",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "superhero_homebrew",
+		"name": "_",
+		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "probationer_trustmebro",
 		"name": "_",
 		"team": "fabled",
 		"ability": "_",
@@ -358,31 +415,39 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	"ferryman",
 	{
-		"id": "apatheist_trustmebro",
-		"name": "_",
-		"team": "fabled",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "repairman_trustmebro",
-		"name": "_",
-		"team": "fabled",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	"gardener",
-	"hindu",
-	{
-		"id": "shopkeeper_homebrew",
+		"id": "stranger_homebrew",
 		"name": "_",
 		"team": "loric",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	{
+		"id": "quine_trustmebro",
+		"name": "_",
+		"team": "loric",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "introvert_trustmebro",
+		"name": "_",
+		"team": "loric",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "dazzler_homebrew",
+		"name": "_",
+		"team": "loric",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	"hindu",
 	"bootlegger"
 ]
