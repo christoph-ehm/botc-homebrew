@@ -101,6 +101,8 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Dictator / Anarchist: The Anarchist *might* register as good to Dictator.
   - Dictator / Travel Agent: The Dictator cannot be quit by other abilities.
   - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play
+  - Repairman / Toy Maker: Evil may see each other if 3 ≥ good Townsfolk are in play.
+  - Centralist / Terminator: If the Terminator nominates and executes the Demon player when dead, the Terminator's winning condition triggers nevertheless.
 
 - Fabled
   - Ferryman
@@ -149,7 +151,7 @@ The wizard is actually the ultimate bluffing weapon. Any inconsistencies or insi
 - Minion
   - (Wizard)*
   - Executioner
-  - Agitator (fits to the Executioner)
+  - Agitator (similar to the Executioner)
   - Sorcerer* (replaces various Minions which affect or inspect 1 player or character per cycle)
   - President (replaces the Saint in Combination with the Alchemist)
   - Tyrant (turns every Townsfolk into an Outsider)
@@ -183,6 +185,19 @@ The wizard is actually the ultimate bluffing weapon. Any inconsistencies or insi
   - Dazzler
   - (Hindu) (people can get the Wizard when they die! Or they turn into a Traveller who can kill the Hydra.)
 
+- Jinxes
+  - Murderer / Punk: If the Murderer satisfies the condition by targeting the Punk, the Punk is assassinated.
+  - Faustian / Twin Demon: The Faustian acts on both Twin Demons independently.
+  - Faustian / Maniac: The Faustian replaces 1 choice of the Maniac if it does *not* kill the Faustian target.
+  - Tyrant / Bipartisan: If the Bipartisan is used by the Tyrant, it is declared and each Townsfolk player gets an independent anti or normal state.
+  - Alchemist / Tyrant: If the Alchemist has the Tyrant ability, the Alchemist is an Outsider, not a Townsfolk.
+  - Alchemist / President: If the Alchemist has the President ability, the Alchemist is an Outsider, not a Townsfolk.
+  - Alchemist / Executioner: If the Alchemist has the Executioner ability, the evil Executioner is also in play.
+  - Hydra / Murderer: The Murderer *character* may register as Slayer character to the Hydra.
+  - Hydra / Faustian: The Faustian *character* may register as Slayer character to the Hydra.
+  - Steelfzkin / Witcher: Steelfzkin related jinxes are hidden from abilities and cannot interact (including this jinx).
+  - Steelfzkin / Maniac: If the Steelfzkin is in play, the Maniac dies if the Maniac is guessed as a Demon (no matter their Demon ability).
+
 # Medieval Mischief
 
 Focuses on rules, truth and the supernatural, with prominently placed religious tones.
@@ -200,7 +215,6 @@ Focuses on rules, truth and the supernatural, with prominently placed religious 
   - Prodigy (gets stronger if more Townsfolk abilities are on the script)
   - Mute
   - Mummer
-  - Performer
   - Actor
 
 - Outsider
@@ -208,6 +222,8 @@ Focuses on rules, truth and the supernatural, with prominently placed religious 
   - Wicked
   - Romantic
   - Traitor
+  - Werwolf Alpha (can find the Romantic)
+  - Performer
 
 - Minion
   - Sinister Fog (fits to Redeemer and Saboteur)
@@ -325,7 +341,7 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
   - Gourmet
   - Detective
   - Actor
-  - Mentalist
+  - (Alchemist)
   - Demographer
   - Clairvoyant
   - Biologist
@@ -340,11 +356,11 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
 
 - Minion
   - Voodoo Master
-  - Executioner
+  - Hacker (fits to the Clairvoyant, Witcher, Kala)
   - Glitcher
   - Neurohacker
   - Medusa
-  - (Boffin)
+  - Spin Doctor (originally Boffin)
 
 - Demon
   - Kala
@@ -371,3 +387,67 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
   - Petrifier
   - (Matron) (helps a lot with validating behaviour conditions (from a story teller point of view) by preventing private talks)
   - Suppressor (fits to the Immortal and Inspector)
+
+- Jinxes
+  - Alchemist / Spin Doctor: If the Alchemist has the Spin Doctor ability, they are an Outsider, not a Townsfolk.
+
+## Imppreposterous Syncretastrophy (Synaesthetic Ideology)
+
+Alignment, Level changes and Metagaming included.
+
+- Townsfolk
+  - choose a Townsfolk character according to Whale Buffet
+  - Farmer
+  - If you die from the Demon, the story teller chooses for the Demon player who gets drunk and must choose players to balance the game.
+  - You learn the number of abilities for some "categories" that are in play. (Protection, attack, info, effects, winning condition.)
+  - Chatterbox: Game actions are commented by the story teller in a story-telling way, revealing indirectly what happened during the night or the day (but only the fictional entities, never associating the players in physical reality). (The Huntsman chose the Damsel → "Congratulations to the lucky couple who celebrated their marriage last night. A Damsel of honor fell in love with a strong Huntsman who rescued her from her dungeon.")
+
+- Outsider
+  - Vagrant
+  - you get a new character instead of dying but you register as dead towards the ending condition.
+
+- Minion
+  - You add a Loric to the game that only you know
+  - You add a Jinx to the game that only you know
+  - One or all players kill an alive otherwise dead neighbour instead of the actual target (whenever they attack, execute or kill)
+    - if it is only 1, you might choose who.
+  - Alive players win if they lose and lose if they win, even if you are dead. It does not affect dead players.
+    - e.g. choose 1 good player at night 1 for who this happens. They don't learn about this until you tell them.
+    - Minions cannot change the character of the Demon into a non-Demon, as long as this ability holds. (E.g. the Pit-Hag.)
+  - Mephisto
+
+- Demon
+  - choose a known or official Demon character. The Story Teller declares ≤ 4 Demons that could be in play. Others cannot.
+  - choose 2 or 3 players who get deranged. If no-one dies from them, 1 of them dies instead at dawn.
+  - Follower: 2 players start being haunted. Each night, a haunted player ("you") has to choose another player to be haunted. If this player already is hunted, you die, otherwise you get haunted again if this chosen player has died. Evil players know who are haunted. You register as a different in-play character to different players.
+  - Each day, curse 1 player. If a player points at a cursed player at night, one of both dies. The curse of a player only goes away if the cursed player has died. (Therefore, it can only go away for dead players when the diey again, e.g. after resurrection.) (A player who cannot wake at night is more likely to die than one who does.) The Demon may also choose themself in which case they Demon never dies. Minions are less likely to die than good characters.
+
+- Lorics
+  - Pope
+  * everyone has the same character in addition (which is declared)
+  * everyone gets a new character (of Level 1?) instead of dying
+    - game ends, if ≥ 2/3 of players are evil or if no demon character is in play anymore. (Or based on reaching a certain level.)
+  * evil minions and demons get an additional Townsfolk character who gets info about evil players, instead of Minion Info or Demon Info
+    - Clockmaker
+    - Chef
+    - Noble
+    - Shugenja
+    - Investigator
+    - Magician
+    - Flower Girl
+    - High Priestess
+    - Towns Crier
+    - Ogre (1 player gets your start alignment if your chosen player has opposite alignment)
+  * Every person plays multiple or N players (all of who you know)
+    - you get 1 point for each player's win at the end
+    - alignment changes
+  * Everyone has multiple or N lives
+    - Every player gets to know how many lives they have when it changes.
+  * Everyone has multiple or N *characters* (not just abilities)
+  * Everyone gets N-times a new character instead of dying
+    - of the same character type
+    - of a different character type → Demon lives only once, except if someone else gets Demon before.
+  * Noone knows their alignment, only another player person who is in their team and one who isn't
+  * Everyone has a Level. (Level System)
+    - instead of killing, there are points?
+  * There are N alignments

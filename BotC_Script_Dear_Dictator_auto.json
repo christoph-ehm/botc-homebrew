@@ -268,14 +268,6 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "warmonger_trustmebro",
-		"name": "_",
-		"team": "demon",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
 		"id": "dictator_trustmebro",
 		"name": "_",
 		"team": "demon",
@@ -293,6 +285,14 @@
 	},
 	{
 		"id": "shredder_homebrew",
+		"name": "_",
+		"team": "demon",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "warmonger_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",

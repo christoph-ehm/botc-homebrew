@@ -23,7 +23,7 @@
 			"scaremonger1_trustmebro",
 			"bully_trustmebro",
 			"eviltwin",
-			"damsel",
+			"victim_trustmebro",
 			"dreamer",
 			"knight",
 			"bountyhunter",
@@ -59,7 +59,7 @@
 			"puzzledrunk_trustmebro",
 			"maverick_trustmebro",
 			"poppysnitch_trustmebro",
-			"damsel",
+			"victim_trustmebro",
 			"dreamer",
 			"bountyhunter",
 			"cultleader",
@@ -173,9 +173,16 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"damsel",
 	{
 		"id": "wicked_trustmebro",
+		"name": "_",
+		"team": "outsider",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "victim_trustmebro",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",

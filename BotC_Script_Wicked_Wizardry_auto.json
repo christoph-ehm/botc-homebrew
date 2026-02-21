@@ -223,7 +223,15 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "wicked_trustmebro",
+		"id": "conspirator_homebrew",
+		"name": "_",
+		"team": "outsider",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "buddha_homebrew",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -247,15 +255,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "conspirator_homebrew",
-		"name": "_",
-		"team": "outsider",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "buddha_homebrew",
+		"id": "wicked_trustmebro",
 		"name": "_",
 		"team": "outsider",
 		"ability": "_",
@@ -272,15 +272,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "agitator_trustmebro",
-		"name": "_",
-		"team": "minion",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "sorcerer_trustmebro",
+		"id": "tyrant_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -296,7 +288,15 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "tyrant_trustmebro",
+		"id": "agitator_trustmebro",
+		"name": "_",
+		"team": "minion",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "sorcerer_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
