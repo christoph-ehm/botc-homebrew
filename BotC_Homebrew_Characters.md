@@ -121,18 +121,20 @@ Jedes mal, wenn du öffentlich behauptest, eine Fähigkeit zu haben, dann erhäl
 
 ## **Witcher (Hexer)/Outsider**
 
-Erfährt in der ersten Nacht, welche Verhexungen von Anfang an aktiviert sind, aufgrund denen beteiligten Figuren also im Spiel sein müssen. Du bekommst gesondert einen ausgedachten Jinx vom Story Teller oder einen existierenden gezeigt. Wenn du stirbst, aktiviert sich dieser Jinx, falls ausgedacht, oder entfernt sich, falls schon existierend, was deinem Team schadet.
+Du bekommst eine besondere Verhexung vom Skript oder eine ausgedachte Verhexung vom Story Teller gezeigt. Wenn du stirbst, aktiviert sich dieser Jinx, falls dieser noch nicht aktiviert ist, oder wird negiert, falls dieser schon aktiv ist, was deinem Team schadet.
+
+* In der Ursprungsversion hatte der Witcher noch alle aktiven Verhexungen im Spiel gesehen.
 
 ## **Romantic (Romantiker)/Outsider**
 
-Gegenteil vom Mayer: Du verlierst, wenn du zu Spielende noch lebst. Kann nicht von Dämonenfähigkeiten oder Lycanthrope/Werwolf getötet werden. Ist Damsel und Querdenker.
+Gegenteil vom Mayer: Du verlierst, wenn du zu Spielende noch lebst. Kann nicht von Lycanthrope/Werwolf getötet werden. Ist Verfolgte und Querdenker.
 
 * Beispiel 1: der Politiker blufft vor andern Guten den Romantiker, nominiert sich, wird exekutiert und ihr Tod verhilft dem bösen Team damit zum Sieg (z.B. mittels Folgetote durch andere Fähigkeiten oder als Good Twin). Der Politiker gewinnt.  
 * Beispiel 2: Der Romantiker behauptet, in einen guten Dämon verwandelt worden zu sein. Er nominiert sich selbst und wird exekutiert. Am Ende verliert er, weil das Böse gewinnt.  
 * Beispiel 3: Der [Werwolf Alpha](#werwolf-alpha/outsider) greift den Romantiker an. Romantiker stirbt nicht. Nach Konfrontation wird der Romantiker exekutiert. Team gut gewinnt, der Romantiker damit auch.  
 * Beispiel 4: Boomdandy blufft den Romantiker, um dem Spiel ein schnelles Ende zu bereiten. Oder: Alchemist mit Saint-Boffin blufft den Romantiker, um exekutiert zu werden und durch den eigenen Tod die Exekution des Dämons zu ermöglichen.  
 * Beispiel 5: 1 Dämon, 1 Minion und 1 Romantiker bleiben übrig. Der Romantiker kann nicht mehr gewinnen.  
-* Der Romantiker kann von Nicht-Dämonen getötet werden, z.B. vom Lycanthrope.  
+* Der Romantiker kann von der Lycanthrope-Fähigkeit getötet werden.  
 * interessante Interaktion:  
   * Romantiker als roter Hering der Wahrsagerin  
   * als böser Townsfolk des Bounty Hunters  
@@ -199,12 +201,13 @@ Story Teller wählt jede Nacht eine Person, die eine persönliche Frage vom Stor
 * “Ich bin durchsetzungsfähig.”  
 * “Ich kann besser denken als anpacken.”
 
-## **Performer (Darsteller)/Townsfolk|Minion**
+## **Performer (Darsteller)/Outsider**
 
 Du erfährst eine Figur, von der niemand sonst weiß, dass sie nicht im Spiel ist. Wenn du jemanden am Ende des Spiels überzeugt hast, diese gezeigte Figur zu sein (die du nicht bist), gewinnst du. Du darfst dafür Spielzustand-bezogene Signale, Nachrichten oder Meldungen durch den Story Teller gegenüber einzelnen anderen oder allen erscheinen lassen, sowohl am Tag als auch in der Nacht.
 
 * Story Teller darf beliebig ablehnen, spiel-unverwandte oder unangebrachte Signale, Nachrichten oder Meldungen zu senden.  
-* perfekte Interaktion: Nightwatchman
+* perfekte Interaktion: Nightwatchman  
+* Du kannst ein guter Townsfolk oder ein böser Outsider sein.
 
 ## **Platitudinarian (Phrasendrescher)/Fabled**
 
@@ -482,9 +485,10 @@ Abwandlung von Butler: Wähle in der ersten Nacht 3 Personen für das gesamte Sp
 
 ## **Clairvoyant (Hellseherin)/Townsfolk**
 
-Wähle nachts eine (lebende) Person aus. Das deaktiviert ihre Jinxes (verhexte Interaktionen mit anderen Figuren) bis zur nächsten Abenddämmerung. Soul Purifiers können nicht das böse Alignment bekommen, selbst wenn sie als dieses erscheinen. Du siehst jede Nacht alle Jinxes, die aktiv sind, nach deiner Aktion.
+Erfährt jede Nacht, wie viele Verhexungen aktiv im Spiel sind. Wähle nachts eine (lebende) Person aus. Das deaktiviert ihre Jinxes (verhexte Interaktionen mit anderen Figuren) bis du das nächste mal wählst. Hellseherinnen gewinnen nur, wenn das gute Team gewinnt, selbst wenn sie böse sind. Du siehst jede Nacht die Anzahl aktiver Verhexungen, nach deiner Auswahl. \[≥ 1 aktive Verhexung\]
 
-* zu mächtig für das böse Team. Die Jinxes dienen dazu, unfaire Kombinationen von Figuren in Spezialfällen zu regeln. Z.B. ist die Damsel vergiftet und Dämon \+ Magician werden vom Grimoire entfernt, wenn ein Spy im Spiel ist. In manchen Fällen fügen Jinxes nur einen Spielmodus hinzu, z.B. bei einem Alchemist-Spy (Jinxes werden über den Fabled Djinn aktiviert.)
+* zu mächtig für das böse Team. Die Jinxes dienen dazu, unfaire Kombinationen von Figuren in Spezialfällen zu regeln. Z.B. ist die Damsel vergiftet und Dämon \+ Magician werden vom Grimoire entfernt, wenn ein Spy im Spiel ist. In manchen Fällen fügen Jinxes nur einen Spielmodus hinzu, z.B. bei einem Alchemist-Spy (Jinxes werden über den Fabled Djinn aktiviert.)  
+* Verhexungen sind erst aktiv, wenn auch deren beteiligte Figuren bzw. Fähigkeiten im Spiel sind. Daher kann die Clairvoyant eine starke Fähigkeit sein.
 
 ## **Ouroboros/Demon**
 
@@ -542,9 +546,9 @@ Du hast N ≥ 2 Townsfolk- und N-2 Outsider-Figur, ausgewählt von Story Teller.
 
 ## **Polymath (Tausendsassa)/Loric**
 
-Erweiterung von Alchemist: Ein gutr Outsider ist die Tausendsassa, die davon weiß und folgendes kann: Wähle jede Nacht eine beliebige Figur (Townsfolk oder Minion), dessen Fähigkeit du diese Nacht nutzen willst. Am Tag darfst du auch maximal eine beliebige Fähigkeit nutzen (Townsfolk oder Minion). Wenn du in einem Nacht+Tag-Zyklus 2-mal eine Fähigkeit aussuchst, könnte die zweite oder eine Fähigkeit danach zu einem übersteuerten Zustand führen (übersteuert \= betrunken oder verwirrt, je nachdem, was dem gegnerischen Team mehr hilft). Dein Personenzustand beeinflusst deine ausgewählte Fähigkeit sowie deine gewöhnliche Outsiderfähigkeit. Du zählst als Townsfolk für das Setup, bist aber eine Outsider-Figur und erscheinst auch immer als dieser Outsider. Der Dämon und andere Böse *könnten* erfahren, welcher Outsider die Tausendsassa ist. Zusätzlich erscheinst du als böse, startest aber immer als gut. \[+0/+1 böse Spieler/in (kein Dämon)\]
+Erweiterung von Alchemist: Ein Townsfolk ist die Tausendsassa, die in Nacht 1 zum Outsider wird, die davon weiß und folgendes kann: Wähle jede Nacht eine beliebige Figur (Townsfolk oder Minion), dessen Fähigkeit du diese Nacht nutzen willst. Am Tag darfst du auch maximal eine beliebige Fähigkeit nutzen (Townsfolk oder Minion). Wenn die Anzahl an schon genutzten Fähigkeiten gleich der Zykluszahl (Nachtzahl bzw. Tageszahl) ist, könnte eine weitere genutzt Fähigkeit zu einem übersteuerten Zustand führen (übersteuert \= betrunken oder verwirrt, je nachdem, was dem gegnerischen Team mehr hilft). Dein Personenzustand beeinflusst deine ausgewählte Fähigkeit sowie deine gewöhnliche Outsiderfähigkeit. Du zählst als Townsfolk für das Setup, bist aber eine Outsider-Figur und erscheinst auch immer als dieser Outsider. Der Dämon und andere Böse *könnten* erfahren, welcher Outsider die Tausendsassa ist. Zusätzlich erscheinst du als böse, startest aber immer als gut. \[+0/+1 böse Spieler/in (kein Dämon)\]
 
-* Story Teller darf die Auswahl von Fähigkeiten verhindern und darum beten, etwas anderes zu wählen. Das sollte passieren, um die Bluffbarkeit des Polymaths durch entweder gute oder böse Figuren zu erhalten, also rückwirkend verbrauchte Fähigkeiten (z.B. eine Virgin, wenn man schonmal nominiert wurde, ein Golem, wenn die Tausendsassa schonmal nominiert hatte, oder Ähnliches) nicht zuzulassen, auch keine Bestätigung von Fähigkeiten einer Person, die ohne Polymath nicht möglich wären und keine andere Bestätigungsmöglichkeit des Polymath mittels Fähigkeiten. Die Tausendsassa sollte wissen, wenn sie eine Fähigkeit nicht wählen kann oder darf. (Nur wenn sie/er versucht, ohne Absprache mit Story Teller spontan am Tag eine Fähigkeit zu beschwören, kann es schief gehen und Story Teller darf nichts dazu sagen.) Das gilt gleichermaßen für Fähigkeiten im und außerhalb dem Skript. Auch Minion-Fähigkeiten, die nicht mehr im Spiel sein können, sollten nicht erlaubt werden. Ausnahmen sind möglich in speziellen Fällen, wenn die Guten hilfslos wären und potentiell sonst verlieren würden, bzw. stark im Nachteil sind. (Das bessere Team sollte dennoch gewinnen\!)  
+* Story Teller darf die Auswahl von Fähigkeiten verhindern und darum beten, etwas anderes zu wählen. Das sollte passieren, um die Bluffbarkeit des Polymaths durch entweder gute oder böse Figuren zu erhalten, also rückwirkend verbrauchte Fähigkeiten (z.B. eine Virgin, wenn man schonmal nominiert wurde, ein Golem, wenn die Tausendsassa schonmal nominiert hatte, oder Ähnliches) nicht zuzulassen, auch keine Bestätigung von Fähigkeiten einer Person, die ohne Polymath nicht möglich wären und keine andere Bestätigungsmöglichkeit des Polymath mittels Fähigkeiten. Die Tausendsassa sollte wissen, wenn sie eine Fähigkeit nicht wählen kann oder darf. (Nur wenn sie/er versucht, ohne Absprache mit Story Teller spontan am Tag eine Fähigkeit zu beschwören, kann es schief gehen und Story Teller darf nichts dazu sagen.) Das gilt gleichermaßen für Fähigkeiten im und außerhalb dem Skript. Auch Minion-Fähigkeiten, die nicht mehr im Spiel sein können, sollten nicht erlaubt werden.  
 * Wenn du im Spiel bist, weiß der möglicherweise Dämon davon, außer wenn es unfair wäre, den Outsider zu können (Heretic oder Damsel z.B.). Schließlich bekommt sie/er (und potentiell andere böse Spielenden) den Outsiderhinweis zu dir.  
 * Einschränkung: du darfst nie das Grimoire sehen und nie den Dämon ändern, selbst wenn du eine dazu passende gute oder böse Fähigkeit auswählst.  
 * Wie beim Wunderkind erklärt, werden nur Personen betrunken/vergiftet. Fähigkeiten ändern sich nur in Folge dessen, dass eine Person Kontrolle über Fähigkeiten verliert.  
@@ -759,15 +763,16 @@ Du kannst einmal pro Nacht töten. Du hast zusätzlich alle im Spiel befindliche
 
 ## **Copycat (Spiegler)/Townsfolk**
 
-Wenn du am Tag den Verlust von Fähigkeiten verantwortest, erfährst du in der Nacht von wem und wähle eine Person, zu deren Klon die erste Person wird, solange bis der Spiegler wieder geweckt wird. Das funktioniert nur, wenn beide Personen im gleichen Team sind. Der Spiegler trägt die Verantwortung für die Handlungen des Klons.
+Wenn du am Tag den Verlust von Fähigkeiten verantwortest, erfährst du in der Nacht von wem und wähle eine andere Person, zu deren Klon die erste Person wird, solange bis der Spiegler wieder geweckt wird. Das funktioniert nur, wenn beide Personen im gleichen Team sind. Der Spiegler trägt die Verantwortung für die Handlungen des Klons.
 
 * Ein Klon ist wie eine komplette aber unabhängige Kopie des Originals. Zum Zeitpunkt der Erschaffung wird alles kopiert: Zustand, Eigenschaften (Alignment, Figur) und Fähigkeiten. Der Klon sieht, wie das Original gehandelt hat und kann auswählen.  
-* Sobald der Spiegler tot ist oder erneut geweckt würde, wandelt sich der Klon zurück zu davor  
-* Unterschied zwischen Verantwortung und ausgeführte Handlungen ist, dass die Handlungen unter fremder Verantwortung (selbst bei gestohlenen Fähigkeiten) dennoch mit dem eigenen Spielerzustand (wie beim Spiegler) passieren, während übertragene Handlungen auch unter dem fremden Spielzustand (wie beim Drahtzieher) stattfinden.  
-* Idee 1: suche dir einen Aspekt aus, der sich überträgt  
-* Idee 2: die Aspekte werden auf die zweite Person kopiert oder verschoben  
-* Idee 3: die Aspekte ersetzen oder addieren sich zu entsprechenden Aspekten der Zielperson  
-* Idee 4: Möglichkeit, die Wahl zu ändern
+* Sobald der Spiegler tot ist oder einen neuen Klon versucht zu machen, wandelt sich der bisherige Klon zurück zu davor  
+* Unterschied zwischen übertragener Verantwortung und übertragener ausgeführter Handlung ist, dass die Handlungen unter fremder Verantwortung (selbst bei gestohlenen Fähigkeiten) dennoch mit dem eigenen Spielerzustand passieren (wie beim Spiegler), während ausgeführte Handlungen bei einer Übertragung unter dem fremden Spielzustand (wie beim Drahtzieher) stattfinden.  
+* Klonungsideen:  
+  * Idee 1: suche dir einen Aspekt aus, der sich überträgt  
+  * Idee 2: die Aspekte werden auf die zweite Person kopiert oder verschoben  
+  * Idee 3: die Aspekte ersetzen oder addieren sich zu entsprechenden Aspekten der Zielperson  
+  * Idee 4: Möglichkeit, die Wahl zu ändern
 
 ## **Sectarian (Sektenmitglied)/Townsfolk**
 
@@ -914,6 +919,14 @@ Spielpersonen stimmen während den Nominierungen darüber ab, dass eine Person i
 * Wenn eine Person die Nominierung gewinnt, die zuvor bereits die Figur der letzten Gewinnerperson bekommen hat, gibt diese ihre alte Figur weiter (nicht die geborgte). Diese könnten direkt die zurückgegebene Figur der vorherigen Person überschreiben.  
 * Nach der Gewinnen der Nomination erfolgt eine zweite Abstimmung, ob dieselbe Person exekutiert werden soll. In dieser Abstimmung werden keine Vote Tokens verbraucht und es müssen die Hälfte aller Abstimmungsberechtigten dafür stimmen.  
 * Für die Exekution sind diejenigen abstimmungsberechtigt, die für die Nomination gestimmt hatten.
+
+## **Spin Doctor (Meinungsmacher)/Minion**
+
+Erweiterung vom Boffin: Alle Spielpersonen erscheinen als **Figuren** vom (Anfangs-)Alignment gegensätzlich zu dir, könnten zudem auch als dieses Alignment erscheinen. Eine Spielperson aus deinem Team hat auch die entsprechende Fähigkeit, erscheint aber mit richtigem Alignment. Die Bösen wissen, mit welcher Figur sie erscheinen.
+
+* Minions und Dämonen erscheinen als nicht im Spiel befindliche Townsfolk oder Outsider, oder Townsfolk und Outsiders erscheinen als Minions oder Dämonen.  
+* Nach dem Tod verschwindet der Effekt für Minions.  
+* Für das gute Team ist es fair, wenn es Figuren sind, die sich leicht entlarven lassen oder die zusätzlich Outsider sind, die es nicht geben kann.
 
 # Soziale Rollen (Sozialverhalten, Simulationen)
 
@@ -1363,8 +1376,14 @@ Jede Nacht, wähle 1 Spieler/in. Der Dämon weiß, was du wählst. Wenn niemand 
 
 Kombination aus Librarian, Investigator, Washerwoman, Sage-Info und Balloonist-Info: Du erfährst in der ersten Nacht 2 Spielpersonen, deren Figurtyp sich unterscheidet und erfährst, dass eine von diesen beiden eine bestimmte Fähigkeit oder Figur hat.
 
-* Der Klugscheißer sollte normalerweise nicht von einer Dämonfigur erfahren, außer wenn das böse Team äußerst stark ist, wenn der Klugerscheißer betrunken/vergiftet ist oder wenn es mehrere Spielpersonen mit Dämonenfähigkeit gibt (die Wahnsinnige, Zwillingsdämon, Buddha or der offizielle Legion).  
-* 
+* Der Klugscheißer sollte normalerweise nicht von einer Dämonfigur erfahren, außer wenn das böse Team äußerst stark ist, wenn der Klugerscheißer betrunken/vergiftet ist oder wenn es mehrere Spielpersonen mit Dämonenfähigkeit gibt (die Wahnsinnige, Zwillingsdämon, Buddha or der offizielle Legion).
+
+## **Hacker/Minion**
+
+Alternative zum Pit-Hag. Du erfährst jede Nacht (nicht die erste), welche Verhexungen im Spiel sind. Wünsche dir danach einen Jinx, der durch eine Spieländerung aktiv oder inaktiv werden soll. Story Teller versucht das Spiel minimal zu verändern, um den Wunsch zu erfüllen. Dabei könnten andere Jinxes mitaktiviert oder entfernt werden. Die Jinx-Regeln selbst können nicht verändert und nicht direkt an- oder ausgestellt werden.
+
+* Die Spielveränderung verändert nicht das Alignment der Figur. Eine Spielperson mit guter Figur hat weiterhin eine gute Figur, während eine Spielperson mit böserer Figur eine böse Figur weiterhin spielt.  
+* Jinx Alchemist: Der Alchemist wählt jede Nacht 1 Verhexung und erfährt, ob dieser aktiv ist oder nicht. Keine weiteren Informationen.
 
 # Schutzrollen (reduziert/verhindert Effekte)
 
@@ -1635,11 +1654,11 @@ Alternative zum Slayer: Du erfährst zu Beginn eine Bedingung. Einmal im Spiel, 
 
 ## **Ker/Demon**
 
-Jede Nacht (nicht Nacht 1), tötest du alle guten Spielenden, die deine Spielereigenschaften mit ihrer Fähigkeit in der letzten Nacht oder am letzten Tag erkannt haben. Sonst könnte 1 Spieler/in, ausgewählt von Story Teller, sterben.
+Jede Nacht (nicht Nacht 1), tötest du zwischen 1 und allen guten Spielenden, die deine Spielereigenschaften mit ihrer Fähigkeit in der letzten Nacht oder am letzten Tag erkannt haben. Sonst könnte 1 Spieler/in, ausgewählt von Story Teller, sterben.
 
 * Namensherkunft: Ker ist die Personifikation des gewaltsamen Todes in der griechischen Mythologie. Die Namensgebung hat selbst etwas Allegorisches: Wer den Tod sieht oder erkennen kann, muss wohl schon vor dem Tod stehen.  
 * Die Ker wacht regulär nicht auf, außer für Dämoneninfo in Nacht 1\. Story Teller könnte die Ker allerdings aufwachen lassen, um ihre/seine Meinung einzuholen, wen sie gerne auswählen wollen würde, falls keine Lebenden die Ker erkannt haben sollten. Diese Auswahl muss gar nichts bedeuten und kann komplett ignoriert werden.  
-* Erkennung bedeutet, dass eine gute Fähigkeit (teilweise) **eine Verbindung** zwischen **tatsächlichen** Spielereigenschaften von Ker und der Spieler/in von Ker gesehen oder festgestellt hat.  
+* Erkennung bedeutet, dass eine gute Fähigkeit (teilweise) **eine Verbindung** zwischen **tatsächlichen** Spielereigenschaften von Ker und der Spieler/in von Ker gesehen oder festgestellt hat. Dabei muss die Verbindung zu 1 Person aus maximal der Hälfte aller lebenden Personen hergestellt werden, um als Erkennung zu gelten. (Ein Antifaschist erkennt zum Beispiel nichts, da die Info keiner Person zugeordnet werden kann.)  
 * Die Erkennung muss am vorherigen Tag oder in der vorherigen Nacht statt gefunden haben. Man stirbt nicht in der selben Nacht wie die Erkennung. Dadurch hat man eine Chance auf Nominierung.  
 * Die Erkennung wird unabhängig von Spielerzustand bewertet. Wenn eine betrunkene Person an eine Info gekommen ist, die es aussehen lassen kann, dass die Spieler/in der Ker der Dämon oder böse ist, selbst wenn nur unscharf, dann hat diese Fähigkeit dich erkannt.  
 * Beispiel: ein Empath, der als lebender Nachbar neben der Ker sitzt und eine 1 bekommt (selbst wenn beide Nachbarn böse wären) oder ein Artist, der herausfindet, dass der Dämon 1 von maximal die Hälfte aller Personen sein kann, würde durch diese Information in der nächsten Nacht sterben.  
@@ -1733,12 +1752,12 @@ Wenn der Story Teller in der Nacht selbst eine Person wählen soll, wirst du gef
 
 ## **Executioner (Henker)/Minion|Demon**
 
-~~entscheidet einmal im Spiel, ob eine vom Dämon zum Töten ausgewählte Person gegen Herausgabe ihrer Figur an dich am Leben bleiben darf.~~ Wenn niemand mehr Spielende exekutiert hast, als du, gewinnt dein Team (trotzdem, selbst wenn das andere Team gewonnen hätte). Du hast eine Info-Townsfolk-Fähigkeit und könntest als gute Townsfolk-Figur erscheinen. Du könntest auch als Dämon verwendet werden. In diesem Fall wählt Story Teller 1 Person pro Nacht zum Töten aus.
+~~entscheidet einmal im Spiel, ob eine vom Dämon zum Töten ausgewählte Person gegen Herausgabe ihrer Figur an dich am Leben bleiben darf.~~ Wenn niemand mehr Spielende exekutiert hast, als du, gewinnt dein Team (auch dann, wenn eigentlich das andere Team gewinnen würde). Du hast eine Townsfolk-Fähigkeit und könntest als gute Spielperson oder als Townsfolk-Figur erscheinen. Du könntest auch als Dämon verwendet werden. In diesem Fall wählt Story Teller 1 Person pro Nacht zum Töten aus.
 
 * alternativer Name: Ravannavar \[Re-wanne-warr\]: ist ein faschistischer *Tyran*, der das Dorf beseitigen will, um Herrscher eines Reichs aus “vollkommene Lebewesen” zu werden. Namensträger ist eine Figur aus dem Spiel Indivisible. Der Name ist ein Palindrom von Ravana, welches den Wunsch nach Umkehrung der Wirklichkeit symbolisiert.  
 * Alternativer Name: Ultran, Terrorist  
-* Der Henker könnte von Story Teller angesagt werden, im Spiel zu sein.  
-* Der Henker sollte in speziellen Momenten als Townsfolk oder gut erscheinen, hauptsächlich, wenn Figuren **scharfe** Informationen über den Henker abfragen. Bei unscharfen Informationen kann man die Erscheinung häufiger korrekt lassen.  
+* Der Henker wird zu Spielbeginn angesagt, falls dieser als Henker gegenüber anderen bösen Spielpersonen erscheint und Minion-Info oder Dämon-Info bekommt.  
+* Der Henker sollte in speziellen Momenten falsch als Townsfolk oder als gut erscheinen, hauptsächlich, wenn Figuren **scharfe** Informationen über den Henker abfragen. Bei unscharfen Informationen kann man die Erscheinung häufiger korrekt lassen.  
 * Optional: die Henker-Gewinnregel gilt erst, wenn am Ende nur noch ≤ 3 Personen leben.  
 * Jinx Heretic/Wicked: Wenn der Henker mit dem Heretic/Frevler im Spiel ist, wird der Henker immer angesagt und fängt mit gutem Alignment an, ohne es zu wissen.  
 * Jinx Ghoul: Der Ghul sieht den Henker nicht in der Dämoneninfo. (Sonst könnte dieser zu einfach die Verantwortung (am Tag) für Exekutionen auf den Henker verschieben.)  
@@ -1927,6 +1946,19 @@ Ein böser Philosopher: Deine Figur verwandelt sich in Nacht 3 in einen gewählt
 * Es ist möglich, dass Townsfolk-Spielpersonen die gleiche Figur wie die Plage bekommen, um implizit zu erfahren, welche Figur die Plage gewählt hat.  
 * Beispiel: Die Plage verwandelt sich in Nacht 3 in den Atheisten. Alle Townsfolk werden zum Ravenkeeper.
 
+## **Victim (Verfolgte)/Outsider**
+
+Erweiterung der Damsel, die keinen Huntsman braucht. 1 guter Townsfolk kennt dich (und deine Person). 1 Minion weiß, dass du im Spiel bist . Wenn diese/r dich beim ersten Mal öffentlich errät, verliert dein Team zu Beginn des nächsten Tages. \[≥ 2 Outsider\]
+
+* alternativer Name: Distressed, Hostage  
+* Ideas:  
+  * Minions don't know that a Victim is in play. (Minions never get informed or they might be informed when it is wrong.)  
+  * 1 or all Townsfolk also start knowing the Victim to be in play.  
+  * Only 1 minion is informed and may guess the Victim only at night even if dead.  
+  * The Victim has an additional unique Townsfolk ability for hiding. (Works when the Sentinel is in play.)  
+  * The penalty is reduced. 1\) The Victim turns into a Heretic instead of making the Team lose. (Fabled Showmaster) 2\) The Victim loses alone, or 3\) cannot vote, cannot nominate & cannot die anymore. Good players don’t notice it. (This is the Bipartisan.)  
+  * The Victim turns into a Loric and any good player can get the Victim role (not character), another player might get the Huntsman role (not character). The Huntsman role could also be made part of the Victim ability (without Loric)
+
 # Mechanikrollen (Spielmechanik)
 
 ## **Shopkeeper (Ladenbesitzer)/Loric**
@@ -2046,6 +2078,13 @@ Eine gute eingeschränkte Variante des Wizards: Einmal im Spiel darfst du öffen
   * Man kann sich nicht zusätzliche Wünsche oder Veränderungen dieser Einschränkungen wünschen  
   * rekursive Wünsche sind nicht erlaubt  
   * kein Grimoire  
+  * Der Wunsch interagiert mit bösen Spielpersonen. Die Effekte müssen von bösen Spielpersonen (bei beliebigen Figuren aus dem Skript) erzeugt werden können. (Z.B. wenn der Genie sich wünscht, dass eine bestimmte Person stirbt.) Notfalls müssen beliebige Figuren geändert werden und ursprünglich gute Zeugen müssen ein böses Alignment bekommen. Zur Kompensation des Effekts kann auch eine Person böse werden bzw. eine beliebige Figur bekommen.  
+* Problem: Bluffbarkeit muss es geben  
+  * Lösung: Keine Auswirkung auf öffentliche Signale oder öffentliches Wissen durch Story Teller (d.h. Ankündigungen)  
+  * Informationen gehen nur an eine Person privat (entweder Flaschengeist oder eine andere auswählbare Person).  
+* großer Preis für Dämoninfo (z.B. wird ein zweiter erschaffen)  
+* kein oder kleiner Preis für unscharfe Info über 1 Minion (abhängig von Spieleranzahl)  
+* mittlerer Preis, wenn es mehrere Minions betrifft oder ein Minion scharf erkannt werden soll.  
 * Lass dir vom Story Teller sagen, ob der Wunsch gültig ist, bevor du ihn verbrätst  
 * Beispiel: Genie wünscht sich zu wissen, welche Person der Dämon ist. Story Teller kündigt an, dass eine zusätzliche Person zu einem Dämon wird und der alte Dämon vergiftet und vom Genie gekannt wird.
 
@@ -2061,11 +2100,13 @@ Einmal im Spiel, darfst du eine ausgedachte Spielregel vorschlagen. Es wird heim
 
 ## **Gilorax/Demon|Townsfolk|Outsider|Loric**
 
-Alternative zum Summoner: Es gibt 1 oder 2 Gilorax-Spieler/innen. 1 davon muss ein inaktiver Gilorax sein. Diese zählt als Townsfolk/Outsider/Demon für das Spiel (sodass das Setup die Spielertabelle erfüllt). Diese/Dieser weiß nicht davon, hat eine permanent beeinträchtigte gute Figur und erscheint als gut. Der aktive Gilorax ist entweder die andere Gilorax-Spieler/in oder Story Teller. Wenn der aktive Gilorax exekutiert wird, wird eine inaktive Gilorax-Spieler/in aktiv. Wenn eine Gilorax-Spieler/in aktiv wird (die Fähigkeit startet), wählt diese/dieser eine Dämonenfähigkeit vom Skript für sich aus (kein Gilorax), Spieler/innen mit Dämonenfähigkeiten sterben und alle anderen Dämonenfähigkeiten verschwinden. Alle Gilorax-Personen sind den Minions und vorherigen Dämonen bekannt. Wenn Story Teller die Gilorax-Figur hat und exekutiert wird, endet das Spiel nicht. Wenn alle aktiven Gilorax tot sind, gewinnt das gute Team.
+Alternative zum Summoner: Es gibt 1 oder 2 Gilorax-Spieler/innen. 1 davon muss ein inaktiver Gilorax sein. Diese zählt als Townsfolk/Outsider/Demon für das Spiel (sodass das Setup die Spielertabelle erfüllt). Diese/Dieser weiß nicht davon, hat eine permanent beeinträchtigte gute Figur und erscheint als gut. Der aktive Gilorax ist entweder die andere Gilorax-Spieler/in oder Story Teller. Wenn der aktive Gilorax exekutiert wird, wird eine inaktive Gilorax-Spieler/in aktiv. Wenn eine Gilorax-Spieler/in aktiv wird (die Fähigkeit startet), wählt diese/dieser eine Dämonenfähigkeit vom Skript für sich aus (kein Gilorax), Spieler/innen mit Dämonenfähigkeiten sterben und alle anderen Dämonenfähigkeiten verschwinden. Alle Gilorax-Personen sind den Minions und vorherigen Dämonen bekannt. Wenn Story Teller die Gilorax-Figur hat und exekutiert wird, endet das Spiel nicht. Wenn alle aktiven Gilorax-Spielerinnen keine Gilorax-Fähigkeit mehr haben, gewinnt das gute Team.
 
 * Namensgebung: abgeleitet von Gilor Borax, "der Wandler", das bekämpfte außerirdische Wesen in der ersten veröffentlichten O.M.A.-Geschichte im Donald Duck-Universum.  
+* der inaktive Gilorax hat 2 Figuren, eine im Vordergrund (die von allen einschließlich sich selbst gesehen wird) und eine unbekannte im Hintergrund, die erst aktiv wird, wenn die im Vordergrund verschwindet.  
 * Problem: Story Teller darf nicht als Spieler/in zählen, weil sonst manche Fähigkeiten einfach herausfinden könnten, dass Story Teller als Spieler/in zählt.  
-* Wenn ein inaktiver Gilorax geheilt wird (von Ärztin oder Psychater), wird dieser aktiv.  
+* Beispiel: der inaktive Gilorax hat eine Gambler-Figur. Statt aber selbst zu sterben, stirbt die gezeigte Spielperson.  
+* Jinx Ärztin/Psychater: Wenn ein inaktiver Gilorax geheilt wird (von Ärztin oder Psychater), wird dieser aktiv.  
 * Jinx: Kazali wird ausgewählt, dann muss Story Teller den Minions potentiell neue Figuren geben.  
 * Jinx: wenn der Magician/Conspirator im Spiel ist, ist dieser ein Gilorax
 
@@ -2126,7 +2167,7 @@ Erweiterung von Greedy Guts+Ouroboros und Clairvoyant: Du siehst, welche Fabled/
 * Wenn eine Figur entfernt wird, stirbt dessen Spieler/in  
 * Wenn eine Figur hinzugefügt wird, bleiben die lebenden Figuren intakt. Wenn die Fähigkeit bislang nicht lebend im Spiel ist, wird eine Person wiederbelebt mit der Figur. Story Teller entscheidet, welche. Sowohl gute als auch böse Spieler/innen können eine gute oder böse Figur bekommen. Story Teller kann entscheiden, zusätzlich Figuren von Lebenden zu ändern oder zu den Lebenden hinzuzufügen. Insbesondere Setup-Effekte von hinzugefügten Personen können so realisiert werden (es sei denn, es handelt sich um Alignment). (Z.B. wenn der King hinzugefügt wird, könnte Story Teller noch den Choir Boy hinzufügen. Wenn ein Samurai hinzugefügt wird, könnte noch ein Daimyō hinzugefügt werden.)  
 * Wenn eine Figur ausgetauscht wird passiert nichts, wenn die alte Figur nicht im Spiel ist. Wenn die alte Figur im Spiel ist, wird die zugehörige tote Person mit der neuen Fähigkeit wiederbelebt oder eine zugehörige lebende Person ändert ihre Figur.  
-* Um das Spiel trotz entfernten Jinxes fair zu halten, soll Story Teller geheime Outsider (die die Bösen nicht einfach erfahren können sollen) als andere Outsider ausgeben, sowohl im Grimoire als auch wenn böse Fähigkeiten Outsider erfahren: z.B. Heretic und Damsel/Romantic  
+* Um das Spiel trotz entfernten Jinxes fair zu halten, soll Story Teller geheime Outsider (die die Bösen nicht einfach erfahren können sollen) als andere Outsider ausgeben, sowohl im Grimoire als auch wenn böse Fähigkeiten Outsider erfahren: z.B. Heretic und Verfolgte/Romantic  
 * Kala darf bis zu 2 zusätzliche Lorics zum Setup hinzufügen (wenn die Spieler/in die Kala-Figur bekommt)  
 * wenn Zenomancer aktiv ist, darf sich Kala während dem Spiel beliebige Aufgaben für einzelner Figuren ausdenken. Es gibt dabei Einschränkungen: Kala darf nur eine Aufgabe pro Figur entwerfen und die Belohnung ist beschränkt auf beliebige Informationen zu einer Person im Spiel. Die erhaltenen Informationen vom Zenomancer sind immer korrekt und können nicht falsch sein.  
 * Kala kann über den Zenomancer mit anderen Spieler/innen kommunizieren. Jeder Minion kann so allerdings nur einmal von einer Person vollständig Informationen bekommen. Damit kann Kala ein bisschen wie ein Spy Informationen sammeln. Für gute Rollen kann Kala riskante Aufgaben stellen, welche einerseits das eigene Team bei Misslingen schadet, andererseits dazu führt, dass die Person ihre Figur outet.  
@@ -2136,7 +2177,9 @@ Erweiterung von Greedy Guts+Ouroboros und Clairvoyant: Du siehst, welche Fabled/
 
 Ähnlich zu Gilorax, Boomdandy: Wähle dir zu Beginn eine Dämonenfähigkeit (vom Skript) aus, die du im Spiel hast. Du wählst jede Nacht mit bösen Minions zusammen 1 Person, die sterben soll. Am Ende einer Nacht, in der die (kleinere oder größere) Hälfte der lebenden Spieler/innen böse ist, werden alle lebenden Townsfolks zu einem Dämon, behalten aber ihr Alignment. Titan darf sich dabei auch eine neue Dämonenfähigkeit wählen, welche die alte ersetzt und Titan darf ausgewählte Spieler zu Minions ihrer/seiner Wahl machen (was nur klappt, wenn diese böse sind). Wenn böse Dämonen leben und alle guten Dämonen – aber mindestens ein guter Dämon – tot sind, gewinnen die Bösen. Wenn kein böser Dämon mehr lebt, gewinnen die Guten.
 
-* Wenn es keine guten Spieler/innen mehr einen Dämon als Figur haben sollten, wird das Spiel wie ein gewöhnliches Spiel entschieden. Spieler/innen können durch eine Entfernung oder Veränderung der Figur ihre Dämonenfigur verlieren, lebend als auch tot.
+* Wenn es keine guten Spieler/innen mehr einen Dämon als Figur haben sollten, wird das Spiel wie ein gewöhnliches Spiel entschieden. Spieler/innen können durch eine Entfernung oder Veränderung der Figur ihre Dämonenfigur verlieren, lebend als auch tot.  
+* Es können nur Dämonen im Rahmen des Titan ausgewählt werden, die Spielpersonen wählen oder gar nicht selbst wählen, wer stirbt. Verboten sind z.B. Ojo.  
+* Neue Dämonen dürfen nicht durch ihre Fähigkeit sehen können, wer Dämon ist. (Kein Grimoire oder magische Figurerkennung.)
 
 ## **Croupier/Fabled**
 
