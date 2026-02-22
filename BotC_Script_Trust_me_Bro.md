@@ -98,24 +98,21 @@ Lorics:
 
 - homebrew jinxes
 
-  ```
-  Master Hora / Leviathan / Diabolus: If Master Hora is active, the Story Teller might *not* declare a Leviathan to be in play. Master Hora dies if chosen by Leviathan at night.
-  Legionatic / Spy: If a Legionatic has a drunk spy ability, they see no Legionatic characters in the grimoire but the Legionatics' drunk abilities plus 1 demon.
-  Legionatic / Politician: The Politician might register as evil to the Legionatic.
-  Spy / Poppy Snitch: If the Poppy Snitch has their ability, the Spy does not see the Grimoire.
-  Spy / Wicked: Both cannot be in play together.
-  Soulmate: The Soulmate ability is drunk for players who learnt the demon (e.g. via minion info).
-  Alsaahir: The Alsaahir's guess applies to the actual character type, else (if incorrect) to the misregistered one.
-  Alsaahir / Legionatic: With Legionatic in play, the Alsaahir may guess the Townsfolk & Outsider players instead.
-  Puzzledrunk / Legionatic: The Puzzledrunk is not a Legion(atic). When the sober+healthy Puzzledrunk guesses right, they learn a 3rd non-Legion player.
-  Puzzledrunk / Muezzin: If the Puzzledrunk is in play, the Muezzin allows for ≤ 2 drunk abilities in their team.
-  Plotter / Lunatic: Outsiders/Minions who don't know their character type cannot be in play with the Plotter.
-  Plotter / Wicked: If Plotter is in play, the Wicked is equal to a Heretic.
-  Diabolus / Sage: Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.
-  Polymath / Lunatic: If the Polymath player is a Lunatic, the demon and Polymath don't know who is demon/Polymath.
-  Trustmaker / Soulmate: A soulmate vessel nevertheless triggers the Trustmaker reward on death.
-  Trustmaker / Puzzledrunk: The Puzzledrunk does not misregister to the Trustmaker.
-  ```
+  * Alsaahir: The Alsaahir's guess applies to the actual character type, else (if incorrect) to the misregistered one.
+  * Alsaahir / Legionatic: With Legionatic in play, the Alsaahir may guess the Townsfolk & Outsider players instead.
+  * Puzzledrunk / Legionatic: The Puzzledrunk is not a Legion(atic). When the sober+healthy Puzzledrunk guesses right, they learn a 3rd non-Legion player.
+  * Puzzledrunk / Muezzin: If the Puzzledrunk is in play, the Muezzin allows for ≤ 2 drunk abilities in their team.
+  * Master Hora / Leviathan: Master Hora shifts a night only when a good player is executed. Master Hora dies if chosen by Leviathan at night.
+  * Spy / Poppy Snitch: If the Poppy Snitch has their ability, the Spy does not see the Grimoire.
+  * Spy / Wicked: Both cannot be in play together.
+  * Plotter / Lunatic: Outsiders/Minions who don't know their character type cannot be in play with the Plotter.
+  * Plotter / Wicked: If Plotter is in play, the Wicked is equal to a Heretic.
+  * Legionatic / Spy: If a Legionatic has a drunk spy ability, they see no Legionatic characters in the grimoire but the Legionatics' drunk abilities plus 1 demon.
+  * Legionatic / Politician: The Politician might register as evil to the Legionatic.
+  * Diabolus / Sage: Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.
+  * Polymath / Lunatic: If the Polymath player is a Lunatic, the demon and Polymath don't know who is demon/Polymath.
+  * Trustmaker / Soulmate: A soulmate vessel nevertheless triggers the Trustmaker reward on death.
+  * Trustmaker / Puzzledrunk: The Puzzledrunk does not misregister to the Trustmaker.
 
 - player counts
 

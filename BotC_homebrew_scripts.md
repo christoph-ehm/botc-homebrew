@@ -96,13 +96,13 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
 - Jinxes
   - Pope / Shredder: The Pope-protected player cannot be chosen for assassination (except if a Demon assassinates the self-protected Pope).
   - Pope / Punk: The Punk cannot get the Pope token.
+  - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play.
   - Anarchist / Samurai: A Samurai player can only kill an Anarchist when the Samurai has another character that only counts as Outsider this game.
+  - Centralist / Terminator: If the Terminator nominates and executes the Demon player when dead, the Terminator's winning condition triggers nevertheless.
   - Warmonger / Anarchist: If the Warmonger chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
   - Dictator / Anarchist: The Anarchist *might* register as good to Dictator.
   - Dictator / Travel Agent: The Dictator cannot be quit by other abilities.
-  - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play
   - Repairman / Toy Maker: Evil may see each other if 3 ≥ good Townsfolk are in play.
-  - Centralist / Terminator: If the Terminator nominates and executes the Demon player when dead, the Terminator's winning condition triggers nevertheless.
 
 - Fabled
   - Ferryman
@@ -186,13 +186,13 @@ The wizard is actually the ultimate bluffing weapon. Any inconsistencies or insi
   - (Hindu) (people can get the Wizard when they die! Or they turn into a Traveller who can kill the Hydra.)
 
 - Jinxes
+  - Alchemist / Tyrant: If the Alchemist has the Tyrant ability, the Alchemist is an Outsider, not a Townsfolk.
+  - Alchemist / President: If the Alchemist has the President ability, the Alchemist is an Outsider, not a Townsfolk.
+  - Alchemist / Executioner: If the Alchemist has the Executioner ability, the evil Executioner is also in play.
   - Murderer / Punk: If the Murderer satisfies the condition by targeting the Punk, the Punk is assassinated.
   - Faustian / Twin Demon: The Faustian acts on both Twin Demons independently.
   - Faustian / Maniac: The Faustian replaces 1 choice of the Maniac if it does *not* kill the Faustian target.
   - Tyrant / Bipartisan: If the Bipartisan is used by the Tyrant, it is declared and each Townsfolk player gets an independent anti or normal state.
-  - Alchemist / Tyrant: If the Alchemist has the Tyrant ability, the Alchemist is an Outsider, not a Townsfolk.
-  - Alchemist / President: If the Alchemist has the President ability, the Alchemist is an Outsider, not a Townsfolk.
-  - Alchemist / Executioner: If the Alchemist has the Executioner ability, the evil Executioner is also in play.
   - Hydra / Murderer: The Murderer *character* may register as Slayer character to the Hydra.
   - Hydra / Faustian: The Faustian *character* may register as Slayer character to the Hydra.
   - Steelfzkin / Witcher: Steelfzkin related jinxes are hidden from abilities and cannot interact (including this jinx).
