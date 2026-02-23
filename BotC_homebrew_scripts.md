@@ -79,9 +79,10 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Terminator (fits to Centralist, Punk, Samurai (who can kill the Terminator), interesting with Dictator)
 
 - Demon
+  - Lleech
+  - Loan Shark
   - Shredder
   - Warmonger
-  - Loan Shark
 
 - Traveller
   - Wanderer

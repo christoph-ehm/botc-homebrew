@@ -12,6 +12,7 @@
 			"dusk",
 			"putschist_trustmebro",
 			"toymaker",
+			"lleech",
 			"magician",
 			"minioninfo",
 			"demoninfo",
@@ -62,6 +63,7 @@
 			"dictator_trustmebro",
 			"warmonger_trustmebro",
 			"shredder_homebrew",
+			"lleech",
 			"loanshark_trustmebro",
 			"sectarian_trustmebro",
 			"samurai_homebrew",
@@ -268,6 +270,7 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
+	"lleech",
 	{
 		"id": "loanshark_trustmebro",
 		"name": "_",
