@@ -15,6 +15,7 @@
 			"magician",
 			"minioninfo",
 			"demoninfo",
+			"dictator_trustmebro",
 			"warmonger_trustmebro",
 			"shredder_homebrew",
 			"loanshark_trustmebro",
@@ -58,8 +59,8 @@
 			"faustian1_trustmebro",
 			"exorcist",
 			"princess",
-			"warmonger_trustmebro",
 			"dictator_trustmebro",
+			"warmonger_trustmebro",
 			"shredder_homebrew",
 			"loanshark_trustmebro",
 			"sectarian_trustmebro",
@@ -268,14 +269,6 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "dictator_trustmebro",
-		"name": "_",
-		"team": "demon",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
 		"id": "loanshark_trustmebro",
 		"name": "_",
 		"team": "demon",
@@ -315,7 +308,7 @@
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"
 	},
-	"bishop",
+	"voudon",
 	{
 		"id": "putschist_trustmebro",
 		"name": "_",
@@ -370,6 +363,14 @@
 		"id": "repairman_trustmebro",
 		"name": "_",
 		"team": "fabled",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "dictator_trustmebro",
+		"name": "_",
+		"team": "loric",
 		"ability": "_",
 		"firstNightReminder": "_",
 		"otherNightReminder": "_"

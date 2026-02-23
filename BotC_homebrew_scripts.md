@@ -81,7 +81,6 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
 - Demon
   - Shredder
   - Warmonger
-  - Dictator
   - Loan Shark
 
 - Traveller
@@ -101,7 +100,6 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Centralist / Terminator: If the Terminator nominates and executes the Demon player when dead, the Terminator's winning condition triggers nevertheless.
   - Warmonger / Anarchist: If the Warmonger chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
   - Dictator / Anarchist: The Anarchist *might* register as good to Dictator.
-  - Dictator / Travel Agent: The Dictator cannot be quit by other abilities.
   - Repairman / Toy Maker: Evil may see each other if 3 ≥ good Townsfolk are in play.
 
 - Fabled
@@ -113,6 +111,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Repairman (because of the many outsiders that could become evil)
 
 - Loric
+  - Dictator
   - Shopkeeper
   - (Hindu) (useful due to Dictator, Warmonger, Shredder)
   - (Gardener) (required for Warmonger)
@@ -237,11 +236,12 @@ Focuses on rules, truth and the supernatural, with prominently placed religious 
   - Vampire (creates Minions throughout the game, interesting with Preacher, Exorcist)
   - Satan
   - Tormon
-  - Chameon (an imp who may change minions to good characters)
+  - Chameon (an imp who may change minions to good characters, fits to Vampire)
   - [Titan] (can change/create Demon characters)
 
 - Fabled
   - Ferryman
+  - Spirit of Ivory (reasonable for the Vampire and Satan)
   - Spoiler
   - Illusionist
   - Croupier
@@ -297,19 +297,18 @@ Mechanisms about life, death and accountability. Slightly Horror-Themed.
   - Terminator
 
 - Demon
-  - Shredder
-  - Armacheddar
+  - Shredder (can assassinate a player)
+  - Armagon
   - Ankou
-  - Ghoul
-  - Eye Zero
+  - Ghoul (fits to Ankou)
+  - Eye Zero (resurrection can also fit to Ankou)
 
 - Traveller
-  - [(Scapegoat)] (is already covered by the Guardian)
   - (Voudon) (useful with the Immortal or Saboteur when players don't know about the death state of players)
-  - Guardian
+  - Guardian (replaces the Scapegoat)
   - (Bone Collector)
   - Care Worker
-  - Travel Agent
+  - [Travel Agent]
   - Suppressor (works well with the Immortal and Saboteur)
 
 - Fabled
@@ -373,6 +372,7 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
   - Spoiler
   - Superhero
   - Croupier
+  - Micromanager (the Story Teller(s) surveil(s) every private talk)
 
 - Loric
   - (Gardener) (in order to give challenging characters to experienced players)
@@ -415,6 +415,7 @@ Alignment, Level changes and Metagaming included.
     - e.g. choose 1 good player at night 1 for who this happens. They don't learn about this until you tell them.
     - Minions cannot change the character of the Demon into a non-Demon, as long as this ability holds. (E.g. the Pit-Hag.)
   - Mephisto
+  - someone who fakes Lorics or Fables to be in play (but the Fabled or Lorics are actually poisoned, ineffective)
 
 - Demon
   - choose a known or official Demon character. The Story Teller declares ≤ 4 Demons that could be in play. Others cannot.

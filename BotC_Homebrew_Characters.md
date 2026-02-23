@@ -492,18 +492,19 @@ Erfährt jede Nacht, wie viele Verhexungen aktiv im Spiel sind. Wähle nachts ei
 
 ## **Ouroboros/Demon**
 
-Wählt zwei Personen pro Nacht aus. Haben diese gleiches Alignment, tauschen diese ihre Figur, behalten aber ihren kompletten Status (betrunken, vergiftet, wahnhaft, lebend, Alignment etc.). Wenn du zwei Personen mit verschiedenem Alignment auswählst, erhält die böse Person bis zur nächsten Nacht zusätzlich die Fähigkeit der ausgewählten guten Person (bei beiden ändert sich sonst nichts) und wacht dafür, wenn nötig, nachts ein zusätzliches Mal auf. \[+1 Minion\]
+Wählt zwei Personen pro Nacht aus. Die erste Person verwandelt sich in die Eigenschaften und den Zustand, die die zweite Person hat. Wenn die erste Person gut ist, wird ihre Figur, ihr Zustand und potentiell das Alignment ersetzt. Wenn die erste Person böse ist, erhält diese nur die Figur und zwar zusätzlich zu ihrer eigenen bis zur nächsten Nacht und wacht dafür, wenn nötig, nachts ein zusätzliches Mal auf. \[+1 Outsider\]
 
-* eine Person gibt immer die Rolle im Tausch ab, als die sie gegenüber Ouroboros erscheint.  
+* eine Person gibt immer die Figur an die andere Person ab, als die sie gegenüber Ouroboros erscheint.  
 * Ausnahme: tote Personen erscheint für Ouroboros immer als Farmer. (Die Lebende Person erfährt in diesem Fall in der Nacht, dass sie Farmer geworden ist.) Dadurch geht eine Figur aus dem Spiel verloren und wird durch Farmer ersetzt. Das ist auch dann so, wenn Farmer nicht auf dem Skript steht.  
-* Ouroboros tötet nicht sondern macht Spielende zu Farmer.  
+* Die Auswahl der zweiten Person wird wie ein Dämonentod behandelt, auch wenn die Spielperson davon nicht stirbt. Ouroboros vervielfältigt die Figur, löst aber gleichzeitig ihren Tod aus, selbst wenn niemand stirbt.  
 * Namensherkunft: Ouroboros ist eine mythologische Schlange, die ihren eigenen Schwanz frisst und so für Wiedergeburt steht. Diese ist metaphorisch für das Verlieren und Erhalten einer (neuen) Figur.  
 * Du kannst auch dich und ein Minion auswählen und so mit einem Minion die Figur (Character) tauschen (Minion wird zum Dämon, du zum Minion).  
 * Pass auf, nicht versehentlich eine böse Person zu wählen, die mit gutem Alignment erscheint (z.B. der Spy) oder eine gute Person, die mit bösem Alignment erscheint.  
   * wählst du einen Spy und einen anderen Minion, kann der andere Minion zusätzlich die Spy Fähigkeit bekommen (wenn Spy als gut erscheint)  
 * wenn eine lebende Person eine neue Figur bekommt, ist die aktuelle Nacht für die betroffenen Person wieder die erste Nacht (die Fähigkeiten der vorherigen Tage gehen in dieser Nacht ab Tausch sofort verloren)  
 * eine tote Person, die ihre Fähigkeit nicht nutzen kann, kann auch die Fähigkeiten ihrer neuen Figur nicht nutzen. Bei einer Wiederbelebung oder sonstigen Figureffekten zählt die neu eingetauschte Figur nun als Figur. (Eine Person als Gefäß der Seelenverwandte kann allerdings auch die eingetauschte Figur weiter nutzen.)  
-* der Dämon kann die Fähigkeit einer lebenden Person bekommen, wenn er sich und die Person zusammen auswählt.
+* der Dämon kann die Fähigkeit einer lebenden Person bekommen, wenn er sich und die Person zusammen auswählt.  
+* Problem: Schwacher Dämon und \+1 Minion ist bei kleinen Spielerzahlen (5 oder 6\) nicht möglich.
 
 ## **Mummer (Pantomime)/Townsfolk**
 
@@ -1004,7 +1005,7 @@ Etwa das Gegenteil zur [Klette](#limpet-\(klette\)/outsider): Story Teller legt 
 
 ## **Satan/Demon**
 
-Wähle jede Nacht (ab der zweiten) zwei Personen. Diese erfahren voneinander, dass die jeweils andere Person eine böse Figur hätte (was nur wahr ist, wenn die andere Person *tatsächlich* Minion oder Dämon ist). Jede der beiden Person entscheidet nun heimlich für sich, ob sie die andere petzt (“betray”) oder vertraut (“trust”). Verpetzte Person sterben in der Nacht und das Verpetzen führt dazu, dass eine gute Person zu dieser bösen Figur mit bösem Alignment wird, wenn es diese nicht bereits gibt. Das kann niemals die Person sein, die jemand anderem vertraut hat. Wenn beide sich petzen, sterben beide und sind am Ende womöglich beide Böse. Wenn man einer Person vertraut, sieht man eine gute Figur zur anderen Person. Diese gute Figur entspricht der *tatsächlichen* Figur der anderen Person, genau dann wenn diese eine gute tatsächliche Figur hat. Wenn alle, die abgestimmt haben, gleich abgestimmt haben, wird mindestens 1 gute Person sterben. Das passiert sowohl, wenn beide Guten sich vertrauen als auch wenn beide Bösen sich vertrauen oder betrügen, oder 1 oder 2 Personen nicht abstimmen. Damit können bis maximal 3 Personen sterben (2 Böse).
+Alternative zum Al-Hadikhia: Wähle jede Nacht (ab der zweiten) zwei Personen. Diese erfahren voneinander, dass die jeweils andere Person eine böse Figur hätte (was nur wahr ist, wenn die andere Person *tatsächlich* Minion oder Dämon ist). Jede der beiden Person entscheidet nun heimlich für sich, ob sie die andere petzt (“betray”) oder vertraut (“trust”). Verpetzte Person sterben in der Nacht und das Verpetzen führt dazu, dass eine gute Person zu dieser bösen Figur mit bösem Alignment wird, wenn es diese nicht bereits gibt. Das kann niemals die Person sein, die jemand anderem vertraut hat. Wenn beide sich petzen, sterben beide und sind am Ende womöglich beide Böse. Wenn man einer Person vertraut, sieht man eine gute Figur zur anderen Person. Diese gute Figur entspricht der *tatsächlichen* Figur der anderen Person, genau dann wenn diese eine gute tatsächliche Figur hat. Wenn alle, die abgestimmt haben, gleich abgestimmt haben, wird mindestens 1 gute Person sterben. Das passiert sowohl, wenn beide Guten sich vertrauen als auch wenn beide Bösen sich vertrauen oder betrügen, oder 1 oder 2 Personen nicht abstimmen. Damit können bis maximal 3 Personen sterben (2 Böse).
 
 * Namensherkunft: in der jüdischen/christlichen Mythologie ist der Satan die Person, die andere zu Sünden oder Streit anstiftet, um vor dem letzten Gericht verurteilt zu werden.  
 * Inspiration: Gefangenendilemma  
@@ -1029,11 +1030,13 @@ Personen können anderen jederzeit Vertrauen aussprechen oder auflösen. Vertrau
 * Inspiration: Reziprozität (wer einen Gefallen/Vertrauen bekommt, gibt dieser Person einen Gefallen/Vertrauen zurück)  
 * Wenn eine vertraute Person nominiert wird, setzt der Abstimmungsvorgang für vertrauende Personen völlig aus, einschließlich der Abstimmungsregeln oder \-effekte in deren Fähigkeit. Ein Zealot muss also nicht abstimmen und zählt auch nicht, und kann dadurch vertrauen, ohne Personen zu verraten.
 
-## **Fear of God (Gottesfurcht)/Fabled**
+## **Micromanager/Fabled**
 
-Story Teller muss jedes private Gespräch überwachen/beiwohnen.
+Story Teller muss jedes private Gespräch überwachen/beiwohnen/bewilligen.
 
+* alternativer Name: Fear of God (Gottesfurcht)  
 * Wer privat oder in kleinen Gruppen sprechen will, muss sich bei einem der Story Tellers anmelden. Es ist für diesen Loric stark empfohlen, mehrere Story Tellers (oder von Story Teller für jedes Gespräch ausgewählte Vertreter unter den Spielenden) zu haben, um Gespräche parallel ablaufen lassen zu können und die Spieldauer zu verkürzen.  
+* Es kann sein, dass nicht alle in der Zeit ihre privaten Gespräche führen können.  
 * Inspiration: Hawthorne-Effekt (du verhältst dich anders, wenn du von anderen beobachtet wirst, z.B. von deinem Boss)  
 * Nützlich, wenn Story Teller mehrere Rollen drin hat, die ihn betrügen wollen könnten (Madness oder Kommunikationsverbote) und das Betrügen sich negativ aufs Gameplay auswirken würde.
 
@@ -1600,20 +1603,19 @@ Wählt jede Nacht (ab der 2.) eine Person aus. Angefangen mit dieser Person bis 
 * Nur wenn eine böse Person ausgewählt wurde, stirbt genau eine Person.  
 * Zu Beginn des Spiels gibt es eine zusätzliche böse Person, die einen beliebigen Figurtyp haben kann, bis auf Dämon. Es kann also \+1 Minion oder \+1 Outsider im Spiel sein
 
-## **Dictator (Diktator)/Demon**
+## **Dictator (Diktator)/Loric**
 
-Alle guten Spieler/innen, deren Nominierungsabstimmung durchgeht, werden sofort exiliert statt später exekutiert. Alle wissen, dass du der Diktator bist. Solange ≥ 1 andere Spielperson mit *Minionfigur* lebt (Minionfähigkeit reicht nicht), stirbt die Person, die den Diktatorn angreift statt der Diktator selbst. Jede Nacht (ab der zweiten), wähle eine Person. Wenn diese Person gut ist, stirbt sie und verlässt das Spiel. (Es wird nur der Tod angekündigt aber nicht, dass jemand das Spiel verlässt.)
+Jede Nacht (ab der 2.), stimmen alle lebenden Minions ab, welche Person sterben und das Spiel verlassen soll. (Es wird nur der Tod angekündigt aber nicht, dass jemand das Spiel verlässt.) Eine böse Spielperson kann dabei statt einem Dämon nun eine beliebige Figur haben (auch Minion oder Outsider z.B.). Erst wenn es keine lebenden Minions mehr gibt, können die Dämonenspielpersonen nachts töten. Alle guten Spielpersonen, deren Nominierungsabstimmung durchgeht, werden sofort exiliert statt später exekutiert. Story Teller ist der Diktator und wird angekündigt. Story Teller zählt als Dämon, nicht aber als Spielperson. Um zu gewinnen, muss das gute Team den Diktator (Story Teller) töten bzw. exekutieren. Solange ≥ 1 andere Spielperson mit *Minionfigur* lebt (Minionfähigkeit reicht nicht), kann der Diktator aber nicht sterben. Das Spiel endet erst, wenn nur noch 1 Spielperson lebt (Story Teller ausgeschlossen). Wenn ≥ 50% der noch lebenden Spielpersonen (ohne Story Teller) den Minion-Figurtyp haben, kann das böse Team als Sieger ausgesprochen werden (außer wenn die Bösen nicht wissen, wer böse ist).
 
 * Namensherkunft: dieser Dämon will, dass alle von ihm wissen, der sehr deutlich offenbart, wer in seinem Team ist und wer nicht und der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten (Spielpersonen mit Minionfigur) wird die Person gegen alles beschützt, sodass diese der Diktator nicht sterben kann, außer wenn sein Gefolge tot ist.  
 * Beta-Name: “Trump”  
-* Der Diktator kann nur im Spiel sein, wenn mindestens 2 Spielenden gegenüber dem Diktatorn erscheinen, eine Minionfigur zu haben. (Eine Minionfähigkeit – wie beim Alchemist oder beim Plague Doctor – reicht nicht.)  
-* Spieler vom roten Team darf man auch Repulikaner nennen und Spieler vom blauen Team Demokraten.  
-* Bei einer Selbst-Exekution vom Diktator stirbt niemand und die Nominierungen sind vorbei.  
-* Die Person, die den Diktator exekutiert, stirbt stattdessen.  
-* Personen werden sofort exiliert, wenn die Nominationsabstimmung Erfolg hatte. So können beliebig viele Gute exiliert werden.  
-* Die Abstimmung funktioniert bei guten und bösen Spielpersonen wie sonst auch, nur die Bedingung und der Effekt der erfolgreichen Abstimmung ist bei den guten Spielpersonen neu. Bei guten Spielpersonen geht die Nomination nur durch, wenn mindestens 1 gute lebende Person dafür stimmte. Die Abstimmung hat Erfolg, wenn mindestens die Dafürstimmen ≥ 50% der Anzahl der Lebenden ausmacht oder alle lebenden Guten abgestimmt haben. Folglich können auch Vote Tokens für Nominationen beider Spielpersonen eingesetzt werden.  
-* Die Nominierungen enden, wenn es eine Exekution gab. (Z.B. beim Virgin.)  
-* Um dem Diktator zu begegnen, muss das blaue Team geschlossen für einander eintreten und sich nicht gegenseitig rausstimmen, aber alle zusammen gegen Mitglieder des roten Teams stimmen.
+* (Gute) Minions sollen bei der Abstimmung nicht die bösen Minions sehen. Das kann z.B. wie bei den Samurai passieren: eine der Spielpersonen, die am häufigsten ausgewählt wurden, wird genommen. Minions dürfen sich enthalten.  
+* Wenn kein Dämon im Setup ist, erhalten die Minions in der ersten Nacht alle die 3 gleichen Bluffs, die sie sonst vom Dämon bekämen.  
+* gute Spielpersonen werden sofort exiliert, wenn die Nominationsabstimmung Erfolg hatte. So können beliebig viele Gute exiliert werden.  
+* Die Abstimmung funktioniert bei guten und bösen Spielpersonen wie sonst auch, nur die Bedingung und der Effekt der erfolgreichen Abstimmung ist bei den guten Spielpersonen neu. Bei guten Spielpersonen geht die Nomination nur durch, wenn mindestens 1 gute lebende Person dafür stimmte. Die Abstimmung hat Erfolg, wenn mindestens die Dafürstimmen ≥ 50% der Anzahl der Lebenden ausmacht oder sonst alle lebenden Guten abgestimmt haben. Folglich können auch Vote Tokens für Nominationen beider Spielpersonen eingesetzt werden. Bei einem Exil aber gibt es die eingesetzte Vote Tokens zurück.  
+* Die Nominierungen enden erst, wenn es (k)eine Exekution gab. Exekutionen von guten Spielpersonen (selbst wenn durch Fähigkeiten ausgelöst, wie bei der Virgin) werden aber automatisch zu Exilen.  
+* Um dem Diktator zu begegnen, muss das blaue Team geschlossen für einander eintreten und sich nicht gegenseitig rausstimmen, aber alle zusammen gegen Mitglieder des roten Teams stimmen.  
+* Spieler vom roten Team darf man auch Repulikaner nennen und Spieler vom blauen Team Demokraten.
 
 ## **Arsonist (Brandstifter)/Minion (Idee von Alex, Anna)**
 
@@ -1715,9 +1717,13 @@ Alternative zum Storm-Catcher: Unter den guten Spieler/innen kann es 1 Erlöser 
 
 ## **Neurex/Demon**
 
-Verschmelzung von Pukka \+ Neurohacker: Wählt eine Person pro Nacht (schon ab der ersten): wenn es kein Minion ist, stirbt sie frühestens in der nächsten Nacht. Neurex darf ausgewählten Spieler/in eine Frage stellen lassen. Wenn die Frage korrekt beantwortet wird, lebt die Spieler/in weiter und Neurex kann die Antwort am Tag, privat von Story Teller bekommen. Wenn die Frage nicht oder falsch beantwortet wird, stirbt die Spieler/in. Besitzt die Fähigkeit der Gedankenübertragung/-steuerung und kann dadurch Story Teller vorgeben, was sie/er in dieser Nacht einer bestimmten anderen gewählten Person anzeigen soll. Das kann auch eine Text- oder Zeichenbotschaft sein, z.B. um heimlich nachts mit Minions zu kommunizieren (alle Bluffs, die der Dämon bekommen hat). Alle Minions erhalten zu Beginn die gleichen Bluffs wie der Dämon, kennen die Figur des Dämons (Neurex) und können in jeder Nacht vor ihrer Aktion sehen, wen der Dämon ausgewählt hat (auch sie selbst).
+Verschmelzung von Pukka \+ Neurohacker: Wählt eine Person pro Nacht (schon ab der ersten): Neurex darf ausgewählten Spieler/in eine Frage stellen lassen. Nur wenn die Frage ausgewählt wurde und korrekt beantwortet wird, lebt die Spieler/in weiter und Neurex kann die Antwort von Story Teller bekommen. Sonst stirbt die Person nächst Nacht. Besitzt die Fähigkeit der Gedankenübertragung/-steuerung und kann dadurch Story Teller vorgeben, was sie/er in dieser Nacht einer bestimmten anderen gewählten Person anzeigen soll. (Das kann die gleiche Person sein, die nächste Nacht stirbt.) Alle Minions erhalten zu Beginn die gleichen Bluffs wie der Dämon, kennen die Figur des Dämons (Neurex) und können in jeder Nacht vor ihrer Aktion sehen, wen der Dämon ausgewählt hat (auch sie selbst). Damit können sie die gesendete Botschaft zuordnen.
 
 * Neurex kann Träume und Gedanken in der Nacht kapern und Fähigkeiten (wie der Darsteller) erscheinen lassen, die es gar nicht gibt.  
+* Die Frage muss nach 1 Signal bzw. Namen fragen und muss mit dem Spiel zu tun haben. Eine Beispielfrage ist: “Welche Spielperson ist die Forensikerin?”, “Welche Person ist ein Outsider?”. “Ist Spieler X ein Romantiker?” Neurex kann sogar eine böse Person fragen lassen, ob diese böse ist (und wird dann bei einer falschen Antwort getötet).  
+* Die getötete Person weiß nichts von Neurex, wenn sie kein Minion ist und Neurex keine Frage stellt.  
+* Wenn eine Frage gestellt wird, muss diese beantwortet werden. Durch eine falsche Antwort weiß Neurex wenigstens, dass es diese Antwort nicht ist.  
+* Die gesendete Nachricht an die als zweites ausgewählte Person kann auch eine Text- oder Zeichenbotschaft sein, z.B. um heimlich nachts mit Minions zu kommunizieren, bevor diese auswählen. Dass die Botschaft von Neurex kommt, sehen nur Minions. Die Botschaft ersetzt sonst die Informationen oder Signale, die die Person bekommen würde. Wenn die Person nicht aufwachen würde, wacht sie nur für die Botschaft auf.  
 * interessante Interaktion: Atheist als Bluff von Neurex. Neurex schafft es, durch seltsame weitergegebene Botschaften Zweifel in Story Teller zu sähen, was dazu führt, dass Story Teller exekutiert wird und die Bösen gewinnen.  
 * Story Teller versucht, die vorgegebenen Signale vom Dämon (Figur, Alignment, Fingerzahl, gezeigte Personen) an die tatsächliche Fähigkeit der Person anzupassen, sodass es möglichst nicht anders ist als betrunken/vergiftet zu sein (nur die passenden Signale werden angezeigt oder so umgewandelt, dass diese nicht gegen die erlaubten Signale verstoßen).  
 * Der Tod der von Neurex ausgewählten Person wird nur verhindert, wenn der Dämon bei der Auswahlaktion betrunken oder vergiftet ist (also keine Botschaft übermittelt wurde)
