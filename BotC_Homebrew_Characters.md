@@ -955,7 +955,7 @@ Alternative zum Devil’s Advocate: Wähle jede Nacht 2 Spielpersonen (nicht dic
 
 ## **Lover (Liebhaber)/Outsider (Idee von Anna von Werworrias)**
 
-Wähle in deiner ersten Nacht eine andere Spielperson aus. Du erfährst ihr Alignment und sie erfährt, dass du sie gewählt hast. Ihr teilt euch ein Alignment und den Tod.
+Wähle in deiner ersten Nacht eine andere Spielperson aus. Du erfährst ihr Alignment und sie erfährt, dass du sie gewählt hast. Ihr teilt euch ein Alignment und den Tod. Ihr teilt euch ein Alignment und den Tod. Eure Verbindung hält selbst über Tod und Wiederbelebung hinweg.
 
 * Anders als in der Originalfassung bekommen beide nicht mehr das neutrale Alignment, wenn der Dämon ausgewählt wird.  
 * Ihr sterbt beide zusammen, werdet aber nicht beide zusammen wiederbelebt.  
