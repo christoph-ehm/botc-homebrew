@@ -87,7 +87,10 @@
 			"Sick (State): $sickstate_trustmebro",
 			"Unconscious (State): $unconsciousstate_trustmebro",
 			"Captive (State): $captivestate_trustmebro",
-			"Quit (State): $quitstate_trustmebro"
+			"Quit (State): $quitstate_trustmebro",
+			"Accountability (Condition): $accountabilitycondition_trustmebro",
+			"Multiple Properties: $multipleproperties_trustmebro",
+			"Hidden Traveller: $hiddentraveller_imppreposterous"
 		]
 	},
 	{

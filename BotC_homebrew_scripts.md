@@ -198,6 +198,77 @@ The wizard is actually the ultimate bluffing weapon. Any inconsistencies or insi
   - Steelfzkin / Witcher: Steelfzkin related jinxes are hidden from abilities and cannot interact (including this jinx).
   - Steelfzkin / Maniac: If the Steelfzkin is in play, the Maniac dies if the Maniac is guessed as a Demon (no matter their Demon ability).
 
+# What's Your Alignment?
+
+Introduces the neutral Alignment. With Lover and Mafia Boss from Anna.
+
+- Townsfolk
+  - [(Philosopher)]
+  - [Village Gargoyle] (you are demon-killed and pass a Townsfolk character to a player when your Team loses majority)
+  - Carnival Reveller
+  - (Cult Leader)
+  - (Snake Charmer)
+  - (Village Idiot)
+  - Bodyguard
+  - [(Seamstress)] (somewhat duplicate with the Loric Stranger)
+  - [Dowser]
+  - (Noble)
+  - (Shugenja)  (replaces the Seamstress)
+  - (Lycanthrope)
+  - (Bounty Hunter)
+  - Murderer (Slayer)
+  - Hairdresser
+  - Adulterator (works with the Prosecutor)
+  - (Pacifist) (works with the Prosecutor)
+  - Demonologist
+  - Ponerologist
+  - Esoteric
+
+- Outsider
+  - Prosecutor (Ogre)
+  - Lover (Modifikation: Auswahl des Dämons erzeugt kein neutrales Alignment mehr sondern nimmt das vorhandene)
+  - Aristocrat
+  - (Goon)
+  - (Moonchild)
+  - Activist
+
+- Minion
+  - (Mezepheles)
+  - (Godfather)
+  - Frustrater (alternative of the Devil's Advocate, for bluffing the Prosecutor)
+  - Gnostic
+  - Cynic
+  - Populist
+
+- Demon
+  - Mafia Boss (Modifikation: die rekrutierte Person lernt den Mafiaboss nicht kennen)
+  - Epidemon
+  - Hydra
+  - Nimp
+
+- Traveller
+  - (Harlot)
+  - (Beggar)
+  - Fact Checker
+  - Psychotherapist
+  - Influencer
+
+- Jinx
+  - In all abilities: Evil players may refer to neutral players with good character. Good players may refer to neutral players with evil character.
+  - Hydra / Murderer: The Murderer *character* may register as Slayer character to the Hydra.
+
+- Fabled
+  - (Ferryman)
+  - (Doomsayer)
+  - (Duchess)
+  - Repairman
+  - Alien
+
+- Loric
+  - Town Planner (Alignment is initiated sequentially at night)
+  - Quine
+  - Stranger
+
 # Medieval Mischief
 
 Focuses on rules, truth and the supernatural, with prominently placed religious tones.
@@ -242,9 +313,9 @@ Focuses on rules, truth and the supernatural, with prominently placed religious 
 
 - Fabled
   - Ferryman
-  - Spirit of Ivory (reasonable for the Vampire and Satan)
+  - Probationer (reasonable for the Vampire and Satan)
   - Spoiler
-  - Illusionist
+  - Illusionist (for Mephisto when the Story Teller cannot use the Grimoire anymore)
   - Croupier
   - Fantasist
 
@@ -374,9 +445,10 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
   - Superhero
   - Croupier
   - Micromanager (the Story Teller(s) surveil(s) every private talk)
+  - Illusionist
 
 - Loric
-  - (Gardener) (in order to give challenging characters to experienced players)
+  - Town Planner (replaces the Gardener, for Kala, also gives challenging characters to experienced players)
   - Immortal (fits to unconscious state: Medusa and Inspector)
   - Inspector
   - Shopkeeper
@@ -386,46 +458,92 @@ A modern mythological Sci-Fi world. This script comes with several crazy player 
   - Ambivalent
   - Censor
   - Petrifier
-  - (Matron) (helps a lot with validating behaviour conditions (from a story teller point of view) by preventing private talks)
+  - (Matron) (like the Micromanager, helps a lot with validating behaviour conditions (from a story teller point of view) by preventing private talks)
   - Suppressor (fits to the Immortal and Inspector)
 
 - Jinxes
   - Alchemist / Spin Doctor: If the Alchemist has the Spin Doctor ability, they are an Outsider, not a Townsfolk.
 
-## Imppreposterous Syncretastrophy (Synaesthetic Ideology)
+# It Follows
+
+Alternative names: Imppreposterous Syncretastrophy, Synaesthetic Ideology
 
 Alignment, Level changes and Metagaming included.
 
 - Townsfolk
-  - choose a Townsfolk character according to Whale Buffet
-  - Farmer
-  - If you die from the Demon, the story teller chooses for the Demon player who gets drunk and must choose players to balance the game.
-  - You learn the number of abilities for some "categories" that are in play. (Protection, attack, info, effects, winning condition.)
-  - Chatterbox: Game actions are commented by the story teller in a story-telling way, revealing indirectly what happened during the night or the day (but only the fictional entities, never associating the players in physical reality). (The Huntsman chose the Damsel → "Congratulations to the lucky couple who celebrated their marriage last night. A Damsel of honor fell in love with a strong Huntsman who rescued her from her dungeon.")
+  - Existentialist: you choose any Townsfolk character according to Whale Buffet (beyond the script). If it is already in play, you are drunk. Any number of this can be in play. (Opposite to Philosopher)
+  - meta-gaming characters: Farmer, High Priestess
+  - Witness: you learn the character of the player who kills/executes you
+  - Neurotic: you learn the category (defense, info, effects, attack+other) or script-related area (left, right, townsfolk+demon, outsider+minion) of the characters of players who nominate you.
+  - Arbitrator: when there was a tie yesterday, you learn how many evil players were truely nominated.
+  - Educator: once per game, choose 1 player to turn them into a good character. However, if this character is already in play, the chosen player gets drunk.
+  - Warrior: the game may only end if only players of 1 alignment remain alive, even if you are dead. This means, the game may continue when 2 players are left.
+  - Hercules: if you are the last alive player of your alignment at dawn, your team wins.
+  - Extorted: You start knowing the Demon but if you tell it anyone (including the evil or having an evil character), vote for or nominate the Demon, your team loses the game (even if dead). The Demon knows you.
+  - Renegade: You have a demon character (you register like a Demon) who kills only by choosing players or automatically and neither sees the Grimoire nor gets crisp character info of alive players.
+  - Theorist: You have an ability and learn about 2 characters. If it is drunk, character 1 is in play. Else character 2. It may be any character, often a demon or minion with a good character.
+  - Hero: If you die from the Demon, the story teller replaces the Demon, the Demon gets drunk, and the Story Teller gets to choose the demon kills such that it balances the game.
+  - Statistician: You learn the number of abilities for some "categories" that are in play. (Protection, attack, info, effects, winning altering.)
+  - Chatterbox: Game events or actions (no player-specific details) are revealed via a comment by the story teller in a story-telling way, revealing indirectly what happened during the night or the day (but only the fictional entities, never associating the players in physical reality). (The Huntsman chose the Damsel → "Congratulations to the lucky couple who celebrated their marriage last night. A Damsel of honor fell in love with a strong Huntsman who rescued her from her dungeon.")
+  - Rationalist
+  - something with odd or even number of alive evil players or alive evil characters.
+  - Other good players (excluding you) may not be fewer than other evil players (excluding). (If a good player would be killed when alive goods are less than alive evils, they could be protected or make an evil die instead.)
+  - choose a player (not yourself) whose nomination cannot succeed the next day.
+  - if minions execute you, you don't die.
+  - Players may nominate again if nobody has died today after the execution.
+  - You learn the character+alignment of everyone who you saved from being executed.
 
 - Outsider
-  - Vagrant
-  - you get a new character instead of dying but you register as dead towards the ending condition.
+  - Palingetic: you get a new character instead of dying but you always register as dead towards the ending condition, nominating and voting.
+  - Sinner: When you die, you get a character+alignment associated with the losing/disadvantaged team
+  - Aristocrat: The killer of a neutral Demon turns into the Demon (but does not change alignment). (inspired by Anna's Lover)
+  - When you die, choose someone to copy their alignment.
+  - Cheater (Fremdgänger): Players who interact with you are dysinformed (get false info) tonight.
+  - You die if only evil/no evil voted.
+  - You may vote only one time. If you do, all non-Demon voters/all good voters die.
+  - You have the alignment of the team with minority.
+  - You have the alignment of the last nominated player.
 
 - Minion
-  - You add a Loric to the game that only you know
-  - You add a Jinx to the game that only you know
-  - One or all players kill an alive otherwise dead neighbour instead of the actual target (whenever they attack, execute or kill)
+  - Hoodoo: You add a (hidden) Loric to the game that only you know
+  - Jinx: You add a (hidden) Jinx to the game that only you know
+  - Interferer: One or all players kill an alive (otherwise dead) neighbour instead of any player they would have killed (whenever they attack, execute or kill)
     - if it is only 1, you might choose who.
-  - Alive players win if they lose and lose if they win, even if you are dead. It does not affect dead players.
+  - Forger (Fälscher): Each night, choose two players. If one of them is killed, the other dies instead.
+  - Amoralist: When the game ends, *alive* players win if they lose & lose if they win, even if you died. The Demon sees the Grimoire. Dead players learn the Demon.
+    - The Demon only wins by swapping characters with someone else
+  - ???
     - e.g. choose 1 good player at night 1 for who this happens. They don't learn about this until you tell them.
     - Minions cannot change the character of the Demon into a non-Demon, as long as this ability holds. (E.g. the Pit-Hag.)
-  - Mephisto
-  - someone who fakes Lorics or Fables to be in play (but the Fabled or Lorics are actually poisoned, ineffective)
+  - Crush (Schwarm): players think you are a good player with good character.
+  - Colluder: Before night 1: choose 3 characters. (The number of bluffs.) Those characters may only be in play together or are not in play together.
+  - Trickster: someone who fakes Lorics or Fables to be in play (but the Fabled or Lorics are actually poisoned, ineffective). Maybe, it also allows the Story Teller to fake public deaths, e.g. with the Doomsayer.
+  - You can send forged property signals to 1 player each night (for example a character or alignment change or that the player has been chosen by an ability or is informed due to some ability).
+  - the Demon acts again if no-one has died tonight
 
 - Demon
-  - choose a known or official Demon character. The Story Teller declares ≤ 4 Demons that could be in play. Others cannot.
-  - choose 2 or 3 players who get deranged. If no-one dies from them, 1 of them dies instead at dawn.
-  - Follower: 2 players start being haunted. Each night, a haunted player ("you") has to choose another player to be haunted. If this player already is hunted, you die, otherwise you get haunted again if this chosen player has died. Evil players know who are haunted. You register as a different in-play character to different players.
-  - Each day, curse 1 player. If a player points at a cursed player at night, one of both dies. The curse of a player only goes away if the cursed player has died. (Therefore, it can only go away for dead players when the diey again, e.g. after resurrection.) (A player who cannot wake at night is more likely to die than one who does.) The Demon may also choose themself in which case they Demon never dies. Minions are less likely to die than good characters.
+  - Poobah: choose a known or official Demon character. The Story Teller declares ≤ 4 Demons that could be in play. Others cannot. At each day and each night, you may choose to suspend actions for your Demon ability and get any 1 non-Demon as foreground character to play (i.e. suppressing actions for the Demon background character).
+  - Psykyll: choose 2 or 3 players who get deranged. If no-one dies from them, 1 of the deranged players dies instead at dawn.
+  - Follower: 2 players start being haunted. Each night, a haunted player ("you") has to choose another player to be haunted. If this player already is haunted, you die, otherwise you get haunted again if the player (you chose) has died. Evil players know who are haunted. You register as a different in-play character to different players.
+  - Gamorra: Each day, curse 1 player. If a player (even including the Demon) points at a cursed player at night, one of both dies. The curse of a player only goes away if the cursed player has died. (Therefore, it can only go away for dead players when they die again, e.g. after resurrection.) (A player who cannot wake at night should be more likely to die than one who does.) The Demon may also choose themself in which case the Demon never dies. Minions are less likely to die than good characters. Players who do not point, might die when they get info of a cursed player.
+  - Cheese Touch: Each night, choose 1 player to re-kill. [At day, touch a player to swap characters with them.] You swap characters with players who kill or detect you. When the game ends, you lose, even if dead. [0 minions]
+    - a good Cheese Touch tries to re-kill a dead player who detects the Demon (e.g. Sage, Ravenskeeper)
+    - an evil Cheese Touch tries to be killed or detected by an alive player (e.g. Golem)
+  - Svandal: any travellers are hidden, evil and are like Minions (they can be executed with a nomination or exiled by a call for exile, but the call for exile would always fail for non-travellers). However, travellers might be declared. You have a Traveller character but register as Demon to all game rules. Day-time mechanisms now are decided at night. (E.g. the Gunslinger or the Gangster who kills a neighbour who was nominated (or exile-called) yesterday and you + the other neighbour voted for it.)
+  - Serial Killer: You have the Murderer character but your ability refreshes whenever you kill. You don't die from your ability.
+    - effectively, the Serial Killer gets to know a condition which triggers deaths. This could be voting, nominating, saying a special word (or phrase). It might require the target to do it or the Demon.
 
 - Lorics
   - Pope
+  - Town Planner
+  - TV Moderator
+  - Pagan: If a Heretic is in play, all other good players know it and lose their character. (original Idea from the Internet but where it is listed as a Townsfolk character.)
+  * the good and the evil players are known from the start, randomly distributed and equal in number. Everything happens publicly. No private talks. At night, abilities get information about others. Some abilities attack at day, some at night. Some characters can only be killed by some characters.
+    - players might choose a character to play. Otherwise, both teams have the same set of characters.
+    - characters kill only once per game
+    - one character can choose 1 player per night to see their character. This can be used for communication and reconnaissance.
+    - a character who can kill only the neighbour(s)
+    - a character who can kill only the most far away player(s)
   * everyone has the same character in addition (which is declared)
   * everyone gets a new character (of Level 1?) instead of dying
     - game ends, if ≥ 2/3 of players are evil or if no demon character is in play anymore. (Or based on reaching a certain level.)

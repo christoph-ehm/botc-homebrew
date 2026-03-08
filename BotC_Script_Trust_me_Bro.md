@@ -106,7 +106,6 @@ Lorics:
   * Spy / Poppy Snitch: If the Poppy Snitch has their ability, the Spy does not see the Grimoire.
   * Spy / Wicked: Both cannot be in play together.
   * Plotter / Lunatic: Outsiders/Minions who don't know their character type cannot be in play with the Plotter.
-  * Plotter / Wicked: If Plotter is in play, the Wicked is equal to a Heretic.
   * Legionatic / Spy: If a Legionatic has a drunk spy ability, they see no Legionatic characters in the grimoire but the Legionatics' drunk abilities plus 1 demon.
   * Legionatic / Politician: The Politician might register as evil to the Legionatic.
   * Diabolus / Sage: Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.
