@@ -285,14 +285,6 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "alien_trustmebro",
-		"name": "_",
-		"team": "fabled",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
 		"id": "townplanner_trustmebro",
 		"name": "_",
 		"team": "loric",
