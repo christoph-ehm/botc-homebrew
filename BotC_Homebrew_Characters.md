@@ -210,7 +210,7 @@ Story Teller wählt jede Nacht eine Person, die eine persönliche Frage vom Stor
 * “Ich bin durchsetzungsfähig.”  
 * “Ich kann besser denken als anpacken.”
 
-## **Performer (Darsteller)/Outsider**
+## **Impersonator (Darsteller)/Outsider**
 
 Du erfährst eine Figur, von der niemand sonst weiß, dass sie nicht im Spiel ist. Wenn du jemanden am Ende des Spiels überzeugt hast, diese gezeigte Figur zu sein (die du nicht bist), gewinnst du. Du darfst dafür Spielzustand-bezogene Signale, Nachrichten oder Meldungen durch den Story Teller gegenüber einzelnen anderen oder allen erscheinen lassen, sowohl am Tag als auch in der Nacht.
 
@@ -955,7 +955,7 @@ Alternative zum Devil’s Advocate: Wähle jede Nacht 2 Spielpersonen (nicht dic
 
 ## **Lover (Liebhaber)/Outsider (Idee von Anna von Werworrias)**
 
-Wähle in deiner ersten Nacht eine andere Spielperson aus. Du erfährst ihr Alignment und sie erfährt, dass du sie gewählt hast. Ihr teilt euch ein Alignment und den Tod. Ihr teilt euch ein Alignment und den Tod. Eure Verbindung hält selbst über Tod und Wiederbelebung hinweg.
+Wähle in deiner ersten Nacht eine andere Spielperson aus. Du erfährst ihr Alignment und sie erfährt, dass du sie gewählt hast. Ihr teilt euch ein Alignment und den Tod. Eure Verbindung hält selbst über Tod und Wiederbelebung hinweg.
 
 * Anders als in der Originalfassung bekommen beide nicht mehr das neutrale Alignment, wenn der Dämon ausgewählt wird.  
 * Ihr sterbt beide zusammen, werdet aber nicht beide zusammen wiederbelebt.  
@@ -970,7 +970,7 @@ Du wechselst dein Alignment, wenn die Anzahl an lebenden anderen Spielpersonen i
 
 ## **Populist/Minion**
 
-Selbst wenn du tot bist bekommen gute Spielpersonen jede Information in einem Paar mit einer zusätzlichen falschen Information. Sie wissen dabei nicht, welche die ursprüngliche Info ist und welche die falsche. Zusätzlich zeigen Minion- und Dämoneninfo die bösen Figuren zu Spielpersonen an.
+Selbst wenn du tot bist bekommen gute Spielpersonen jede Information in einem Paar mit einer zusätzlichen falschen Information. Sie wissen dabei nicht, welche die ursprüngliche Info ist und welche die falsche. Zusätzlich entahlten Minion- und Dämoneninfo die bösen Figuren zu den Spielpersonen.
 
 * Wann immer eine gute Person Informationen bekommt, bekommt diese Spielperson gleichzeitig 1 zusätzliche falsche Information angezeigt. Das kann theoretisch die gleiche Information sein, wie die originale, sofern die originale Information falsch ist oder sein kann.  
 * Story Teller könnte zu jeder gezeigten Spielperson die böse Figur zeigen oder wenn das nicht geht, wird eine Liste an bösen Figuren angezeigt, die im Spiel ist.  
@@ -987,6 +987,18 @@ Wähle jede Nacht (ab der zweiten) zwei Spielpersonen aus. Diese erscheinen gege
 Wähle jede gerade Nacht (d.h. Nacht 2, Nacht 4, …) eine Spielperson. Wenn du gut bist, erhält diese das natürliche Alignment ihrer Figur. Wenn du böse bist, erscheint diese Spielperson mit neutralem Alignment gegenüber anderen Fähigkeiten.
 
 * Diese ausgewählte Person behält ihr neues Alignment oder Registrierung, bis ihr Alignment sich wieder verändert.
+
+## **Identity Thief (Identitätsdieb)/Minion**
+
+Jede Nacht könntest du eine Spielperson mit guter Figur wählen. Bis du das nächste Mal wählst, erscheinst du **heimlich** ab nun als diese Spielperson.
+
+* Das öffentliche Wissen (bspw. der Townsquare mit Life Tokens) ist nicht betroffen von der Registrierung  
+* Mit der Erscheinung werden Aktionen und Änderungen von und Abfragen des Identitätsdiebes so behandelt, als kämen sie von oder beträfen sie die ausgewählte Spielperson. Das schützt den Identitätsdieb z.B. vor dem Tod.  
+* Der Identitätsdieb kann nachts und tags als diese Person handeln, wacht aber immer nach dieser Person nachts auf (falls die Fähigkeit noch genutzt werden darf). Effektiv sieht es damit so aus, als ob dieselbe Person zweimal pro Nacht aufwacht. Dabei nutzt und beeinflusst der Identitätsdieb die Zustände der Betroffenen. Wurde eine Fähigkeit schon direkt zuvor verbraucht, wacht der Identitätsdieb auch nicht mehr auf, um zu handeln.  
+* Diese Fähigkeit kann potentiell sehr stark sein, daher sollte Story Teller sich überlegen, wie häufig und welche Figuren ausgewählt werden dürfen.  
+* Wähle nach dem Dämon in der Nacht aus.  
+* Betroffen sind auch Abstimmungen und Nominierungen, nicht aber Gewinn- und Ende-Bedingungen (und potentiell Lorics, Fabled)  
+* Der Identitätsdieb kann sich selbst auswählen, wobei der Identitätsdieb dann natürlich als er/sie selbst erscheint (wie eine normale Spielperson).
 
 # Soziale Rollen (Sozialverhalten, Simulationen)
 
@@ -1393,7 +1405,7 @@ Du erfährst in der ersten Nacht, welche Figur 1 Dämon hat. Jede Nacht erfährs
 
 ## **Bodyguard (Leibwächter)/Townsfolk**
 
-Erweiterung von Choirboy und Steward: Du erfährst in der ersten Nacht, welche gute Person VIP ist. Der Dämon kennt diese “VIP” und die Figur, als die die VIP erscheint. Wenn der Dämon die VIP tötet, erfährst du, welche Person der Dämon ist. Wenn die VIP stirbt, erfahren alle davon, welche Figur diese Person tatsächlich hat.
+Erweiterung von Choirboy und Steward: Du erfährst in der ersten Nacht, welche gute Person VIP ist. Alle Dämonen kennen diese “VIP” und die Figur, als die die VIP erscheint (auch neue Dämonen erfahren davon). Wenn der Dämon die VIP tötet, erfährst du, welche Person der Dämon ist. Wenn die VIP stirbt, erfahren alle davon, welche Figur diese Person tatsächlich hat.
 
 ## **Logician (Logiker)/Townsfolk**
 
@@ -1496,7 +1508,7 @@ Du darfst maximal ¼ der lebenden Person auswählen, die kein Dämon sind (und n
 
 ## **Voodoo Master (Voodoo-Meister)/Minion**
 
-Bestimme jede Nacht bis zur nächsten Nacht eine lebende Person (die Voodoo-Puppe) und eine andere lebende Person (die Projektion). Die Puppe ist mit der Projektion verbunden, sodass alle Zustandsänderungen der Puppe sich auch auf die projizierte Person auswirken (einseitige Übertragung). Die Puppe übernimmt die Verantwortung für weitergeleitete Zustandsänderungen der Zielperson.
+Bestimme jede Nacht bis zur nächsten Nacht eine Spielperson (die Voodoo-Puppe, aber nicht du selbst) und eine andere Spielperson (die Projektion). Die Puppe ist mit der Projektion verbunden, sodass alle Zustandsänderungen der Puppe sich zusätzlich auf die projizierte Person auswirken (einseitige Übertragung). Die Puppe übernimmt die Verantwortung für an die Zielperson weitergeleitete Zustandsänderungen.
 
 * Die Puppe ist die Person, die bestimmte Aspekte an einer andere Person überträgt  
 * wenn die Puppe stirbt, stirbt auch die Projektion  
@@ -1753,7 +1765,8 @@ Wähle jede Nacht 1 Person. Du bekommst ihr Alignment und ihre Figur, während d
 * Die Wahl erfolgt, nachdem jede tötungsfähige böse Fähigkeit in der Nacht gespielt wurde.  
 * Wenn Epidämon eine (mittlerweile) tote Spielperson auswählt, erfährt Epidämon den Tod durch den Story Teller und kann sich für eine Bestätigung oder eine andere Auswahl entscheiden (die auf die gleiche Weise funktioniert).  
 * Der Epidämon als Figur kann sich nicht vermehren, nur übertragen.  
-* Der Tod der auswählenden Spielperson tritt erst mit der neuen kopierten Figur ein. Daher werden ihre (Dämonen)Tod-Effekte ausgelöst.
+* Der Tod der auswählenden Spielperson tritt erst mit der neuen kopierten Figur ein. Daher werden ihre (Dämonen)Tod-Effekte ausgelöst.  
+* Jinx Bodyguard: Epidämon erfährt den VIP nur, wenn Epidämon selbst der VIP ist.
 
 # Supernatürliche Rollen (Strategie, Ausnahmen, Siegbeding.)
 

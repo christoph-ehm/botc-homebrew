@@ -20,7 +20,6 @@
 			"diabolus_trustmebro",
 			"pandemon_trustmebro",
 			"legionatic1_trustmebro",
-			"scaremonger1_trustmebro",
 			"bully_trustmebro",
 			"eviltwin",
 			"victim_trustmebro",
@@ -194,7 +193,7 @@
 	},
 	"spy",
 	{
-		"id": "scaremonger1_trustmebro",
+		"id": "bully_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -202,7 +201,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "bully_trustmebro",
+		"id": "scaremonger1_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -211,14 +210,6 @@
 	},
 	"eviltwin",
 	"goblin",
-	{
-		"id": "plotter_trustmebro",
-		"name": "_",
-		"team": "minion",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
 	"vortox",
 	{
 		"id": "legionatic1_trustmebro",
@@ -319,6 +310,14 @@
 	},
 	{
 		"id": "polymath_trustmebro",
+		"name": "_",
+		"team": "loric",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "plotter_trustmebro",
 		"name": "_",
 		"team": "loric",
 		"ability": "_",
