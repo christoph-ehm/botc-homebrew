@@ -38,7 +38,6 @@ Outsider:
 - [(Goon)]
 
 Minions:
-- Plotter (originally Xaan)
 - (Evil Twin(*)) (interesting with the Politician as good twin)
 - (Goblin)
 - Bully* (Personen müssen sich am nächsten Tag offenbaren, sonst können sie sterben)
@@ -85,6 +84,7 @@ Lorics:
 - Bootlegger (see JSON for most recent list)
 - Trustmaker (vertraute Personen kann man nicht voten und exekutieren dich mit, dafür weißt du, wenn diese nachts auf dich zeigen und du kannst bei einer tödlichen Exekution sehen, welche Figur und Alignment die vertraute Person hatte)
 - Polymath (Undertaker as a Loric that distributes info among players)
+- Plotter (originally Xaan)
 - [Introvert] (the Story Teller turns into a player with a secret character that gives info to those players who guess the character privately, a bit much)
 
 - (Pope) (fits to the Polymath, Puzzledrunk, Legionatic)
@@ -98,6 +98,7 @@ Lorics:
 
 - homebrew jinxes
 
+  * Sage / Leviathan / Diabolus: Each night*, the Demon chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.
   * Alsaahir: The Alsaahir's guess applies to the actual character type, else (if incorrect) to the misregistered one.
   * Alsaahir / Legionatic: With Legionatic in play, the Alsaahir may guess the Townsfolk & Outsider players instead.
   * Puzzledrunk / Legionatic: The Puzzledrunk is not a Legion(atic). When the sober+healthy Puzzledrunk guesses right, they learn a 3rd non-Legion player.
@@ -105,13 +106,12 @@ Lorics:
   * Master Hora / Leviathan: Master Hora shifts a night only when a good player is executed. Master Hora dies if chosen by Leviathan at night.
   * Spy / Poppy Snitch: If the Poppy Snitch has their ability, the Spy does not see the Grimoire.
   * Spy / Wicked: Both cannot be in play together.
-  * Plotter / Lunatic: Outsiders/Minions who don't know their character type cannot be in play with the Plotter.
   * Legionatic / Spy: If a Legionatic has a drunk spy ability, they see no Legionatic characters in the grimoire but the Legionatics' drunk abilities plus 1 demon.
   * Legionatic / Politician: The Politician might register as evil to the Legionatic.
-  * Diabolus / Sage: Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.
   * Polymath / Lunatic: If the Polymath player is a Lunatic, the demon and Polymath don't know who is demon/Polymath.
+  * Plotter / Lunatic: Outsiders/Minions who don't know their character type cannot be in play with the Plotter.
+  * Plotter / Wicked: The Wicked affects the Plotter's winning condition even if the Story Teller is executed.
   * Trustmaker / Soulmate: A soulmate vessel nevertheless triggers the Trustmaker reward on death.
-  * Trustmaker / Puzzledrunk: The Puzzledrunk does not misregister to the Trustmaker.
 
 - player counts
 
