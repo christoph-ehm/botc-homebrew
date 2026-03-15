@@ -59,7 +59,7 @@
   "villageidiot",
   "dreamer",
   {
-    "id": "carnivalreveller_imppreposterous",
+    "id_": "carnivalreveller_imppreposterous",
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
@@ -71,7 +71,7 @@
   "acrobat",
   "monk",
   {
-    "id": "psychic_trustmebro",
+    "id_": "psychic_trustmebro",
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
@@ -100,7 +100,7 @@
   "zombuul",
   "lleech",
   {
-    "id": "ker_trustmebro",
+    "id_": "ker_trustmebro",
     "name": "_",
     "team": "demon",
     "ability": "_",
