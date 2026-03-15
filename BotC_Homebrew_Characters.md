@@ -943,7 +943,7 @@ Alternative zum Pit-Hag. Du erfährst jede Nacht (nicht die erste), welche Verhe
 
 ## **Carnival Reveller (Karnevalist)/Townsfolk**
 
-Jede Nacht, wähle eine Spielperson nach Abenddämmerung, mit der du die Figur sofort tauschst. Du kannst die Figur später in der Nacht nutzen.
+Jede Nacht, wähle eine Spielperson nach Abenddämmerung, mit der du die Figur sofort tauschst. Du kannst die Figur später in der Nacht nutzen. Wenn du einen Minion oder einen Dämon auswählst, wählt Story Teller stattdessen, mit wem du die Figur tauschst.
 
 ## **Frustrator (Vereitler)/Minion**
 
@@ -1397,7 +1397,8 @@ Sieht jede Nacht (am Morgengrauen), welche Spielenden (nicht du selbst) mit ihre
 
 Du erfährst, welche Personen in der Nacht auf dich gezeigt haben, solange dein Spielerzustand es zulässt. Du erwachst erst am Ende der Nacht.
 
-* Wacht nicht auf, wenn es keine Person gibt.
+* Wacht nicht auf, wenn es keine Person gibt.  
+* Optionaler Jinx Wraith: Wenn Wraith eine funktionierende Fähigkeit hat, sieht der Aurenleser den Wraith nicht, sieht aber zusätzlich irgendeine falsche Person.
 
 ## **Antifascist (Antifaschist)/Townsfolk**
 
