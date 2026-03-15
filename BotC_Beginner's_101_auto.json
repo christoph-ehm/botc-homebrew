@@ -139,5 +139,15 @@
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
+  {
+    "id": "apatheist_trustmebro",
+    "name": "_",
+    "team": "fabled",
+    "ability": "_",
+    "firstNight": 1,
+    "otherNight": 1,
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
   "revolutionary"
 ]
