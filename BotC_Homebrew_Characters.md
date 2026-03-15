@@ -1395,10 +1395,7 @@ Sieht jede Nacht (am Morgengrauen), welche Spielenden (nicht du selbst) mit ihre
 
 ## **Psychic (Aurenleser)/Townsfolk**
 
-Du erfährst, welche Personen in der Nacht auf dich gezeigt haben, solange dein Spielerzustand es zulässt. Du erwachst erst am Ende der Nacht.
-
-* Wacht nicht auf, wenn es keine Person gibt.  
-* Optionaler Jinx Wraith: Wenn Wraith eine funktionierende Fähigkeit hat, sieht der Aurenleser den Wraith nicht, sieht aber zusätzlich irgendeine falsche Person.
+Vor jeder Morgendämmerung erfährst du genau 2 Personen, die in der Nacht auf dich gezeigt haben. Wenn das weniger als 2 getan haben, sind die übrigen Personen falsch.
 
 ## **Antifascist (Antifaschist)/Townsfolk**
 
