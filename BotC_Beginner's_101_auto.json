@@ -113,10 +113,30 @@
   "judge",
   "apprentice",
   "bishop",
+  "toymaker",
+  "revolutionary",
+  {
+    "id": "spoiler_trustmebro",
+    "name": "_",
+    "team": "fabled",
+    "ability": "_",
+    "firstNight": 1,
+    "otherNight": 1,
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "fairplayer1_trustmebro",
+    "name": "_",
+    "team": "fabled",
+    "ability": "_",
+    "firstNight": 1,
+    "otherNight": 1,
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
   "gardener",
   "hindu",
-  "bootlegger",
   "stormcatcher",
-  "toymaker",
-  "revolutionary"
+  "bootlegger"
 ]
