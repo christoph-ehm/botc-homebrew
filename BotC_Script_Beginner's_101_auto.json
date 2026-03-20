@@ -61,8 +61,6 @@
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -73,8 +71,6 @@
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -102,8 +98,6 @@
     "name": "_",
     "team": "demon",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -122,18 +116,14 @@
     "name": "_",
     "team": "fabled",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
   {
-    "id": "fairplayer1_trustmebro",
+    "id": "fairplayer_trustmebro",
     "name": "_",
     "team": "fabled",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -142,8 +132,6 @@
     "name": "_",
     "team": "fabled",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },

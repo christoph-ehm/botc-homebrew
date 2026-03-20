@@ -57,7 +57,7 @@
 			"jailer_trustmebro",
 			"pope_homebrew",
 			"toymaker",
-			"faustian1_trustmebro",
+			"faustian_trustmebro",
 			"exorcist",
 			"princess",
 			"dictator_trustmebro",
@@ -127,7 +127,7 @@
 	},
 	"exorcist",
 	{
-		"id": "faustian1_trustmebro",
+		"id": "faustian_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",

@@ -22,7 +22,15 @@
 
 ## Jinxes
 
-Common reasons for Jinxes:
+Common reasons for Jinxes can be grouped in:
+
+- changes the functionality of other characters
+- interacts with other players and their properties
+- revealing too much info
+- balancing conditions for character effects (when violated)
+- affects ending conditions (e.g. causing deaths), winning conditions (e.g. changing alignment) or their triggers
+
+More specific reasons: 
 
 - characters that get or give **foreign abilities** (which make players know too much or not enough)
 - characters which add behaviour **conditions** (what happens if the player cannot know the condition?)
@@ -306,6 +314,71 @@ Introduces the neutral Alignment. With Lover and Mafia Boss from Anna.
   - Quine
   - Stranger
 
+
+# Casual on the Homebrewer
+
+The casual Homebrew script that nobody asks for.
+
+- problems with Beginner's 101 version
+  - Virgin without Drunk (or any other fake-Townsfolk such as Punk or Spy)
+  - Grimoire interaction of Widow
+
+- Townsfolk
+  - (Nightwatchman)
+  - (Fool)
+  - (Savant) (erlaubt Story Teller Spielinformationen mit persönliche Infos zu den Spielenden zu verknüpfen, um das gegenseitige Kennenlernen zu motivieren)
+  - Smartypants
+  - Carnival Reveller
+  - Psychic
+  - Hair Dresser
+  - Demographer
+  - Mentalist
+  - Commentator
+  - (Monk)
+  - (Soldier)
+  - Sleuth
+  - Biologist
+
+- Outsiders
+  - Rookie
+  - Big Shot
+  - (Snitch)
+  - (Recluse)
+
+- Minions
+  - Bully
+  - Crimson Boy
+  - Brainformer
+  - (Wraith)
+
+- Demons
+  - (Imp)
+  - Monstro
+  - Lleedh
+  - Ker (überlässt Story Teller die Verantwortung für Kills)
+
+- Jinxes
+  - Rookie / Monstro: If the Rookie executes the player with Monstro, they are not assassinated and don't die.
+  - Rookie / Leedh: If the Rookie moves the Lleedh to another player, the host remains the same.
+
+- Traveller
+  - Care Worker
+  - (Apprentice)
+  - Time Eater
+  - Juror
+  - (Bishop) (wenn die Informationen nicht reichen Social Read)
+
+- Fabled
+  - Apatheist
+  - (Revoluationary)
+  - Fair Player
+
+- Lorics
+  - Supervisor
+  - (Storm Catcher)
+  - (Hindu)
+
+
 # Medieval Mischief
 
 Focuses on rules, truth and the supernatural, with prominently placed religious tones.
@@ -521,7 +594,6 @@ Alignment, Level changes and Metagaming included.
   - Theorist: You have an ability and learn about 2 characters. If it is drunk, character 1 is in play. Else character 2. It may be any character, often a demon or minion with a good character.
   - Hero: If you die from the Demon, the story teller replaces the Demon, the Demon gets drunk, and the Story Teller gets to choose the demon kills such that it balances the game.
   - Statistician: You learn the number of abilities for some "categories" that are in play. (Protection, attack, info, effects, winning altering.)
-  - Commenter: Game events or actions (no player-specific details) are revealed via a comment by the story teller in a story-telling way, revealing indirectly what happened during the night or the day (but only the fictional entities, never associating the players in physical reality). (The Huntsman chose the Damsel → "Congratulations to the lucky couple who celebrated their marriage last night. A Damsel of honor fell in love with a strong Huntsman who rescued her from her dungeon.")
   - Rationalist
   - something with odd or even number of alive evil players or alive evil characters.
   - Other good players (excluding you) may not be fewer than other evil players (excluding). (If a good player would be killed when alive goods are less than alive evils, they could be protected or make an evil die instead.)
@@ -535,11 +607,13 @@ Alignment, Level changes and Metagaming included.
   - Palingetic: you get a new character instead of dying but you always register as dead towards the ending condition, nominating and voting.
   - Sinner: When you die, you get a character+alignment associated with the losing/disadvantaged team
   - Aristocrat
-  - When you die, choose someone to copy their alignment.
   - Cheater (Fremdgänger): Players who interact with you are dysinformed (get false info) tonight.
   - You may vote only one time. If you do, all non-Demon voters/all good voters die.
   - You have the alignment of the last nominated player.
   - Hooligan: You have the alignment of the recent drunk (not poisoned) player
+  - When you die, choose someone to copy their alignment (as long as it does not surpass ≤ 40% evil).
+  - Anyone who nominates you, fails at any nominating and voting after it until dusk. (Already the vote for the current nomination will not work)
+  - Unstable: If you survive the nomination of an evil player, at night, the Demon dies and turns you into the new evil demon.
 
 - Minion
   - Hoodoo: You add a (hidden) Loric to the game that only you know
@@ -549,7 +623,7 @@ Alignment, Level changes and Metagaming included.
   - Forger (Fälscher): Each night, choose two players. Both players register as being the other player. (e.g. if one of them is killed, the other dies instead.)
   - Amoralist: When the game ends, *alive* players win if they lose & lose if they win, even if you died. The Demon sees the Grimoire. Dead players learn the Demon.
     - The Demon only wins by swapping characters with someone else
-  - Cynic
+  - Cynic (everything that is "evil" is interpreted as "good" instead)
   - ???
     - e.g. choose 1 good player at night 1 for who this happens. They don't learn about this until you tell them.
     - Minions cannot change the character of the Demon into a non-Demon, as long as this ability holds. (E.g. the Pit-Hag.)

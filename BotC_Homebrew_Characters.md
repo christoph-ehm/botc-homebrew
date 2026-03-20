@@ -708,16 +708,17 @@ Wählt jede Nacht zwei lebende Personen. Eine davon ist eingesperrt, die andere 
 
 ## **Bully (Schläger)/Minion**
 
-Wählt jede Nacht eine Person. Diese Person muss bis vor der nächsten Exekution (öffentlich) behaupten, ihre tatsächliche Figur zu sein (das bekommt sie nachts auch mitgeteilt). Wenn nicht, stirbt sie bei Anbruch der Nacht. Hat keine Wirkung auf Personen in deinem Team (diese erfahren nicht vom Schläger).
+Selbst wenn der Schläger betrunken oder vergiftet ist, wird jede Nacht maximal 1 Spielperson vom Schläger bedrängt. Wenn nüchtern und gesund ist es immer die Spielperson, die der Schläger auswählt. Diese Person muss bis zur Exekution (inbesondere öffentlich) im Wahn sein, ihre tatsächliche Figur zu sein (das bekommt sie nachts auch mitgeteilt). Wenn nicht, stirbt sie bei Anbruch der Nacht (nach dem Dämon getötet hat). Hat keine Wirkung auf Personen in deinem Team (diese erfahren nicht vom Schläger).
 
-* man muss die tatsächliche Figur mitteilen, eine bloße Registrierung/Erscheinung reicht nicht.  
-* Während eine Person betrunken oder vergiftet ist, zählt, dass man die eigene bekannte Figur nicht hat. Betrunken oder vergiftet würde man damit also sterben.  
-* interessantes psychologisches Dilemma (sogenannte Doppelbindung): du bist im Wahn, ein anderer Charakter zu sein und wirst nun vom Schläger ausgewählt.  
-* ein Lunatic wird herausfinden, Lunatic zu sein, weil Personen im Schläger-Team nicht gebullied werden können.  
+* man muss die tatsächliche Figur in öffentlicher Runde am Tag vor der Exekution (bzw. Nominierungsende) mitteilen, eine bloße Registrierung/Erscheinung reicht nicht.  
+* Eine Spielperson, die ihre tatsächliche Figur nicht kennt, würde bei falscher Behauptung trotzdem sterben.  
+* interessantes psychologisches Dilemma (sogenannte Doppelbindung): du bist bereits im Wahn, ein anderer Charakter zu sein und wirst nun vom Schläger ausgewählt.  
+* ein Lunatic wird herausfinden, Lunatic zu sein, weil Personen im Schläger-Team nicht bedrängt werden können. Eine Marionette dagegen würde niemals bedrängt.  
 * Beachte, dass der Dämon vor dir tötet und die gleiche Person auswählen kann. Tötungseffekte mit Bezug zum Dämon werden dann nicht verhindert.  
 * Diese Figur ist ziemlich gut, um böse und gute Bluffs oder sogar Alignment vertrauenswürdiger erscheinen zu lassen. Allerdings steckt in Schläger-Bluffs und strategischen Antworten auf solche Behauptungen allgemein ein höheres Risiko, weil bei einem eklatanten Bluff-Fehler wie Double Claim oder zeitlich unpassendem Bluff eine Reihe von Bluffs auffliegen können. (Z.B. das böse Team blufft, gebullied zu werden, um Vertrauen zu erwecken, aber die Guten schließen darauf, dass es keinen Schläger geben kann.) Jeder falsche Schläger-Claim kann vom Dorf verfolgt werden.  
 * Zusätzlich gibt der Schläger-Tod noch Informationen frei (sowas wie (Puzzle-)Drunk oder Vergiftungs/Betrunkenheitsfähigkeiten), die der Dämon versuchen kann, durch das Auswählen der Schläger-Person zu verschleiern. Das wiederum kann von Personen genutzt werden, die vom Dämon getötet werden wollen.  
-* Ein defekter Schläger *könnte* beliebige andere Person bedrängen, selbst ihre Teammitglieder, aber keine bedrängte Person stirbt in der Nacht während der Schläger defekt ist. (Das heißt, Story Teller sucht sich Personen aus, von denen maximal eine Person tatsächlich als bedrängt gilt, die aber nicht in der Nacht sterben, solange der Schläger währenddess defekt ist.)  
+* Ein defekter Schläger *könnte* beliebige andere Person bedrängen, nicht aber eigene Teammitglieder.  
+* Bedrängte Spieler/innen sterben nur dann in der Nacht, wenn der Schläger gleichzeitig defekt ist. (Das heißt auch, Story Teller sucht sich dann in der Nacht eine Spielperson aus, möglicherweise unabhängig von der tatsächlichen Wahl des Schlägers. Diese können nur in der nächsten Nacht sterben, wenn der Schläger nicht mehr defekt ist.)  
   * Das ermöglicht, die Betrunkenheit vor dem Schläger selbst zu verstecken, potentiell, ermöglicht aber auch interessantere Interaktionen, wenn mit allgemein vergifteten oder betrunkenen Minions gespielt wird (z.B. Pandämon).
 
 ## **Headman (Führer)/Townsfolk**
@@ -1000,6 +1001,35 @@ Jede Nacht könntest du eine Spielperson mit guter Figur wählen. Bis du das nä
 * Betroffen sind auch Abstimmungen und Nominierungen, nicht aber Gewinn- und Ende-Bedingungen (und potentiell Lorics, Fabled)  
 * Der Identitätsdieb kann sich selbst auswählen, wobei der Identitätsdieb dann natürlich als er/sie selbst erscheint (wie eine normale Spielperson).
 
+## **Rookie (Anwärter)/Outsider**
+
+Der Slayer als Outsider: Du darfst nur 1-mal im Spiel nominieren. Alle anderen Nominierungen schlagen fehl. Wenn deine erste Nominierung den Dämon trifft, wird dieser exekutiert. Wenn dieser Dämon dadurch stirbt, wird ein anderer lebender Spieler zum Dämon.
+
+* Namenshintergrund: Der Anwärter versucht in das Geschäft des Dämonentötens (Demon Slayers) einzusteigen, ist aber zu schwach im Kampf, um bei einem Treffer den Dämon tatsächlich zu töten, sodass eine neue Spielperson Dämon wird.
+
+## **Big Shot (Bonze)/Outsider**
+
+Eine einfachere Alternative zum Clan Boss: Wenn ein guter Spieler dich tötet (z.B. per Exekution), stirbt diese Spielperson in der nächsten Nacht den Assassin-Tod.
+
+* Der Assassin-Tod ist wie die Auswahl durch einen Assassin.
+
+## **Unstable (Instabile)/Outsider**
+
+Wenn du die Nomination durch eine böse Spielperson überlebst, stirbt der Dämon in der Nacht und du wirst zum neuen bösen Dämon.
+
+* Hintergrund: die Idee ist eigentlich eine Art Person, die wie in Ladybug & Cat Noir akumatisiert bzw. angestachelt wird.  
+* alternative Namen: Susceptible (Anfällige), Akumatized (Akumatisierte)  
+* Um den Effekt auszulösen, muss man nur von einer bösen Spielperson nominiert werden und überleben. Der Negativeffekt des Outsiders besteht darin, dass er böse werden kann und das Böse Team den Dämon verschieben kann (wenn diese es normalerweise nicht könnten)  
+* Optional: unter denen, die für die tödliche Exekution stimmten, können auch Leute sterben.
+
+## **Brainformer (Hirnwandler)/Minion**
+
+Wenn ein Minion stirbt (dich eingeschlossen), erfährst du dessen Figur. Du darfst dann einen Minion (als Spielperson) auswählen, mit dem du Figuren tauschst. \[+1 Outsider\]
+
+## **Lleedh/Demon**
+
+Modifikation des Lleech: der Host muss bestimmte Eigenschaften erfüllen → es ist ein Townsfolk, ausgewählt von Story Teller. Die Vergiftung muss in der Fähigkeit einen Unterschied zur Nichtvergiftung machen, aber die Fähigkeit des Hosts funktioniert allgemein unnormal (entweder basierend auf einer erfunden Regel oder erhält einfach generell falsche Informationen), allerdings als Teilmenge einer vergifteten Fähigkeit.
+
 # Soziale Rollen (Sozialverhalten, Simulationen)
 
 ## **Double Agent (Doppelagent)/Traveller**
@@ -1158,6 +1188,13 @@ In der ersten Nacht siehst du 1 gute Person, die von Spieler/innen mit böser T�
 Wenn du am Leben bist wenn das Spiel endet, gewinnst du gegen alle anderen Spielpersonen. Wenn du zu Spielende tot bist, verlierst du und die anderen gewinnen unter den sonstigen Bedingungen. Du hast jedes Alignment und jeden Figurtyp, selbst wenn tot. \[+2 Outsider\]
 
 * häufig sollte der Solipsist gegenüber anderen Spielpersonen mit dem Figurtyp und dem Alignment erscheinen, dass die Spielperson hat, welche Informationen über den Solipsist erhält. Entscheidet Story Teller. So muss der Solipsist aber nicht erscheinen. Bei der Dämoneninfo sollte der Solipsist als Minion erscheinen.
+
+## **Crimson Boy (Purpurbub)/Minion**
+
+Du hast eine richtig funktionierende Townsfolk-Fähigkeit (kennst diese auch) und erscheinst einmal im Spiel entsprechend dieser Fähigkeit gegenüber einer guten Figur. Das muss irgendwann in dem ersten Zyklus (= Nacht+Tag) passieren, in dem du von (der Fähigkeit) einer guten Figur überprüft wirst.
+
+* Damit die falsche Registrierung tatsächlich auch im ersten Zyklus passiert, in welchem der Purpurbub mit einer guten Figur interagiert, kann die Fehlerscheinung nicht nach der letzten 100%-sicheren Interaktion in dem Zyklus passieren. Nur wenn es keine 100%-sichere Interaktion mit einer guten Figur gibt, führt die erste zufällige Interaktion zu einer Fehlerscheinung.  
+* Nur genau einmal wird gegenüber genau einer Spielperson einer guten Figur eine Fehlerscheinung stattfinden.
 
 # 
 
@@ -1318,13 +1355,15 @@ Spezialfall des Savant: Erfährt zu Beginn des Spiels, wie viele Böse es unter 
 
 ## **Biologist (Biologe/gin)/Townsfolk**
 
-Wähle jede Nacht eine Person, du erfährst entweder, ob die erscheinende Figur der Person nicht in dem Minion-Bereich oder nicht im Dämon-Bereich des Skriptes steht.
+Wähle jede Nacht eine Person, du erfährst entweder, ob die erscheinende Figur der Person nicht in dem Minion-Bereich oder nicht im Dämon-Bereich des Skriptes steht oder sonst ob diese Figur auf der rechten oder linken Seite des Skripts steht.
 
 ## **Sleuth (Schnüffler)/Townsfolk**
 
-Wählt jede Nacht eine Person und bekommt eine Figur dazu gezeigt. Wenn diese Figur nicht der Person gehört, ist es eine Figur, die nicht im Spiel ist (z.B. ein Bluff von bösen Spielenden.)
+Du erfährst zu Beginn eine **gute** Figur, die **tatsächlich** nicht im Spiel ist. Wähle einmal im Spiel eine Person und erfahre eine **gute** Figur, die **keine andere** Spielperson **tatsächlich** hat.
 
-* meistens bekommt man nur gute Figuren gezeigt, selbst wenn die ausgewählte Person eine böse Figur hätte. Allerdings muss es nicht so sein. Wenn es nützlich wäre, eine böse Figur zu kennen, die nicht im Spiel ist, kann für eine gute oder böse Person eine böse Figur angezeigt werden, die nicht im Spiel ist.
+* Der Schnüffler umgeht Fehlregistrierungen  
+* man bekommt nur gute Figuren gezeigt, selbst wenn die ausgewählte Person eine böse Figur hätte.  
+* Wenn eine Spielperson ausgewählt wird, sieht man entweder ihre gute Figur oder eine gute Figur, die niemand hat.
 
 ## **Detective (Detektiv)/Townsfolk**
 
@@ -1464,12 +1503,19 @@ Erfahre jede Nacht, ob sich eine Dämonenfähigkeit oder \-Spieler geändert hat
 
 Erfahre jede Nacht, von wie vielen Spielpersonen sich das Alignment der Spielperson oder der Figur geändert hat seit gestern bis einschließlich diese Nacht.
 
-## **Esoteric/Townsfolk**
+## **Esoteric (Esoteriker/in)/Townsfolk**
 
 Erfahre jede Nacht, wie viel lebende Spielpersonen eine unnormale Erscheinung ihres Alignments oder ihrer Figur gegenüber anderen oder Spielregeln haben.
 
 * Die Erscheinung ist unnormal, wenn eine Person nicht mit dem Alignment oder der Figur ihrer tatsächlichen (Vordergrund-)Figur (bzw. einer davon) erscheint, selbst wenn es das tatsächliche Alignment ist.  
 * Es wird die Anzahl an Spielpersonen gezählt.
+
+## **Commentator (Kommentator/in)/Townsfolk**
+
+Anonymized game events or actions are revealed via a comment or a recount by the story teller in a story-telling way, revealing indirectly what happened during the night or the day (but only the fictional entities, never associating the players in physical reality).
+
+* Beispiel: Heute Nacht wählt der Huntsman die Damsel aus. Am nächsten Morgen sagt Story Teller: "Meine herzlichen Glückwunsche gehen an das glückliche Paar, welches vergangene Nacht ihre Hochzeit gefeiert hat. Ein hochwohlgebohrenes Fräulein verliebte sich in einen starken Jägersmann, der sie aus ihrem Verlies befreite."  
+* Story Teller-Kommentare durch den Kommentator basieren auf tatsächlichen Ereignissen und Aktionen im Spiel und nie auf falschen oder erfundenen.
 
 # Schutzrollen (reduziert/verhindert Effekte)
 
@@ -1595,6 +1641,10 @@ Jede Nacht, wähle 1 lebende Spielperson (nicht dich selbst). Falls diese keine 
 * Jinx Drug Pusher (hat keine Wirkung auf die Parteilose)  
 * Jinx Tyrann: Wenn der Tyrann alle Townsfolk zu Parteilosen macht, wird der anti-Zustand für jede Person individuell vergeben.  
 * Tipp: die Parteilose ist ziemlich nützlich zum Bluffen und selbst im Normalzustand geheimnisvoller als eine Figur, die einfach nichts kann, selbst wenn die normale Parteilose annähernd genau das ist. Die Parteilose erlaubt auch bessere Vorhersehbarkeit. Eine normale Parteilose wird mit höherer Wahrscheinlichkeit den letzten Tag erreichen als andere Spielpersonen, während eine Anti-Parteilose wohl kaum den letzten Tag erreichen sollte und jederzeit vorher sterben kann, um jemand anderes zu beschützen (weil sonst das böse Team gewinnt).
+
+## **Supervisor (Aufseher)/Loric**
+
+Anfänger sterben nicht vor Tag 3 und ihr Tod oder Bekanntwerden löst keinen starken Nachteil für deren Team aus. Du kannst Figuren für diese Spielpersonen ändern und wählen.
 
 # Angriffsrollen
 
@@ -2375,7 +2425,10 @@ Zu Beginn des Spiels darf Story Teller ankündigen, dass manche Figuren nicht g�
 
 ## **TV Moderator (TV-Moderator)/Loric**
 
-Die Spielenden werden unterteilt in: 1\) Nominatoren: Personen, die nominieren können, 2\) Publikum: Outsider oder Traveller, die abstimmen können (dafür aber nicht privat reden dürfen (sonst ihre Stimme verlieren), nicht sterben und den ohnmächtig-Zustand haben, und 3\) Personen, die ganz normal mitmachen (zu beidem gehören).
+Ab 7 Spielpersonen: Die Spielenden werden unterteilt in: 1\) Nominatoren: Personen, die nominieren können und 2\) Publikum: Outsider oder Traveller, die abstimmen können (dafür aber nicht privat reden dürfen (sonst ihre Stimme verlieren), nicht sterben und den ohnmächtig-Zustand haben.
+
+* Das Publikum sollte in etwas dem Verhältnis aus böse und gut bestehen wie im gewöhnlichen Spiel sonst auch.  
+* Bei 7 Spielpersonen gibt 3 im Publikum und 4 Nominatoren
 
 ## **Town Planner (Stadtplaner)/Loric**
 
@@ -2430,3 +2483,9 @@ Erweiterung des Imps: Wähle jede Nacht (nicht die erste) 1 Person, die stirbt. 
 * Das Alignment der Spielperson, die zum neuen Nimp wird, ändert sich nicht. Die Person wird nicht neutral und wählt auch keine andere Person aus.  
 * Wenn der Nimp während dem Spiel neutral wird, wechselt sich nicht seine Figur.
 
+## **Monstro/Demon**
+
+Modifikation von Lil’ Monsta: nur (böse) Minions wählen, wer Monstro erhalten soll (jede Nacht). Jede Spielerperson (außer Traveller) können Monstro bekommen. Story Teller wählt aus, welcher lebende Nachbar des Monstro-Babysitters sterben soll und darf dabei auch dessen Wunsch berücksichtigen, wenn gewollt. Dadurch, dass Minions den Tod zur Hälfte selbst wählen dürfen, können alle toten Spielpersonen auch heimlich ohne Vote Token gültig abstimmen.
+
+* Bei der heimlich Abstimmung wird die tote Stimme nicht öffentlich gezählt, aber leise im Kopf. Die abstimmende Person erhöht das Nominationsziel allerdings heimlich auch um 1, was auch nicht angesagt wird. Am Ende wird nur gesagt, ob die Nomination erfolgreich war oder nicht.  
+* Heimliche Stimmen können erfolgreiche Nominationen nicht verhindern, aber unerfolgreiche Nominationen erfolgreich machen.

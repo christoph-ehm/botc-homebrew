@@ -63,7 +63,7 @@
 			"agitator_trustmebro",
 			"sorcerer_trustmebro",
 			"wizard",
-			"faustian1_trustmebro",
+			"faustian_trustmebro",
 			"patroness_trustmebro",
 			"maniac_trustmebro",
 			"balloonatic_trustmebro",
@@ -132,7 +132,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "faustian1_trustmebro",
+		"id": "faustian_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -358,14 +358,6 @@
 	},
 	{
 		"id": "doubleagent_trustmebro",
-		"name": "_",
-		"team": "traveller",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "careworker_trustmebro",
 		"name": "_",
 		"team": "traveller",
 		"ability": "_",
