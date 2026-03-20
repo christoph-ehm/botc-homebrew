@@ -19,7 +19,7 @@
 			"demoninfo",
 			"diabolus_trustmebro",
 			"pandemon_trustmebro",
-			"legionatic1_trustmebro",
+			"legionatic_trustmebro",
 			"bully_trustmebro",
 			"eviltwin",
 			"victim_trustmebro",
@@ -44,15 +44,15 @@
 			"plotter_trustmebro",
 			"polymath_trustmebro",
 			"adulterator_trustmebro",
-			"faustian1_trustmebro",
+			"faustian_trustmebro",
 			"lunatic",
-			"legionatic1_trustmebro",
+			"legionatic_trustmebro",
 			"pandemon_trustmebro",
 			"fanggu",
 			"vortox",
 			"diabolus_trustmebro",
 			"soulmate_trustmebro",
-			"scaremonger1_trustmebro",
+			"scaremonger_trustmebro",
 			"bully_trustmebro",
 			"blabber_trustmebro",
 			"puzzledrunk_trustmebro",
@@ -90,7 +90,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "faustian1_trustmebro",
+		"id": "faustian_trustmebro",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
@@ -201,7 +201,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "scaremonger1_trustmebro",
+		"id": "scaremonger_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
@@ -212,7 +212,7 @@
 	"goblin",
 	"vortox",
 	{
-		"id": "legionatic1_trustmebro",
+		"id": "legionatic_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
@@ -250,18 +250,9 @@
 	"beggar",
 	"scapegoat",
 	"ferryman",
-	"doomsayer",
 	"sentinel",
 	{
 		"id": "collaborator_trustmebro",
-		"name": "_",
-		"team": "fabled",
-		"ability": "_",
-		"firstNightReminder": "_",
-		"otherNightReminder": "_"
-	},
-	{
-		"id": "apatheist_trustmebro",
 		"name": "_",
 		"team": "fabled",
 		"ability": "_",
