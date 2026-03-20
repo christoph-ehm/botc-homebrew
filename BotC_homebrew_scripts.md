@@ -118,7 +118,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Terminator (fits to Centralist, Punk, Samurai (who can kill the Terminator), interesting with Dictator)
 
 - Demon
-  - Lleech
+  - (Lleech)
   - Loan Shark
   - Shredder
   - Warmonger
@@ -143,7 +143,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Repairman / Toy Maker: Evil may see each other if 3 ≥ good Townsfolk are in play.
 
 - Fabled
-  - Ferryman
+  - (Ferryman)
   - (Toy Maker)
   - Apatheist
   - Spoiler
