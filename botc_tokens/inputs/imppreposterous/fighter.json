@@ -1,0 +1,1 @@
+{"id":"fighter_imppreposterous","name":"Fighter","ability":"Players who kill you are drunk the next 2 cycles.","home_script":"imppreposterous","type":"townsfolk","image":"/src/assets/icons/generic/townsfolk.webp","icon":"../../icons/townsfolk.webp","affects_setup":false,"first_night":false,"other_nights":false,"reminders":[]}

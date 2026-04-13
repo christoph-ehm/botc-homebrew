@@ -1,0 +1,12 @@
+{
+	"id": "apprentice",
+	"name": "Apprentice",
+	"ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil).",
+	"home_script": "_",
+	"type": "traveller",
+	"icon": "apprentice.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["IS THE APPRENTICE"]
+}

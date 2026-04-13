@@ -1,0 +1,12 @@
+{
+	"id": "recluse",
+	"name": "Recluse",
+	"ability": "You might register as evil & as a Minion or Demon, even if dead.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "recluse.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}
