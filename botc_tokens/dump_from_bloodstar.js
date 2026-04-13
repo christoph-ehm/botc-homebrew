@@ -13,7 +13,7 @@ function write_file(filepath, content, options)
 				reject(error_message)
 			resolve(content)
 		})
-	})
+	}).catch((error_message) => console.error(filepath, options, error_message))
 }
 
 async function main(cli_arguments)
@@ -284,13 +284,28 @@ async function write_characters_to_directories(character_list_map, include_image
 	{
 		let directory_path = get_character_directory_path({ home_script })
 		let filepaths = get_filepaths_in_directory(directory_path, include_images)
-		for (let filepath of filepaths)
-		{
-			fs.unlink(filepath, (error_message) => error_message && console.error(filepath, error_message) )
-		}
-
+		
+		filepaths.forEach(fs.unlinkSync)
+		//await remove_existing_character_files(filepaths)
 		await write_list_of_characters(character_list_map.get(home_script))
 	}
+}
+
+async function remove_existing_character_files(filepaths)
+{
+	let promised_removes = filepaths.map(remove_character_file)
+	let result = await Promise.allSettled(promised_removes)
+}
+
+function remove_character_file(filepath)
+{
+	return new Promise((resolve, reject) => {
+		fs.unlink(filepath, (error_message) => {
+			if (error_message)
+				reject(filepath, error_message);
+			resolve(filepath)
+		})
+	})
 }
 
 async function write_list_of_characters(character_list)
@@ -310,8 +325,8 @@ function write_character_to_file(character)
 	let filepath = path.join(destination_path, filename)
 	
 	let json_content = JSON.stringify(character);
-	//fs.writeFileSync(filepath, json_content, { encoding: 'utf8', flag: "w" });
-	return write_file(filepath, json_content, { encoding: 'utf8', });
+	fs.writeFileSync(filepath, json_content, { encoding: 'utf8', flag: "w" });
+	//return write_file(filepath, json_content, { encoding: 'utf8', });
 }
 
 async function write_character_icons_of_map(character_list_map)
