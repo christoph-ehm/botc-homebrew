@@ -1,0 +1,12 @@
+{
+	"id": "revolutionary",
+	"name": "Revolutionary",
+	"ability": "2 neighboring players are known to be the same alignment. Once per game, 1 of them registers falsely.",
+	"home_script": "_",
+	"type": "fabled",
+	"icon": "revolutionary.png",
+	"affects_setup": true,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["REGISTER FALSELY?"]
+}

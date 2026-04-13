@@ -6,6 +6,8 @@
     "almanac": "https://www.bloodstar.xyz/p/Elmar/imppreposterous/almanac.html",
     "firstNight": [
       "brainformer_imppreposterous",
+      "doppelgnger_imppreposterous",
+      "joker_imppreposterous",
       "dusk",
       "stormcatcher",
       "wraith",
@@ -33,18 +35,23 @@
       "timeeater_trustmebro",
       "careworker_trustmebro",
       "wraith",
+      "doppelgnger_imppreposterous",
+      "joker_imppreposterous",
       "bigshot_imppreposterous",
       "rookie_imppreposterous",
       "brainformer_imppreposterous",
       "crimsonboy_imppreposterous",
       "carnivalreveller_imppreposterous",
       "monk",
-      "ker_imppreposterous",
+      "quizmaster_imppreposterous",
+      "ker_trustmebro",
       "imp",
       "lleedh_imppreposterous",
       "monstro_imppreposterous",
       "bully_trustmebro",
+      "darling_imppreposterous",
       "biologist_trustmebro",
+      "hero_imppreposterous",
       "demographer_homebrew",
       "hairdresser_homebrew",
       "sleuth_homebrew",
@@ -55,17 +62,33 @@
       "juror_homebrew"
     ],
     "bootlegger": [
+      "Each night°: each night except the first (relative) night of the character.",
       "Assassination: a kill that ignores any character's protection effects. Fabled or Lorics might be excluded from this rule.",
-      "Each night°: each night except the first (relative) night of the character."
+      "Actual Properties: the properties that a player registers as towards the Story Teller, the ending or winning conditions of the game.",
+      "Multiple Characters: Players may have multiple characters."
     ]
+  },
+  {
+    "id": "joker_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "smartypants_trustmebro",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
   },
   {
     "id": "sleuth_homebrew",
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -74,8 +97,6 @@
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -84,8 +105,6 @@
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -94,40 +113,14 @@
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
-  "monk",
   {
     "id": "mentalist_homebrew",
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
-    "firstNightReminder": "_",
-    "otherNightReminder": "_"
-  },
-  {
-    "id": "commentator_imppreposterous",
-    "name": "_",
-    "team": "townsfolk",
-    "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
-    "firstNightReminder": "_",
-    "otherNightReminder": "_"
-  },
-  "savant",
-  {
-    "id": "demographer_homebrew",
-    "name": "_",
-    "team": "townsfolk",
-    "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -136,21 +129,62 @@
     "name": "_",
     "team": "townsfolk",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
-  "nightwatchman",
-  "soldier",
-  "fool",
+  {
+    "id": "quizmaster_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "demographer_homebrew",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "champion_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "doppelgnger_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "hero_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "darling_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
   {
     "id": "rookie_imppreposterous",
     "name": "_",
     "team": "outsider",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -161,8 +195,6 @@
     "name": "_",
     "team": "outsider",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -171,8 +203,6 @@
     "name": "_",
     "team": "minion",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -181,8 +211,6 @@
     "name": "_",
     "team": "minion",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -192,8 +220,6 @@
     "name": "_",
     "team": "minion",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -202,8 +228,6 @@
     "name": "_",
     "team": "demon",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -213,18 +237,14 @@
     "name": "_",
     "team": "demon",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
   {
     "id": "lleedh_imppreposterous",
-    "name": "_",
+    "name": "",
     "team": "demon",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -235,8 +255,6 @@
     "name": "_",
     "team": "traveller",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -245,8 +263,6 @@
     "name": "_",
     "team": "traveller",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -255,8 +271,6 @@
     "name": "_",
     "team": "traveller",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -266,20 +280,23 @@
     "name": "_",
     "team": "loric",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
   "bootlegger",
-  "stormcatcher",
   {
     "id": "apatheist_trustmebro",
     "name": "_",
     "team": "fabled",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "commentator_imppreposterous",
+    "name": "_",
+    "team": "fabled",
+    "ability": "_",
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
@@ -288,8 +305,6 @@
     "name": "_",
     "team": "fabled",
     "ability": "_",
-    "firstNight": 1,
-    "otherNight": 1,
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },

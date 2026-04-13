@@ -323,21 +323,48 @@ The casual Homebrew script that nobody asks for.
   - Virgin without Drunk (or any other fake-Townsfolk such as Punk or Spy)
   - Grimoire interaction of Widow
 
+- feedback:
+  - Einbezug von Gender ist diskriminierend. Ein gebluffter Demographer hat behauptet, eine weibliche Person wäre böse, dann wurden die einzigen offen weiblichen Personen angegriffen.
+    - zugleich gab es eine Person, die fälschlicherweise als ein Geschlecht zugeordnet wurde
+  - difficult communication at night
+    - joker, specific night message. Instead talk to Joker before the first night.
+      - same with Crimson Boy who can be a Joker.
+    - Care Worker
+  - weak Smartypants sees the only outsider
+  - Lleedh is difficult to story-tell well and should be removed
+  - Commentator is difficult to story-tell and could be replaced
+  - Joker braucht womöglich mehr Beschränkung.
+  - Verständnis-Schwierigkeiten:
+    - Doppelgänger → wie killt der?
+    - Formulierung des Psychic
+    - Formulierung des Hairdresser (Fähigkeit verändert??)
+    - Lleedh → ability works abnormally (but only within poisoned boundaries)
+    - Monstro → Unterschied zu Lil' Monsta geht unter
+  - manche Figuren haben komplizierte Edge-Cases
+  - Quizmaster sollte vor dem Dämon killen
+  - fehlende Regelungen mit Travellers
+  - Psychic macht keinen Sinn, wenn es nicht mindestens 3 Figuren gibt, die andere nachts sehen. Solche sind:
+    - Sleuth
+    - Biologist
+    - Mentalist
+    - Smartypants
+
 - Townsfolk
-  - (Nightwatchman)
-  - (Fool)
-  - (Savant) (erlaubt Story Teller Spielinformationen mit persönliche Infos zu den Spielenden zu verknüpfen, um das gegenseitige Kennenlernen zu motivieren)
+  - (Nightwatchman) / Doppelgänger
+  - (Fool) / Joker
+  - [(Savant)] (erlaubt Story Teller Spielinformationen mit persönliche Infos zu den Spielenden zu verknüpfen, um das gegenseitige Kennenlernen zu motivieren)
   - Smartypants
   - Carnival Reveller
   - Psychic
   - Hair Dresser
   - Demographer
   - Mentalist
-  - Commentator
-  - (Monk)
-  - (Soldier)
+  - Hero
+  - (Monk) / Quizmaster
+  - (Soldier) / Champion
   - Sleuth
   - Biologist
+  - Darling
 
 - Outsiders
   - Rookie
@@ -354,12 +381,12 @@ The casual Homebrew script that nobody asks for.
 - Demons
   - (Imp)
   - Monstro
-  - Lleedh
+  - [Lleedh]
   - Ker (überlässt Story Teller die Verantwortung für Kills)
 
 - Jinxes
   - Rookie / Monstro: If the Rookie executes the player with Monstro, they are not assassinated and don't die.
-  - Rookie / Leedh: If the Rookie moves the Lleedh to another player, the host remains the same.
+  - Rookie / Leedh: If the Rookie moves the Lleedh to another player, the host remains the same & alive.
 
 - Traveller
   - Care Worker
@@ -369,6 +396,7 @@ The casual Homebrew script that nobody asks for.
   - (Bishop) (wenn die Informationen nicht reichen Social Read)
 
 - Fabled
+  - Commentator
   - Apatheist
   - (Revoluationary)
   - Fair Player

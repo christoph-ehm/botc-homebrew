@@ -1,0 +1,12 @@
+{
+	"id": "snitch",
+	"name": "Snitch",
+	"ability": "Each minion gets 3 bluffs.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "snitch.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": false,
+	"reminders": []
+}

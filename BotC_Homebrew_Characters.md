@@ -331,6 +331,24 @@ Story Teller ist auch eine Spieler/in im Spiel und hat eine Fähigkeit (kein Dä
 * Das Alignment des Story Tellers erscheint als das gleiche wie deren Figur. Story Teller ist aber weiterhin neutral und gewinnt und verliert nicht.  
 * Da Story Teller nun als Spieler zählt, kann dieser auch Spielerzustände haben und getötet werden oder sogar das Spiel verlassen. Der Effekt wirkt sich entsprechend auf die Spielerfähigkeit aus, aber das Story Telling selbst ist nie betroffen.
 
+## **Doppelgänger/Townsfolk**
+
+Du bekommst die Figur der von dir zuletzt getöteten Spielperson. Wenn du einen böse Figur tötest, bist du vergiftet. Du könntest zu Beginn an eine andere Figur bekommen haben (und nicht wissen, dass du Doppelgänger bist).
+
+* Beachte: Eine Figur zu bekommen und zu werden sind zwei verschiedene Dinge. Eine Figur zu bekommen bedeutet für den Doppelgänger, dass die neue Figur die Doppelgänger-Figur in den Hintergrund verdrängt. Damit erscheint der Doppelgänger als die neue Figur gegenüber Spielregeln, aber mindestens gegenüber anderen Spielpersonen und kann auch dessen Fähigkeit nutzen. Die Doppelgängerfähigkeit ist aber weiterhin aktiv. Die Vordergrundfigur bestimmt, wie die Spielperson erscheint und verleiht dieser eine zusätzliche Fähigkeit. Anders als beim Canibal erfährt der Doppelgänger die Figur, die sie/er bekommt.  
+* Der Doppelgänger kann andere durch Nomination und Exekution töten (solange dieser nicht noch eine zusätzliche Fähigkeit hat, die töten kann).  
+* Wenn der Doppelgänger eine andere Spielperson tötet, verliert der Doppelgänger seine vorherige Vordergrundfigur und erhält nun die Figur, als die diese Spielperson erscheint.  
+* Wenn die getötete Spielperson ein Minion oder Dämon ist, bekommt der Doppelgänger die Figur zwar, diese Figur ist aber vergiftet und hat keine Fähigkeit.  
+* **Optional:** Der Doppelgänger könnte nicht wissen, Doppelgänger zu sein und startet bereits mit einer zweiten Figur, die sie/er kennt.
+
+## **Champion/Townsfolk**
+
+Wähle einmal im Spiel öffentlich am Tag eine Spielperson aus (einschließlich Story Teller): wenn du etwas vormachst, was diese Person in 3 Versuchen nicht nachmachen kann, wird diese für 2 Runden lang betrunken.
+
+* Das könnte ein vorgemachter Rhythmus, ein Geräusch, ein Kunststück sein. Wenn die Herausgeforderte aufgibt, hat der Champion auch gewonnen.  
+* Story Teller entscheidet, welche Herausforderung gültig oder erlaubt ist. Gefährliche, schädliche oder illegale Herausforderungen sollten niemals akzeptiert werden. Genauso sollten schwachsinnige, nicht nachmachbare oder unrealistische Herausforderungen nicht akzeptiert werden, z.B. Handsignatur nachzeichnen.  
+* Für die Herausforderungen muss es Außenstehenden zumindest möglich sein, ein Erfolgskriterium erkennen zu können. Dabei gilt eine Herausforderung schon als erfolgreich nachgemacht, wenn die Qualität etwas von dem Vorgemachten abweicht, z.B. andere Geschwindigkeit, Lautstärke oder räumliche Abstände.
+
 # Effektrollen (Zustände, Status, Desinformation)
 
 ## **Vagrant (Landstreicher)/Townsfolk|Outsider|Traveller**
@@ -708,7 +726,7 @@ Wählt jede Nacht zwei lebende Personen. Eine davon ist eingesperrt, die andere 
 
 ## **Bully (Schläger)/Minion**
 
-Selbst wenn der Schläger betrunken oder vergiftet ist, wird jede Nacht maximal 1 Spielperson vom Schläger bedrängt. Wenn nüchtern und gesund ist es immer die Spielperson, die der Schläger auswählt. Diese Person muss bis zur Exekution (inbesondere öffentlich) im Wahn sein, ihre tatsächliche Figur zu sein (das bekommt sie nachts auch mitgeteilt). Wenn nicht, stirbt sie bei Anbruch der Nacht (nach dem Dämon getötet hat). Hat keine Wirkung auf Personen in deinem Team (diese erfahren nicht vom Schläger).
+Selbst wenn der Schläger betrunken oder vergiftet ist, wird jede Nacht maximal 1 *gute* Spielperson vom Schläger bedrängt. Wenn nüchtern und gesund ist es immer die Spielperson, die der Schläger auswählt (solange diese gut ist). Diese Person muss bis zur Exekution (inbesondere öffentlich) im Wahn sein, ihre tatsächliche Figur zu sein (das bekommt sie nachts auch mitgeteilt). Wenn nicht, stirbt sie bei Anbruch der Nacht (nach dem Dämon getötet hat). Hat keine Wirkung auf Personen im bösen Team (diese erfahren nicht vom Schläger).
 
 * man muss die tatsächliche Figur in öffentlicher Runde am Tag vor der Exekution (bzw. Nominierungsende) mitteilen, eine bloße Registrierung/Erscheinung reicht nicht.  
 * Eine Spielperson, die ihre tatsächliche Figur nicht kennt, würde bei falscher Behauptung trotzdem sterben.  
@@ -1009,9 +1027,10 @@ Der Slayer als Outsider: Du darfst nur 1-mal im Spiel nominieren. Alle anderen N
 
 ## **Big Shot (Bonze)/Outsider**
 
-Eine einfachere Alternative zum Clan Boss: Wenn ein guter Spieler dich tötet (z.B. per Exekution), stirbt diese Spielperson in der nächsten Nacht den Assassin-Tod.
+Eine einfachere Alternative zum Clan Boss und Virgin: Gute Spielperonen, die dich töten oder es versuchen (z.B. per Exekution), selbst wenn es misslingt, sterben in der nächsten Nacht den Assassin-Tod.
 
-* Der Assassin-Tod ist wie die Auswahl durch einen Assassin.
+* Der Assassin-Tod ist wie die Auswahl durch einen Assassin.  
+* Im Spezialfall, wenn mehrere Spielpersonen verantwortlich sind, dürfen mehr als eine gute Spielperson dadurch sterben. Das sollte aber meist nicht passieren.
 
 ## **Unstable (Instabile)/Outsider**
 
@@ -1029,6 +1048,25 @@ Wenn ein Minion stirbt (dich eingeschlossen), erfährst du dessen Figur. Du darf
 ## **Lleedh/Demon**
 
 Modifikation des Lleech: der Host muss bestimmte Eigenschaften erfüllen → es ist ein Townsfolk, ausgewählt von Story Teller. Die Vergiftung muss in der Fähigkeit einen Unterschied zur Nichtvergiftung machen, aber die Fähigkeit des Hosts funktioniert allgemein unnormal (entweder basierend auf einer erfunden Regel oder erhält einfach generell falsche Informationen), allerdings als Teilmenge einer vergifteten Fähigkeit.
+
+## **Joker/Townsfolk**
+
+Wähle in der ersten Nacht eine beliebige gute Figur aus, in die du dich verwandelst.
+
+* Das kann eine offizielle Figur sein, dass kann eine Nicht-Skript-Figur sein, es kann sogar eine ausgedachte Figur sein.  
+  * die gewählte Figur wird nicht von Story Teller bekannt gemacht.  
+  * die Spielperson ist selbst verantwortlich darüber, ihre Figur anderen Leuten zu erklären  
+  * die Spielperson erscheint dann gegenüber anderen Spielpersonen weiterhin als Joker.  
+* Bei erfundenen Figuren gibt es Einschränkungen. Diese müssen inbesondere auch von bösen Spielpersonen geblufft werden können. Diese  
+  * dürfen keine öffentlichen Informationen erzeugen  
+  * dürfen nicht mit dem Grimoire interagieren  
+  * dürfen keine zu starken Informationen erhalten (das Erfahren von korrekter Figur oder Alignment von mehreren Spielpersonen in einem Skript ohne Täuschungsfiguren wie dem Drunk, dem Lunatic oder der Marionette)  
+* Story Teller darf die Auswahl ohne Grund ablehnen und eine neue Auswahl fordern.  
+* Bei einer gültigen Auswahl wechselt der Joker seine Figur vollständig. Das kann eine doppelte Figur sein (die schon im Spiel ist). Dadurch werden die Fähigkeiten anderer Spielpersonen nicht zusätzlich beeinflusst.
+
+## **Fighter (Kämpfer)/Townsfolk**
+
+Wer dich tötet ist 2 Zyklen lang betrunken.
 
 # Soziale Rollen (Sozialverhalten, Simulationen)
 
@@ -1359,7 +1397,7 @@ Wähle jede Nacht eine Person, du erfährst entweder, ob die erscheinende Figur 
 
 ## **Sleuth (Schnüffler)/Townsfolk**
 
-Du erfährst zu Beginn eine **gute** Figur, die **tatsächlich** nicht im Spiel ist. Wähle einmal im Spiel eine Person und erfahre eine **gute** Figur, die **keine andere** Spielperson **tatsächlich** hat.
+Du erfährst zu Beginn zwei **gute** Figuren, die **tatsächlich** nicht im Spiel ist. Wähle einmal im Spiel eine Person und erfahre eine **gute** Figur, die **keine andere** Spielperson **tatsächlich** hat.
 
 * Der Schnüffler umgeht Fehlregistrierungen  
 * man bekommt nur gute Figuren gezeigt, selbst wenn die ausgewählte Person eine böse Figur hätte.  
@@ -1434,7 +1472,7 @@ Sieht jede Nacht (am Morgengrauen), welche Spielenden (nicht du selbst) mit ihre
 
 ## **Psychic (Aurenleser)/Townsfolk**
 
-Vor jeder Morgendämmerung erfährst du genau 2 Personen, die in der Nacht auf dich gezeigt haben. Wenn das weniger als 2 getan haben, sind die übrigen Personen falsch.
+Vor jeder Morgendämmerung erfährst du genau 2 Personen, die in der Nacht auf dich gezeigt haben, dich gesehen haben oder von dir Informationen erhalten haben. Wenn das weniger als 2 getan haben, sind die übrigen Personen falsch.
 
 ## **Antifascist (Antifaschist)/Townsfolk**
 
@@ -1491,7 +1529,7 @@ Jede Nacht, wähle 1 Spieler/in. Der Dämon weiß, was du wählst. Wenn niemand 
 
 ## **Smartypants (Klugscheißer)/Townsfolk**
 
-Kombination aus Librarian, Investigator, Washerwoman, Sage-Info und Balloonist-Info: Du erfährst in der ersten Nacht 2 Spielpersonen, deren Figurtyp sich unterscheidet und erfährst, dass eine von diesen beiden eine bestimmte Fähigkeit oder Figur hat.
+Kombination aus Librarian, Investigator, Washerwoman, Sage-Info und Balloonist-Info: Du erfährst in der ersten Nacht 2 Spielpersonen, deren tatsächlicher Figurtyp sich unterscheidet und erfährst, dass eine von diesen beiden eine bestimmte tatsächliche Fähigkeit oder Figur hat. (Du wirst nicht von Fehlerscheinungen getäuscht.)
 
 * Der Klugscheißer sollte normalerweise nicht von einer Dämonfigur erfahren, außer wenn das böse Team äußerst stark ist, wenn der Klugerscheißer betrunken/vergiftet ist oder wenn es mehrere Spielpersonen mit Dämonenfähigkeit gibt (die Wahnsinnige, Zwillingsdämon, Buddha or der offizielle Legion).
 
@@ -1510,12 +1548,29 @@ Erfahre jede Nacht, wie viel lebende Spielpersonen eine unnormale Erscheinung ih
 * Die Erscheinung ist unnormal, wenn eine Person nicht mit dem Alignment oder der Figur ihrer tatsächlichen (Vordergrund-)Figur (bzw. einer davon) erscheint, selbst wenn es das tatsächliche Alignment ist.  
 * Es wird die Anzahl an Spielpersonen gezählt.
 
-## **Commentator (Kommentator/in)/Townsfolk**
+## **Commentator (Kommentator/in)/Fabled**
 
-Anonymized game events or actions are revealed via a comment or a recount by the story teller in a story-telling way, revealing indirectly what happened during the night or the day (but only the fictional entities, never associating the players in physical reality).
+Anonyme geheime Informationen zu geschehenden Ereignissen und Aktionen im Spiel werden von Story Teller über einen Kommentar oder Erzählung indirekt öffentlich gemacht auf eine erzählerische Art. (Es wird nur über fiktionale Entitäten gesprochen. Niemals werden echte physische Spielpersonen damit in Verbindung gebracht).
 
 * Beispiel: Heute Nacht wählt der Huntsman die Damsel aus. Am nächsten Morgen sagt Story Teller: "Meine herzlichen Glückwunsche gehen an das glückliche Paar, welches vergangene Nacht ihre Hochzeit gefeiert hat. Ein hochwohlgebohrenes Fräulein verliebte sich in einen starken Jägersmann, der sie aus ihrem Verlies befreite."  
 * Story Teller-Kommentare durch den Kommentator basieren auf tatsächlichen Ereignissen und Aktionen im Spiel und nie auf falschen oder erfundenen.
+
+## **Quizmaster/Townsfolk**
+
+Wähle jeden Tag 1-mal für alle erkennbar maximal 1 lebende Spielperson und stelle ihr eine Frage. Wenn sie diese faktisch falsch beantwortet, wird diese die nächste Nacht sterben. Du könntest ein Fabled sein.
+
+* Alle sollen hören und mitbekommen, wenn der Quizmaster jemanden auswählt.  
+* Die gewählte Spielperson muss nicht antworten. Nichts passiert, wenn diese nicht antworten, Wenn die Antwort gar nicht objektiv/faktisch falsch beantwortet oder interpretiert werden kann, hat die Frage keinen Effekt.  
+* Der Todeseffekt des Quizmasters tritt erst nach dem Dämon ein und tritt nicht mehr ein, wenn der Quizmaster zu dem Zeitpunkt tot ist.  
+* Wenn eine faktisch falsche Antwort gegeben wird, muss die antwortende Spielperson sterben, falls diese nicht auf normalen Wege bereits sterben wird.  
+* Story Teller darf die tatsächlich korrekte Antwort im Internet nachschauen, um zu bewerten, ob die Antwort richtig war. Die Antwortende darf für die Antwort keine Hilfsmittel nutzen.  
+* Die gestellten Fragen sollten sich auf das Spiel beziehen. Andere Fragen, auch zu der Meta-Ebene, können nicht garantiert faktisch beanwortet werden und potentiell kann sich Story Teller aussuchen, ob es faktisch falsch ist.  
+* In der Ursprungsfassung hätte der Quizmaster Personen beschützt, die richtig antworten. Oder, der Quizmaster hätte auch oder stattdessen sterben können, musste aber mindestens 1 Spielperson sterben. Dies hätte dem Quizmaster direkt Macht darüber gegeben, selbst zu sterben.  
+* Der Quizmasterbluff kann einen Spieler davon bewahren, angegriffen zu werden oder kann den Dämon sogar präventiv dazu drängen, diese Person oder den  Quizmaster anzugreifen, um eine Antwort zu verhindern. Der Dämon wird weniger wahrscheinlich den Quizmaster angreifen, wenn der Dämon selbst die Antwort wissen will. Wenn der Dämon die Antwortende angreift, gibt das einen Hinweis auf die echte Antwort, insbesondere wenn der Quizmaster ein Bluff ist.
+
+## **Cartographer (Kartograf)/Townsfolk**
+
+Du erfährst eine Spielperson aus der längsten Reihe von Townsfolk-Spielpersonen. Travellers werden in der Feststellung der Reihe allerdings ignoriert.
 
 # Schutzrollen (reduziert/verhindert Effekte)
 
@@ -1645,6 +1700,16 @@ Jede Nacht, wähle 1 lebende Spielperson (nicht dich selbst). Falls diese keine 
 ## **Supervisor (Aufseher)/Loric**
 
 Anfänger sterben nicht vor Tag 3 und ihr Tod oder Bekanntwerden löst keinen starken Nachteil für deren Team aus. Du kannst Figuren für diese Spielpersonen ändern und wählen.
+
+## **Darling (Liebling)/Townsfolk**
+
+Jede böse Spielperson, die dich mit ihrer Fähigkeit auswählt, ist in diesem und nächten Zyklus betrunken, selbst wenn du tot bist. (Die Betrunkenheit gilt für diesen Zyklus rückwirkend, sofern das möglich ist, was normalerweise nur nachts möglich ist.)
+
+* alternativ: dein Töter kann 2 Zyklen lang nicht mehr töten (einschließlich biei Exekutionen)
+
+## **Hero (Held)/Townsfolk**
+
+Wenn du in der Nacht sterben würdest, stirbst du stattdessen einer anderen guten Spielperson an einer späteren Nacht.
 
 # Angriffsrollen
 
