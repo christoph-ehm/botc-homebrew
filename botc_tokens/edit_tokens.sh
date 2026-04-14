@@ -5,6 +5,7 @@ token_directory="./tokens"
 scripttool_json_path="../BotC_Script_Casual_on_the_Homebrewer_auto.json"
 output_script_directory="casual-on-the-homebrewer"
 grouping_config_file="printable_script.json"
+botc_tokens="./.venv/bin/botc_tokens"
 
 declare -i is_extracting_jsons_from_bloodstar_json
 declare -i is_only_extracting_from_bloodstar
@@ -137,8 +138,8 @@ if (( is_removing_generated_tokens )); then
 fi
 
 if (( is_botc_tokens_create )); then
-	echo botc_tokens create -o "$token_directory" --components "./components"
-	botc_tokens create -o "$token_directory" --components "./components"
+	echo "$botc_tokens" create -o "$token_directory" --components "./components"
+	"$botc_tokens" create -o "$token_directory" --components "./components"
 fi
 
 if (( is_adding_subdirectory )); then
@@ -147,6 +148,6 @@ if (( is_adding_subdirectory )); then
 fi
 
 if (( is_botc_tokens_group )); then
-	echo botc_tokens group "$grouping_config_file" --token-dir "$token_directory" --output-dir "$output_script_directory"
-	botc_tokens group "$grouping_config_file" --token-dir "$token_directory" --output-dir "$output_script_directory"
+	echo "$botc_tokens" group "$grouping_config_file" --token-dir "$token_directory" --output-dir "$output_script_directory"
+	"$botc_tokens" group "$grouping_config_file" --token-dir "$token_directory" --output-dir "$output_script_directory"
 fi
