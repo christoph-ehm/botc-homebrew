@@ -17,6 +17,7 @@
 			"demoninfo",
 			"monstro_imppreposterous",
 			"bully_trustmebro",
+			"cartographer_imppreposterous",
 			"smartypants_trustmebro",
 			"sleuth_homebrew",
 			"biologist_trustmebro",
@@ -64,6 +65,14 @@
 	},
 	{
 		"id": "joker_imppreposterous",
+		"name": "_",
+		"team": "townsfolk",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"id": "cartographer_imppreposterous",
 		"name": "_",
 		"team": "townsfolk",
 		"ability": "_",
