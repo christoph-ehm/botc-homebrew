@@ -78,9 +78,9 @@
 			"prosecutor_trustmebro"
 		],
 		"bootlegger": [
-			"Neutral (Alignment): $neutralalignment_imppreposterous",
-			"Natural (Properties): $naturalproperties_imppreposterous",
-			"Ending the Game (Call): $endingthegamecall_imppreposterous",
+			"Neutral (Alignment): $neutralalignment_rules",
+			"Natural (Properties): $naturalproperties_rules",
+			"Ending the Game (Call): $endingthegamecall_rules",
 			"Each night°: each night except the first (relative) night of the character.",
 			"Evil players may include neutral players with good character. Good players may include neutral players with evil character."
 		]

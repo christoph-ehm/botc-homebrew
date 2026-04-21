@@ -83,14 +83,14 @@
 			"shopkeeper_homebrew"
 		],
 		"bootlegger": [
-			"Deranged (State): $derangedstate_trustmebro",
-			"Sick (State): $sickstate_trustmebro",
-			"Unconscious (State): $unconsciousstate_trustmebro",
-			"Captive (State): $captivestate_trustmebro",
-			"Quit (State): $quitstate_trustmebro",
-			"Accountability (Condition): $accountabilitycondition_trustmebro",
-			"Multiple Properties: $multipleproperties_trustmebro",
-			"Hidden Traveller: $hiddentraveller_imppreposterous"
+			"Deranged (State): $derangedstate_rules",
+			"Sick (State): $sickstate_rules",
+			"Unconscious (State): $unconsciousstate_rules",
+			"Captive (State): $captivestate_rules",
+			"Quit (State): $quitstate_rules",
+			"Accountability (Condition): $accountabilitycondition_rules",
+			"Multiple Properties: $multipleproperties_rules",
+			"Hidden Traveller: $hiddentraveller_rules"
 		]
 	},
 	{

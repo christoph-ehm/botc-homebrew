@@ -87,15 +87,15 @@
 			"executioner_homebrew"
 		],
 		"bootlegger": [
-			"Anti (State): $antistate_trustmebro",
-			"Deranged (State): $derangedstate_trustmebro",
-			"Sick (State): $sickstate_trustmebro",
-			"Captive (State): $captivestate_trustmebro",
-			"Accountability (Condition): $accountabilitycondition_trustmebro",
-			"Multiple Properties: $multipleproperties_trustmebro",
-			"Ending The Game (Call): $endingthegamecall_imppreposterous",
-			"Guessing The Demon (Call): $guessingthedemoncall_imppreposterous",
-			"Hidden Traveller: $hiddentraveller_imppreposterous"
+			"Anti (State): $antistate_rules",
+			"Deranged (State): $derangedstate_rules",
+			"Sick (State): $sickstate_rules",
+			"Captive (State): $captivestate_rules",
+			"Accountability (Condition): $accountabilitycondition_rules",
+			"Multiple Properties: $multipleproperties_rules",
+			"Ending The Game (Call): $endingthegamecall_rules",
+			"Guessing The Demon (Call): $guessingthedemoncall_rules",
+			"Hidden Traveller: $hiddentraveller_rules"
 		]
 	},
 	"alchemist",

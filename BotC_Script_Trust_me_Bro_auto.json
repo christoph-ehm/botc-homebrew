@@ -70,10 +70,10 @@
 			"rationalist_trustmebro"
 		],
 		"bootlegger": [
-			"Deranged (State): $derangedstate_trustmebro",
-			"Unconscious (State): $unconsciousstate_trustmebro",
-			"Accountability (Condition): $accountabilitycondition_trustmebro",
-			"Multiple Properties: $multipleproperties_trustmebro"
+			"Deranged (State): $derangedstate_rules",
+			"Unconscious (State): $unconsciousstate_rules",
+			"Accountability (Condition): $accountabilitycondition_rules",
+			"Multiple Properties: $multipleproperties_rules"
 		]
 	},
 	"knight",
