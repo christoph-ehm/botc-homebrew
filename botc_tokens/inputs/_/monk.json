@@ -1,0 +1,12 @@
+{
+	"id": "monk",
+	"name": "Monk",
+	"ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "monk.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["SAFE"]
+}

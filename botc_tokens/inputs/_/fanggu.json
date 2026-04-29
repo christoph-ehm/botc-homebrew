@@ -1,0 +1,12 @@
+{
+	"id": "fanggu",
+	"name": "Fang Gu",
+	"ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+	"home_script": "_",
+	"type": "demon",
+	"icon": "fanggu.png",
+	"affects_setup": true,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": ["DEAD", "ONCE"]
+}

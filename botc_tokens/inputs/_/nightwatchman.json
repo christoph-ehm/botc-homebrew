@@ -1,0 +1,12 @@
+{
+	"id": "nightwatchman",
+	"name": "Nightwatchman",
+	"ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "nightwatchman.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": []
+}

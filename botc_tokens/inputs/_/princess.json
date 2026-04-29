@@ -1,0 +1,12 @@
+{
+	"id": "princess",
+	"name": "Princess",
+	"ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "princess.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["DOESN'T KILL"]
+}

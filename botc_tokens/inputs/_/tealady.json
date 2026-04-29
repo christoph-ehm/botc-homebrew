@@ -1,0 +1,12 @@
+{
+	"id": "tealady",
+	"name": "Tea Lady",
+	"ability": "If both your alive neighbors are good, they can't die.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "tealady.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["CANNOT DIE", "CANNOT DIE"]
+}

@@ -679,6 +679,7 @@ Alignment, Level changes and Metagaming included.
   - Certain characters can kill only certain players or characters
 
 - Lorics
+  - there are two different evil teams (blue and read), the rest of players are outsiders. Red players register as good for the blue team, blue players as good for the red team. The demon of each team cannot be killed by Demon or minion abilities. If one of both teams' demon dies, the outsiders win and the affected team loses. (Others get a tie.) If no demon dies, the outsiders lose and the others win.
   - Pope
   - Town Planner
   - TV Moderator: each of 3 groups of players have reserved game actions that others don't have

@@ -1,0 +1,12 @@
+{
+	"id": "clockmaker",
+	"name": "Clockmaker",
+	"ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "clockmaker.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": false,
+	"reminders": []
+}

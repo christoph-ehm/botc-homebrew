@@ -1,0 +1,12 @@
+{
+	"id": "gardener",
+	"name": "Gardener",
+	"ability": "The Storyteller assigns 1 or more players' characters.",
+	"home_script": "_",
+	"type": "fabled",
+	"icon": "gardener.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

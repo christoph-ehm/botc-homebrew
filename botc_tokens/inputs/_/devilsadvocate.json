@@ -1,0 +1,12 @@
+{
+	"id": "devilsadvocate",
+	"name": "Devil's Advocate",
+	"ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+	"home_script": "_",
+	"type": "minion",
+	"icon": "devilsadvocate.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": ["SURVIVES EXECUTION"]
+}
