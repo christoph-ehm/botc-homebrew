@@ -1,0 +1,12 @@
+{
+	"id": "bureaucrat",
+	"name": "Bureaucrat",
+	"ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+	"home_script": "_",
+	"type": "traveller",
+	"icon": "bureaucrat.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": ["3 VOTES"]
+}

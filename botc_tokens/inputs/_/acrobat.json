@@ -1,0 +1,12 @@
+{
+	"id": "acrobat",
+	"name": "Acrobat",
+	"ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "acrobat.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": []
+}

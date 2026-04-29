@@ -5,6 +5,24 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
+			"name": "Python Debugger: Module",
+			"type": "debugpy",
+			"request": "launch",
+			"cwd": "${workspaceFolder}/botc_tokens/generator/src",
+			"module": "botc_tokens.__main__",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			//"args": "${command:pickArgs}"
+			"args": [
+				"create",
+				"--output-dir",
+				"${workspaceFolder}/botc_tokens/tokens",
+				"--components",
+				"${workspaceFolder}/botc_tokens/components",
+				"${workspaceFolder}/botc_tokens/inputs"
+			]
+		},
+		{
 			"type": "node",
 			"request": "launch",
 			"name": "Debug Launch Dump from Bloodstar",

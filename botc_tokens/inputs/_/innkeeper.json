@@ -1,0 +1,12 @@
+{
+	"id": "innkeeper",
+	"name": "Innkeeper",
+	"ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "innkeeper.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["SAFE", "DRUNK"]
+}

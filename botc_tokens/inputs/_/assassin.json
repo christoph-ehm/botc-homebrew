@@ -1,0 +1,12 @@
+{
+	"id": "assassin",
+	"name": "Assassin",
+	"ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+	"home_script": "_",
+	"type": "minion",
+	"icon": "assassin.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["DEAD", "NO ABILITY"]
+}

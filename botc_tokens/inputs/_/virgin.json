@@ -1,0 +1,12 @@
+{
+	"id": "virgin",
+	"name": "Virgin",
+	"ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "virgin.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["NO ABILITY"]
+}

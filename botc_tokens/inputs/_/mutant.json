@@ -1,0 +1,12 @@
+{
+	"id": "mutant",
+	"name": "Mutant",
+	"ability": "If you are “mad” about being an Outsider, you might be executed.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "mutant.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

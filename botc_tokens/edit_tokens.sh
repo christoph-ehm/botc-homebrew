@@ -4,8 +4,10 @@ author="Christoph"
 token_directory="./tokens"
 scripttool_json_path="../BotC_Script_Casual_on_the_Homebrewer_auto.json"
 output_script_directory="casual-on-the-homebrewer"
+#scripttool_json_path="../BotC_Script_Beginner's_101_auto.json"
+#output_script_directory="beginners-101"
 grouping_config_file="printable_script.json"
-botc_tokens="./.venv/bin/botc_tokens"
+botc_tokens="botc_tokens"
 
 declare -i is_extracting_jsons_from_bloodstar_json
 declare -i is_only_extracting_from_bloodstar
@@ -13,7 +15,7 @@ declare -i is_removing_generated_tokens
 declare -i is_botc_tokens_create
 declare -i is_adding_subdirectory
 declare -i is_botc_tokens_group
-declare -i is_generating_only_group_config
+declare -i is_generating_group_config
 
 case "$1" in
 	"--extract-bloodstar")
@@ -23,16 +25,15 @@ case "$1" in
 	"--remove")
 		is_removing_generated_tokens=1
 		;;
-	"--create")
+	"--remove-create")
 		is_removing_generated_tokens=1
 		is_botc_tokens_create=1
 		;;
-	"--only-group-config")
-		is_botc_tokens_group=1
-		is_generating_only_group_config=1
+	"--create")
+		is_botc_tokens_create=1
 		;;
-	"--add-subdirectory")
-		is_adding_subdirectory=1
+	"--only-group-config")
+		is_generating_group_config=1
 		;;
 	"--group")
 		is_adding_subdirectory=1
@@ -40,6 +41,7 @@ case "$1" in
 		;;
 	*)
 		is_extracting_jsons_from_bloodstar_json=1
+		is_generating_group_config=1
 		is_removing_generated_tokens=1
 		is_botc_tokens_create=1
 		is_adding_subdirectory=1
@@ -64,7 +66,7 @@ unset character_id_set["minioninfo"]
 unset character_id_set["demoninfo"]
 unset character_id_set["dawn"]
 
-if (( is_botc_tokens_group )); then
+if (( is_generating_group_config )); then
 
 	character_names=("${character_ids[@]%_*}")
 
@@ -78,10 +80,6 @@ if (( is_botc_tokens_group )); then
 	]
 	END
 	echo "create $grouping_config_file to be used with \`botc_tokens group $grouping_config_file\`"
-fi
-
-if (( is_generating_only_group_config )); then
-	exit 0
 fi
 
 function set_tokens_directory() {
@@ -115,7 +113,7 @@ function set_tokens_directory() {
 			else
 
 				script_relative_file_path="${file_name#${token_script_directory}/}"
-				output_file_name="$(basename "$script_relative_file_path" | sed 's;[^a-zA-Z0-9_];;g')"
+				output_file_name="$(basename "$script_relative_file_path" | tr -cd '\0-\177')"
 				output_directory_path="$token_directory/$output_script_directory/$(dirname "$script_relative_file_path")"
 				output_file_path="$output_directory_path/$output_file_name"
 
@@ -140,12 +138,19 @@ fi
 if (( is_botc_tokens_create )); then
 	echo "$botc_tokens" create -o "$token_directory" --components "./components"
 	"$botc_tokens" create -o "$token_directory" --components "./components"
+
+	for image_file in $(find "$token_directory" -type f -name "*.png"); do
+		if ls "$image_file" | grep -P '[\x80-\xFF]'; then
+			image_file_without_nonascii=$(tr -cd '\0-\177' <<<"$image_file")
+			mv "$image_file" "$image_file_without_nonascii"
+		fi
+	done
 fi
 
-if (( is_adding_subdirectory )); then
-	echo set_tokens_directory "$output_script_directory"
-	set_tokens_directory "$output_script_directory"
-fi
+#if (( is_adding_subdirectory )); then
+#	echo set_tokens_directory "$output_script_directory"
+#	set_tokens_directory "$output_script_directory"
+#fi
 
 if (( is_botc_tokens_group )); then
 	echo "$botc_tokens" group "$grouping_config_file" --token-dir "$token_directory" --output-dir "$output_script_directory"

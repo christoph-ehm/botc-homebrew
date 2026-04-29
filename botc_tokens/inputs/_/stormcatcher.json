@@ -1,0 +1,12 @@
+{
+	"id": "stormcatcher",
+	"name": "Storm Catcher",
+	"ability": "Name a good character. If in play, they can only die by execution, but evil players learn which player it is.",
+	"home_script": "_",
+	"type": "fabled",
+	"icon": "stormcatcher.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": false,
+	"reminders": ["SAFE"]
+}

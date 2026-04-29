@@ -1,0 +1,12 @@
+{
+	"id": "matron",
+	"name": "Matron",
+	"ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+	"home_script": "_",
+	"type": "traveller",
+	"icon": "matron.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}
