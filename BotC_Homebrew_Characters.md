@@ -829,7 +829,7 @@ Jede Nacht (ab der 2.) wähle eine Person, die stirbt. 2-mal im Spiel kannst du 
 * Es gibt wenig Anreize, nicht dem bösen Team beizutreten, wenn man die Chance bekommt. Mafiaboss muss daher geschickt auswählen, welche Leute dem eigenen Team am meisten helfen würden.  
 * Outsider, die ihr Alignment normalerweise nicht wechseln können, sind meist nicht sinnvoll für das böse Team.
 
-## **Centralist/Minion**
+## **Equalizer/Minion**
 
 Nachdem eine Person nominiert hat, ist sie bis zu dem Verlust deiner Fähigkeit unterdrückt (suppressed), d.h. sie kann nicht mehr nominieren. Allerdings können auch Tote nominieren.
 

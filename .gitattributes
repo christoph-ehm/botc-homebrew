@@ -215,7 +215,6 @@ images/Prosecutor.kra filter=lfs diff=lfs merge=lfs -text
 images/Ambivalent.png filter=lfs diff=lfs merge=lfs -text
 images/Biologist.png filter=lfs diff=lfs merge=lfs -text
 images/Brute.kra filter=lfs diff=lfs merge=lfs -text
-images/Centralist.png filter=lfs diff=lfs merge=lfs -text
 images/Jailer.png filter=lfs diff=lfs merge=lfs -text
 images/Terminator.png filter=lfs diff=lfs merge=lfs -text
 images/Tracker.png filter=lfs diff=lfs merge=lfs -text
@@ -348,6 +347,7 @@ images/Joker.png filter=lfs diff=lfs merge=lfs -text
 images/Quizmaster.png filter=lfs diff=lfs merge=lfs -text
 images/Champion.png filter=lfs diff=lfs merge=lfs -text
 images/Darling.png filter=lfs diff=lfs merge=lfs -text
+images/Equalizer.png filter=lfs diff=lfs merge=lfs -text
 rendered_images/*.png filter=lfs diff=lfs merge=lfs -text
 images/*.kra filter=lfs diff=lfs merge=lfs -text
 pdf/*.pdf filter=lfs diff=lfs merge=lfs -text

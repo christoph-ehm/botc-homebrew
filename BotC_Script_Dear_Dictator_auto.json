@@ -3,7 +3,7 @@
 		"id": "_meta",
 		"author": "Christoph",
 		"name": "Dear Dictator",
-		"almanac": "https://www.bloodstar.xyz/p/Elmar/trust-me-bro/almanac.html",
+		"almanac": "https://bloodstar.clocktica.com/p/Elmar/trust-me-bro/almanac.html",
 		"firstNight": [
 			"shopkeeper_homebrew",
 			"fantasist_homebrew",
@@ -39,7 +39,7 @@
 			"sickener_trustmebro",
 			"dawn",
 			"sinisterfog_homebrew",
-			"centralist_trustmebro",
+			"equalizer_trustmebro",
 			"terminator_trustmebro"
 		],
 		"otherNight": [
@@ -78,7 +78,7 @@
 			"psychic_trustmebro",
 			"dawn",
 			"sinisterfog_homebrew",
-			"centralist_trustmebro",
+			"equalizer_trustmebro",
 			"terminator_trustmebro",
 			"shopkeeper_homebrew"
 		],
@@ -250,7 +250,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "centralist_trustmebro",
+		"id": "equalizer_trustmebro",
 		"name": "_",
 		"team": "minion",
 		"ability": "_",
