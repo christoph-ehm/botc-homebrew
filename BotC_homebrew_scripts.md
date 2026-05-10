@@ -114,8 +114,8 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Jailer [fits to Dictator]
   - Sinister Fog (fits to Dictator, highly destructive with Warmonger)
   - Tracker
-  - Centralist (everyone gets a quota of 1 nomination, allows dead players to nominate an evil Twin Demon even if dead)
-  - Terminator (fits to Centralist, Punk, Samurai (who can kill the Terminator), interesting with Dictator)
+  - Equalizer (everyone gets a quota of 1 nomination, allows dead players to nominate an evil Twin Demon even if dead)
+  - Terminator (fits to Equalizer, Punk, Samurai (who can kill the Terminator), interesting with Dictator)
 
 - Demon
   - (Lleech)
@@ -137,7 +137,7 @@ Focuses on guessing Alignment and character type. Theme is political power or ty
   - Pope / Punk: The Punk cannot get the Pope token.
   - Sectarian / Romantic: The Sectarian *might* learn that the Romantic is in play.
   - Anarchist / Samurai: A Samurai player can only kill an Anarchist when the Samurai has another character that only counts as Outsider this game.
-  - Centralist / Terminator: If the Terminator nominates and executes the Demon player when dead, the Terminator's winning condition triggers nevertheless.
+  - Equalizer / Terminator: If the Terminator nominates and executes the Demon player when dead, the Terminator's winning condition triggers nevertheless.
   - Warmonger / Anarchist: If the Warmonger chooses the Anarchist player, the Anarchist registers as good (otherwise evil).
   - Dictator / Anarchist: The Anarchist *might* register as good to Dictator.
   - Repairman / Toy Maker: Evil may see each other if 3 ≥ good Townsfolk are in play.
@@ -406,6 +406,53 @@ The casual Homebrew script that nobody asks for.
   - (Storm Catcher)
   - (Hindu)
 
+
+# Visiting the Vizier
+
+- Townsfolk
+  - (Pacifist)
+  - (Farmer)
+  - (Sailor)
+  - (Courtier)
+  - (Sage)
+  - (Snaker Charmer)
+  - (Undertaker)
+  - (Cannibal)
+  - (Juggler)
+  - (Ravenkeeper)
+  - (Lycanthrope)
+  - (Virgin)
+  - (Princess)
+  - Sectarian
+
+- Outsiders
+  - (Barber)
+  - (Lunatic) (or Goon but which is too many evil with Lord of Typhon)
+  - (Zealot)
+  - (Drunk) (a Drunk with Sectarian is like a Lunatci who believes to be a minion)
+
+- Minions
+  - (Vizier)
+  - (Pit-Hag) (or Mastermind)
+  - (Cerenovus) (nice with Vizier) (or Marionette)
+  - (Organ Grinder)
+  - [(Goblin)]
+
+- Demons
+  - (Vortox) (requireds drunkness abilities)
+  - (Lord of Typhon) (too weak with only Vortox)
+  - (Imp) (nice with the Lunatic)
+
+- Travellers
+  - (Butcher) (makes sense when abilities protect from death by execution) (or Bishop)
+  - (Voudon)
+  - (Cackle Jack)
+  - (Judge) (similar to Cerenovus)
+  - (Gun Slinger)
+  - (Gnome) (quite useless later on)
+
+- Loric
+  - (Gardener) (or Kazali as alternative)
 
 # Medieval Mischief
 
