@@ -5,8 +5,8 @@
 		"name": "Beginner's 101",
 		"almanac": "https://www.bloodstar.xyz/p/Elmar/homebrew/almanac.html",
 		"firstNight": [
+			"fangshu_trustmebro",
 			"dusk",
-			"carnivalreveller_imppreposterous",
 			"toymaker",
 			"stormcatcher",
 			"wraith",
@@ -22,12 +22,11 @@
 			"steward",
 			"villageidiot",
 			"nightwatchman",
-			"psychic_trustmebro",
-			"dawn"
+			"dawn",
+			"fraudster_trustmebro"
 		],
 		"otherNight": [
 			"dusk",
-			"carnivalreveller_imppreposterous",
 			"toymaker",
 			"wraith",
 			"bureaucrat",
@@ -38,7 +37,7 @@
 			"ker_trustmebro",
 			"imp",
 			"zombuul",
-			"fanggu",
+			"fangshu_trustmebro",
 			"assassin",
 			"godfather",
 			"sweetheart",
@@ -48,8 +47,8 @@
 			"juggler",
 			"villageidiot",
 			"nightwatchman",
-			"psychic_trustmebro",
-			"dawn"
+			"dawn",
+			"fraudster_trustmebro"
 		]
 	},
 	"steward",
@@ -85,16 +84,30 @@
 	"recluse",
 	"sweetheart",
 	"snitch",
-	"mutant",
+	{
+		"id": "fraudster_trustmebro",
+		"name": "_",
+		"team": "outsider",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
 	"godfather",
 	"devilsadvocate",
 	"assassin",
 	"wraith",
 	"imp",
 	"zombuul",
-	"fanggu",
 	{
-		"id_": "ker_trustmebro",
+		"id": "fangshu_trustmebro",
+		"name": "_",
+		"team": "demon",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
+	{
+		"comment_id": "ker_trustmebro",
 		"name": "_",
 		"team": "demon",
 		"ability": "_",
