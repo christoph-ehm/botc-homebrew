@@ -3,10 +3,11 @@
 		"id": "_meta",
 		"author": "Christoph, based on idea by Lins",
 		"name": "Visiting the Vizier",
-		"almanac": "https://bloodstar.clocktica.com/p/Elmar/trust-me-bro/almanac.html",
+		"almanac": "https://www.bloodstar.xyz/p/Elmar/homebrew/almanac.html",
 		"firstNight": [
 			"dusk",
 			"lordoftyphon",
+			"monstro_imppreposterous",
 			"minioninfo",
 			"lunatic",
 			"demoninfo",
@@ -33,6 +34,7 @@
 			"imp",
 			"vortox",
 			"lordoftyphon",
+			"monstro_imppreposterous",
 			"barber",
 			"sage",
 			"farmer",
@@ -40,6 +42,9 @@
 			"undertaker",
 			"juggler",
 			"dawn"
+		],
+		"bootlegger": [
+			"Each night, the Vizier may choose a player (no Demon) to get the Vizier ability for this cycle. The invincibility of the Vizier affects both players."
 		]
 	},
 	"sailor",
@@ -74,6 +79,14 @@
 	"imp",
 	"vortox",
 	"lordoftyphon",
+	{
+		"id": "monstro_imppreposterous",
+		"name": "_",
+		"team": "demon",
+		"ability": "_",
+		"firstNightReminder": "_",
+		"otherNightReminder": "_"
+	},
 	"butcher",
 	"cacklejack",
 	"gunslinger",

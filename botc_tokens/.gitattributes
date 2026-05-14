@@ -224,3 +224,5 @@ beginners-101/roles.pdf filter=lfs diff=lfs merge=lfs -text
 ../rendered_images/esoteric_imppreposterous.png filter=lfs diff=lfs merge=lfs -text
 ../rendered_images/hairdresser_homebrew.png filter=lfs diff=lfs merge=lfs -text
 ../pdf/BotC_Visiting_the_Vizier.pdf filter=lfs diff=lfs merge=lfs -text
+../pdf/BotC_Script_Visiting_the_Vizier.pdf filter=lfs diff=lfs merge=lfs -text
+inputs/_/cacklejack.png filter=lfs diff=lfs merge=lfs -text
