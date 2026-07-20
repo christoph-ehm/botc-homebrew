@@ -1,0 +1,12 @@
+{
+	"id": "slayer",
+	"name": "Slayer",
+	"ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "slayer.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

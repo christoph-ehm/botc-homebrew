@@ -1,0 +1,12 @@
+{
+        "id": "barber",
+        "name": "Barber",
+        "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+        "home_script": "_",
+        "type": "outsider",
+        "icon": "barber.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": true,
+        "reminders": ["HAIRCUTS TONIGHT"]
+}

@@ -1,0 +1,12 @@
+{
+        "id": "butcher",
+        "name": "Butcher",
+        "ability": "Each day, after the 1st execution, you may nominate again.",
+        "home_script": "_",
+        "type": "traveller",
+        "icon": "butcher.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": false,
+        "reminders": []
+}

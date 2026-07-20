@@ -1,11 +1,26 @@
 #!/bin/bash
 
-author="Christoph"
 token_directory="./tokens"
-scripttool_json_path="../BotC_Script_Casual_on_the_Homebrewer_auto.json"
-output_script_directory="casual-on-the-homebrewer"
-#scripttool_json_path="../BotC_Script_Beginner's_101_auto.json"
-#output_script_directory="beginners-101"
+
+#author="The Pandemonium Institute"
+
+#scripttool_json_path="../BotC_Script_Trouble_Brewing.json"
+#output_script_directory="trouble_brewing"
+
+#scripttool_json_path="../BotC_Script_Bad_Moon_Rising.json"
+#output_script_directory="bad_moon_rising"
+
+#scripttool_json_path="../BotC_Script_Sects_&_Violets.json"
+#output_script_directory="sects_&_violets"
+
+#author="Christoph"
+
+#scripttool_json_path="../BotC_Script_Casual_on_the_Homebrewer_auto.json"
+#output_script_directory="casual-on-the-homebrewer"
+
+scripttool_json_path="../BotC_Script_Beginner's_101_auto.json"
+output_script_directory="beginners-101"
+
 grouping_config_file="printable_script.json"
 botc_tokens="botc_tokens"
 
@@ -58,7 +73,7 @@ if (( is_only_extracting_from_bloodstar )); then
 	exit 0
 fi
 
-eval "declare -a character_ids=($(cat "$scripttool_json_path" | grep -Po '"id":\s*\K"[^_]\w+"|^\s*\K(?<!\t{3})"\w+"(?=\s*,\s*$)'))"
+eval "declare -a character_ids=($(cat "$scripttool_json_path" | grep -Po '"id":\s*\K"[^_]\w+"|^\s*\K(?<!\t{3})"\w+"(?=(?:\s*,)?\s*$)'))"
 eval "declare -A character_id_set=(${character_ids[@]/*/\[&\]=\"1\"})"
 
 unset character_id_set["dusk"]
@@ -99,16 +114,23 @@ function set_tokens_directory() {
 
 		token_script_directory="$token_directory/${home_script:=_}"
 
+		#echo "character_id ${character_id}"
+		#echo "name ${name}"
+		#echo "home_script ${home_script}"
+		#find "$token_script_directory" -type f | grep -E "\\b$name\\b"
+		#echo "-----"
+
 		for file_name in $(find "$token_script_directory" -type f | grep -E "\\b$name\\b")
 		do
 			target_file_path="$(realpath "$file_name")"
 
 			if [ -z "$output_script_directory" ]; then
 
-				if [ "$home_script" != "_" ]; then
+				# don't remove/update official characters as they don't change
+				#if [ "$home_script" != "_" ]; then
 					echo rm \"$target_file_path\"
 					rm "$target_file_path"
-				fi
+				#fi
 
 			else
 

@@ -1,0 +1,12 @@
+{
+	"id": "voudon",
+	"name": "Voudon",
+	"ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",
+	"home_script": "_",
+	"type": "traveller",
+	"icon": "voudon.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

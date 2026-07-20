@@ -1,0 +1,12 @@
+{
+	"id": "tinker",
+	"name": "Tinker",
+	"ability": "You might die at any time.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "tinker.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["DEAD"]
+}

@@ -1,0 +1,12 @@
+{
+	"id": "butler",
+	"name": "Butler",
+	"ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "butler.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": ["MASTER"]
+}

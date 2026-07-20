@@ -1,0 +1,12 @@
+{
+        "id": "seamstress",
+        "name": "Seamstress",
+        "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+        "home_script": "_",
+        "type": "townsfolk",
+        "icon": "seamstress.png",
+        "affects_setup": false,
+        "first_night": true,
+        "other_nights": true,
+        "reminders": ["NO ABILITY"]
+}

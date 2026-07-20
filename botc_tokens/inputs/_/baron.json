@@ -1,0 +1,12 @@
+{
+	"id": "baron",
+	"name": "Baron",
+	"ability": "There are extra Outsiders in play. [+2 Outsiders]",
+	"home_script": "_",
+	"type": "minion",
+	"icon": "baron.png",
+	"affects_setup": true,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

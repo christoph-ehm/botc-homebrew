@@ -1,0 +1,12 @@
+{
+	"id": "po",
+	"name": "Po",
+	"ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+	"home_script": "_",
+	"type": "demon",
+	"icon": "po.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["3 ATTACKS", "DEAD", "DEAD", "DEAD"]
+}

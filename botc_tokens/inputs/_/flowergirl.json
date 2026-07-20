@@ -1,0 +1,12 @@
+{
+        "id": "flowergirl",
+        "name": "Flowergirl",
+        "ability": "Each night*, you learn if a Demon voted today.",
+        "home_script": "_",
+        "type": "townsfolk",
+        "icon": "flowergirl.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": true,
+        "reminders": ["DEMON VOTED", "DEMON NOT VOTED"]
+}

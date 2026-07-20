@@ -1,0 +1,12 @@
+{
+	"id": "thief",
+	"name": "Thief",
+	"ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+	"home_script": "_",
+	"type": "traveller",
+	"icon": "thief.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": ["NEGATIVE VOTE"]
+}

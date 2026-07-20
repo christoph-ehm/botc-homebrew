@@ -1,0 +1,12 @@
+{
+	"id": "saint",
+	"name": "Saint",
+	"ability": "If you die by execution, your team loses.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "saint.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

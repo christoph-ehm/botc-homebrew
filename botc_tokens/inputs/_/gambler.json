@@ -1,0 +1,12 @@
+{
+	"id": "gambler",
+	"name": "Gambler",
+	"ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "gambler.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["DEAD"]
+}

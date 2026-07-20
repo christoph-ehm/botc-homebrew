@@ -1,0 +1,12 @@
+{
+	"id": "pacifist",
+	"name": "Pacifist",
+	"ability": "Executed good players might not die.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "pacifist.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": []
+}

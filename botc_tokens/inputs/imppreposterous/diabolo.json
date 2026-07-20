@@ -1,0 +1,1 @@
+{"id":"diabolo_imppreposterous","reminders":["tainted","source"],"name":"Diabolo","ability":"Each night, choose 2 players: the 1st registers as the 2nd this cycle.","home_script":"imppreposterous","type":"minion","image":"/src/assets/icons/generic/minion.webp","icon":"../../icons/minion.webp","affects_setup":false,"first_night":true,"other_nights":true}

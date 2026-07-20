@@ -1,0 +1,12 @@
+{
+        "id": "witch",
+        "name": "Witch",
+        "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+        "home_script": "_",
+        "type": "minion",
+        "icon": "witch.png",
+        "affects_setup": false,
+        "first_night": true,
+        "other_nights": true,
+        "reminders": ["CURSED"]
+}

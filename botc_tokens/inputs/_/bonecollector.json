@@ -1,0 +1,12 @@
+{
+        "id": "bonecollector",
+        "name": "Bone Collector",
+        "ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk.",
+        "home_script": "_",
+        "type": "traveller",
+        "icon": "bonecollector.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": true,
+        "reminders": ["HAS ABILITY", "NO ABILITY"]
+}

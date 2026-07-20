@@ -1,0 +1,12 @@
+{
+        "id": "towncrier",
+        "name": "Town Crier",
+        "ability": "Each night*, you learn if a Minion nominated today.",
+        "home_script": "_",
+        "type": "townsfolk",
+        "icon": "towncrier.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": true,
+        "reminders": ["MINION NOMINATED", "MINIONS NOT NOMINATED"]
+}

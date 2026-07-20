@@ -1,0 +1,12 @@
+{
+	"id": "exorcist",
+	"name": "Exorcist",
+	"ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "exorcist.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["CHOSEN"]
+}

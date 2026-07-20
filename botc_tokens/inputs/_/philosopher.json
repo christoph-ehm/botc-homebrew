@@ -1,0 +1,12 @@
+{
+        "id": "philosopher",
+        "name": "Philosopher",
+        "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+        "home_script": "_",
+        "type": "townsfolk",
+        "icon": "philosopher.png",
+        "affects_setup": false,
+        "first_night": true,
+        "other_nights": true,
+        "reminders": ["IS THE PHILOSOPHER", "DRUNK"]
+}

@@ -1,0 +1,12 @@
+{
+	"id": "pukka",
+	"name": "Pukka",
+	"ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+	"home_script": "_",
+	"type": "demon",
+	"icon": "pukka.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["POISONED", "DEAD"]
+}

@@ -1,0 +1,12 @@
+{
+        "id": "klutz",
+        "name": "Klutz",
+        "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+        "home_script": "_",
+        "type": "outsider",
+        "icon": "klutz.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": false,
+        "reminders": []
+}

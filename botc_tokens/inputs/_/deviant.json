@@ -1,0 +1,12 @@
+{
+        "id": "deviant",
+        "name": "Deviant",
+        "ability": "If you were funny today, you cannot die by exile.",
+        "home_script": "_",
+        "type": "traveller",
+        "icon": "deviant.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": false,
+        "reminders": []
+}

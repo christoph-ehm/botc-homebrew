@@ -1,0 +1,12 @@
+{
+	"id": "gossip",
+	"name": "Gossip",
+	"ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "gossip.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["DEAD"]
+}

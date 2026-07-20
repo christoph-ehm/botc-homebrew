@@ -1,0 +1,12 @@
+{
+        "id": "eviltwin",
+        "name": "Evil Twin",
+        "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+        "home_script": "_",
+        "type": "minion",
+        "icon": "eviltwin.png",
+        "affects_setup": false,
+        "first_night": true,
+        "other_nights": false,
+        "reminders": ["TWIN"]
+}

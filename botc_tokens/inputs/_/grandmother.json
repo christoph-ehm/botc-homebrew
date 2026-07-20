@@ -1,0 +1,12 @@
+{
+	"id": "grandmother",
+	"name": "Grandmother",
+	"ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "grandmother.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": false,
+	"reminders": ["GRANDCHILD", "DEAD"]
+}

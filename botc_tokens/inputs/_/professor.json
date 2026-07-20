@@ -1,0 +1,12 @@
+{
+	"id": "professor",
+	"name": "Professor",
+	"ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+	"home_script": "_",
+	"type": "townsfolk",
+	"icon": "professor.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": true,
+	"reminders": ["ALIVE", "NO ABILITY"]
+}

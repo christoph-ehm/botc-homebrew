@@ -1,0 +1,237 @@
+[
+  {
+    "id": "_meta",
+    "author": "Christoph",
+    "name": "Abbey of Abstinence",
+    "almanac": "https://www.bloodstar.xyz/p/Elmar/imppreposterous/almanac.html",
+    "firstNight": [
+      "fangshu_trustmebro",
+      "brainformer_imppreposterous",
+      "dusk",
+      "double_imppreposterous",
+      "diabolo_imppreposterous",
+      "identitythief_imppreposterous",
+      "officer_imppreposterous",
+      "minioninfo",
+      "lunatic",
+      "demoninfo",
+      "smartypants_trustmebro",
+      "chef",
+      "janitor_imppreposterous",
+      "psychologist_imppreposterous",
+      "profiler_imppreposterous",
+      "scientist_imppreposterous",
+      "psychic_trustmebro",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "rookie_imppreposterous",
+      "double_imppreposterous",
+      "arrester_homebrew",
+      "diabolo_imppreposterous",
+      "identitythief_imppreposterous",
+      "masker_imppreposterous",
+      "officer_imppreposterous",
+      "bigshot_imppreposterous",
+      "brainformer_imppreposterous",
+      "monk",
+      "lunatic",
+      "imp",
+      "fangshu_trustmebro",
+      "adventurer_imppreposterous",
+      "clerk_imppreposterous",
+      "janitor_imppreposterous",
+      "psychologist_imppreposterous",
+      "profiler_imppreposterous",
+      "scientist_imppreposterous",
+      "psychic_trustmebro",
+      "dawn"
+    ]
+  },
+  "chef",
+  {
+    "id": "smartypants_trustmebro",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "janitor_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "profiler_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "psychologist_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "scientist_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "adventurer_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "clerk_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  "monk",
+  {
+    "id": "double_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "arrester_homebrew",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "masker_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "officer_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "avenger_imppreposterous",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "psychic_trustmebro",
+    "name": "_",
+    "team": "townsfolk",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  "lunatic",
+  {
+    "id": "rookie_imppreposterous",
+    "name": "_",
+    "team": "outsider",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  "mutant",
+  {
+    "id": "bigshot_imppreposterous",
+    "name": "_",
+    "team": "outsider",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "diabolo_imppreposterous",
+    "name": "_",
+    "team": "minion",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "identitythief_imppreposterous",
+    "name": "_",
+    "team": "minion",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "brainformer_imppreposterous",
+    "name": "_",
+    "team": "minion",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "favourite_imppreposterous",
+    "name": "_",
+    "team": "minion",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  "imp",
+  {
+    "id": "fangshu_trustmebro",
+    "name": "_",
+    "team": "demon",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  "thief",
+  "bureaucrat",
+  "scapegoat",
+  {
+    "id": "suppressor_trustmebro",
+    "name": "_",
+    "team": "traveller",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  {
+    "id": "druglord_imppreposterous",
+    "name": "_",
+    "team": "traveller",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
+  "bootlegger"
+]

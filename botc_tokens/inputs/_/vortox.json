@@ -1,0 +1,12 @@
+{
+        "id": "vortox",
+        "name": "Vortox",
+        "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+        "home_script": "_",
+        "type": "demon",
+        "icon": "vortox.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": true,
+        "reminders": ["DEAD"]
+}

@@ -1,0 +1,12 @@
+{
+	"id": "poisoner",
+	"name": "Poisoner",
+	"ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+	"home_script": "_",
+	"type": "minion",
+	"icon": "poisoner.png",
+	"affects_setup": false,
+	"first_night": true,
+	"other_nights": true,
+	"reminders": ["POISONED"]
+}

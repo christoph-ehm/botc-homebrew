@@ -1,0 +1,12 @@
+{
+        "id": "nodashii",
+        "name": "No Dashii",
+        "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",
+        "home_script": "_",
+        "type": "demon",
+        "icon": "nodashii.png",
+        "affects_setup": false,
+        "first_night": false,
+        "other_nights": true,
+        "reminders": ["POISONED", "POISONED", "DEAD"]
+}

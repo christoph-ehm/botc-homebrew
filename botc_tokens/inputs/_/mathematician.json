@@ -1,0 +1,12 @@
+{
+        "id": "mathematician",
+        "name": "Mathematician",
+        "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+        "home_script": "_",
+        "type": "townsfolk",
+        "icon": "mathematician.png",
+        "affects_setup": false,
+        "first_night": true,
+        "other_nights": true,
+        "reminders": ["ABNORMAL", "ABNORMAL", "ABNORMAL", "ABNORMAL", "ABNORMAL"]
+}

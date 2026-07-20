@@ -1,0 +1,12 @@
+{
+	"id": "drunk",
+	"name": "Drunk",
+	"ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+	"home_script": "_",
+	"type": "outsider",
+	"icon": "drunk.png",
+	"affects_setup": false,
+	"first_night": false,
+	"other_nights": false,
+	"reminders": ["IS THE DRUNK"]
+}
