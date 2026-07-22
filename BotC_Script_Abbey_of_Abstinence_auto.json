@@ -9,10 +9,10 @@
       "brainformer_imppreposterous",
       "dusk",
       "double_imppreposterous",
+      "minioninfo",
       "diabolo_imppreposterous",
       "identitythief_imppreposterous",
       "officer_imppreposterous",
-      "minioninfo",
       "lunatic",
       "demoninfo",
       "smartypants_trustmebro",
@@ -156,6 +156,15 @@
     "otherNightReminder": "_"
   },
   "lunatic",
+  "mutant",
+  {
+    "id": "bigshot_imppreposterous",
+    "name": "_",
+    "team": "outsider",
+    "ability": "_",
+    "firstNightReminder": "_",
+    "otherNightReminder": "_"
+  },
   {
     "id": "rookie_imppreposterous",
     "name": "_",
@@ -164,9 +173,8 @@
     "firstNightReminder": "_",
     "otherNightReminder": "_"
   },
-  "mutant",
   {
-    "id": "bigshot_imppreposterous",
+    "id": "jackass_imppreposterous",
     "name": "_",
     "team": "outsider",
     "ability": "_",

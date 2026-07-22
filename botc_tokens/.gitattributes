@@ -226,3 +226,5 @@ beginners-101/roles.pdf filter=lfs diff=lfs merge=lfs -text
 ../pdf/BotC_Visiting_the_Vizier.pdf filter=lfs diff=lfs merge=lfs -text
 ../pdf/BotC_Script_Visiting_the_Vizier.pdf filter=lfs diff=lfs merge=lfs -text
 inputs/_/cacklejack.png filter=lfs diff=lfs merge=lfs -text
+night_card.kra filter=lfs diff=lfs merge=lfs -text
+vote_token.kra filter=lfs diff=lfs merge=lfs -text

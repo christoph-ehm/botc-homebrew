@@ -368,3 +368,4 @@ images/Hero.png filter=lfs diff=lfs merge=lfs -text
 images/Janitor.png filter=lfs diff=lfs merge=lfs -text
 images/Profiler.png filter=lfs diff=lfs merge=lfs -text
 images/Psychologist.png filter=lfs diff=lfs merge=lfs -text
+images/Jackass.png filter=lfs diff=lfs merge=lfs -text
