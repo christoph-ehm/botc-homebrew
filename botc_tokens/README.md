@@ -26,7 +26,7 @@ Now, get the resources which are needed to make the tokens. Run the command `bot
 
 2.1. Regenerate token images. In order to regnerate them, the old token images need to be deletd from the `tokens/…` directory tree. A list of tokens – corresponding to character ids contained in a JSON of the scripttool – can be removed with `./edit_tokens.sh --remove` (set the JSON file as parameter in the shell script). Afterwards, run the token generation `botc_tokens create` again and the missing tokens are regenerated.
 
-     > Both together can be achieved by running `edit_tokens --create`.
+     > Both together can be achieved by running `./edit_tokens.sh --create`.
 
 3. Group the tokens on a printable sheet.
 

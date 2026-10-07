@@ -51,7 +51,30 @@ Inoffizielle Ideensammlung
   - Es sollte pro Spiel nicht mehr als 2 oder 3 neutrale Spielpersonen geben. Jede weitere schwächt die Chance der anderen Teams, zu gewinnen.  
   - Wenn ein Dämon trotzdem neutral sein sollte, dann passiert der Figurentausch bei dessen Tod. Normalerweise sollte der Töter des Dämons die Figur tauschen. Bei einem Self-Kill kann die Person beliebig sein.
 
-# 
+### (Player) Row
+
+- a sequence of adjacent players with a common trait
+- a row has a trait, a set of adjacent players and a length (the number of players). The trait defines the criterion which players belong to it (dynamically). The trait needs to be specified.
+- a row has all the properties that all of its players share. An "alive good character row" would be a row of alive players of good characters. The trait is a static property.
+- a row of 2 players is called "pair"
+
+### Characters
+
+- have their own alignment, ability (of the same alignment), type and a section in the script
+- players can separately have a character type & character alignment that does not match the script section ofthe character and alignment. Players with evil character can have a good alignment. Players who count as Demon can have a character from the Townsfolk section.
+
+- a player can have multiple public and multiple private (hidden) characters
+  - public characters (foreground characters) determine the registration towards players
+  - private/hidden characters (background characters) are only known by the player themself and might be queried by specific abilities that bypass misregistration (and can see )
+  - if "the character" of a player with multiple characters is queried, the Story Teller chooses only one of them to be queried (unless explicitly stated otherwise).
+
+### Nominations
+
+- 3 different impairments: suppression, (public) failure and covert failure
+  - a suppressed nomination does not reach the ballot and does not count as a nomination.
+  - a publicly failing nomination will not pass the vote quota, even if sufficient players voted
+  - a covertly failing nomination will not cause an execution but players don't know this until the execution is declared.
+
 
 # Aufgabenrollen (Achievements, Zenomancer)
 
@@ -1221,11 +1244,11 @@ In der ersten Nacht siehst du 1 gute Person, die von Spieler/innen mit böser T�
 * Beispiel: wenn die gehetzte Person am letzten Tag als Einziges von ihrem Team noch lebt und bereits die meisten Exekution gemacht hat, ist es unmöglich, noch zu gewinnen. Das böse Team gewinnt.  
 * Beispiel 2: wenn mehrere Personen am meisten nominiert und exekutiert haben, und der Dämon geötet wurde, gewinnt automatisch das gute Team.
 
-## **Solipsist/Minion**
+## **Solipsist/Outsider**
 
-Wenn du am Leben bist wenn das Spiel endet, gewinnst du gegen alle anderen Spielpersonen. Wenn du zu Spielende tot bist, verlierst du und die anderen gewinnen unter den sonstigen Bedingungen. Du hast jedes Alignment und jeden Figurtyp, selbst wenn tot. \[+2 Outsider\]
+Wenn du am Leben bist wenn das Spiel endet, gewinnst du gegen alle anderen Spielpersonen. Wenn du zu Spielende tot bist, verlierst du und die anderen gewinnen unter den sonstigen Bedingungen. Du hast jedes Alignment und willkürlichen Figurtyp (außer Dämon), selbst wenn tot. \[+2 Outsider\]
 
-* häufig sollte der Solipsist gegenüber anderen Spielpersonen mit dem Figurtyp und dem Alignment erscheinen, dass die Spielperson hat, welche Informationen über den Solipsist erhält. Entscheidet Story Teller. So muss der Solipsist aber nicht erscheinen. Bei der Dämoneninfo sollte der Solipsist als Minion erscheinen.
+* Der Solipsist erscheint als willkürlicher Figurtyp gegenüber anderen, sodass der Solipsist länger lebt. hHäufig sollte der Solipsist gegenüber anderen Spielpersonen mit dem Figurtyp und dem Alignment erscheinen, dass die Spielperson hat, welche Informationen über den Solipsist erhält. Entscheidet Story Teller. So muss der Solipsist aber nicht erscheinen. Gegenüber dem Dämon(-Info) erscheint der Solipsist als Minion.
 
 ## **Crimson Boy (Purpurbub)/Minion**
 
@@ -1234,7 +1257,7 @@ Du hast eine richtig funktionierende Townsfolk-Fähigkeit (kennst diese auch) un
 * Damit die falsche Registrierung tatsächlich auch im ersten Zyklus passiert, in welchem der Purpurbub mit einer guten Figur interagiert, kann die Fehlerscheinung nicht nach der letzten 100%-sicheren Interaktion in dem Zyklus passieren. Nur wenn es keine 100%-sichere Interaktion mit einer guten Figur gibt, führt die erste zufällige Interaktion zu einer Fehlerscheinung.  
 * Nur genau einmal wird gegenüber genau einer Spielperson einer guten Figur eine Fehlerscheinung stattfinden.
 
-# 
+
 
 # Inforollen (mind. teilweise korrekte Infos)
 
@@ -1801,18 +1824,18 @@ Wählt jede Nacht (ab der 2.) eine Person aus. Angefangen mit dieser Person bis 
 * Nur wenn eine böse Person ausgewählt wurde, stirbt genau eine Person.  
 * Zu Beginn des Spiels gibt es eine zusätzliche böse Person, die einen beliebigen Figurtyp haben kann, bis auf Dämon. Es kann also \+1 Minion oder \+1 Outsider im Spiel sein
 
-## **Dictator (Diktator)/Loric**
+## **Fascist (Faschist)/Loric**
 
-Jede Nacht (ab der 2.), stimmen alle lebenden Minions ab, welche Person sterben und das Spiel verlassen soll. (Es wird nur der Tod angekündigt aber nicht, dass jemand das Spiel verlässt.) Eine böse Spielperson kann dabei statt einem Dämon nun eine beliebige Figur haben (auch Minion oder Outsider z.B.). Erst wenn es keine lebenden Minions mehr gibt, können die Dämonenspielpersonen nachts töten. Alle guten Spielpersonen, deren Nominierungsabstimmung durchgeht, werden sofort exiliert statt später exekutiert. Story Teller ist der Diktator und wird angekündigt. Story Teller zählt als Dämon, nicht aber als Spielperson. Um zu gewinnen, muss das gute Team den Diktator (Story Teller) töten bzw. exekutieren. Solange ≥ 1 andere Spielperson mit *Minionfigur* lebt (Minionfähigkeit reicht nicht), kann der Diktator aber nicht sterben. Das Spiel endet erst, wenn nur noch 1 Spielperson lebt (Story Teller ausgeschlossen). Wenn ≥ 50% der noch lebenden Spielpersonen (ohne Story Teller) den Minion-Figurtyp haben, kann das böse Team als Sieger ausgesprochen werden (außer wenn die Bösen nicht wissen, wer böse ist).
+Jede Nacht (ab der 2.), stimmen alle lebenden Minions ab, welche Person sterben und das Spiel verlassen soll. (Es wird nur der Tod angekündigt aber nicht, dass jemand das Spiel verlässt.) Eine böse Spielperson kann dabei statt einem Dämon nun eine beliebige Figur haben (auch Minion oder Outsider z.B.). Erst wenn es keine lebenden Minions mehr gibt, können die Dämonenspielpersonen nachts töten. Alle guten Spielpersonen, deren Nominierungsabstimmung durchgeht, werden sofort exiliert statt später exekutiert. Story Teller ist der Faschist und wird angekündigt. Story Teller zählt als Dämon, nicht aber als Spielperson. Um zu gewinnen, muss das gute Team den Faschist (Story Teller) töten bzw. exekutieren. Solange ≥ 1 andere Spielperson mit *Minionfigur* lebt (Minionfähigkeit reicht nicht), kann der Faschist aber nicht sterben. Das Spiel endet erst, wenn nur noch 1 Spielperson lebt (Story Teller ausgeschlossen). Wenn ≥ 50% der noch lebenden Spielpersonen (ohne Story Teller) den Minion-Figurtyp haben, kann das böse Team als Sieger ausgesprochen werden (außer wenn die Bösen nicht wissen, wer böse ist).
 
-* Namensherkunft: dieser Dämon will, dass alle von ihm wissen, der sehr deutlich offenbart, wer in seinem Team ist und wer nicht und der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten (Spielpersonen mit Minionfigur) wird die Person gegen alles beschützt, sodass diese der Diktator nicht sterben kann, außer wenn sein Gefolge tot ist.  
+* Namensherkunft: dieser Dämon will, dass alle von ihm wissen, der sehr deutlich offenbart, wer in seinem Team ist und wer nicht und der die Dorfbewohner mit anderer (Team)Zugehörigkeit wie “wertlose” Ausländer behandelt. Von seinen treuen Gefolgsleuten (Spielpersonen mit Minionfigur) wird die Person gegen alles beschützt, sodass der Faschist nicht sterben kann, außer wenn sein Gefolge tot ist.  
 * Beta-Name: “Trump”  
 * (Gute) Minions sollen bei der Abstimmung nicht die bösen Minions sehen. Das kann z.B. wie bei den Samurai passieren: eine der Spielpersonen, die am häufigsten ausgewählt wurden, wird genommen. Minions dürfen sich enthalten.  
 * Wenn kein Dämon im Setup ist, erhalten die Minions in der ersten Nacht alle die 3 gleichen Bluffs, die sie sonst vom Dämon bekämen.  
 * gute Spielpersonen werden sofort exiliert, wenn die Nominationsabstimmung Erfolg hatte. So können beliebig viele Gute exiliert werden.  
 * Die Abstimmung funktioniert bei guten und bösen Spielpersonen wie sonst auch, nur die Bedingung und der Effekt der erfolgreichen Abstimmung ist bei den guten Spielpersonen neu. Bei guten Spielpersonen geht die Nomination nur durch, wenn mindestens 1 gute lebende Person dafür stimmte. Die Abstimmung hat Erfolg, wenn mindestens die Dafürstimmen ≥ 50% der Anzahl der Lebenden ausmacht oder sonst alle lebenden Guten abgestimmt haben. Folglich können auch Vote Tokens für Nominationen beider Spielpersonen eingesetzt werden. Bei einem Exil aber gibt es die eingesetzte Vote Tokens zurück.  
 * Die Nominierungen enden erst, wenn es (k)eine Exekution gab. Exekutionen von guten Spielpersonen (selbst wenn durch Fähigkeiten ausgelöst, wie bei der Virgin) werden aber automatisch zu Exilen.  
-* Um dem Diktator zu begegnen, muss das blaue Team geschlossen für einander eintreten und sich nicht gegenseitig rausstimmen, aber alle zusammen gegen Mitglieder des roten Teams stimmen.  
+* Um dem Faschisten zu begegnen, muss das blaue Team geschlossen für einander eintreten und sich nicht gegenseitig rausstimmen, aber alle zusammen gegen Mitglieder des roten Teams stimmen.  
 * Spieler vom roten Team darf man auch Repulikaner nennen und Spieler vom blauen Team Demokraten.
 
 ## **Arsonist (Brandstifter)/Minion (Idee von Alex, Anna)**
@@ -2176,9 +2199,8 @@ Erweiterung der Damsel, die keinen Huntsman braucht. 1 guter Townsfolk kennt dic
 
 ## **Amoralist/Minion**
 
-Wenn das Spiel endet, werden **lebende** Spielpersonen nur dann gewinnen, wenn das zu ihnen entgegengesetzte Alignment gewinnen würde. (Das entgegengesetzte Alignment von neutral ist wiederum neutral.) Tote Spielpersonen sind davon nicht betroffen. Wer den Dämon tötet, wird zum Dämon. Deine Fähigkeit wirkt auch, wenn du tot bist.
+Wenn das Spiel endet, werden **lebende** Spielpersonen nur dann gewinnen, wenn das zu ihnen entgegengesetzte Alignment gewinnen würde. (Das entgegengesetzte Alignment von neutral ist wiederum neutral.) Tote Spielpersonen sind davon nicht betroffen. Der Dämon tauscht die Figur mit seinem Töter & sieht das Grimoire. Deine Fähigkeit wirkt auch, wenn du tot bist.
 
-* Die Spielperson des Dämons kann nur gewinnen, indem dieser die Figur mit einer guten Person tauschst, nicht stirbt und die Zielperson sich dann umbringt.  
 * Der Dämon kann nicht gewinnen und muss versuchen, die Figur mit jemand anderem zu tauschen.
 
 ## **Gnostic (Gnostiker)/Minion**
@@ -2259,7 +2281,7 @@ Alternative zum Zenomancer: Spieler/innen können sich durch Aufgaben, Errungens
 
 ## **Travel Agent (Reiseberater/in)/Traveller**
 
-Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplett aussetzt (wie durch den Diktator). Die Person kann nicht mehr ins Spiel eintreten, wenn weniger als 4 andere Personen leben. Es kann nur maximal 1 Person gleichzeitig das Spiel durch dich verlassen.
+Jede Nacht darfst du eine Person auswählen, die bis zur nächsten Nacht komplett aussetzt (wie durch den Faschisten). Die Person kann nicht mehr ins Spiel eintreten, wenn weniger als 4 andere Personen leben. Es kann nur maximal 1 Person gleichzeitig das Spiel durch dich verlassen.
 
 * Die Reiseberaterin darf sich selbst auswählen  
 * Story Teller darf ankündigen, wer das Spiel verlässt.  
@@ -2554,3 +2576,543 @@ Modifikation von Lil’ Monsta: nur (böse) Minions wählen, wer Monstro erhalte
 
 * Bei der heimlich Abstimmung wird die tote Stimme nicht öffentlich gezählt, aber leise im Kopf. Die abstimmende Person erhöht das Nominationsziel allerdings heimlich auch um 1, was auch nicht angesagt wird. Am Ende wird nur gesagt, ob die Nomination erfolgreich war oder nicht.  
 * Heimliche Stimmen können erfolgreiche Nominationen nicht verhindern, aber unerfolgreiche Nominationen erfolgreich machen.
+
+# Unsorted Ideas
+
+## Townsfolk
+
+- Nerd: You have 2 characters from 3 you think to have.
+- Existentialist: Choose a non-Demon starting character (Whalebuffet-like). If it violates setup rules, you are drunk. You might be schizophrenic. (Evil or all players might learn the choice.) [+? Existentialists]
+  - Whalebuffet refers to official characters without a script but with specific restrictions/rules.
+  - you cannot choose characters that don't know who they are or which change characters or rules arbitrarily (excluding Atheist)
+  - evil or all players might learn your characcter is in play
+  - setup effects for character types don't apply
+- meta-gaming characters: Farmer, High Priestess
+- Witness: you learn the character of the player who kills/executes you
+- Neurotic: you learn the category (defense, info, effects, attack+other) or script-related area (left, right, townsfolk+demon, outsider+minion) of the characters who nominate you.
+- Inventor: Each night, you learn 1 character who chose or queried your properties else none.
+- Informer: Each dawn, choose 1 player: learn that they chose or saw 1 of 2 other players tonight, ELSE it is false.
+  - if the player chose or saw no-one or only themself, the info is drunk
+  - if the player chose or saw only the Informer, you are 1 of both players.
+- Sociologist: Twice per game, choose 1 player: learn 1 character that interacted with them tonight ELSE it is false.
+- Arbitrator: Yesterday, when nominations ended on a tie, you learn how many evil players were validly nominated.
+- Referee (Townsfolk): You learn the characters of players who ended on a tie in nominations but only the character type is correct.
+- Teacher: once per game, choose 1 player: they turn into a good not-in-play character ELSE it is false.
+- Warrior: On the 1st dawn with ≤ 1 good character alive, you resurrect if you were not executed.
+  - once the Warrior is executed (no matter whether they died) or successfully ressurected due to their ability, they cannot resurrect anymore from their ability.
+  - original wording: "The game only ends if ≤ 1 alignment is left alive, even if dead without execution."
+    - this would have meant that the evil could win prematurely even if dead good players are still able to nominate or if good players misregister as evil, or the Demon misregisters as dead or good.
+    - It also would have meant an instant lose for good players in an atheist game or if all players register as good at the start.
+- Hercules: if you are the last alive player of your alignment at dawn, your team wins. An opposite player knows you are in play.
+- Phobic: You start knowing the Demon but if the opposite team guesses you (one try), your team must lose. The Demon knows you are in play.
+- Theorist: You have an ability & start knowing 2 characters. If it is drunk, character 1 is in play. Else character 2.
+  - It may be any character, often a bluff, a demon or minion with a good character.
+- Balancer: The Demon ability turns abnormal, if you die from the Demon: from now on, Demon choices are overwritten which balance the game.
+- Statistician: You learn the number of abilities for some "categories" that are in play. (Protection, attack, info, effects, winning altering.)
+- Queen: You start knowing a minority non-game propery of players: only they can kill you. If a non-female player executes you, a good player is executed instead. You might be a minion.
+- Cultist (Sektenmitglied): When you die, the evil characters+alignment is assigned to new players. Former players might become their bluff.
+  - Any evil character+alignment can move to another formerly evil or good player, dead or alive, but must change the player.
+- Journalist: Once per game, at night, you learn whether alive players within a chosen distance include an odd or even number of evil characters (including yourself).
+  - if a 0 (no alive neighbours) is chosen, they learn "even" (for 0 players) or "odd" (for 1 player, yourself)
+  - if a 1 (2 alive neighbours) is chosen, they learn "odd" (for 1 or 3 players) or "even" (for 0 or 2 players)
+  - if a 2 (4 alive neighbours) or more is chosen, they learn "odd" (for 1 or 3 players) or "even" (for 0, 2 or 4 players)
+- Baker: At night, when the count of dead Minions becomes odd, learn an in-play minion character.
+- Recruiter: Good players (without you) retain majority. (If a good player would be killed when alive goods are less than alive evils, they could be protected or make an evil die instead or with them.)
+- Rival: choose a player (not yourself) whose nomination cannot succeed the next day.
+- Moralizer: if an evil character player nominates & executes you, you don't die.
+- Hardliner: Players may nominate again if nobody has died today after the execution.
+- Friend: At night, you learn the character+alignment of 1 player who was about to die yesterday but not executed.
+  - the Friend learns the character+alignment of someone who was temporarily about to die (for execution) but who was not executed eventually. The Friend does not choose which player and does not know which.
+- Hunger-Striker: You will be executed (by yourself) after only evil/no evil voted in a nomination. (alternative: you die at night)
+
+- Star (Townsfolk): You are the only Star in play and never a Demon bluff. (You change character, if someone else becomes the Star.)
+- Trapmaker (Townsfolk): Each night*, choose 1 player. If they become a demon target tonight, the player learns this and another player becomes the target instead.
+- Minister: Twice per game, at dawn, choose 2 players. They swap seats next day.
+- Megalomaniac: You control the Townsfolk abilities of all other dead or alive players who think they control their own & register as drunk.
+
+- Ambassador (Townsfolk): You and the Demon know each other. If the Demon loses because of your communication or actions, you lose individually, even when dead. (The problem is, the Demon can lie about the Ambassador towards the Story Teller.)
+- Child (Townsfolk): You cannot be nominated (covertly). You cannot vote nor nominate.
+- Nomad (Townsfolk): Once per game, learn the distance of the closest alive Minion from you. (Or none, if no Minion is alive)
+- News Reporter (Townsfolk): At night 2, the Demon must additionally kill as often as there are good players between you and the closest evil player. (The Demon only chooses extra kills by themselves if their ability gives them a killing choice.)
+- Faith Healer (Townsfolk): If a dead Townsfolk or Minion is executed, they resurrect next night.
+- Criminologist (Townsfolk): You start choosing evil characters. You learn how many of them are in play.
+- Registrar (Townsfolk): You start choosing good characters. You learn how many of them are in play.
+- Researcher (Townsfolk): Once per game, at day, privately guess the character of three players. Learn how many are correct.
+- Visionary (Townsfolk): On dusk 1, choose 1 character that won't be in bluffs.
+- Alcoholic (Townsfolk): Choose 1 player: they get sober+healthy this cycle if & only if they are drunk. (If they are not drunk or poisoned, they become drunk.)
+- Crisis Manager (Townsfolk): Each night, you may choose 1 player, they become a same-type character that was not in play or in bluffs yet. Else, they or you die. (Recruits new characters else someone is fired)
+- Phantom (Townsfolk): If you died, you can nominate today if nobody nominated yesterday. (Evil does not win if all good players died.)
+- Learner (Townsfolk): Once per game, if your nomination failed, you can *immediately* nominate again.
+  - if your nomination did not turn a player about to die (publicly)
+  - if the nomination fails covertly, you can only nominate again, when the validity of your second vote is also covert (e.g. if invalid nominations are permitted in the current game).
+- Zombie (Townsfolk): If the Demon kills you, you can still nominate & vote & 1 or 2 player will die in total at night if you didn't vote yesterday. (How to bluff?? Zombuul or Ghoul is possible or fake-dead characters or states. Or if invalid nominations and votes are allowed and covertly ignored by a Loric.)
+- Advocate (Townsfolk): Each night, choose a player, they can replace their 1st nomination with a 2nd nomination the next day.
+- Avenger (Townsfolk): If a Townsfolk nominates and executes you, they get executed instead.
+- Clerk (Townsfolk): Each night*, you learn if an alive non-Traveller neighbor lied about this game yesterday. Once per game, learn it for a chosen neighbour.
+- Officer (Townsfolk): You start choosing a player: when they die, learn their character & choose an alive player.
+- Janitor (Townsfolk): Each night, learn whether you have an alive evil neighbor.
+- Psychologist (Townsfolk): Each night, choose a player: Learn an evil and a good character type of them, one is correct.
+- Scientist (Townsfolk): Each night, learn 2 other players: an ability of only 1 of them worked differently due to other abilities since dawn. Else learn no-one.
+- Double (Townsfolk): You might wish to die (once) instead of someone else (You don't choose who you protect)
+- Adventurer (Townsfolk): each night*, you learn the targets of the Demon (even if it didn't kill). If the Demon chose a new Demon player, the old Demon is the target instead of the new one.
+
+- Demon Charmer (Dämonenflüsterer): The Demon chooses targets 1 night before they apply. Once per game, at day, you learn who would die by the Demon next night.
+- Team Spirit (Teamgeist): The Demon kills only good players.
+  - If they would kill an evil player, the Story Teller makes a good player die instead by the Demon.
+- Hound (Spürhund): On the 2nd or 3rd execution a Minion is executed.
+  - be careful with the number of executions. If you enter the final day but your execution can only hit a Minion, you lose!
+- Sherlock (Townsfolk): You start knowing a not-in-play Townsfolk (no Bluff). If the greater half of Townsfolk died, you learn a bluff tonight.
+- Street Worker (Sozialarbeiter): Each night, learn the characters & players (not zero) chosen by a player tonight. Else you don't wake.
+  - you don't choose which player
+- Hypnotist (Hypnotiker): Each night, learn the characters & players (not zero) learnt by a player tonight. Else you don't wake.
+  - you don't choose which player
+- Security Guard (Sicherheitsmitarbeiter): Each cycle, choose to learn the number of players, characters or hand signals learnt or chosen by night abilities since dusk.
+  - the number, not the actual players, characters or hand signals. You can choose at day or night.
+- Crime Writer (Krimiautor): You start knowing evil characters in play. 1 is false. [+≤1 evil players, ≤1 evil is a Townsfolk]
+  - the more evil characters are in play, the less useful this info can be
+- Paramedic (Sanitäter): If the Demon kills you, you may choose 1 other player: they resurrect OR another Townsfolk (not you) resurrects tonight.
+  - the Paramedic cannot choose whether the chosen player OR a Townsfolk (not chosen) resurrects.
+  - the 2nd resurrection case allows the story teller to prevent the worst case by not resurrecting a Dead Demon but a Townsfolk, or by not resurrecting a too strong good character, or by resurrecting another player (to prevent the Paramedic from proving themself)
+- Oneiromancer (Traumdeuter): At night*, choose alive players, the standard number of evil players +1. The Demon knows who & chooses 1 player among them tonight.
+  - The Demon chooses 1 player among them, even if they could not choose today otherwise.
+- Pastoral Worker (Seelsorger): If a player dies tonight, their alive neighbours are sober+healthy until dusk.
+- Guard (Wache): Each night, choose 1 other player who cannot be a Demon target tonight. The Demon learns who.
+- False Friend (Falscher Freund): The Demon learns 4 bluffs but 1 of them is in play.
+- Lawyer (Anwalt): Every even execution executes an alive minion until the last Minion dies (once).
+  - On the 2nd, 4th, ... execution, an alive minion is executed (even if not nominated).
+  - The first time that all minions register as dead towards the Laywer, the Laywer ability stops working. 
+- Futurist (Zukunftsforscher): Before the 1st player died, guess 3 players to die during the game, at day. If correct, learn an alive evil player.
+- Strategist: Make a prediction about an alive player for the next cycle (privately or publicly). If it is true, you resurrect [or something else] at dusk.
+  - ability needs more work. Some predictions are trivial, others are very special. The reward should not be the same for each of such predictions.
+- Consultant (Berater): Each night choose 1 player: learn *any* number of steps to *any* other evil character (dead or alive).
+  - it can be the shorter or longer distance buti ncludes dead players.
+  - it can be the distance to any alive or dead minion or demon, the same or different an last night.
+- Fisher (Fischer): Each night, learn the length of *any* new Townsfolk row, else you are drunk.
+  - learns the length of a new Townsfolk row who was not queried in the past. Multiple rows can have the same length.
+  - if no new townsfolk row exists, the Fisher gets any drunk info.
+- Admiral: Each dusk*, learn the next shorter equal Townsfolk row length & choose 1 player. If not a player of that row, you die instead of someone else tonight.
+- Actuary (Versicherungsmathematiker): Each day, learn the probability that you could have died last night ~~from any character of a chosen set of characters types.~~
+  - if this character chooses the Demon type, they learn a 0 if they are protected (if the Demon cannot assassinate) or cannot be a target of the Demon (for any reason such as another ability).
+  - this is the probability, that the Demon can choose players for killing times the probabgility of becoming a kill target
+  - the probability event needs to be simplified else they probability is too complex or provides too few info (what is the probability of dying from the Imp??)
+- Lyncher: On your 1st night, choose 1 *other* player to get the Virgin ability.
+  - This is better to bluff by evil players and less predictable than the Virgin.
+  - The other player does not learn it automatically.
+- Waiter (Servierer): Each day, learn a statement that matches 2 players from different rows (of equal character type).
+  - Example: The Lodge member learns "Both players are female". This way the Lodge member knows that two female players sit in distinct rows.
+- Lodge Member (Logenmitglied): Twice per game at night, choose 2 players & learn: (1st time) if they are in 1 row of equal character type, (2nd time) if they are in 1 row of equal character alignment.
+- Receptionist (Rezeptionist): Each night, learn the length of a new row of any equal characters. The Demon registers as bluff. (Once per game, choose to learn a row player instead of the row length.)
+  - the Receptionist learns something about all player rows in the game (not just Townsfolk rows).
+  - Picross-based character
+- Newsboy (Zeitungsjunge): If a player died, at dawn, players learn their good character else a false character. The declaration counts as info.
+- Idol (Vorbild): You are & think to be a character that someone else thinks to be but is not.
+  - this character might play the character that a Drunk, Schizo or Nerd thinks to be.
+- Pensioner (Rentner): Each day, choos 1 other player. If dead they get a vote token, if alive they get a coin/cookie.
+- Smith (Schmied): Once per game, any time, choose 1 player: their character resets
+  - reset means, the chatacter is turned into it's initial state, it is their 1st night or day and once per game abilities can be used like not used before. The player's state remains unaffected.
+- Inquisitor: Each night, choose 1 player. If they are nominated & pass the ballot quota, they must be executed & might be executed instead of someone else.
+  - with the Inquisitor multiple executions are possible but players only learn about it when executions are declared.
+- Merchant (Händler): Each night, learn a good character that is in play or in bluffs.
+- Census Taker (Volkszähler): Once per game, choose 1 character. Learn the row length of equal character types containing this character. If zero, you get false info.
+- Funeral Orator (Trauerredner): Each night, 1 player learns 1 character of equal alignment of a dead player.
+  - good character players learn a good character, evil character players learn an evil character
+  - Dead or alive players can learn something. The same player can learn something multiple times.
+  - The same character can be learnt multiple times by different players.
+  - the same player should not learn the same character multiple times
+- Miner (Minenarbeiter): You start knowing all miners. At night, choose to suspend (be captive) the next cycle. If an ability attacks 1 Miner, all Miners are attacked. [? Miners]
+  - Attacked Miners die if not protected. The captive state also protects against any state change (such as death or poisoning) but also prevents the Miner from participating in the game (their actions covertly fail).
+  - an executed miner is executed alone and other miners do not die with or instead of them.
+- Auditor (Revisor): Each night, choose a player. Learn the row length of (clockwise) ascending characters (no Travellers) containing them.
+  - "ascending" means the next adjacent player's character is equal or listed after in the script in clockwise direction.
+- Healer Hypnotist: Each night, choose 1 player & 1 character. Until dusk: they think to be that character. If they already do, that character works correctly.
+  - if the player does not already think to be the chosen character, they start thinking to be it now (at night) but covertly do not change to become it. But if they already think to be it, they get to play the unimpaired true character that they think to be.
+  - it might be a good idea to play the actual ability first and wake them later to become another character
+- Minor (Minderjährige): Only the demon can kill you. (Anyone can assassinate you.)
+- Moderator: You are declared on dawn 1 but either you cannot nominate or not vote.
+  - if the player casts a vote, they cannot nominate that day
+  - if the player nominates, they cannot vote that day
+- Custodian (Hausverwalter): Each night, choose a character. Tonight, you wake directly after this character ELSE you might wake anytime.
+- Postman (Postbote): Choose ≤5 other players. 1 evil player ELSE 1 good player among them learns 1 other player among them.
+- Nurse (Krankenpflegerin): Each dawn, if you guess 1 character of 1 (alive) player right, you learn which other characters that character interacted with since dawn. If wrong, learn arbitrary characters.
+  - example: the Empath player & the Empath character is chosen. The Empath lives. The Nurse learns two characters: the Scarlet Woman and the Slayer, because the Recluse and the Spy is sitting next to the Empath (after a previous Empath neighbour was killed tonight).
+  - example 2: the Pacifist player & the Pacifist character is chosen. The Clockmaker was executed yesterday and did not die. The Pacifist died tonight, therefore the Nurse learns, they interacted with 0 characters since dawn.
+- Reborn (Wiedergeborene): You start dead, might register as alive and resurrect by a specific condition. You learn which.
+  - registering as alive allows evil players to bluff this character
+- Mage (Magier): If you die at night, you learn 2 alive OR 2 dead players who may register as Demon to someone. Else learn none.
+  - learn players like the Recluse, the red hering, players who register as Demon (like the Magician or the player with Lil' Monsta or Monstro), a dead Demon player (saved by a Scarlet Woman, old Imp or Fang Gu) or just the current alive Demon.
+  - if less than 2 players can register as Demon in the current game, learn no player.
+- Ombudswoman (Ombudsfrau): Each dusk*, choose 1 player. Learn whether their ability is depleted.
+  - An ability is depleted if it has no effects anymore in presence and future.
+  - Once-per-game abilities (with no further effects) deplete after having used their action.
+  - Some abilities only have effects until or at a specific night. After having got their last info or made their last choice, the ability is depleted.
+- Transhumanist:  While you have this character (not just ability) before the final night, you can choose to resurrect when dead & lose your character.
+  - similar to the Warrior, but the Transhumanist needs to choose explicitly. If they miss the moment, they remain dead on the final day.
+- Poet (Dichter): if an executees accusation fully rhymed, they are assassinated except if the defense rhymed. 1 evil knows, you are in play.
+
+## Outsider
+
+- Amoralist
+- Renegade: You have a Demon character who chooses players or nobody. No Demon Info, Minion/Grimoire interaction. Only the type of your character info is correct. You might get the alignment of a Demon you kill.
+  - The Renegade registers as a Demon towards all game rules
+  - The Renegade is a Outsider because they are bad for their current team because they can kill evil players. And, as a weaker Demon, the good team more easily can kill the Renegade if the Renegade has killed the original Demon. The Renegade does not know the Minions and the Minions don't know the Renegade.
+- Newborn: when you die you get a new character. You have your ability when dead.
+- Sinner: When you die, you get a character+alignment associated with the losing/disadvantaged team
+- Cheater (Fremdgänger): Players who interact with you are dysinformed (get false info) tonight.
+- Terrorist: You may vote only one time. If you do, all good character voters die.
+- Outlaw: You have the (unknown) alignment of the last nominated player.
+- Hooligan: You have the alignment of the recently drunkened (not poisoned) player
+- Mother: When you die, choose 2 other players. A good character player of them becomes the alignment of the other player unless evils would surpass 40%.
+- Commander: Anyone who nominates you, fails at further nominating and voting until dusk. 1 evil player knows you. (When nominated, already voting for them does not work.)
+  - Problem: hard to bluff → therefore, 1 evil player knows about them. Bluffing this character is still useful, if players have insufficient
+- Unstable: If you survive being nominated by an evil player, at night, the Demon dies and turns you into the new evil demon.
+- Jackass: On the night before the final day, you become evil & learn the Demon player.
+- Rascal: On night ≥ 2, choose ≤ 1 player, they might become the Rascal & you a not-in-play outsider. Else you die. (If you choose a Demon player, you likely will die)
+- Dumb: You don't know your alignment.
+  - You may show them, they are "either good or evil"
+- Flop: You think to be & have a good private character but you lose your abilities when you nominate.
+- Stinker: You think you are a different Outsider. You are not a neighbour and have no neighbours.
+  - you might provoke a double claim
+- Cremator (Kremierer): Every odd execution executes a dead minion (if some died).
+- Saviour (Retter): Your team wins if & only if you live. 1 player might know you. You get a not-in-play bluff. The Story Teller doesn't kill/choose you. [-1 outsider]
+  - the idea is: instead of killing the Demon, the good team tries to protect the Saviour and the evil team tries to kill the Saviour.
+- Cultist (Kultmitglied): At dawn, if 5 players live, you die & each alive becomes the characters of 1 other alive player. The Demon player might not change.
+- Slob (Schlunz): Each of you & 1 other Townsfolk think you have the character of the other.
+  - the Townsfolk thinks to be the Slob whereas the Slob thinks to be the Townsfolk.
+- Tech Bro: 1 Player who uses a digital device is impaired until dawn. At day, you learn which impairment. Else you are drunk.
+  - Example: The Tech Bro tells another player that the Canibal learns which character was executed. Another player contends the claim and looks up the Almanac entry of the Canibal on their phone. Until dawn, that player is drugged (cannot nominate/vote).
+- Lobbyist: Each night, choose 1 other player. If they choose you via ability, you both get a cookie or coin tomorrow.
+  - The Lobbyist can try to bribe players at day to choose each other at night such that they receive conveniences instead of helping their team win.
+  - If a killing ability (e.g. the Demon) chooses the Lobbyist, the Lobbyist ability is gone. They don't get cookies.
+  - the cookie can be anything desirable which is not relevant in the game (such as something to eat or drink or a gift)
+- Extorted (Erpresste): Players are suppressed (cannot nominate) who nominated an evil character yesterday.
+- Torturer (Folterknecht): Each dawn*, the *false* evil character of 1 alive player is declared. If possible, the character type is correct.
+- Prisoner (Häftling): You are captive at night except that you can die at night.
+  - alternative Name: Heavy Sleeper (Tiefschläfer)
+  - the Prisoner cannot wake or act at night and cannot change state at night except for dying.
+- Master (Meister): If you die, the Demon's bluff becomes their public character (the Demon character remains a private one).
+- Cursed (Verfluchte): You change your character with a Townsfolk under a condition. You don't know which.
+  - The Cursed becomes a Townsfolk character whose old player becomes the Cursed. Nobody knows the condition.
+  - Possible conditions: alive or any neighbour, being chosen or guessed by the affected Townsfolk at night or day, then the Cursed swaps with the executee or any Townsfolk that doesn't get info when the Cursed dies
+  - the condition must be consistent. It is always the same (even after an existing swap) and the Story Teller does not change characters arbitrarily.
+  - E.g. the condition could be that the set of alive Demon players changes
+- Protector (Outsider): If you die, the Demon learns an important good player.
+- (Outsider): At night, You cannot wake, act or change character.
+
+## Minion
+
+- Stooge (Strohmann): You register as the Demon, the Demon registers as good+good character. (Only while the Stooge is alive.)
+- Hoodoo (Hiobsbote): You add a Loric to the game that might not be declared. You know which.
+  - when the Hoodoo starts to be in play, the Loric is added publicly. They learn which Loric they added to the game. The Loric might be covert.
+  - the Loric effect may covertly vanish when the Hoodoo dies (not publicly announced)
+- Jinxsayer (Unglücksbringer): You add a (hidden) Jinx to the game that only you know
+- Interferer (Vernebler): Each night, choose 1 player: they kill an alive (otherwise dead) neighbour instead of any player they would have killed (whenever they attack, execute or kill).
+  - this only changes when the Interferer chooses again
+- Cynic (Zyniker) (everything that is "evil" is interpreted as "good" instead)
+- Dictator (Diktator): Each night, learn a not-in-play character (no Demon) and choose 1 player to become it & might not learn it.
+  - the Story Teller may decide to covertly change the character of a player if the change in abilities would not be noticed.
+  - Minions cannot change the character of the Demon into a non-Demon, as long as this ability holds. (E.g. the Pit-Hag.)
+- Crush (Schwarm): you register as good + good character
+- Colluder (Kartellgründer): Before night 1: choose 3 characters. (The number of bluffs.) Those characters may only be in play together or not in play together.
+- Trickster (Trickbetrüger): someone who fakes Lorics or Fables to be in play (but the Fabled or Lorics are actually poisoned, ineffective). Maybe, it also allows the Story Teller to fake public deaths, e.g. with the Doomsayer.
+- Ballot Rigger (Wahlfälscher): If someone would be executed because you voted for them, they aren't.
+  - old idea: the vote is just counted when the last vote has been counted  (the player's vote is subtracted again when the player doesn't raise their arm after the last vote has been counted)
+  - problem: players can be forced to keep their arm raised. The subtraction should happen secretly independent of public signals.
+- Negator (Negierer): Choose a player each night. Any changes to them are negated until dusk (if they would receive protection, they lose it and prevent resurrection. If they would die, they don't 1 time tonight or resurrect)
+- Mind Forger (Hirnverfälscher): You can send forged property signals to 1 player each night (for example a character or alignment change or that the player has been chosen by an ability or is informed due to some ability).
+- Complice (Komplize): the Demon acts again if no-one has died tonight. (This minion ability makes the Demon ability act twice.)
+- Diabolo (Minion): Each night, choose 2 players: they covertly are swapped as targets & (if you like) swap ability control, until dusk.
+- Telepath (Minion): Each night, choose 2 players: they covertly swap their souls, until dusk.
+  - the soul means "player control" without registration, including all game actions and abilities a player may use.
+  - a person can or cannot vote (in remote control of another player) even if their player was drugged.
+  - it's a stark contrast to target swapping which only affects the registration.
+- Favourite (Liebling): The Story Teller tries to answer all your game questions truly.
+- Demobilizer (Entmobilisierer): All voting happens secretly at once after all nominations were made. (Everyone closes eyes and each player wakes to point at the players they vote for, or at just 1 player.) Players know how many votes the nominees got.
+- Deceptive (Täuschende): Non-script good characters get in play. (When dead, any new good characters can only be script characters)
+
+- Troll (Minion): Players who nominate you are poisoned immediately until another player nominates you, even if dead.
+  - If the Butcher nominates you after the execution, they are immediately poisoned and the nomination will not go through
+- Oligarch (Minion): Each night, choose a player: their nomination and votes will covertly fail tomorrow (except on the final day).
+  - the chosen player's nomination secretly fails the ballot and their votes secretly do not count. But the nominated player cannot be nominated again and they cannot nominate again.
+  - if the chosen player's vote would cause a nomination to succeed (about to die), the nomination is falsely declared to succeed
+  - the Minion's vote
+
+- Spaceworm (Raumwurm): Each night, choose 1 player, then 2 others: the 1st player's neighbourhood registers as the one between the other 2 players.
+  - the spaceworm moves the neighbourhood of one player to between any two other players.
+  - the 2nd and 3rd chosen players will have the 1st chosen player as 3rd neighbour. But the 1st chosen player will only have the 2nd and 3rd chosen player as neighbour (but not their physical neighbours).
+  - The physical neighbours of the 1st chosen player are direct neighbours now.
+
+- Regime Leader (Regimeführer): If the N-th minion dies (incl. yourself), 2N good characters will be dead next dawn.
+
+- Beast (Bestie): You can only die at night.
+- Cerberus (Kerberos): Dead players cannot act. When a player dies, they choose 1 player until dusk. Their vote token is automatically spent when that player is nominated next, from then on.
+- Monarchist: Players can only nominate (not vote) when having a vote token. (You can still lose the vote token by other means than voting, e.g. with the Beggar. The Vote Token *might* be spent by nominating.)
+- Senator: Nominees of yesterday cannot be nominated today.
+- Magistrate (Schiedsperson): Each day, good players players cannot nominate who nominated yesterday.
+  - players who nominated yesterday cannot nominate today.
+- Rule Breaker (Regelbrecher): You start knowing 1 in-play (not passive) character which works falsely. If yourself, you have any ability, alignment & character type.
+- Cleptomaniac (Kleptomane): Each night*, choose a player: you have their abilities and they none, until next dusk.
+  - Alchemist version: you may choose only once per game. The stolen abilities are dyseffective.
+- Egoist: Each night, choose 2 players. Until dusk, if they receive a "buff" (positive effect), you get it instead.
+  - e.g. resurrection or gaining a life, protection against effects or death, getting sober/healthy (removing impairments ("debuffs"))
+- (Minion): Each night, choose 1 player: they register as opposite character.
+- (Minion): Each night, choose 1 player & 1 character: they register as this character.
+- (Minion): Nominations happen at night. (Modification of the Organ Grinder)
+- (Minion): 2 players think, they have the character of the other player.
+- Hypnobaron (Minion): On night 1, choose 2 players. They think to be another in play character.
+  - the Hypnobaron doesn't choose which characters they think to be. It could be that both players think to be the character of the other chosen player or even 3rd players.
+- (Minion): Players don't know which character they become when their character changes.
+  - but players still are notified that their character changes.
+- (Minion): Each night, choose 2 players. Any of both (else 1 other player) who queries 1 of them are uninformed tonight.
+  - uninformed players get no info. If they would get info, the absence is indicated by a shrugging gesture by the story teller.
+  - if a player of both players queries themself or the other chosen player, they obtain no info.
+  - else if another player (not one of both chosen players) queries 1 of the chosen players, they obtain no info.
+- (Minion/Outsider): If an evil player votes the nomination passes the quota.
+- (Minion): Players cannot defend themselves if nominated.
+- Damned (Minion): If you are deadly executed, ≥2 players die next night. If ≤1 player would die, you choose +1.
+  - the Minion only chooses if less than 2 players would die on that night.
+  - if still only 1 player would die (even after the choice), the story teller chooses other players who can die.
+- Curse (Minion): If players bluff a character of their own character type, they immediately become it.
+- (Minion): The 1st sentence you say publicly at day (might) become true on the next day. You don't know your team & they not you.
+- (Minion): Each day, the 1st two players who talk in the defense of another nominee, are poisoned the next cycle. (You might be declared.)
+- (Minion): Nominations of good players fail if their accusation is longer than 1 minute. You are declared.
+-  (Minion): Players have X+1 minutes for nominating others. X = number of evil players.
+  - the time is counted silently by the story teller. After that time, the Story Teller does not allow for new nominations anymore and tries to end the phase as soon as possible.
+- (Minion): In cycle 1, determine a word. If you are nominated & this word is used in the accusation,the nomination fails publicly.
+
+- (): something with Duration of nomination or of a phase or number of spoken words or specific words
+- Disturber (Störenfried): Once per day, if someone else is about to die, you can publicly declare your tie with them.
+  - no player in a tie can be nominated and executed (from obtained votes) anymore
+  - the declaration can be made even if already nominated. However it must be public so that every notices it.
+- Sycophant (Schleimer): If you are executed today, the execution is skipped instead. You & the Demon don't know each other.
+- Blackmailer (Bedroher): Each night, choose a player. If they are executed the next day, choose to kill a player next night (even when dead).
+- Inhibitor (Hemmer): Each night, choose 1 player: their ability is removed until next dusk.
+-  (Minion): Each night, choose 1 player: their character covertly becomes this Minion until dusk but their abilities remain unchanged.
+- Chauvinist (Minion): Once per game, choose 1 player: they publicly become 1 Traveller of your choice.
+
+## Demon
+
+- (Demon): You turn into this evil Demon on a condition that 1 player starts knowing. Each night*, choose 3 players to kill.
+  - the game does not end automatically but when you didn't turn into the demon at the end, good wins.
+  - the condition could be if an evil player or if a minion dies (or if all minion died)
+- (Demon): Every Minion player is [this demon] instead & has a drunk unique ability instead of 3 bluffs. Each night*, you separately choose 1 player. One of the most chosen players dies.
+  - The demons do not know each other and get no demon bluffs.
+- Poobah: choose a known or official Demon character. The Story Teller declares ≤ 4 Demons that could be in play. Others cannot. At each day and each night, you may choose to suspend actions for your Demon ability and get any 1 non-Demon as foreground character to play (i.e. suppressing actions for the Demon background character).
+- Psykyll: choose 2 or 3 players who get deranged. If no-one dies from those players, 1 of the deranged players dies instead at dawn.
+- Follower: One player starts being haunted. Each night, choose 1 player who is also haunted. Each night, the most recently haunted players ("you") have to choose another alive player to be haunted. If this player already is haunted, you die, otherwise you get haunted again if the player (you chose) has died. Each night, minions and demons learn who is haunted. You register as a different in-play character to different players.
+- Grimdof (Demon): Each night, choose 2 players who learn it. They & 1 Minion also choose 1 player each. Any chosen good players die who didn't choose an alive good player.
+- Gamorra: Each night, curse 1 player. If a player (even including the Demon) points at a cursed player at night, one of both dies. The curse of a player only goes away if the cursed player transitions from alive to dead. (Therefore, it can only go away for dead players when they die again, e.g. after resurrection.) (A player who cannot wake at night should be more likely to die than one who does.) The Demon may also choose themself in which case the Demon never dies. Minions are less likely to die than good characters. Players who do not point, might die when they get info of a cursed player.
+- Cheese Touch: Each night, choose 1 player to re-kill. [At day, touch a player, they become a cheese touch too.] You swap characters with players who kill or detect you. When the game ends, you lose, even if dead. [0 minions]
+  - a good Cheese Touch tries to re-kill a dead player who detects the Demon (e.g. Sage, Ravenskeeper)
+  - an evil Cheese Touch tries to be killed or detected by an alive player (e.g. Golem)
+- (Demon): Each night*, choose 3 players: The 1st & 2nd learn the other 2 & choose 1 character. The 3rd selects to become ≥1 chosen character+alignment & Player(s) die who have or chose it. Only Demons may choose a Demon character.
+- (Demon): Each night*, choose 1 player: they lose their abilities & die.
+- (Demon): Each night*, choose 1 player to lose their abilities & 1 player to die (keeping their abilities). Players regain abilites after 3 others lost them.
+- Svandal: any travellers are hidden, evil and are like Minions (they can be executed with a nomination or exiled by a call for exile, but the call for exile would always fail for non-travellers). However, travellers might be declared. You have a Traveller character but register as Demon to all game rules. Day-time mechanisms now are decided at night. (E.g. the Gunslinger or the Gangster who kills a neighbour who was nominated (or exile-called) yesterday and you + the other neighbour voted for it.)
+- Serial Killer: You have the Murderer character but your ability refreshes whenever you kill. Your kills are only delcared at dawn. You don't die from your ability but the murder condition may remain static over the game.
+  - effectively, the Serial Killer gets to know a condition which triggers deaths. This could be voting, nominating, saying a special word (or phrase). It might require the target to do it or the Demon.
+- Story Teller: Players think you are the Demon but you are the secret story teller (like a Saint). The public (fake) Story Teller is the Demon. [+The Apatheist in Script]
+  - a player counts as the Story Teller towards the rules but doesn't know about that. They have no demon ability.
+  - the public story Teller plays the Demon player
+  - the town must execute the Story Teller, not the Demon player
+  - the Demon obviously knows the Grimoire due to the situation
+  - The story teller demon is evil and tries to make the evil team win
+  - if the Apatheist is in play, choosing the Story Teller allows the Story Teller to choose for the player instaed.
+- (Demon): The Story Teller only acts privately.
+  - (Players run the game and use all their abilities via private talk with Story Teller. They may call their ability publicly but the Story Teller only responds privately. Players decide the current game Phase and when to end the game. Story Teller makes no public declarations.)
+
+- Scarecrow (Loric/Demon): The good and evil team are equal. The Scarecorw of each team chooses another player at night. Oon even nights, the good Scarcrow kills, on odd nights the evil one. The other Scarecrow protects. Protected Scarecrows do not kill and move to a new player. The team, who loses the Scarecrow first loses. (A draw is possible.)
+
+- Demon, every player is their own team (players win individually)
+  - this cannot work when a demon kills at night
+
+- Curserk (Demon): Each night, choose 2 players. Players whose abilities interact with these players (choosing or learning), die next night. (Nominating, exiling, ballots and voting are ignored if not performed by an ability.)
+- Dragoon (Demon): Choose 2 player to die each night*. Good (not evil) players know each other. The team must win whose members died first. [+1 Minion]
+  - The Demon should kill itself after all their minions to win.
+- Sacrimosa (Demon): Each night*, 1 Townsfolk dies. Evil characters have their abilities only when dead, even if you live. Your death does not end the game.
+  - The Demon must die for evil to win. If the game ends earlier, evil loses.
+- Lumanic (Lumat, Demon): The Lunatic becomes the evil Demon if you die. You choose their Demon info. [+1 Lunatic]
+-  (Demon): Each night, choose an alive minion or yourself & choose left or right: Nominations of alive neighbours closer to them in that direction fail immediately today. Their nominators die tonight (even if you died).
+  - The nominators will be Demon targets. What about the Demon Charmer?
+  - when protected players are nominated, the nomination is declared to be not successful before players voted.
+  - in order to firmly figure out who the Demon chose, you need to sacrifize at least two players with failed nominations
+- (Demon): Each night*, choose 1 player. If no minion, they die. Else you may make an arbitrary wish only concerning them. If you make a new demon, you die.
+  - the wish can be made in the same night, the night before or the next day.
+  - example wishes: resurrection, character change, getting additional characters, vigormortis kill without affecting neighbours, misregistration, becoming evil, getting deranged or anti, learning something, changing character type.
+- Toxsixsix (Demon): Each night, choose a player to kill. The 1st X players you kill are poisoned and die on the final dawn. [+1 - min(X,2) Outsiders]
+- (Demon): Each night*, choose a player to kill. If a minion was 1st executed yesterday, the chosen player becomes the evil demon, you die instead.
+- Mayhamir (Demon): Each night, choose 2 players: they are declared. The 1st dies next night, the 2nd is poisoned until dusk.
+  - Other players don't know who is poisoned and who will die.
+- Nomedon (Nomädnek, Demon): Each night*, choose 1 player to be poisoned from now on. [-2 to +2 Outsiders]
+- Extortchor (Demon): Each night*, choose 1 player to kill & 1 player who is declared & dies next night unless executed next day.
+  - if the declared player does not die from an execution, they won't die at night from this demon
+- Cidal (Demon): Each night*, choose 1 player to kill. If you die, the game continues. If <2 non-Demons are alive, evil must win.
+  - the game ends if ≤ 2 players remain alive. If one of them is the Demon or if less than 2 players stay alive, evil wins (even if the Demon is dead).
+  - alive players have to call and vote for ending the game after they killed the Demon.
+- Fokefaul (Dorfdof, Demon): Each night*, choose 1 player to kill. If the town executes more players than you killed, the game ends.
+- Kreep (Demon): Each night, choose 2 players. They are declared at dawn & each dies next night unless 2 others died since dawn.
+  - players chosen last night die tonight individually except if 2 other players have already died yesterday or tonight.
+- Shlirp (Schlirrf, Demon): Each night*, choose 3 players: 1 of them (not you) is declared to have survived, each other dies if not 2 others have died tonight.
+  - the demon kills only additional players if less than 2 players have died in the night
+- Brinrod (Demon): Each night, choose 2 players who unknowingly swap characters. One of them dies next night.
+- Necronimus (Demon): Each night*, choose 1 player to kill & 1 player who is declared to have died at dawn.
+-  (Demon): Nominees who passed the ballot quota might die tonight, else choose 1 player to kill each night*.
+  - if multiple players reached the ballot quota, they could die at night (even if the execution didn't kill them or if they were not executed). This way, multiple players can die at night.
+  - if no-one dies this way, the Demon chooses.
+- Jrayge (Demon): Each night, you may choose someone to register as the Demon instead of you. Choose another player that the chosen player kills.
+- Martyran (Demon): Each night*, you kill 1 player. Evil players have good characters (and know it), good players have evil characters but think to be a good character.
+  - the Martyran also starts as a good player.
+  - Demons and minions are good (blue), Townsfolk and Outsiders are evil (red) but only the evil team knows what's going on.
+- Jähsoff (Demon): Players are evil when drunk or poisoned. Among the most drunk or poisoned players, one dies each night*. [-1 Minion for each drunk player]
+
+- (Demon) that allows players to play their roles publicly (like Leviathan or Al-Hadikhia)
+
+## Fluent
+
+- Clergyman (Kleriker, Townsfolk/Minion): Each night, choose a player who cannot be executed tomorrow. The second most voted nominee with sufficient votes is execute instead. You are Minion or Townsfolk.
+- ~~(Minion/Demon): Each day, if players were nominated, they become the only ones that can nominate on a following day. (Everyone can nominate until the first day with nominations.)~~
+  - → zu stark, die Leute mit erlaubten Nominationen wird immer kleiener.
+  - Leute fangen an, sinnlos oder sich selbst zu nominieren
+- Imposter (Hochstapler, Townsfolk/Outsider): You have no character. [0 Imposters are in play]
+  - alternative name: Pupil, Troll
+  - Imposters represent the void character.
+- Ultima (Minion/Outsider): Good wins only if an executee guesses the good characters of each alive Outsider/Townsfolk within 4 days. Each night*, choose a plaer: if outsider, they die. [+1 Minion, no Demon]
+  - each day, the executee also guesses all good characters of alive players. It doesn't have to be all players. If all alive players with good character are guessed correctly, good wins. Each executee may guess only once.
+
+## Traveller
+
+- Smuggler (Schleuser): Once per game,you may choose to exile all travellers OR when exiled, unexile all travellers. (Exiling includes yourself.)
+- Director (Regisseur): Each night, choose 2 players, the 1st register as the 2nd.
+- Drug Lord (Drogenbaron): Each night, choose someone who cannot nominate (if not the final day).
+- Hyperactive (Hyperaktive): Each night, 1 player learns that they can nominate or vote twice next day.
+
+## Fabled
+
+- If all good players voted for the execution of someone, they get executed instead of candidates without complete good voting, no matter the vote count. (Zealot might register as evil.)
+- Any player can call for changing the seat with another chosen player. 50% of alive players must support the ballot. The change succeeds or the player with the most votes.
+- Nominators can decide the effect between executee and executor except for losing and wining. Players can be nominated multiple times (ford different effects) butno minate only once.
+
+## Lorics
+
+  - Missionary (Loric): Minions don't know the Demon but might turn good by abilities when it would turn the target evil.
+    - useful if multiple players can become evil or multiple abilities can turn players evil.
+  - Party (Loric): Players may obtain goals in the game. If they secretly satisfy them, they get a cookie or vote token.
+  - Auction House (Loric): unassigned characters are assigned via a bidding mechanism.
+  - Democrazy (Loric): Some (not all, not none) Townsfolk players may start without character (they register as any unused character). More Townsfolk characters might be in play than usually. Before each night, players decide who gets the unassigned characters additionally until next dusk. [+1 Minion for each +3 or +4 Townsfolk characters in play]
+    - if a player dies, their character remains assigned to them. (Prevents players from moving all unassigned characters to 1 single player.)
+    - a night 0 and day 0 is added. On night 0, players with assigned character learn their character. On night 0, players learn which characters can be assigned and publicly may assign characters to players via discussion. No ability applies before the dusk of night 1. Setup effects apply at dusk 1.
+    - the character token in the Townsquare is put to the lifetoken of a player when assigned.
+    - equally many ore more Townsfolk characters can be unassigned than there are good players without starting character.
+    - Players may use a ballot to determine assignments.
+    - the game can be solved with fewer private talks
+    - if a character is reassigned, the state is not reset but moved with it. The reassigned character's 1st night is only the 1st night after game start, transformation or resurrection. A chef or clockmaker would not work again when assigned on night 2 to another player.
+    - having all Townsfolk characters public would not work:
+      - when specific evil chracters obtain publicly confirmable Townsfolk abilities without having the character token (e.g. a Boffin with Virgin).
+    - problems with public Townsfolk:
+      - cannot be repudiated anymore, they are hard-confirmed
+      - important characters (or characters which want enemies toc hoose them) are useless whena ssigned publicly. They need to hide (except if they can protect players from getting killed, even themself)
+  - Tempus Rexus (Loric): Nominations start 8 minutes affter dawn. The game automatically ends after 1h of daytime.
+  - (Loric): Players cannot talk privately.
+  - Board Gamer (Loric): Each player is a meeple (piece) in the Townsquare which is only moved at night. The meeples move on a board made of hidden cards, allowing players to move any meeple by turning over a card. Playera bilities work based on the position of the meeples on thee Townsquare such as neighbourhood or choosing ap layer. Players might choose a direction on the board for their ability.
+  - Localist (Loric): All players choose at most 1 player. All other choices are implicitly in a row with that player (all choices are adjacent & share ≥ 1 property).
+  - (Loric): Player neighbourhoods are determined by the Grimoire, not by the physical seating order. Both are equal at the start.
+  - (Loric): play multiple scripts at the same time. Every player has an i-th character for the i-th script that is played.
+  - (Loric): Dead players cannot be executed. Demons who register as dead lose if guessed as demon.
+  - Schlaraffenland (Loric): Every player starts with a cookie and a vote token. Players with a cookie are alive. Players may only eat their own cookie or trade or give it to others. Players can only have as many cookies as they can have lives (excactly 1 if no homebrew character allows players to have multiple). When a player dies, they eat 1 of their cookies. (The assassin can remove only one cookie.) Players can only vote with Vote Token. While alive, the vote token is not spent by casting a vote. The vote token does not recover by gaining 1 cookie. The game ends if less than 3 cookies are in play. Deadly Executed players must give their remaining cookies to other players. If ≤ 2 players live, the team of the one with more cookies wins (except if both have equal number of cookies).
+  - Contractor: Players can call for resignation or call for the dissmisal of another player. If ≥ 50% of alive players support it in a ballot, the affected player obtains a new character of the same type that was not in play yet otherwise loses their character. If that would end the game, they keep their character instead.
+  - Blame Game: Learning players uses first names instead of pointing. (Duplicate first Names will not be distinguished.)
+  - Classroom: Players may change seats as they like. Players don't need to sit in a circle and can have less or more than 2 neighbours.
+  - Nature: players always win by the alignment of their character (ignoring the player's alignment)
+  - Dead Story: No active story-telling until the game has ended. Players agree on ending the game.
+    - this means, there is no night phase anymore. Any activities or game phases happen at day by the players' consent. Night abilities are played by privately consulting the Story Teller after the players agreed on playing the night phase.
+  - Blind: Players think the Story Teller is a player. You cannot be discerned as Story Teller. Only the demon knows you. Players agree on ending the game.
+    - Players talk with each other to declare their actions publicly or privately, also game phases. Actions that the hidden Story Teller did not notice, are skipped.
+    - If the Story Teller is nominated and executed, usual rules apply.
+    - At night, players get info anonymously. Declarations are made anonymously. Everyone closes eyes, the Story Teller secretly compiles the info.
+      - it needs some tool to send or print anonymous message digitally or on paper to give it to the players when they have their eyes closed. Players can decide individually how to get their info. It could also be an opaque bag with info tokens inside, prepared by the secret story teller.
+      - There are some unclear details how Story Teller could prepare and distribute the info anonymously.
+      - e.g. every player (and the Story Teller) will get a piece of paper with their info, under their chair or directly handed to them while eyes are closed. Some papers could be blank (no info). Only the player of the chair may look at it, others must not.
+  - Coming of Age (Loric)
+    - 1 cycle = 10 years, start = 1804
+    - players ared eado nly after declaration
+    - They may choose a Partner and toghether with them 0, 1, or 2 players as their children on another cycle. When Children are defined, they become a character of their choice. If a child dies, 1 parent loses their ability. Players lose ≥ 1 coin each dusk (earned by simple ability or action tasks), otherwise they die. The Demon is the Plutocrat and doesn't kill. Players vote using coins (1 coin per vote). Coin Counts are hidden. The Demon only loses if their business is aquired by goodp layers or if the game ends with the good teamh having more coins. [+The Shopkeeper]
+  - Players can execute a 2nd time at day. If they do, the game ends after that.
+  - there are two different evil teams (blue and read), the rest of players are outsiders. Red players register as good for the blue team, blue players as good for the red team. The demon of each team cannot be killed by Demon or minion abilities. If one of both teams' demon dies, the outsiders win and the affected team loses. (Others get a tie.) If no demon dies, the outsiders lose and the others win.
+  - TV Moderator: each of 3 groups of players have reserved game actions that others don't have
+  - Duelist: The nominee for execution duels their nominator. The loser is executed.
+  - Pagan: If a Heretic is in play, all other good players know it and lose their character. (original Idea from the Internet but where it is listed as a Townsfolk character.)
+  * the good and the evil players are known from the start, randomly distributed and equal in number. Everything happens publicly. No private talks. At night, abilities get information about others. Some abilities attack at day, some at night. Some characters can only be killed by some characters.
+    - players might choose a character to play. Otherwise, both teams have the same set of characters.
+    - characters kill only once per game
+    - one character can choose 1 player per night to see their character. This can be used for communication and reconnaissance.
+    - a character who can kill only the neighbour(s)
+    - a character who can kill only the most far away player(s)
+  * everyone has the same character in addition (which is declared)
+  * everyone gets a new character (of Level 1?) instead of dying
+    - game ends, if ≥ 2/3 of players are evil or if no demon character is in play anymore. (Or based on reaching a certain level.)
+  * evil minions and demons get an additional Townsfolk character who gets info about evil players. This replaces the Minion Info or Demon Info.
+    - Clockmaker
+    - Chef
+    - Noble
+    - Shugenja
+    - Investigator
+    - Magician
+    - Flower Girl
+    - High Priestess
+    - Towns Crier
+    - Ogre (1 player gets your start alignment if your chosen player has opposite alignment)
+  * Every person plays multiple or N players (all of who you know)
+    - you get 1 point for each player's win at the end
+    - alignment changes
+  * Everyone has multiple or N lives
+    - Every player gets to know how many lives they have when it changes.
+  * Everyone has multiple or N *characters* (not just abilities)
+  * Everyone gets N-times a new character instead of dying
+    - of the same character type
+    - of a different character type → Demon lives only once, except if someone else gets Demon before.
+  * Noone knows their alignment, only another player person who is in their team and one who isn't
+  * Everyone has a Level. (Level System)
+    - instead of killing, there are points?
+  * There are N alignments
+
+- other
+  
+  - Certain characters can kill only certain players or characters
+  - Jemand wird mad über die eigene Fähigkeit statt Figur gemacht.
+  - Jemand wird mad über die gute Figur einer anderen Person gemacht.
+  - Pit-Hag ähnlich (Minion): dessen Madness über die Figur 1 guten Person pro Zyklus zur Realität wird. (Behauptet, dass jemand Virgin wäre, wodurch die Virgin nun dessen Fähigkeit ersetzt)
+  - Figuren/Loric für einen Demokratiesimulator
+  - Figuren/Loric für eine Escape-Room-Variante
+  - Tetris-based character/loric → Townsqure mit Legepuzzle
+  - Teamaufgabe: böse gewinnt, wenn die Aufgabe nicht geschafft wird odw enn die Bösend en größeren Anteil am Gelingen haben. (Minion statt Dämon) Exekutierte können an der Teamaufgabe nicht mehr mitwirken.
+  - Farben: Players/Townsfolk get a secret extra property that they must guess or arrange (by changing seats)
+  - good characters with public effects: the character is either Fabled/Loric or allows other players to use the same effect/action (while they live) and an evil player might learn that.
+
+- inspiring names:
+  - Peon (Tagelöhner)
+  - Enforcerer (Vollstrecker)
+  - Administrator
+  - Miner
+  - Musician
+  - Merchant
+  - Waiter (Servierer)
+  - Pianist
+  - Klavierbauer, Geigenbauer
+  - Captain
+  - Reservist
+  - Undercover Agent
+  - Rotarian (member of a Rotary Club, a charity club)
+  - Kantor
+  - Lektor
+  - Editor
+  - Mechanic
+  - Electrician
+  - Tinkerer (unlike "Tinker")
+  - Pharmacist (Apotheker)
+  - Surgeon (Chirurg)
+  - Operator (Maschinen, Anlagen)
+  - Lobbyist
+  - Pirate
+  - Poacher (Wilderer)
+  - Militarist
+  - Criminal
+  - Thug

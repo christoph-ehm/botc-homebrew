@@ -18,7 +18,7 @@ token_directory="./tokens"
 #scripttool_json_path="../BotC_Script_Casual_on_the_Homebrewer_auto.json"
 #output_script_directory="casual-on-the-homebrewer"
 
-scripttool_json_path="../BotC_Script_Beginner's_101_auto.json"
+scripttool_json_path="../BotC_Script_Beginner's_101.json"
 output_script_directory="beginners-101"
 
 grouping_config_file="printable_script.json"
@@ -73,8 +73,8 @@ if (( is_only_extracting_from_bloodstar )); then
 	exit 0
 fi
 
-eval "declare -a character_ids=($(cat "$scripttool_json_path" | grep -Po '"id":\s*\K"[^_]\w+"|^\s*\K(?<!\t{3})"\w+"(?=(?:\s*,)?\s*$)'))"
-eval "declare -A character_id_set=(${character_ids[@]/*/\[&\]=\"1\"})"
+eval "declare -a character_ids=($(cat "$scripttool_json_path" | grep -Po '"id":\s*\K"[^_]\w+"|^\s*\K(?<! {5}|\t{3})"\w+"(?=(?:\s*,)?\s*$)'))"
+eval "declare -A character_id_set=(${character_ids[@]/*/\[&\]=\"&\"})"
 
 unset character_id_set["dusk"]
 unset character_id_set["minioninfo"]
@@ -83,6 +83,7 @@ unset character_id_set["dawn"]
 
 if (( is_generating_group_config )); then
 
+	#character_names=("${character_id_set[@]%_*}")
 	character_names=("${character_ids[@]%_*}")
 
 	cat <<-END > "$grouping_config_file"

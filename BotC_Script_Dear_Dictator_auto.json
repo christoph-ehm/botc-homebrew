@@ -16,7 +16,7 @@
 			"magician",
 			"minioninfo",
 			"demoninfo",
-			"dictator_trustmebro",
+			"fascist_trustmebro",
 			"warmonger_trustmebro",
 			"shredder_homebrew",
 			"loanshark_trustmebro",
@@ -60,7 +60,7 @@
 			"faustian_trustmebro",
 			"exorcist",
 			"princess",
-			"dictator_trustmebro",
+			"fascist_trustmebro",
 			"warmonger_trustmebro",
 			"shredder_homebrew",
 			"lleech",
@@ -374,7 +374,7 @@
 		"otherNightReminder": "_"
 	},
 	{
-		"id": "dictator_trustmebro",
+		"id": "fascist_trustmebro",
 		"name": "_",
 		"team": "loric",
 		"ability": "_",
