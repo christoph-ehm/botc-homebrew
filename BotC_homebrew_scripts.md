@@ -315,6 +315,56 @@ Introduces the neutral Alignment. With Lover and Mafia Boss from Anna.
   - Stranger
 
 
+# Abbey of Abstinence
+
+A script inspired by Trouble Brewing without drunkenness and without alternative winning conditions, only misregistration. The idea is to make the game less intimidating, easier to pick up and more skill-based.
+
+It also combines more social deduction with logic due to the higher amount of player choosing abilities.
+
+- Townsfolk
+
+  - Adventurer (Each night*, learn the players that were chosen by the Demon (even if they didn't die))
+  - (replaces the Mayor) (Once per game, choose a player who will be executed and killed instead of you (once).)
+  - (replaces the Virgin) (If a Townsfolk nominates and executes you, they get executed instead)
+  - (each night, learn which neighbors lied yesterday.)
+  - (replaces the Undertaker) (You start choosing a player: when they die, learn their character & choose an alive player.)
+  - Psychic (Each night, learn 1 or 2 players who got info related to you. 1 might be false.)
+  - (replaces the Empath) (Each night, learn whether your neighbors have equal alignment)
+  - (replaces the Dreamer) (Each night, choose a player: Learn two characcter *types* of them, one is correct.)
+  - (replaces the Mathematician) (Each night, choose a player: learn if their ability has worked abnormally.)
+  - (You might wish to die (once) intead of someone else. (You don't choose who you protect.))
+  - (Monk)
+  - (Chef)
+  - Smartypants
+
+- Outsider
+
+  - (Recluse)
+  - (Mutant) (replaces the Drunk)
+  - Rookie (replaces the Slayer)
+  - Big Shot (replaces the Saint)
+
+- Minion
+
+  - Brainformer (replaces Scarlet Womand and Baron)
+  - Identity Thief (replaces the Spy)
+  - Favorite (replaces the Spy) (The Story Teller tries to answer all your questions truly)
+  - Diabolo (replaces the Poisoner) (Each night, choose 2 players: the 1st registers as the 2nd.)
+
+- Demon
+
+  - (Imp)
+  - (Po)
+
+- Traveller
+
+  - (Gunslinger)
+  - (Thief)
+  - (Bureaucrat)
+  - (Scapegoat)
+  - (Each night, choose 1 player: they cannot nominate (if not the final day).)
+
+
 # Casual on the Homebrewer
 
 The casual Homebrew script that nobody asks for.
@@ -406,6 +456,52 @@ The casual Homebrew script that nobody asks for.
   - (Storm Catcher)
   - (Hindu)
 
+# Outside Of Count
+
+Maximum outsider modifications and many outsiders
+
+- Townsfolk
+  - (Librarian) (allows for detecting Outsiders)
+  - (Investigator) (fits to Librarian)
+  - (Virgin) (allows for detecting Townsfolk)
+  - (Professor) (allows for detecting Townsfolk)
+  - (Balloonist) (increases outsider count)
+  - (Philosopher) (may choose an outsider too)
+  - (Savant)
+  - (Grandmother)
+  - (Preacher)
+  - (Magician)
+  - (Sage)
+  - (Amnesiac) (You learn the number of Outsiders in play, You get any Townsfolk ability but which interacts with outsiders instead: e.g. Empath, Towns Crier)
+  - Samurai
+
+- Outsider
+  - (Golem)
+  - (Hermit)
+  - (Lunatic)
+  - (Barber)
+  - (Saint)
+  - (Goon)
+
+- Minion
+  - (Marionette) (may think to be an outsider without being one)
+  - (God Father)
+  - (Baron)
+  - (Xaan)
+  - (Boffin) (may give the Demon an outsider character, Lunatic interaction??)
+
+- Demons
+  - (Fang Gu)
+  - (Kazali)
+  - (Lord of Typhon)
+  - (Vigormortis)
+
+- Fabled
+  - Sentinel
+
+- Lorics
+  - Pope
+
 # Row to Success (Serie zum Sieg)
 
 Various homebrew abilities that concern player rows
@@ -470,6 +566,138 @@ Various homebrew abilities that concern player rows
 
 - Loric
   - (Gardener) (or Kazali as alternative)
+
+# Demeaning Demeanors
+
+If the Hermit tells others to be the Drunk, good loses.
+
+- Townsfolk
+
+  - [Samurai]
+  - (Empath)
+  - (Acrobat)
+  - (Minstrel)
+  - (Virgin)
+  - Vagrant (-0 or -1 outsiders, might unknowingly have a traveller ability)
+  - Faustian (like Lycanthrope + Gambler)
+  - (Philosopher)
+
+- Outsider
+
+  - (Hermit)
+  - (Drunk)
+  - (Saint)
+  - (Mutant)
+
+- Minion
+
+  - [Clan Boss]
+  - (Cerenovus)
+  - Brainformer (like Baron + Scarlet Woman)
+  - [(Baron)]
+  - [(Witch)]
+
+- Demon
+
+  - (No Dashii)
+  - (Vigormortis)
+
+- Traveller
+
+  - Gun Slinger
+  - Gnome
+  - Butcher
+  - Judge
+  - Scapegoat
+
+# Scallywag Scourge
+
+Many abilities which can break the Roolz
+
+- Townsfolk
+  - (Pixie)
+  - (Banshee)
+  - Crusader
+  - you have an outsider ability. You can vote and nominate once per day, even if dead. [+1 outsider]
+  - learn the alignment of executed players (they don't need to die)
+  - a minion gets an unknown outsider ability
+  - (Magician)
+  - when you die choose 1 player: if good they get your character
+  - [(Alchemist)]
+  - [-0 or -1 outsiders]
+  - (Engineer)
+  - Theist (players can break rules arbitrarily but only those who do, lose the game)
+  - Each night, choose 1 player (different from last night): if an evil chooses them tonight, they choose another one instead. (including the Marionette)
+  - the day ends after your nomination
+  - If there is a tie at day, no-one dies at night
+
+- Outsider
+  - (Mutant)
+  - (Zealot)
+  - (Butler)
+  - (Golem)
+  - (Klutz)
+  - (Moonchild)
+  - You lose. (unless you died)
+
+- Minion
+  - (Cerenovus)
+  - (Baron)
+  - (Marionette)
+  - Bully
+  - Equalizer
+
+- Demons
+  - (Al-Hadikhia)
+  - each night*, kill 1 player. Outsiders are drunk townsfolk instead.
+  - [(Leviathan)]
+  - executions or nominations allow you to kill one more time. / Nominations are limited per day / 
+  - Epidemon (each night*, choose 1 player to get the evil demon and you die.)
+
+- Traveller
+  - (Gunslinger)
+  - (Butcher)
+  - (Voodon)
+
+- Fabled
+  - (Doomsayer)
+  - (Duchess)
+
+# Killing Harmony
+
+- Townsfolk
+  - (Clockmaker)
+  - (Chef)
+  - (Shugenja)
+  - (Artist)
+  - (Knight)
+  - (Grandmother)
+  - (Seamstress)
+  - (Fortune Teller)/(Savant)
+  - (Virgin)
+  - (Undertaker)
+  - (Princess)
+  - (Pacifist)
+  - (Minstrel)
+  - (Mayor)
+
+- Outsiders
+  - (Drunk)
+  - (Saint)
+  - (Mutant)
+  - (Klutz)
+
+- Minions
+  - (Mastermind)
+  - (Marionette)
+  - Executioner (If no-one executes more than you, your team must win)
+  - (Scarlet Woman)
+
+- Demons
+  - (Vortox)
+  - Legionatic
+  - (Pukka)
+  - Each night*, choose 1 player to kill, even if dead.
 
 # Medieval Mischief
 
